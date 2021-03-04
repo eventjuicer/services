@@ -18,7 +18,7 @@ Dodaj Ekspertów
 
 @endcomponent
 
-Dziękujemy za wszystkie wstępne sugestie dotyczące działania [ehandel.com.pl](https://ehandel.com.pl/). Kolejne **sugestie dotyczące kierunku rozwoju** i atrakcyjności tej platformy dla dostawców usług i produktów dla e-commmerce można wysłać przez [ankietę](https://docs.google.com/forms/d/e/1FAIpQLSem6zookmmZIfdVwzz82R8SAFKk3um9CLCBplPgf06n8lqG3w/viewform).
+Dziękujemy za wszystkie wstępne sugestie dotyczące działania [ehandel.com.pl](https://ehandel.com.pl/). Kolejne **sugestie dotyczące kierunku rozwoju** i atrakcyjności tej platformy dla dostawców usług i produktów dla e-commmerce można wysłać przez [ankietę](https://docs.google.com/forms/d/e/1FAIpQLSem6zookmmZIfdVwzz82R8SAFKk3um9CLCBplPgf06n8lqG3w/viewform) (ostatnie pytanie).
 
 Przypominamy, że **publikacja jest bezpłatna.** Zachęcamy do nadsyłania materiałów na **redakcja@ehandel.com.pl** (lub przekazania adresu działowi/agencji PR żeby dodał nas do swojej listy wysyłkowej)
 
