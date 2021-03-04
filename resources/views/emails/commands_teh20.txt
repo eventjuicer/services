@@ -9,7 +9,7 @@ php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl -
 ========
 
 
-php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Publikacja na ehandel.com.pl. Co nowego w ofercie Twojej firmy?" --email=ehandelcompl2
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Kompletujemy radę Ekspertów ehandel.com.pl - link do wysłania zgłoszenia" --email=ehandelcompl2
 
 
 =======================================
