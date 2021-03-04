@@ -5,6 +5,12 @@
 php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Publikacja na ehandel.com.pl. Co nowego w ofercie Twojej firmy?" --email=ehandelcompl
 
 
+4 marca
+========
+
+
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Publikacja na ehandel.com.pl. Co nowego w ofercie Twojej firmy?" --email=ehandelcompl2
+
 
 =======================================
 
