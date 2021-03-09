@@ -6,7 +6,7 @@
 
 Wir sind immer noch mit den Auswirkungen von COVID-19 konfrontiert und können nicht vorhersagen, welche Schritte die Bundesregierung und die Gesundheitsbehörden unternehmen werden. Daher möchten wir euch über unsere nächsten Schritte informieren. 
 
-In diesem Zusammenhang haben wir vom E-Commerce Berlin Expo-Team beschlossen, die E-Commerce Berlin Expo 2021, die am 27. Mai als Vor-Ort-Veranstaltung stattfinden sollte, zu verschieben.
+In diesem Zusammenhang haben wir vom E-Commerce Berlin Expo-Team beschlossen, **die E-Commerce Berlin Expo 2021, die am 27. Mai als Vor-Ort-Veranstaltung stattfinden sollte, zu verschieben.**
 
 Es gibt mehrere Gründe für diese Verschiebung: 
 
@@ -14,8 +14,7 @@ Unter Berücksichtigung der aktuellen Umstände, die auf der aktuellen Anzahl de
 
 Mit Bedenken hinsichtlich einer geringen Teilnehmerzahl im Mai haben wir diese Entscheidung getroffen, weil uns die Gesundheit und Sicherheit der Teilnehmer/innen, aber auch die höchsten organisatorischen Standards und der Verkehr der Veranstaltung am Herzen liegen.
 
-Um die Erwartungen der Teilnehmer/innen zu erfüllen, möchten wir die Veranstaltung wie ursprünglich vorgeschlagen beibehalten, was uns zu dem Schluss bringt, dass sie im Februar 2022 als Vor-Ort-Veranstaltung zurückkehren wird. Dazu sei gesagt, dass wir zwischen dem 26-27.05 eine virtuelle Konferenz organisieren werden.
-
+Um die Erwartungen der Teilnehmer/innen zu erfüllen, möchten wir die Veranstaltung wie ursprünglich vorgeschlagen beibehalten, was uns zu dem Schluss bringt, dass sie im Februar 2022 als Vor-Ort-Veranstaltung zurückkehren wird. Dazu sei gesagt, dass **wir zwischen dem 26-27.05 eine virtuelle Konferenz organisieren werden.**
 
 **Darüber hinaus werden die mit Euren Buchungen verbundenen Dienstleistungen und Verpflichtungen ohne zusätzliche Kosten auf den neuen Termin übertragen.**
 

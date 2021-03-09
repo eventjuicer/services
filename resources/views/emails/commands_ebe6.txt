@@ -77,12 +77,29 @@ php artisan exhibitors:current-event --defaultlang=en --domain=ecommerceberlin.c
 
 
 22 grudnia
-
+==========
 
 php artisan exhibitors:current-event --defaultlang=en --domain=ecommerceberlin.com --lang=en --subject="2020 is ending and we would like to tell you that..." --email=ebe6-christmas-message
 
 
 php artisan exhibitors:current-event --defaultlang=en --domain=ecommerceberlin.com --lang=de --subject="Das Jahr 2020 geht zu Ende und wir möchten Ihnen sagen, dass.." --email=ebe6-christmas-message
+
+
+
+
+
+9 marzec
+=========
+
+php artisan exhibitors:current-event --defaultlang=en --domain=ecommerceberlin.com --lang=en --subject="[Important] E-commerce Berlin Expo 2021 updates for exhibitors" --email=ebe6-second-event-postponement
+
+
+php artisan exhibitors:current-event --defaultlang=en --domain=ecommerceberlin.com --lang=de --subject="[Wichtig] E-commerce Berlin Expo 2021 Update für Aussteller" --email=ebe6-second-event-postponement
+
+
+
+
+
 
 
 
