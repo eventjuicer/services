@@ -6,13 +6,19 @@
 
 Minęło już **ponad 15 miesięcy od ostatnich Targów eHandlu**, które mieliśmy przyjemność dla Ciebie organizować.
 
-Z pewnością nie zapomnieliśmy o społeczności zgromadzonej wokół Targów eHandlu. Czas pandemii inwestujemy w uruchomienie lub reaktywację projektów stricte internetowych - na przykład wznowiliśmy działanie portalu informacyjnego https://ehandel.com.pl/] - już teraz [znajdziesz na nim szereg interesujących treści.](https://ehandel.com.pl/)  
+Z pewnością nie zapomnieliśmy o społeczności zgromadzonej wokół Targów eHandlu. Czas pandemii inwestujemy w uruchomienie lub reaktywację projektów stricte internetowych - na przykład wznowiliśmy działanie portalu informacyjnego https://ehandel.com.pl/ - już teraz [znajdziesz na nim szereg interesujących treści.](https://ehandel.com.pl/)  
 
-## Zapraszamy Cię na wirtualną konferencję, która odbędzie się 24 marca na targiehandlu.pl, podczas której będziemy transmitowali aż 22 wystąpienia na 4 wirtualnych scenach.
+Ale do rzeczy...
+
+## Zapraszamy Cię na wirtualną konferencję, która odbędzie się 24 marca na [targiehandlu.pl](https://targiehandlu.pl?utm_source=visitors&utm_campaign=tehonline1&utm_source=email), podczas której będziemy transmitowali aż 22 wystąpienia na 4 wirtualnych scenach.
 
 <a href="https://targiehandlu.pl?utm_source=visitors&utm_campaign=tehonline1&utm_source=email" target="_blank"><img src="https://res.cloudinary.com/eventjuicer/image/upload/c_fit,w_650,f_auto/v1616077249/tehonline_fpeventcover.jpg" style="max-width: 650px;" alt="prelegenci Teh online"/></a>
 
-Wirtualna konferencja Targów eHandlu jest zorientowana na możliwie największą dawkę wiedzy w jak najkrótszym czasie - **ędzie trwała niepełne 3 godziny**. W każdym momencie będziesz mógł/mogła "przeskoczyć"" na 1 z 4 wirtualnych scen.
+@component('mail::button', ['url' => "https://targiehandlu.pl?utm_source=visitors&utm_campaign=tehonline1&utm_source=email"])
+Zarezerwuj miejsce na eKonferencji Targów eHandlu
+@endcomponent
+
+Wirtualna konferencja Targów eHandlu jest zorientowana na możliwie największą dawkę wiedzy w jak najkrótszym czasie - **będzie trwała niepełne 3 godziny**. W każdym momencie będziesz mógł/mogła "przeskoczyć"" na 1 z 4 wirtualnych scen.
 
 Równolegle do transmisji będziemy rozmawiali z innymi uczestnikami eKonferencji a przede wszystkim z prelegentami w chatroomach serwera Discord.
 
@@ -32,10 +38,10 @@ Zwiększenie sprzedaży dzięki automatyzacji cen w sklepie.
 
 Segmentacja użytkowników + machine learning = wygrana w Google Ads! Na przykładzie Showroom.pl
 
-**Jeśli wydarzenie się spodoba być może uda nam się je realizować okresowo - aż do momentu jak będzie możliwe organizowanie Targów fizycznych.**
+**Jeśli wydarzenie się spodoba, być może będziemy je realizować okresowo - aż do momentu jak będzie możliwe organizowanie Targów fizycznych.**
 
 @component('mail::button', ['url' => "https://targiehandlu.pl?utm_source=visitors&utm_campaign=tehonline1&utm_source=email"])
-Zarezerwuj miejsce na eKonferencję Targów eHandlu
+Zarezerwuj miejsce na eKonferencji Targów eHandlu
 @endcomponent
 
 
