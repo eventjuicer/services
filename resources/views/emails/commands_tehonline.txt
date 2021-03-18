@@ -1,0 +1,14 @@
+
+
+18 marca
+=========
+
+php artisan visitors:restore-from-old-events --domain=targiehandlu.pl --email=tehonline-1 --subject="22 Ekspertów online - już 24 marca" --events=81,83,85,87,89 --throttle=50000
+
+php artisan visitors:current-event --domain=targiehandlu.pl --subject="" --email=tehonline-1
+
+
+=======================================
+
+supervisorctl restart laravel-services:*
+php artisan queue:restart
