@@ -56,7 +56,7 @@ class ParticipantInviteMail extends Mailable
 
         }else{
 
-             $this->from("online@targiehandlu.pl", "Karolina Michalak - Targi eHandlu");
+             $this->from("karolina.michalak@teh.com.pl", "Karolina Michalak - Targi eHandlu");
              $baseUrl = "https://targiehandlu.pl";
              config(["app.name" => "eKonferencja Targów eHandlu 24.03.2021"]);
              
