@@ -23,7 +23,7 @@ M.in.
 💥 **GetResponse** - _"Jak zachęcać do zapisu na newsletter? Szybko i konkretnie o skutecznych lead magnetach."_
 
 
-@component('mail::button', ['url' => "http://teh.com.pl/virtual"])
+@component('mail::button', ['url' => "http://teh.com.pl"])
 Odbierz bilet na 1 miejsce na eKonferencję
 @endcomponent
 
@@ -42,7 +42,7 @@ Mamy nadzieję, że dostarczymy coś unikatowego. Przygotowując naszą pilotaż
 
 💥 chcemy by każdy kto potrzebuje więcej wiedzy mógł **równolegle do prezentacji porozmawiać na czacie z Prelegentem**
 
-@component('mail::button', ['url' => "http://teh.com.pl/virtual"])
+@component('mail::button', ['url' => "http://teh.com.pl"])
 Zarezerwuj miejsce na eKonferencji Targów eHandlu
 @endcomponent
 
@@ -55,7 +55,7 @@ Do usłyszenia!
 
 Karolina Michalak
 
-@component('mail::button', ['url' => "http://teh.com.pl/virtual"])
+@component('mail::button', ['url' => "http://teh.com.pl"])
 Zarezerwuj miejsce na eKonferencji Targów eHandlu
 @endcomponent
 
