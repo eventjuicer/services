@@ -8,7 +8,7 @@ php artisan visitors:restore-from-old-events --domain=targiehandlu.pl --email=te
 22 marca
 =========
 
-php artisan visitors:restore-from-old-events --domain=targiehandlu.pl --email=tehonline-2 --subject="💥 Ostatnia szansa. Zarezerwuj 1 miejsce na eKonferencję 24 marca na targiehandlu.pl" --throttle=60000
+php artisan visitors:restore-from-old-events --domain=targiehandlu.pl --email=tehonline-2 --subject="💥 Ostatnia szansa. Zarezerwuj 1 miejsce na środową eKonferencję na targiehandlu.pl" --throttle=60000
 
 
 24 marca

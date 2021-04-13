@@ -11,6 +11,14 @@ php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl -
 
 php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Kompletujemy radę Ekspertów ehandel.com.pl - link do wysłania zgłoszenia" --email=ehandelcompl2
 
+13 kwietnia
+===========
+
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Targi przełożone na październik. W czerwcu wielkie wydarzenie ONLINE." --email=teh18-teh20
+
+
+
+
 
 =======================================
 
