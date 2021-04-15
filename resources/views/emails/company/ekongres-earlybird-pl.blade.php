@@ -16,9 +16,9 @@ Przewidzieliśmy **3 typy uczestnictwa**:
 
 oraz **2 możliwości zrealizowania video** (co w głównej mierze podyktowane jest sytuacją w związku z COVID-19): 
 
-- nagranie we własnym zakresie (np u siebie w firmie lub w domu)
+🏠 nagranie we własnym zakresie (np u siebie w firmie lub w domu)
 
-- zorganizowanie nagrania w studio w Warszawie (dodatkowo płatne)
+🎥 zorganizowanie nagrania w studio w Warszawie (dodatkowo płatne)
 
 @component('mail::button', ['url' => "https://live.targiehandlu.pl"])
 Szczegóły na live.targiehandlu.pl
