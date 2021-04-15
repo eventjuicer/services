@@ -18,7 +18,7 @@ oraz **2 możliwości zrealizowania video** (co w głównej mierze podyktowane j
 
 🏠 nagranie we własnym zakresie (np u siebie w firmie lub w domu)
 
-🎥 zorganizowanie nagrania w studio w Warszawie (dodatkowo płatne)
+🎥 nagranie w profesjonalnym studio w Warszawie (dodatkowo płatne)
 
 @component('mail::button', ['url' => "https://live.targiehandlu.pl"])
 Szczegóły na live.targiehandlu.pl
