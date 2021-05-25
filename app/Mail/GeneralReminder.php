@@ -72,7 +72,7 @@ class GeneralReminder extends Mailable
 
         $this->to(trim(strtolower($this->participant->email)));
 
-        $this->from("visitors@ecommerceberlin.com", "Lucas Zarna - Targi eHandlu - E-commerce Berlin");
+        $this->from("zwiedzanie@targiehandlu.pl", "Lucas Zarna - Targi eHandlu - E-commerce Berlin");
 
       //  $this->subject("Your ticket is ready! Download and print!");
 
