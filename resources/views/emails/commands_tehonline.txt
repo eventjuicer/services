@@ -22,7 +22,7 @@ php artisan visitors:current-event --domain=targiehandlu.pl --subject="" --email
 php artisan visitors:restore-from-old-events --domain=targiehandlu.pl --email=ebev4teh-1 --subject="💥 eKonferencyjne zaskoczenie roku?💥 Czy chcesz uczetniczyć w E-commerce Berlin Virtual?" --throttle=60000
 
 
-
+php artisan visitors:current-event --domain=targiehandlu.pl --subject="💥 eKonferencyjne zaskoczenie roku?💥 Czy chcesz uczetniczyć w E-commerce Berlin Virtual?" --email=ebev4teh-1
 
 
 

@@ -28,7 +28,7 @@ class GeneralReminder extends Mailable
     $presentersURl,
     $scheduleURl,
     $registerURl,
-    $url, $subject;
+    $url, $subject, $unsubscribe;
 
     public function __construct(Participant $participant, array $config)
     {
@@ -47,7 +47,7 @@ class GeneralReminder extends Mailable
     {
 
         app()->setLocale("pl");
-        config(["app.name" => "Targi eHandlu"]);
+        config(["app.name" => "E-commerce Berlin Virtual"]);
 
         $this->p = new Personalizer( $this->participant, "");
 
@@ -70,7 +70,7 @@ class GeneralReminder extends Mailable
 
         $this->to(trim(strtolower($this->participant->email)));
 
-        $this->from("zwiedzanie@targiehandlu.pl", "Zwiedzanie @ Targi eHandlu");
+        $this->from("visitors@ecommerceberlin.com", "Lucas Zarna - Targi eHandlu - E-commerce Berlin");
 
       //  $this->subject("Your ticket is ready! Download and print!");
 
