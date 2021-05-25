@@ -4,7 +4,11 @@
 
 # Cześć {{ $p->translate("[[fname]]") }}!
 
-## Już jutro o 9:00 startuje siostrzane - względem Targów eHandlu - wydarzenie: 2 dniowa eKonferencja E-commerce Berlin Virtual**
+## Już jutro o 9:00 startuje siostrzane - względem Targów eHandlu - wydarzenie: 2 dniowa Konferencja ONLINE E-commerce Berlin Virtual
+
+@component('mail::button', ['url' => "https://virtual.ecommerceberlin.com/stages/a"])
+Odbierz bilet na E-commerce Berlin Virtual
+@endcomponent
 
 **29 Prelegentów**
 
@@ -14,15 +18,14 @@
 
 **90% prezentacji w języku angielskim**
 
-## Prelegenci reprezentuący topowe marki: 💥Lowell, 💥Henkel, 💥HUGO BOSS, 💥Douglas, 💥Mercedes-Benz, 💥Shopware, 💥Criteo
+# Prelegenci reprezentuący topowe marki: 💥Lowell, 💥Henkel, 💥HUGO BOSS, 💥Douglas, 💥Mercedes-Benz, 💥Shopware, 💥Criteo
 
+
+<a href="https://virtual.ecommerceberlin.com/stages/a" target="_blank"><img src="https://res.cloudinary.com/eventjuicer/image/upload/v1621943431/ebe_standby.jpg" style="max-width: 650px;" alt="odliczanie"/></a>
 
 @component('mail::button', ['url' => "https://virtual.ecommerceberlin.com/stages/a"])
 Zarezerwuj miejsce na E-commerce Berlin Virtual
 @endcomponent
-
-
-<a href="https://virtual.ecommerceberlin.com/stages/a" target="_blank"><img src="https://res.cloudinary.com/eventjuicer/image/upload/v1621943431/ebe_standby.jpg" style="max-width: 650px;" alt="odliczanie"/></a>
 
 Wybrane tematy:
 
