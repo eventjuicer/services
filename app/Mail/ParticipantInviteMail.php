@@ -61,7 +61,7 @@ class ParticipantInviteMail extends Mailable
              // config(["app.name" => "eKonferencja Targów eHandlu 24.03.2021"]);
 
 
-            $this->from("visitors@ecommerceberlin.com", "Lucas Zarna - E-commerce Berlin");
+            $this->from("visitors@ecommerceberlin.com", "Lucas Zarna - Targi eHandlu - E-commerce Berlin");
             $baseUrl = "https://virtual.ecommerceberlin.com";
             app()->setLocale("en");
             config(["app.name" => "E-commerce Berlin Virtual"]);
