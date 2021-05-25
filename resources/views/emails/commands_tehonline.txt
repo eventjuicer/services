@@ -16,9 +16,10 @@ php artisan visitors:restore-from-old-events --domain=targiehandlu.pl --email=te
 
 php artisan visitors:current-event --domain=targiehandlu.pl --subject="" --email=tehonline-1
 
+25 maja
+========
 
-
-
+php artisan visitors:restore-from-old-events --domain=targiehandlu.pl --email=ebev4teh-1 --subject="💥 eKonferencyjne zaskoczenie roku?💥 Czy chcesz uczetniczyć w E-commerce Berlin Virtual?" --throttle=60000
 
 
 

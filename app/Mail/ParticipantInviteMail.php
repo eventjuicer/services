@@ -56,9 +56,15 @@ class ParticipantInviteMail extends Mailable
 
         }else{
 
-             $this->from("karolina.michalak@teh.com.pl", "Karolina Michalak - Targi eHandlu");
-             $baseUrl = "https://targiehandlu.pl";
-             config(["app.name" => "eKonferencja Targów eHandlu 24.03.2021"]);
+             // $this->from("karolina.michalak@teh.com.pl", "Karolina Michalak - Targi eHandlu");
+             // $baseUrl = "https://targiehandlu.pl";
+             // config(["app.name" => "eKonferencja Targów eHandlu 24.03.2021"]);
+
+
+            $this->from("visitors@ecommerceberlin.com", "Lucas Zarna - E-commerce Berlin");
+            $baseUrl = "https://virtual.ecommerceberlin.com";
+            app()->setLocale("en");
+            config(["app.name" => "E-commerce Berlin Virtual"]);
              
         }
 
