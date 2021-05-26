@@ -2,7 +2,7 @@
 26 maja
 =========
 
-php artisan visitors:ticket-reminder --domain=virtual.ecommerceberlin.com
+php artisan visitors:current-event --domain=virtual.ecommerceberlin.com --email=ebev1-day1survey --subject="test"
 
 
 
