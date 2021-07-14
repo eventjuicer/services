@@ -1,0 +1,18 @@
+
+26 maja
+=========
+
+php artisan visitors:current-event --domain=virtual.ecommerceberlin.com --email=ebev1-day1survey --subject="🔴 Select the best speakers / Helft uns die Präsentation des Tages zu wählen"
+
+27 maja
+=========
+
+php artisan visitors:current-event --domain=virtual.ecommerceberlin.com --email=ebev1-day2survey --subject="📺 Select the best speakers / Helft uns die Präsentation des Tages zu wählen"
+
+
+
+=======================================
+supervisorctl restart laravel-api:*
+supervisorctl restart laravel-services:*
+php artisan queue:restart
+

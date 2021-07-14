@@ -1,0 +1,32 @@
+
+
+18 marca
+=========
+
+php artisan visitors:restore-from-old-events --domain=targiehandlu.pl --email=tehonline-1 --subject="Zarezerwuj miejsce! 22 Ekspertów online już 24 marca na targiehandlu.pl" --events=78,81,83,85,87,89 --throttle=60000
+
+22 marca
+=========
+
+php artisan visitors:restore-from-old-events --domain=targiehandlu.pl --email=tehonline-2 --subject="💥 Ostatnia szansa. Zarezerwuj 1 miejsce na środową eKonferencję na targiehandlu.pl" --throttle=60000
+
+
+24 marca
+=========
+
+php artisan visitors:current-event --domain=targiehandlu.pl --subject="" --email=tehonline-1
+
+25 maja
+========
+
+php artisan visitors:restore-from-old-events --domain=targiehandlu.pl --email=ebev4teh-1 --subject="💥Najlepsza Konferencja ONLINE 2021 roku? 💥Czy chcesz uczestniczyć w E-commerce Berlin Virtual?" --throttle=60000
+
+
+php artisan visitors:current-event --domain=targiehandlu.pl --subject="💥Najlepsza Konferencja ONLINE 2021 roku? 💥Czy chcesz uczestniczyć w E-commerce Berlin Virtual?" --email=ebev4teh-1
+
+
+
+=======================================
+
+supervisorctl restart laravel-services:*
+php artisan queue:restart

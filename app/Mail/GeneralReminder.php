@@ -28,7 +28,7 @@ class GeneralReminder extends Mailable
     $presentersURl,
     $scheduleURl,
     $registerURl,
-    $url, $subject;
+    $url, $subject, $unsubscribe;
 
     public function __construct(Participant $participant, array $config)
     {
@@ -47,7 +47,7 @@ class GeneralReminder extends Mailable
     {
 
         app()->setLocale("pl");
-        config(["app.name" => "Targi eHandlu"]);
+        config(["app.name" => "E-commerce Berlin Virtual"]);
 
         $this->p = new Personalizer( $this->participant, "");
 
@@ -67,10 +67,12 @@ class GeneralReminder extends Mailable
         $this->registerURl = $baseUrl . "/visit" . $params;
         $this->url = $this->ticketUrl;
 
+        $this->unsubscribe = "https://services.eventjuicer.com/unsubscribe/" . $hash; 
+
 
         $this->to(trim(strtolower($this->participant->email)));
 
-        $this->from("zwiedzanie@targiehandlu.pl", "Zwiedzanie @ Targi eHandlu");
+        $this->from("visitors@ecommerceberlin.com", "Lucas Zarna - E-commerce Berlin Virtual 2021");
 
       //  $this->subject("Your ticket is ready! Download and print!");
 

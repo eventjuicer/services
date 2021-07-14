@@ -11,6 +11,26 @@ php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl -
 
 php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Kompletujemy radę Ekspertów ehandel.com.pl - link do wysłania zgłoszenia" --email=ehandelcompl2
 
+13 kwietnia
+===========
+
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Targi przełożone na październik. W czerwcu wielkie wydarzenie ONLINE." --email=teh18-teh20
+
+
+15 kwietnia
+===========
+
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Sprzedaż slotów na Kongres eHandlu Online już jutro o 10:00" --email=ekongres-earlybird
+
+
+16 kwietnia
+===========
+
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="10:00 przedsprzedaż slotów prezentacyjnych" --email=ekongres-earlybird2
+
+
+
+
 
 =======================================
 
