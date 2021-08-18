@@ -88,7 +88,7 @@ class GeneralExhibitorEmail extends Mailable
         //this should be moved to settings?...
        if( $this->participant->group_id > 1 ){
 
-            $from = "ecommerceberlin@ecommerceberlin.com";
+            $from = "marta@ecommerceberlin.com";
             $eventName = "E-commerce Berlin Expo";
             $domain = "ecommerceberlin.com";
             $cc = "ecommerceberlin+auto@ecommerceberlin.com";

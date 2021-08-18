@@ -97,6 +97,14 @@ php artisan exhibitors:current-event --defaultlang=en --domain=ecommerceberlin.c
 php artisan exhibitors:current-event --defaultlang=en --domain=ecommerceberlin.com --lang=de --subject="[Wichtig] E-commerce Berlin Expo 2021 Update für Aussteller" --email=ebe6-second-event-postponement
 
 
+18 sierpnia
+===========
+
+
+php artisan exhibitors:current-event --defaultlang=en --domain=ecommerceberlin.com --lang=en --subject="E-commerce Berlin Expo 2022 - official date announced!" --email=ebe6-new-date-feb-2022
+
+
+php artisan exhibitors:current-event --defaultlang=en --domain=ecommerceberlin.com --lang=de --subject="E-commerce Berlin Expo 2022 - das offizielle Datum ist bekannt!" --email=ebe6-new-date-feb-2022
 
 
 
