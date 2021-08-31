@@ -2,9 +2,9 @@
 
 @component('mail::message')
  
-# Dzień dobry {{ array_get($profile, "fname") }},
+# Dzień dobry {{ $p->translate("[[fname]]") }},
 
-**Najstarsze i największe wydarzenie w Polsce - dotyczące sprzedaży online - powraca po blisko 2 latach (i trzech - odwołanych przez Rząd - edycjach).**
+**Najstarsze i największe wydarzenie w Polsce - dotyczące sprzedaży online - powraca po blisko 2 latach (dokładnie: trzech - odwołanych przez Rząd - edycjach).**
 
 Po tak długim czasie od ostatniej fizycznej edycji Targów (Warszawa - 22 października 2019), pracując teraz nad jubileuszową edycją, towarzyszą nam emocje, które mieliśmy organizujać protoplastę Targów eHandlu czyli ogólnopolskie, otwarte, spotkania branży ehandlu - Shopcamp. ...ten motywujący dreszczyk emocji przy podejmowaniu każdej decyzji.
 
