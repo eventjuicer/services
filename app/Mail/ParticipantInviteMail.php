@@ -61,10 +61,10 @@ class ParticipantInviteMail extends Mailable
              // config(["app.name" => "eKonferencja Targów eHandlu 24.03.2021"]);
 
 
-            $this->from("zwiedzanie@targiehandlu.pl", "Lucas Zarna - Targi eHandlu - E-commerce Berlin");
-            $baseUrl = "https://virtual.ecommerceberlin.com";
+            $this->from("zwiedzanie@targiehandlu.pl", "Karolina Michalak - Targi eHandlu");
+            $baseUrl = "https://targiehandlu.pl";
             app()->setLocale("en");
-            config(["app.name" => "E-commerce Berlin Virtual"]);
+            config(["app.name" => "XX Targi eHandlu w Warszawie"]);
              
         }
 
