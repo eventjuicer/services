@@ -20,22 +20,22 @@ Formuła jesiennych Targów eHandlu będzie jednak niezmienna (wydaje nam się o
 
 To co możesz zrobić teraz:
 
-### Chcesz opowiedzieć o czym co jest interesujące dla właścicieli sklepów? Zgłoś się - to nic nie kosztuje. Propozycje wystąpień przyjmujemy wyłącznie do piątku.
+## Chcesz opowiedzieć o czym co jest interesujące dla właścicieli sklepów? Zgłoś się - to nic nie kosztuje. Propozycje wystąpień przyjmujemy wyłącznie do piątku.
 
 @component('mail::button', ['url' => "https://targiehandlu.pl/speaking"])
 Wystąp / Zgłoś propozycję prezentacji
 @endcomponent
 
-### Jesteś dostawcą usług dla sprzedających w Internecie? Ostatnie przestrzenie wystawiennicze czekają na Ciebie.
+## Jesteś dostawcą usług dla sprzedających w Internecie? Ostatnie przestrzenie wystawiennicze czekają na Ciebie.
 
 @component('mail::button', ['url' => "https://targiehandlu.pl/exhibit"])
-Zobacz plan stoisk / Wystawców
+Wystaw się / zobacz listę wystawców
 @endcomponent
 
 
 <a href="https://targiehandlu.pl/exhibit"><img src="https://res.cloudinary.com/eventjuicer/image/upload/v1630408049/emails/teh20_bookingmap.png" alt="booking map" style="max-width: 600px;"></a>
 
-### Zarejestruj się jako Uczestnik (na ten moment nie planujemy wprowadzenia opłat za uczestnictwo lecz szczegółowe warunki - sanitarne - udziału będą znane bezpośrednio przed Targami)
+## Zarejestruj się jako Uczestnik (na ten moment nie planujemy wprowadzenia opłat za uczestnictwo lecz szczegółowe warunki - sanitarne - udziału będą znane bezpośrednio przed Targami)
 
 @component('mail::button', ['url' => "https://targiehandlu.pl/visit"])
 Zarejestruj się jako Zwiedzający
