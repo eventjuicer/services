@@ -27,16 +27,16 @@ Zarejestruj się jako Zwiedzający
 @endcomponent
 
 @component('mail::button', ['url' => "https://targiehandlu.pl/exhibit"])
-Zarejestruj się jako Zwiedzający
+Zobacz plan stoisk / Wystawców
 @endcomponent
 
 
 
-<img src="https://res.cloudinary.com/eventjuicer/image/upload/v1630408054/emails/teh20_stage2.jpg" alt="stage" style="max-width: 600px;">
+<a href="https://targiehandlu.pl/speaking"><img src="https://res.cloudinary.com/eventjuicer/image/upload/v1630408054/emails/teh20_stage2.jpg" alt="stage" style="max-width: 600px;"></a>
 
-<img src="https://res.cloudinary.com/eventjuicer/image/upload/v1630408050/emails/teh20_stage1.jpg" alt="stage" style="max-width: 600px;">
+<a href=""><img src="https://res.cloudinary.com/eventjuicer/image/upload/v1630408050/emails/teh20_stage1.jpg" alt="stage" style="max-width: 600px;"></a>
 
-<img src="https://res.cloudinary.com/eventjuicer/image/upload/v1630408049/emails/teh20_bookingmap.png" alt="booking map" style="max-width: 600px;">
+<a href="https://targiehandlu.pl/exhibit"><img src="https://res.cloudinary.com/eventjuicer/image/upload/v1630408049/emails/teh20_bookingmap.png" alt="booking map" style="max-width: 600px;"></a>
 
 
 
@@ -45,6 +45,9 @@ Z pozdrowieniami,
 Karolina Michalak
 
 Adam Zygadlewicz
+
+
+**[Konfiguracja newslettera]({{ $unsubscribe }})**
 
 @endcomponent
 
