@@ -30,6 +30,14 @@ php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl -
 
 
 
+31 sierpnia
+===========
+
+php artisan visitors:restore-from-old-events --domain=targiehandlu.pl --email=teh20-all1 --subject="Wracamy! 20. Targi eHandlu - 20 października w Warszawie." --events=81,83,85,87,89 --throttle=50000
+
+
+
+
 
 
 =======================================
