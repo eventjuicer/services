@@ -6,21 +6,21 @@
 
 **Najstarsze i największe wydarzenie w Polsce - dotyczące sprzedaży online - powraca po blisko 2 latach (dokładnie: trzech - odwołanych przez Rząd - edycjach).**
 
-Po tak długim czasie od ostatniej - fizycznej - edycji Targów (Warszawa - 22 października 2019), pracując teraz nad jubileuszową edycją, towarzyszą nam emocje, które mieliśmy organizujać protoplastę Targów eHandlu czyli ogólnopolskie, otwarte, spotkania branży ehandlu - Shopcamp. ...ten motywujący dreszczyk emocji przy podejmowaniu każdej decyzji. 
+Po tak długim czasie od ostatniej - fizycznej - edycji Targów (Warszawa - 22 października 2019), pracując teraz nad jubileuszową edycją, towarzyszą nam emocje, które mieliśmy organizujać protoplastę Targów eHandlu czyli ogólnopolskie, otwarte, spotkania branży ehandlu - Shopcamp. **...ten motywujący dreszczyk emocji przy podejmowaniu każdej decyzji. **
 
 Nie możemy się doczekać wejścia do hali targowej! :)
 
-Formuła jesiennych Targów eHandlu będzie jednak niezmienna: 
+Formuła jesiennych Targów eHandlu będzie jednak niezmienna (wydaje nam się optymalna): 
 
 - ok **120-130 Wystawców** (kończymy kompletować listę - **zostało ok 11 stoisk**)
 
 - aż **6 scen prezentacyjnych** (2 duże, 2 otwarte, 2 "studyjne" pod tematy szkoleniowe) w których będziemy realizowali różne formuły edukacji
 
-- strefa VIP (do której wejście będą mieli wybrani nie tylko Wystawcy i Prelegenci ale także wybrani przez nas Zwiedzający reprezentujący największych e-retailerów)
+- **strefa VIP** (do której wejście będą mieli wybrani nie tylko Wystawcy i Prelegenci ale także wybrani przez nas Zwiedzający reprezentujący największych e-retailerów)
 
-To co możesz zrobić na ten moment:
+To co możesz zrobić teraz:
 
-### Tylko do piątku przyjmujemy propozycje wystąpień. Chcesz opowiedzieć o czym co jest interesujące dla właścicieli sklepów? Zgłoś się - to nic nie kosztuje.
+### Chcesz opowiedzieć o czym co jest interesujące dla właścicieli sklepów? Zgłoś się - to nic nie kosztuje. Propozycje wystąpień przyjmujemy wyłącznie do piątku.
 
 @component('mail::button', ['url' => "https://targiehandlu.pl/speaking"])
 Wystąp / Zgłoś propozycję prezentacji
@@ -35,7 +35,7 @@ Zobacz plan stoisk / Wystawców
 
 <a href="https://targiehandlu.pl/exhibit"><img src="https://res.cloudinary.com/eventjuicer/image/upload/v1630408049/emails/teh20_bookingmap.png" alt="booking map" style="max-width: 600px;"></a>
 
-### Zarejestruj się jako Uczestnik (nie planujemy wprowadzenia opłaty lecz szczegółowe warunki - sanitarne - udziału będą znane bezpośrednio przed Targami)
+### Zarejestruj się jako Uczestnik (na ten moment nie planujemy wprowadzenia opłat za uczestnictwo lecz szczegółowe warunki - sanitarne - udziału będą znane bezpośrednio przed Targami)
 
 @component('mail::button', ['url' => "https://targiehandlu.pl/visit"])
 Zarejestruj się jako Zwiedzający
