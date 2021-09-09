@@ -4,23 +4,32 @@
  
 # Dzień dobry {{ $p->translate("[[fname]]") }},
 
-20 Targi eHandlu zbliżają się wielkimi krokami. Jaki stan na dzisiaj? Mamy już ponad 115 Wystawców (**23 nowe marki!**) i 24 Prelegentów (Eksperci z takich firm jak: **Gonito, AtomStore, Sempai, 'merce, GetResponse, shopware, IAI/IdoSell czy e-point**), działamy nad tematami logistycznymi, niedługo startujemy z promocją :)
+20 Targi eHandlu zbliżają się wielkimi krokami (przypominamy: 20 października, Warszawa). 
 
-a teraz do rzeczy
+Mamy już ponad 115 Wystawców (**23 nowe marki!**) i 24 Prelegentów (to eksperci z takich firm jak: **Gonito, AtomStore, Sempai, 'merce, GetResponse, shopware, IAI/IdoSell czy e-point**), działamy nad tematami logistycznymi i niedługo startujemy z promocją :)
 
-### Wystartowało głosowanie na tematy, które powinny znaleźć się w Agendzie
+...a teraz do rzeczy :)
 
-Głosowanie zajmuje max 2 minuty (wymagane konto na LinkedIn). Masz 6 głosów (tak aby oddać 1 głos w każdej kategorii.)
+## Wystartowało głosowanie na kolejne tematy, które wypełnią agendę 20. Targów eHandlu
+
+Które są wg Ciebie potrzebne i "na czasie?" Głosowanie jest wyjątkowo proste i zajmuje max 2 minuty (wymagane jest konto na LinkedIn). 
+
+<a href="https://targiehandlu.pl/exhibit"><img src="https://res.cloudinary.com/eventjuicer/image/upload/a_5,c_fit,w_600/v1631192438/teh20_cfp2.jpg" alt="call for papers voting" style="max-width: 600px;"></a>
+
+
 
 Czy możemy na Ciebie liczyć?
-
-
-<a href="https://targiehandlu.pl/exhibit"><img src="https://res.cloudinary.com/eventjuicer/image/upload/v1631191098/teh20_cfp.jpg" alt="call for papers voting" style="max-width: 600px;"></a>
-
 
 @component('mail::button', ['url' => "https://targiehandlu.pl/vote"])
 Wybierz kto powinien wystąpić
 @endcomponent
+
+
+Propozycje podzieliliśmy na 6 kategorii.
+
+<a href="https://targiehandlu.pl/exhibit"><img src="https://res.cloudinary.com/eventjuicer/image/upload/c_fit,w_600/v1631191098/teh20_cfp.jpg" alt="call for papers voting" style="max-width: 600px;"></a>
+
+
 
 Przykładowe zgłoszenia, które walczą o miejsce w agendzie 20. Targów eHandlu:
 
