@@ -16,7 +16,7 @@ Mamy już ponad 115 Wystawców (**23 nowe marki!**) i 24 Prelegentów (to eksper
 
 ## Wystartowało głosowanie na propozycje wystąpień, które mogą dopełnić agendę 20. Targów eHandlu
 
-Głosowanie jest wyjątkowo proste i zajmuje max 2 minuty - **każda osoba głosująca otrzyma dostęp do materiałów video** po Targach więc warto.
+Głosowanie jest wyjątkowo proste i zajmuje max 2 minuty - **każda osoba głosująca otrzyma - po Targach - dostęp do materiałów video** więc warto.
 
 @component('mail::button', ['url' => "https://targiehandlu.pl/vote"])
 Wybierz kto powinien wystąpić
