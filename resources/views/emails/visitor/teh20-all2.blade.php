@@ -10,25 +10,19 @@ Mamy już ponad 115 Wystawców (**23 nowe marki!**) i 24 Prelegentów (to eksper
 
 ...a teraz do rzeczy :)
 
-## Wystartowało głosowanie na kolejne tematy, które wypełnią agendę 20. Targów eHandlu
+<a href="https://targiehandlu.pl/vote"><img src="https://res.cloudinary.com/eventjuicer/image/upload/c_fit,w_600/v1631256097/teh20_cfp2.png" alt="call for papers voting" style="max-width: 600px;"></a>
 
-Które są wg Ciebie potrzebne i "na czasie?" Głosowanie jest wyjątkowo proste i zajmuje max 2 minuty (wymagane jest konto na LinkedIn). 
+@component('mail::panel')
 
-<a href="https://targiehandlu.pl/exhibit"><img src="https://res.cloudinary.com/eventjuicer/image/upload/a_5,c_fit,w_600/v1631192438/teh20_cfp2.jpg" alt="call for papers voting" style="max-width: 600px;"></a>
+## Wystartowało głosowanie na propozycje wystąpień, które mogą dopełnić agendę 20. Targów eHandlu
 
-
-
-Czy możemy na Ciebie liczyć?
+Głosowanie jest wyjątkowo proste i zajmuje max 2 minuty - **każda osoba głosująca otrzyma dostęp do materiałów video** po Targach więc warto.
 
 @component('mail::button', ['url' => "https://targiehandlu.pl/vote"])
 Wybierz kto powinien wystąpić
 @endcomponent
 
-
-Propozycje podzieliliśmy na 6 kategorii.
-
-<a href="https://targiehandlu.pl/exhibit"><img src="https://res.cloudinary.com/eventjuicer/image/upload/c_fit,w_600/v1631191098/teh20_cfp.jpg" alt="call for papers voting" style="max-width: 600px;"></a>
-
+@endcomponent
 
 
 Przykładowe zgłoszenia, które walczą o miejsce w agendzie 20. Targów eHandlu:
@@ -46,6 +40,10 @@ Nowy standard śledzenia - **Google Analytics 4**
 **BLIKNIJ za zakupy w Messengerze**, czyli jak robić social commerce i podnosić konwersję!
 
 Petarda w koszyku zakupowym, czyli **jak wygrać walkę o niezdecydowanych klientów?**
+
+
+Omówienie których zagadnień jest wg Ciebie potrzebne i "na czasie?" 
+
 
 @component('mail::button', ['url' => "https://targiehandlu.pl/vote"])
 Wybierz kto powinien wystąpić
