@@ -40,7 +40,7 @@ php artisan visitors:restore-from-old-events --domain=targiehandlu.pl --email=te
 ==========
 
 
-php artisan visitors:restore-from-old-events --domain=targiehandlu.pl --email=teh20-all2 --subject="Które propozycje powinny wygrać i wejść do agendy 20. Targów eHandlu?" --events=81,83,85,87,89 --throttle=50000
+php artisan visitors:restore-from-old-events --domain=targiehandlu.pl --email=teh20-all2 --subject="Które powinny wygrać i wejść do agendy 20. Targów eHandlu?" --events=81,83,85,87,89 --throttle=50000
 
 
 =======================================
