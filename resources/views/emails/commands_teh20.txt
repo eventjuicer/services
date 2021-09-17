@@ -45,9 +45,9 @@ php artisan visitors:restore-from-old-events --domain=targiehandlu.pl --email=te
 17 wrzesnia
 ===========
 
- php artisan exhibitors:current-event --defaultlang=pl --domain= --lang=pl --subject="Usługi dodatkowe: zabudowa, TV, ulotki..." --email=teh20-upgrades
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Usługi dodatkowe: zabudowa, TV, ulotki..." --email=teh20-upgrades
  
- php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=en --subject="Additional services ordering - final reminder" --email=teh20-upgrades
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=en --subject="Additional services ordering - final reminder" --email=teh20-upgrades
 
 
 

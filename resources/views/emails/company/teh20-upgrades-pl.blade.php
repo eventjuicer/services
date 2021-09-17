@@ -2,7 +2,7 @@
 
 @component('mail::message')
  
-# Cześć {{$profile->translate("[[fname]]")}},
+# Cześć {{ array_get($profile, "fname") }},
 
 **W panelu Wystawcy możesz rozszerzyć swoje zamówienie o dodatkowe usługi.**
 

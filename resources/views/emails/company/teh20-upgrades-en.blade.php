@@ -2,7 +2,7 @@
 
 @component('mail::message')
  
-# Hello,
+# Hello {{ array_get($profile, "fname") }},
 
 **In your exhibitor's account admin panel you can now order additional services.**
 
