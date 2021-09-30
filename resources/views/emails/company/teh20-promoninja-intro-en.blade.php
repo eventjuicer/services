@@ -2,7 +2,7 @@
 
 @component('mail::message')
  
-# Hi {{$profile->translate("[[fname]]")}},
+# Hi {{ array_get($profile, "fname") }},
 
 **We have enabled a challenge / competition in your exhibitor's account**
 

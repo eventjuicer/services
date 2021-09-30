@@ -2,7 +2,7 @@
 
 @component('mail::message')
  
-# Cześć {{$profile->translate("[[fname]]")}},
+# Cześć {{ array_get($profile, "fname") }},
 
 **W Twoim Panelu Wystawcy udostępniliśmy kolejną edycję Wyzwania (Konkursu) dla Wystawców**
 
