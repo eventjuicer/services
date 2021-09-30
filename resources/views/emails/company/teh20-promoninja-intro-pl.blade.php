@@ -25,7 +25,7 @@ Oto Twój **link trackujący!** Wystarczy, że Twoje newslettery, stopki @, rekl
 
 **UWAGA: Najważniejsze nagrody - logotyp na identyfikatorach Zwiedzających - zostanie przyznana w poniedziałek 11 października o godzinie 12:00 na podstawie stanu rankingu z tej godziny, reszta konkursu trwa aż do 18 października**
 
-# W Panelu Wystawcy czekają na Ciebie 43ważne strony 
+# W Panelu Wystawcy czekają na Ciebie 3 ważne strony 
 
 @component('mail::button', ['url' => $accountUrl])
 Zaloguj się do Panelu Wystawcy 

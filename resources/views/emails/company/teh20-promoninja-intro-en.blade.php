@@ -29,16 +29,12 @@ Below please find your special link to your company profile on expo website. Use
 
 **IMPORTANT: The most precious reward - logotype on visitors' badges - will be assigned on Monday - 11 OCT at 12:00 CET. The rest of the competition will be enabled till 18 OCT 12:00 CET**
 
-# In your Exhibitor's account you will find 4 important sections related to the Challenge.
+# In your Exhibitor's account you will find 3 important sections related to the Challenge.
 
 @component('mail::button', ['url' => $accountUrl])
 Sign In
 @endcomponent
 
-# RANKING
-
-The ranking is created on the basis of data from google analytics with a **24-hour delay.**
-When you check the results, you actually see the results from the previous day.
 
 ## REWARDS
 
