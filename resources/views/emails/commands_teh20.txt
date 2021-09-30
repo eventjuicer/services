@@ -43,20 +43,6 @@ php artisan visitors:restore-from-old-events --domain=targiehandlu.pl --email=te
 php artisan visitors:restore-from-old-events --domain=targiehandlu.pl --email=teh20-all2 --subject="Które powinny wygrać i wejść do agendy 20. Targów eHandlu?" --events=81,83,85,87,89 --throttle=50000
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 17 wrzesnia
 ===========
 
@@ -65,14 +51,13 @@ php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl -
 php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=en --subject="Additional services ordering - carpet flooring, LED display, etc..." --email=teh20-upgrades
 
 
+30 września
+===========
 
 
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Promuj udział i wygraj logotyp na ID Zwiedzających, bezpośrednie zapraszanie zwiedzających, wywiad video..." --email=teh20-promoninja-intro
 
-
-
-
-
-
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=en --subject="Reveal your expo participation and get additional benefits." --email=teh20-promoninja-intro
 
 
 
