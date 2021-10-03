@@ -264,7 +264,7 @@ class PingWhenEmptyProfileEmail extends Mailable
         $this->accountUrl = "https://account.".$domain."/#/login?token=" . $this->participant->token;
 
 
-        $this->exampleUrl = "https://".$domain."/company-name,c,1054";
+        $this->exampleUrl = "https://targiehandlu.pl/exhibitors/dpdcompl";
 
       //  dd($this->event_manager);
 
