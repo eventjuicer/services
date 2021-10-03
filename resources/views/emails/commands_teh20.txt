@@ -11,6 +11,7 @@ php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl -
 
 php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Kompletujemy radę Ekspertów ehandel.com.pl - link do wysłania zgłoszenia" --email=ehandelcompl2
 
+
 13 kwietnia
 ===========
 
@@ -55,9 +56,51 @@ php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl -
 ===========
 
 
-php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Promuj udział i wygraj logotyp na ID Zwiedzających, bezpośrednie zapraszanie zwiedzających, wywiad video..." --email=teh20-promoninja-intro
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Promuj udział i wygraj swój logotyp na ID Zwiedzających, umawianie spotkań, wywiad video..." --email=teh20-promoninja-intro
 
-php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=en --subject="Reveal your expo participation and get additional benefits." --email=teh20-promoninja-intro
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=en --subject="Promote your expo participation and get many valuable benefits." --email=teh20-promoninja-intro
+
+
+4 października
+==============
+
+php artisan companies:emptyprofile --domain=targiehandlu.pl
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

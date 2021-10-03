@@ -221,9 +221,9 @@ class PingWhenEmptyProfileEmail extends Mailable
             $domain = "targiehandlu.pl";
             $cc = "targiehandlu+auto@targiehandlu.pl";
 
-            if($this->viewlang === "en"){
+            if($this->lang === "en"){
                 app()->setLocale("en");
-                config(["app.name" => "E-commerce Cracow Expo"]);
+                config(["app.name" => "E-commerce Warsaw Expo"]);
             }
             else
             {
@@ -286,6 +286,6 @@ class PingWhenEmptyProfileEmail extends Mailable
 
         $this->subject( $this->getSetting("subject") );
 
-        return $this->markdown('emails.company.ebe5-badprofile-' . $this->lang);
+        return $this->markdown('emails.company.badprofile2-' . $this->lang);
     }
 }
