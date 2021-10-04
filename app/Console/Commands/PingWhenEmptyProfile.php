@@ -32,7 +32,7 @@ class PingWhenEmptyProfile extends Command
 
  
     protected $signature = 'companies:emptyprofile 
-      {--domain=} {--defaultLang=en}
+      {--domain=} {--defaultLang=}
     ';
     protected $description = 'Command description';
  
@@ -58,6 +58,9 @@ class PingWhenEmptyProfile extends Command
 
         if(empty($domain)) {
             $errors[] = "--domain= must be set!";
+        }    
+        if(empty($defaultLang)) {
+            $errors[] = "--defaultLang= must be set!";
         }      
 
         // if(empty($maxold)) {
