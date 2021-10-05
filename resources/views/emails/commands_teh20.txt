@@ -80,12 +80,9 @@ php artisan companies:emptyprofile --domain=targiehandlu.pl --defaultLang=pl
 
 php artisan companies:emptyprofile --domain=targiehandlu.pl --defaultLang=pl
 
-
-
 php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Aktualny ranking wystawców, publiczny serwis z materiałami..." --email=teh20-promoninja2
 
-
-
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="...i jeszcze jedna rzecz. Daty!" --email=teh20-calendar
 
 
 
