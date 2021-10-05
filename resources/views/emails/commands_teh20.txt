@@ -64,7 +64,25 @@ php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl -
 4 października
 ==============
 
-php artisan companies:emptyprofile --domain=targiehandlu.pl
+php artisan companies:emptyprofile --domain=targiehandlu.pl --defaultLang=pl
+
+
+
+
+4 października
+==============
+
+php artisan companies:emptyprofile --domain=targiehandlu.pl --defaultLang=pl
+
+
+5 października
+==============
+
+php artisan companies:emptyprofile --domain=targiehandlu.pl --defaultLang=pl
+
+
+
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Aktualny ranking wystawców, publiczny serwis z materiałami..." --email=teh20-promoninja2
 
 
 
@@ -82,6 +100,23 @@ php artisan companies:emptyprofile --domain=targiehandlu.pl
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=en --subject="Promote your expo participation and get many valuable benefits." --email=teh20-promoninja-intro
 
 
 
