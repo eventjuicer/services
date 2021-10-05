@@ -41,7 +41,8 @@ class GeneralExhibitorEmail extends Mailable
             $accountUrl,
             $trackingLink,
             $pollUrl,
-            $footer;
+            $footer,
+            $company_id;
  
 
     public $sharers, $newsletter, $assignedPrizes;
@@ -123,6 +124,7 @@ class GeneralExhibitorEmail extends Mailable
         $this->profileUrl = $companydata->profileUrl();
         $this->accountUrl = $companydata->accountUrl();
         $this->trackingLink = $companydata->trackedProfileUrl();
+        $this->company_id = $companydata->getCompany()->id;
 
         if(!empty($this->creatives)){
             
