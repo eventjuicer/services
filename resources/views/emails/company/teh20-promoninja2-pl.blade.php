@@ -11,7 +11,7 @@ Twoja aktywność w promowaniu swojego udziały to szansa na zdobycie korzyści,
 
 Biorąc pod uwagę sugestie od kilku Wystawców na temat tego, że aktualnie bardzo ciężko udostępnić przykładowe materiały promocyjne osobom, które nie mają dostępu do panelu Wystawcy (np z agencji PR) przygotowaliśmy zewnętrzny dedykowany - publiczny - serwis z materiałami dla Ciebie i bieżącym rankingiem.
 
-@component('mail::button', ['url' => "https://promo.targiehandlu.pl/companies/{{ array_get($company, "id") }}"])
+@component('mail::button', ['url' => "https://promo.targiehandlu.pl/companies/" . array_get($company, "id")])
 Ranking, materiały promocyjne i nagrody
 @endcomponent
 
