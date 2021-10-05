@@ -11,9 +11,9 @@ Przykład?
 
 **W czwartek planujemy uruchomić moduł przeglądania** i zapraszania - na spotkanie na stoisku - zarejestrowanych Uczestników. Przypominamy, że liczba zaproszeń będzie uzależniona od liczby punktów w konkursie.
 
-(a to nie wszystko. dzięki zaangażowaniu możesz ustawić swój rollup w strefie cateringu czy mieć logotyp swojej firmy na 4000 identyfikatorów :-)
+...a to nie wszystko! **Dzięki zaangażowaniu możesz ustawić swój rollup w strefie cateringu czy mieć logotyp swojej firmy na 4000 identyfikatorów :-)**
 
-Biorąc pod uwagę sugestie od kilku Wystawców na temat tego, że aktualnie bardzo ciężko udostępnić przykładowe materiały promocyjne osobom, które nie mają dostępu do panelu Wystawcy (np z agencji PR) przygotowaliśmy zewnętrzny dedykowany - publiczny - serwis z materiałami dla Ciebie i bieżącym rankingiem.
+Biorąc pod uwagę sugestie od kilku Wystawców na temat tego, że aktualnie bardzo ciężko udostępnić przykładowe materiały promocyjne osobom, które nie mają dostępu do panelu Wystawcy (np z agencji PR) **przygotowaliśmy zewnętrzny dedykowany - publiczny - serwis z materiałami dla Ciebie i bieżącym rankingiem.**
 
 @component('mail::button', ['url' => "https://promo.targiehandlu.pl/companies/" .$company_id])
 Ranking, materiały promocyjne i nagrody
