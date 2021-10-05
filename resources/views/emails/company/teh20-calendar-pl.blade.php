@@ -14,8 +14,6 @@ Oto lista tematów, z którymi będziemy się do Ciebie zwracać w najbliższych
 
 **Poniedziałek** (11 października) - przyznamy nagrodę "Twój logotyp na identyfikatorach zwiedzających"
 
-@endcomponent
-
 Regards, 
 
 Karolina Michalak,
