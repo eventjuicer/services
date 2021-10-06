@@ -38,7 +38,7 @@ Bilet parkingowy należy pobrać z parkomatu. **Do bezpłatnego wyjazdu** potrze
 
 Godziny montażowe to 16:00 - 20:00 (o ile nie ustalono z nami inaczej). 
 
-Po wejściu na halę#1 (wejście po lewej patrząc od wejścia głównego) należy udać się do punktu informacyjnego dla Wystawców (Strefa VIP - początek Hali #1) na którym będzie czekał Państwa Opiekun, który zaprowadzi Państwa do właściwego stoiska.
+Po wejściu na Halę #1 (wejście po lewej patrząc od wejścia głównego) należy udać się do punktu informacyjnego dla Wystawców (Strefa VIP - początek Hali #1) na którym będzie czekał Państwa Opiekun, który zaprowadzi Państwa do właściwego stoiska.
 
 ## Dzień Targowy - 20 października
 

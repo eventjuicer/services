@@ -88,10 +88,10 @@ php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl -
 6 października
 ==============
 
-php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Informacje logistyczne 20. Targi eHandlu" --email=teh20-logistics
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Informacje logistyczne dot. 20. Targów eHandlu w Warszawie" --email=teh20-logistics
 
 
-
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=en --subject="Logistics information for 20th Ecommerce Warsaw Expo" --email=teh20-logistics
 
 
 
