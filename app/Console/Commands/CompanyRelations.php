@@ -135,7 +135,7 @@ class CompanyRelations extends Command
                 $noaccount++;
             }
 
-            $lang           = $ex->getLang();
+            $lang           = $ex->getLang($defaultlang);
             $name           = $ex->getName();
             $event_manager  = $ex->getEventManager();
             $items          = call_user_func_array(array($ex, "get".ucfirst($relation)), [$role]);
