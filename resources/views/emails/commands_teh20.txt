@@ -85,11 +85,10 @@ php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl -
 php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="...i jeszcze jedna rzecz. Daty!" --email=teh20-calendar
 
 
+6 października
+==============
 
-
-
-
-
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Informacje logistyczne 20. Targi eHandlu" --email=teh20-logistics
 
 
 
