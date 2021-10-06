@@ -17,6 +17,7 @@ class CompanyRankingPosition extends Command {
         {--email=} 
         {--subject=}
         {--lang=}
+        {--defaultLang=}
         {--threshold=0}
     ';
     
@@ -31,13 +32,14 @@ class CompanyRankingPosition extends Command {
     {
         $service->setParams($this->options());
 
-        $whatWeDo  = $this->anticipate('Send, stats?', ['send', 'stats']);
+        $whatWeDo  = $this->anticipate('Send, stats?', ['send', 'stats', 'test']);
 
 
         $errors = [];
 
         $threshold  = $this->option("threshold");
         $viewlang   = $this->option("lang");
+        $defaultLang   = $this->option("defaultLang");
         $domain     = $this->option("domain");
         $view      = $this->option("email");
         $subject    = $this->option("subject");
@@ -54,6 +56,10 @@ class CompanyRankingPosition extends Command {
 
             if(empty($viewlang)) {
                 $errors[] = "--lang= must be set!";
+            }
+
+            if(empty($defaultLang)) {
+                $errors[] = "--defaultLang= must be set!";
             }
 
             if(empty($subject)) {
@@ -102,7 +108,7 @@ class CompanyRankingPosition extends Command {
         /*
             RANKING SPECIFIC
         **/
-        $apiCall = $service->getApi("/partner-performance");
+        $apiCall = $service->getApi("/ranking");
         $ranking = collect(array_get($apiCall, "data", []))->mapWithKeys(function($item){
 
              return [$item['company_id'] => $item['stats']];
@@ -152,7 +158,7 @@ class CompanyRankingPosition extends Command {
                 }
             */
 
-            $lang           = $ex->getLang();
+            $lang           = $ex->getLang($defaultLang);
             $name           = $ex->getName();
             $event_manager  = $ex->getEventManager();
             //$cReps          = $ex->getReps();
@@ -174,15 +180,15 @@ class CompanyRankingPosition extends Command {
                 continue;
             }
 
-             if( strpos($logotype, "cloudinary") === false ){
+            if( strpos($logotype, "cloudinary") === false ){
                 $this->error("No valid logotype!");
-                continue;
+            //    continue;
             }
 
 
             $this->line("Position: " . $position . ", sessions: " . $sessions);
 
-            if($whatWeDo === "send"){
+            if($whatWeDo === "send" || $whatWeDo === "test"){
 
                 if($lang !== $viewlang)
                 {
@@ -207,6 +213,10 @@ class CompanyRankingPosition extends Command {
                             "creatives"
                     ) 
                 ));
+
+                if($whatWeDo === "test"){
+                    break;
+                }
 
             }
 
