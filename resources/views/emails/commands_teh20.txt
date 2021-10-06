@@ -104,9 +104,9 @@ php artisan exhibitors:ranking --domain=targiehandlu.pl --threshold=20 --lang=en
 
 
 
-php artisan company:relations --domain=targiehandlu.pl --threshold=0 --lang=pl --defaultlang=pl --subject="Możesz juz dodać Przedstawicieli Wystawcy na stoisku" --email=teh20-representatives-list
+php artisan company:relations --domain=targiehandlu.pl --threshold=2 --lang=pl --defaultlang=pl --subject="Możesz juz dodać Przedstawicieli Wystawcy na stoisku" --email=teh20-representatives-list
 
-php artisan company:relations --domain=targiehandlu.pl --threshold=0 --lang=en --defaultlang=pl --subject="Time to add exhibitor's representatives." --email=teh20-representatives-list
+php artisan company:relations --domain=targiehandlu.pl --threshold=2 --lang=en --defaultlang=pl --subject="Time to add exhibitor's representatives." --email=teh20-representatives-list
 
 
 

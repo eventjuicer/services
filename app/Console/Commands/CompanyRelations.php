@@ -58,7 +58,7 @@ class CompanyRelations extends Command
         if($relation === "reps"){
             $role  = $this->anticipate('representative, party?', ['representative', 'party']);
         }
-        $whatWeDo  = $this->anticipate('Send, stats?', ['send', 'stats']);
+        $whatWeDo  = $this->anticipate('Send, stats, test?', ['send', 'stats','test']);
 
 
         if($whatWeDo === "send"){
