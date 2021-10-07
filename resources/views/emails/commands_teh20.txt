@@ -105,22 +105,22 @@ php artisan company:relations --domain=targiehandlu.pl --threshold=2 --lang=en -
 php artisan companies:emptyprofile --domain=targiehandlu.pl --defaultLang=pl
 
 
+php artisan visitors:restore-from-old-events --domain=targiehandlu.pl --email=teh20-agenda --subject="Wracamy! 20. Targi eHandlu - 20 października w Warszawie." --events=81,83,85,87,89 --throttle=50000
+
+
+
+
+
+php artisan exhibitors:ranking --domain=targiehandlu.pl --defaultlang=pl --threshold=20 --lang=pl --subject="Który Wystawca najmnocniej promuje swój udział w Targach eHandlu? :)" --email=teh20-promoninja3
 
 
 
 
 
 
-php artisan exhibitors:ranking --domain=targiehandlu.pl --defaultLang=pl  --threshold=20 --lang=pl --subject="Który Wystawca najmnocniej promuje swój udział w Targach eHandlu? :)" --email=teh20-promoninja3
 
 
-
-
-
-
-
-
-php artisan exhibitors:ranking  --defaultLang=pl --domain=targiehandlu.pl --threshold=20 --lang=pl --subject="Last chance to join the Exhibitor Contest; Quickstart guide" --email=teh20-promoninja3
+php artisan exhibitors:ranking  --defaultlang=pl --domain=targiehandlu.pl --threshold=20 --lang=pl --subject="Last chance to join the Exhibitor Contest; Quickstart guide" --email=teh20-promoninja3
 
 
 php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=en --subject="Promote your expo participation and get many valuable benefits." --email=teh20-promoninja-intro
