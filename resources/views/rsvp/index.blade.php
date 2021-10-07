@@ -27,10 +27,12 @@
     <tr>      
       <td>
       	 
-      		<strong>{{array_get($meetup->data, "from_name")}}</strong>
+      		<strong>{{array_get($meetup->data, "from_name")}} / 
+
+          {{ $meetup->admin->company->data->where("name", "name")->first()->value }}</strong>
           <br/>
       		{{array_get($meetup->data, "from_email")}}
-
+          <br/>
           <a href="https://targiehandlu.pl/exhibitors/{{ $meetup->admin->company->slug }}" target="_blank">profil targowy firmy</a>
 
       </td>
