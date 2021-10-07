@@ -31,6 +31,8 @@
           <br/>
       		{{array_get($meetup->data, "from_email")}}
 
+          <a href="https://targiehandlu.pl/exhibitors/{{ $meetup->admin->company->slug }}" target="_blank">profil targowy firmy</a>
+
       </td>
       <td>
       	 <div class="col-lg-9 col-xl-7 col-md-9">
