@@ -8,7 +8,7 @@
 
 Dziękujemy wszystkim, którzy zaangażowali się w wybór kolejnej partii prelekcji - **łącznie wystąpią aż 52 osoby!**
 
-### Dzisiaj przedstawiamy wybrane tematy 2 z 6 scen.
+## Dzisiaj przedstawiamy wybrane tematy 2 z 6 scen.
 
 **InPost Fulfillment**
 
@@ -30,11 +30,11 @@ Nowe zasady naliczania **VAT w E-commerce**
 
 **7 najczęstszych sposobów przepalania budżetu w Google**
 
-...a to wszystko od czołowych w Polsce Ekspertów e-commerce!
+## ...a to wszystko od czołowych w Polsce Ekspertów e-commerce!
 
 Targi eHandlu to nie tylko aktualny stan wiedzy przekazywany przez Ekspertów. Targi eHandlu to także **unikatowa  możliwość poznania prawie całej panoramy usług i produktów** wspomagających prowadzenie skutecznej sprzedaży online odwiedzając stoiska wystawiennicze! **... a mamy już ponad 125 Wystawców (25 nowych marek!)** 
 
-@component('mail::button', ['url' => "https://targiehandlu.pl/visit?fname=" . $p->translate("[[fname]]") . "&lname=" . $p->translate("[[lname]]") . "&cname2=" . $p->translate("[[cname2]]")]) . "&position=" . $p->translate("[[position]]")."&email=".$p->translate("[[email]]"))
+@component('mail::button', ['url' => "https://targiehandlu.pl/visit?fname=" . $p->translate("[[fname]]") . "&lname=" . $p->translate("[[lname]]") . "&cname2=" . $p->translate("[[cname2]]") . "&position=" . $p->translate("[[position]]")."&email=".$p->translate("[[email]]")])
 Odbierz wejściówkę na Targi za 0 pln.
 @endcomponent
 
