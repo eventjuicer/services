@@ -94,21 +94,15 @@ php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl -
 php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=en --subject="Logistics information for 20th Ecommerce Warsaw Expo" --email=teh20-logistics
 
 
-php artisan companies:emptyprofile --domain=targiehandlu.pl --defaultLang=pl
-
-
-php artisan exhibitors:ranking --domain=targiehandlu.pl --threshold=20 --lang=pl --subject="Letzte Chance, am Ausstellerwettbewerb teilzunehmen; Quickstart-Guide" --email=ebe5-promoninja-nopoints
-
-php artisan exhibitors:ranking --domain=targiehandlu.pl --threshold=20 --lang=en --subject="Last chance to join the Exhibitor Contest; Quickstart guide" --email=ebe5-promoninja-nopoints
-
-
-
-
 php artisan company:relations --domain=targiehandlu.pl --threshold=2 --lang=pl --defaultlang=pl --subject="Możesz juz dodać Przedstawicieli Wystawcy na stoisku" --email=teh20-representatives-list
 
 php artisan company:relations --domain=targiehandlu.pl --threshold=2 --lang=en --defaultlang=pl --subject="Time to add exhibitor's representatives." --email=teh20-representatives-list
 
 
+7 października
+==============
+
+php artisan companies:emptyprofile --domain=targiehandlu.pl --defaultLang=pl
 
 
 
@@ -117,21 +111,28 @@ php artisan company:relations --domain=targiehandlu.pl --threshold=2 --lang=en -
 
 
 
+php artisan exhibitors:ranking --domain=targiehandlu.pl --threshold=20 --lang=pl --subject="Który Wystawca najmnocniej promuje swój udział w Targach eHandlu? :)" --email=teh20-promoninja3
 
 
 
 
+
+
+
+
+php artisan exhibitors:ranking  --defaultlang=pl --domain=targiehandlu.pl --threshold=20 --lang=pl --subject="Last chance to join the Exhibitor Contest; Quickstart guide" --email=teh20-promoninja3
 
 
 php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=en --subject="Promote your expo participation and get many valuable benefits." --email=teh20-promoninja-intro
 
 
 
+8 października
+==============
 
+php artisan company:relations --domain=targiehandlu.pl --threshold=0 --lang=pl --defaultlang=pl --subject="Możesz juz dodać Przedstawicieli Wystawcy na stoisku" --email=teh20-representatives-list
 
-
-
-
+php artisan company:relations --domain=targiehandlu.pl --threshold=0 --lang=en --defaultlang=pl --subject="Time to add exhibitor's representatives." --email=teh20-representatives-list
 
 
 
