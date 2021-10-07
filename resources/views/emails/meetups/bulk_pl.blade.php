@@ -22,7 +22,7 @@ Jeśli nie chcesz się spotkać z konkretnym Wystawcą - nie dostaniesz więcej 
 
 Do zobaczenia!
 
-Katarzyna Wicher, Targi eHandlu
+Karolina Michalak, Targi eHandlu
 
 @endcomponent
 
