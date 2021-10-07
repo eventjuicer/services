@@ -17,7 +17,7 @@ class CompanyRankingPosition extends Command {
         {--email=} 
         {--subject=}
         {--lang=}
-        {--defaultLang=}
+        {--defaultlang=}
         {--threshold=0}
     ';
     
@@ -32,14 +32,14 @@ class CompanyRankingPosition extends Command {
     {
         $service->setParams($this->options());
 
-        $whatWeDo  = $this->anticipate('Send, stats?', ['send', 'stats', 'test']);
+        $whatWeDo  = $this->anticipate('Send, stats, test?', ['send', 'stats', 'test']);
 
 
         $errors = [];
 
         $threshold  = $this->option("threshold");
         $viewlang   = $this->option("lang");
-        $defaultLang   = $this->option("defaultLang");
+        $defaultLang   = $this->option("defaultlang");
         $domain     = $this->option("domain");
         $view      = $this->option("email");
         $subject    = $this->option("subject");
@@ -59,7 +59,7 @@ class CompanyRankingPosition extends Command {
             }
 
             if(empty($defaultLang)) {
-                $errors[] = "--defaultLang= must be set!";
+                $errors[] = "--defaultlang= must be set!";
             }
 
             if(empty($subject)) {

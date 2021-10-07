@@ -111,7 +111,7 @@ php artisan companies:emptyprofile --domain=targiehandlu.pl --defaultLang=pl
 
 
 
-php artisan exhibitors:ranking --domain=targiehandlu.pl --threshold=20 --lang=pl --subject="Który Wystawca najmnocniej promuje swój udział w Targach eHandlu? :)" --email=teh20-promoninja3
+php artisan exhibitors:ranking --domain=targiehandlu.pl --defaultLang=pl  --threshold=20 --lang=pl --subject="Który Wystawca najmnocniej promuje swój udział w Targach eHandlu? :)" --email=teh20-promoninja3
 
 
 
@@ -120,7 +120,7 @@ php artisan exhibitors:ranking --domain=targiehandlu.pl --threshold=20 --lang=pl
 
 
 
-php artisan exhibitors:ranking  --defaultlang=pl --domain=targiehandlu.pl --threshold=20 --lang=pl --subject="Last chance to join the Exhibitor Contest; Quickstart guide" --email=teh20-promoninja3
+php artisan exhibitors:ranking  --defaultLang=pl --domain=targiehandlu.pl --threshold=20 --lang=pl --subject="Last chance to join the Exhibitor Contest; Quickstart guide" --email=teh20-promoninja3
 
 
 php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=en --subject="Promote your expo participation and get many valuable benefits." --email=teh20-promoninja-intro
