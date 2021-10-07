@@ -10,6 +10,12 @@ use Illuminate\Support\Facades\View;
 use Eventjuicer\ViewComposers\ParticipantPromoComposer;
 use Horizon;
 
+
+
+use Eventjuicer\Contracts\CountsSoldTickets;
+use Eventjuicer\Services\TicketsSold;
+
+
 class AppServiceProvider extends ServiceProvider
 {
     /**
@@ -19,6 +25,10 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
+
+
+        $this->app->bind(CountsSoldTickets::class, TicketsSold::class);
+
 
         View::composer('promo/*', ParticipantPromoComposer::class);
         View::composer('crm/*', ParticipantPromoComposer::class);
