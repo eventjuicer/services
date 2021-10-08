@@ -2,7 +2,7 @@
 
 @component('mail::message')
  
-# Cześć {{$profile->translate("[[fname]]")}},
+# Cześć {{ array_get($profile, "fname")  }},
 
 # Na koncie Wystawcy pojawiła się możliwość przeglądania i zapraszania na spotkanie zarejestrowanych Uczestników. 
 
