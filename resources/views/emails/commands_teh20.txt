@@ -130,11 +130,12 @@ php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl -
 8 października
 ==============
 
-php artisan company:relations --domain=targiehandlu.pl --threshold=0 --lang=pl --defaultlang=pl --subject="Możesz juz dodać Przedstawicieli Wystawcy na stoisku" --email=teh20-representatives-list
 
-php artisan company:relations --domain=targiehandlu.pl --threshold=0 --lang=en --defaultlang=pl --subject="Time to add exhibitor's representatives." --email=teh20-representatives-list
+php artisan company:relations --domain=targiehandlu.pl --threshold=0 --lang=pl --defaultlang=pl --subject="Przedstawiciele Wystawcy na stoisku" --email=teh20-representatives-list
 
+php artisan company:relations --domain=targiehandlu.pl --threshold=0 --lang=en --defaultlang=pl --subject="Exhibitor's representatives @ booth." --email=teh20-representatives-list
 
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Przeglądanie uczestników i umawianie spotkań już dostępne." --email=teh20-meetups
 
 
 
