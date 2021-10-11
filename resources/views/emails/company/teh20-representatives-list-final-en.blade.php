@@ -4,9 +4,9 @@
  
 # Hello {{ array_get($profile, "fname") }},
 
-**In your exhibitor account you can now add "exhibitor representatives". Only defined representatives will have their badges printed .**
+**Please add exhibitor's representatives (team members that will represent your company at the expo booth) TODAY (end of the day)
 
-We deeply ask you to submit representatives possibly very soon! On Tuesday (12nd of OCT) we are starting to print our stuff.
+Tomorrow we will let our stuff to be printed.
 
 # The list of already defined representatives is as follows:
 

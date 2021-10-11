@@ -140,9 +140,13 @@ php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl -
 
 
 
+11 października
+==============
 
 
+php artisan company:relations --domain=targiehandlu.pl --threshold=1 --lang=pl --defaultlang=pl --subject="DEADLINE dzisiaj. Przedstawiciele Wystawcy na stoisku" --email=teh20-representatives-list-final
 
+php artisan company:relations --domain=targiehandlu.pl --threshold=1 --lang=en --defaultlang=pl --subject="DEADLINE is today. Exhibitor's representatives @ booth." --email=teh20-representatives-list-final
 
 
 
