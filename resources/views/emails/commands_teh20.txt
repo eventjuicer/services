@@ -151,7 +151,7 @@ php artisan visitors:restore-from-old-events --domain=targiehandlu.pl --email=te
 php artisan company:relations --domain=targiehandlu.pl --threshold=1 --lang=pl --defaultlang=pl --subject="Przeglądanie listy zwiędzających i zapraszanie ich na spotkanie" --email=teh20-meetups2
 
 
-php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=en --subject="Czy korzystasz z materiałów promocyjnych?" --email=teh20-promo
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Czy korzystasz z materiałów promocyjnych?" --email=teh20-promo
 
 
 

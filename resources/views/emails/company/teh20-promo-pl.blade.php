@@ -10,7 +10,9 @@ Przypominamy o tym, że dla każdego Wystawcy przygotowaliśmy materiały promoc
 Materiały promocyjne
 @endcomponent
 
-Serdecznie zachęcamy do publikowania informacji o swoim udziale na kanałach społecznościowych, wysłania mailingu do kontrahentów. Zmiana nabytych przez okres pandemiczny przyzwyczajeń do form online i powrót do wiary w skuteczność formuły fizycznych targów to ogromna praca i mocno wierzymy, że nam Państwo w tym pomożecie.
+Serdecznie zachęcamy do publikowania informacji o swoim udziale w 20. Targach eHandlu na kanałach społecznościowych, wysłania mailingu do kontrahentów. 
+
+**Zmiana nabytych przez okres pandemiczny przyzwyczajeń do form online i powrót do wiary w skuteczność formuły fizycznych targów to ogromna praca i mocno wierzymy, że nam Państwo w tym pomożecie.**
 
 Pozdrawiamy, 
 
