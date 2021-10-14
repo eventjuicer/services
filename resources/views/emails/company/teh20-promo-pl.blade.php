@@ -16,7 +16,6 @@ Materiały promocyjne
 Serdecznie zachęcamy do publikowania informacji o swoim udziale na kanałach społecznościowych, wysłania mailingu do kontrahentów. Zmiana nabytych przez okres pandemiczny przyzwyczajeń do form online i powrót do wiary w skuteczność formuły fizycznych targów to ogromna praca i mocno wierzymy, że nam Państwo w tym pomożecie.
 
 
-@endcomponent
 
 Regards, 
 
