@@ -154,15 +154,24 @@ php artisan company:relations --domain=targiehandlu.pl --threshold=1 --lang=pl -
 php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Czy korzystasz z materiałów promocyjnych?" --email=teh20-promo
 
 
-
-php artisan visitors:restore-from-old-events --domain=targiehandlu.pl --email=teh20-all-agenda2 --subject="Zaproszenie na 20. Targi eHandlu | Ujawniamy kolejne 1/3 prezentacji: Amazon, headless commerce, sprzedaż do UK, Akaneo PIM, Opinie, reklamy produktowe... " --throttle=50000
-
 15 października
 ===============
 
 php artisan visitors:ticket-reminder --domain=targiehandlu.pl
 
 php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Rejestracja VIP dla Twoich Partnerów i Kontrahentów." --email=teh20-vipreg
+
+php artisan visitors:restore-from-old-events --domain=targiehandlu.pl --email=teh20-all-final --subject="Zostało 900 wejściówek na środowe Targi eHandlu." --throttle=50000
+
+
+
+
+
+
+
+
+
+
 
 
 =======================================
