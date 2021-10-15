@@ -147,7 +147,7 @@ class SmsTicketReminder extends Command
                 )
             );
 
-            $phones[] = '"'.$email.'","'.$fname.'","'.$phone.'","https://'.$domain.'/ticket,'.$profile->code.'"';
+            $phones[] = '"'.$email.'","'.$fname.'","'.$phone.'","https://'.$domain.'/ticket/'.$profile->code.'"';
 
             if($counter % 100 === 0){
 
