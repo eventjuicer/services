@@ -57,7 +57,7 @@ class GeneralReminder extends Mailable
         $baseUrl = "https://targiehandlu.pl";
         $params  = "";
 
-        $this->ticketUrl = $baseUrl . "/ticket/" . $hash . $params;
+        $this->ticketUrl = $baseUrl . "/tickets/" . $hash . $params;
 
         $this->siteUrl = $baseUrl . $params;
 

@@ -1,5 +1,3 @@
-
-
 @component('mail::message')
 
 # Cześć {{$p->translate("[[fname]]") }} 
@@ -27,10 +25,3 @@ PS: Na stronie z biletem znajduje się także **szczegółowa agenda prezentacji
 PS2:  Pamiętaj, że **jeśli nie masz możliwości wydrukowania biletu** - NIE MA PROBLEMU! **Wydrukujemy go Tobie na miejscu**
 
 @endcomponent
-
-
-
-
-
-
-

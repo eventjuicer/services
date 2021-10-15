@@ -187,7 +187,7 @@ class SmsDisbelievers extends Command
 
             $phones[] = '"'.$email.'","'.$fname.'","'.$phone.'"';
 
-            //,"https://'.$domain.'/ticket/'.$profile->code.'"';
+            //,"https://'.$domain.'/tickets/'.$profile->code.'"';
 
 
             if($done % 1000 === 0)
