@@ -145,7 +145,7 @@ php artisan company:relations --domain=targiehandlu.pl --threshold=1 --lang=en -
 
 php artisan visitors:restore-from-old-events --domain=targiehandlu.pl --email=teh20-all-agenda2 --subject="Zaproszenie na 20. Targi eHandlu | Ujawniamy kolejne 1/3 prezentacji: Amazon, headless commerce, sprzedaż do UK, Akaneo PIM, Opinie, reklamy produktowe... " --throttle=50000
 
-12 października
+14 października
 ================
 
 php artisan company:relations --domain=targiehandlu.pl --threshold=1 --lang=pl --defaultlang=pl --subject="Przeglądanie listy zwiędzających i zapraszanie ich na spotkanie" --email=teh20-meetups2
@@ -157,7 +157,10 @@ php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl -
 
 php artisan visitors:restore-from-old-events --domain=targiehandlu.pl --email=teh20-all-agenda2 --subject="Zaproszenie na 20. Targi eHandlu | Ujawniamy kolejne 1/3 prezentacji: Amazon, headless commerce, sprzedaż do UK, Akaneo PIM, Opinie, reklamy produktowe... " --throttle=50000
 
+15 października
+===============
 
+php artisan visitors:ticket-reminder --domain=targiehandlu.pl
 
 
 
