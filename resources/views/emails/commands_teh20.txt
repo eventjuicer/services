@@ -162,7 +162,7 @@ php artisan visitors:restore-from-old-events --domain=targiehandlu.pl --email=te
 
 php artisan visitors:ticket-reminder --domain=targiehandlu.pl
 
-
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Rejestracja VIP dla Twoich Partnerów i Kontrahentów." --email=teh20-vipreg
 
 
 =======================================
