@@ -183,19 +183,20 @@ class SmsDisbelievers extends Command
                 continue;
             }
 
-            $personalizer->setModel($participant);
+            // $personalizer->setModel($participant);
 
             $email = strtolower(trim($participant->email));
 
-            $fname = ucwords(
-                str_replace(
-                    array(","), " ", $personalizer->translate("[[fname]]")
-                )
-            );
+            // $fname = ucwords(
+            //     str_replace(
+            //         array(","), " ", $personalizer->translate("[[fname]]")
+            //     )
+            // );
 
 
+            $phones[] = '"'.$email.'","'.$phone.'"';
 
-            $phones[] = '"'.$email.'","'.$fname.'","'.$phone.'"';
+            //$phones[] = '"'.$email.'","'.$fname.'","'.$phone.'"';
 
             //,"https://'.$domain.'/tickets/'.$profile->code.'"';
 
