@@ -183,7 +183,7 @@ class SmsDisbelievers extends Command
                 continue;
             }
 
-            $profile = new Personalizer($participant);
+            /*$profile = new Personalizer($participant);
 
             $email = strtolower(trim($participant->email));
 
@@ -200,6 +200,7 @@ class SmsDisbelievers extends Command
             {
                 $this->info("processed: " . $done);
             }
+            */
 
             $done++;
         }
