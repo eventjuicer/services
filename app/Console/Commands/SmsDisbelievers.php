@@ -123,6 +123,8 @@ class SmsDisbelievers extends Command
 
         $all = $repo->all();
 
+        return;
+
         $this->info("Found " . $all->count() . " records in the this scope!");
 
         $excludes = $all->where("event_id", $eventId )->pluck("email")->all();
