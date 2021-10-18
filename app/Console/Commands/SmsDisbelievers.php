@@ -91,7 +91,7 @@ class SmsDisbelievers extends Command
             return;
         }
 
-        $sendable->excludeFromFile( base_path("ebeunsub.txt") );
+     //   $sendable->excludeFromFile( base_path("ebeunsub.txt") );
   
         $route          = new Resolver($domain);
 
