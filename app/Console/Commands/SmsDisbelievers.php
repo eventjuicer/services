@@ -98,7 +98,7 @@ class SmsDisbelievers extends Command
         $organizer_id   = $route->getOrganizerId();
       
 
-        /*
+    
 
         if( $events === "all"){
 
@@ -144,7 +144,7 @@ class SmsDisbelievers extends Command
 
         $phones = array();
 
-
+            /*
 
         foreach($filtered as $participant)
         {
