@@ -185,7 +185,7 @@ class SmsDisbelievers extends Command
 
             $personalizer->setModel($participant);
 
-            $email = strtolower(trim($personalizer->email));
+            $email = strtolower(trim($participant->email));
 
             $fname = ucwords(
                 str_replace(
