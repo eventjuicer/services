@@ -56,7 +56,7 @@ class SmsDisbelievers extends Command
      *
      * @return mixed
      */
-    public function handle(ParticipantRepository $repo, ParticipantSendable $sendable){
+    public function handle(ParticipantRepository $repo, ParticipantSendable $sendable, Personalize $personalizer){
 
 
 
@@ -183,13 +183,13 @@ class SmsDisbelievers extends Command
                 continue;
             }
 
-            $profile = new Personalizer($participant);
+            $personalizer->setModel($participant);
 
-            $email = strtolower(trim($participant->email));
+            $email = strtolower(trim($personalizer->email));
 
             $fname = ucwords(
                 str_replace(
-                    array(","), " ", $profile->translate("[[fname]]")
+                    array(","), " ", $personalizer->translate("[[fname]]")
                 )
             );
 
