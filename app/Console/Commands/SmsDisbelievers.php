@@ -59,6 +59,10 @@ class SmsDisbelievers extends Command
     public function handle(ParticipantRepository $repo, ParticipantSendable $sendable)
     {
 
+        $this->info( memory_get_usage() );
+        ini_set("memory_limit", "1GB");
+        $this->info( memory_get_usage() );
+
         $domain = $this->option("domain");
         $prefix = $this->option("prefix");
         $limit  = $this->option("limit");
@@ -185,14 +189,12 @@ class SmsDisbelievers extends Command
                 )
             );
 
-            $phones[] = '"'.$email.'","'.$fname.'","'.$phone.'"';
-
-            //,"https://'.$domain.'/tickets/'.$profile->code.'"';
+            $phones[] = '"'.$email.'","'.$fname.'","'.$phone.'","https://'.$domain.'/tickets/'.$profile->code.'"';
 
 
             if($done % 1000 === 0)
             {
-                $this->info("Dispatched: " . $done);
+                $this->info("processed: " . $done);
             }
 
             $done++;
