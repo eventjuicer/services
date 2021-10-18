@@ -144,7 +144,7 @@ class SmsDisbelievers extends Command
 
         $phones = array();
 
-            /*
+
 
         foreach($filtered as $participant)
         {
@@ -193,7 +193,7 @@ class SmsDisbelievers extends Command
                 )
             );
 
-           // $phones[] = '"'.$email.'","'.$fname.'","'.$phone.'","https://'.$domain.'/tickets/'.$profile->code.'"';
+            $phones[] = '"'.$email.'","'.$fname.'","'.$phone.'"';//,"https://'.$domain.'/tickets/'.$profile->code.'"';
 
 
             if($done % 1000 === 0)
@@ -213,7 +213,7 @@ class SmsDisbelievers extends Command
 
         $this->info("All done! " . "Check storage/" . $filename);
 
-        */
+        
     }
 
 
