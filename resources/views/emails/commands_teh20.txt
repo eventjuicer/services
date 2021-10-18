@@ -176,6 +176,21 @@ php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl -
 
 
 
+
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Przypomnienie: informacje logistyczne dot. 20. Targów eHandlu" --email=teh20-logistics-final
+
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=en --subject="Reminder: Logistics information for 20th Ecommerce Warsaw Expo" --email=teh20-logistics-final
+
+
+
+
+
+
+
+
+
+
+
 =======================================
 
 supervisorctl restart laravel-services:*
