@@ -142,6 +142,8 @@ class SmsDisbelievers extends Command
 
         $phones = array();
 
+        return;
+
         foreach($filtered as $participant)
         {
             $query = ParticipantFields::where("participant_id", $participant->id)->where("field_id", 8)->get();
