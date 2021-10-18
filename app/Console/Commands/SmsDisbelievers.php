@@ -56,12 +56,9 @@ class SmsDisbelievers extends Command
      *
      * @return mixed
      */
-    public function handle(ParticipantRepository $repo, ParticipantSendable $sendable)
-    {
+    public function handle(ParticipantRepository $repo, ParticipantSendable $sendable){
 
-        $this->info( memory_get_usage() );
-        ini_set("memory_limit", "1GB");
-        $this->info( memory_get_usage() );
+
 
         $domain = $this->option("domain");
         $prefix = $this->option("prefix");
@@ -100,6 +97,8 @@ class SmsDisbelievers extends Command
         $group_id       = $route->getGroupId();
         $organizer_id   = $route->getOrganizerId();
       
+
+        /*
 
         if( $events === "all"){
 
@@ -194,7 +193,7 @@ class SmsDisbelievers extends Command
                 )
             );
 
-            $phones[] = '"'.$email.'","'.$fname.'","'.$phone.'","https://'.$domain.'/tickets/'.$profile->code.'"';
+           // $phones[] = '"'.$email.'","'.$fname.'","'.$phone.'","https://'.$domain.'/tickets/'.$profile->code.'"';
 
 
             if($done % 1000 === 0)
@@ -213,6 +212,8 @@ class SmsDisbelievers extends Command
         );
 
         $this->info("All done! " . "Check storage/" . $filename);
+
+        */
     }
 
 
