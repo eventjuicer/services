@@ -91,18 +91,20 @@ class SmsDisbelievers extends Command
             return;
         }
 
-     //   $sendable->excludeFromFile( base_path("ebeunsub.txt") );
-  
+        //$sendable->excludeFromFile( base_path("ebeunsub.txt") );
 
-        //return;
+
 
         $route          = new Resolver($domain);
 
         $eventId        = $route->getEventId();
+
+        return;
+
         $group_id       = $route->getGroupId();
         $organizer_id   = $route->getOrganizerId();
 
-        return;
+      
 
         if( $events === "all"){
 
