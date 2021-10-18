@@ -165,10 +165,12 @@ php artisan visitors:restore-from-old-events --domain=targiehandlu.pl --email=te
 
 
 
+18 października
+===============
 
+php artisan visitors:ticket-reminder --domain=targiehandlu.pl
 
-
-
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Dostęp do strefy VIP dla Twoich Partnerów i Kontrahentów." --email=teh20-vipreg
 
 
 
