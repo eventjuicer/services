@@ -56,7 +56,7 @@ class SmsDisbelievers extends Command
      *
      * @return mixed
      */
-    public function handle(ParticipantRepository $repo, ParticipantSendable $sendable, Personalize $personalizer){
+    public function handle(ParticipantRepository $repo, ParticipantSendable $sendable, Personalizer $personalizer){
 
 
 
