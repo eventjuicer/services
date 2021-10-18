@@ -96,14 +96,9 @@ class SmsDisbelievers extends Command
 
 
         $route          = new Resolver($domain);
-
         $eventId        = $route->getEventId();
-
-        return;
-
         $group_id       = $route->getGroupId();
         $organizer_id   = $route->getOrganizerId();
-
       
 
         if( $events === "all"){
@@ -130,7 +125,6 @@ class SmsDisbelievers extends Command
 
         $all = $repo->all();
 
-        return;
 
         $this->info("Found " . $all->count() . " records in the this scope!");
 
@@ -151,7 +145,7 @@ class SmsDisbelievers extends Command
 
         $phones = array();
 
-        return;
+
 
         foreach($filtered as $participant)
         {
