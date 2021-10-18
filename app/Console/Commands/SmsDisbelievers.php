@@ -99,6 +99,8 @@ class SmsDisbelievers extends Command
         $group_id       = $route->getGroupId();
         $organizer_id   = $route->getOrganizerId();
 
+        return;
+
         if( $events === "all"){
 
             $scope = $this->anticipate('Define scope group/organizer: ', ['group', 'organizer']);
