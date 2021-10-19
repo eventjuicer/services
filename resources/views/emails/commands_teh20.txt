@@ -182,6 +182,11 @@ php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl -
 php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=en --subject="Reminder: Logistics information for 20th Ecommerce Warsaw Expo" --email=teh20-logistics-final
 
 
+19 października
+==============
+
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Skanowanie identyfikatorów zwiedzajacych/pozyskiwanie danych kontaktowych." --email=teh20-scanner-pl.blade
+
 
 
 
