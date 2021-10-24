@@ -185,7 +185,7 @@ php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl -
 19 października
 ==============
 
-php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Skanowanie identyfikatorów zwiedzajacych/pozyskiwanie danych kontaktowych." --email=teh20-scanner-pl.blade
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Skanowanie identyfikatorów zwiedzajacych/pozyskiwanie danych kontaktowych." --email=teh20-scanner
 
 
 
