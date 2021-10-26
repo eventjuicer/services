@@ -7,15 +7,15 @@
 
 Dziękujemy za udział w 20. Targach eHandlu!
 
-Jest nam niesamowicie miło, że Targi mogły w końcu dojść do realizacji i jak się okazało cieszyły się aż rekordową frekwencją. 
+Jest nam niesamowicie miło, że Targi mogły w końcu dojść do realizacji i jak się okazało cieszyły się rekordową frekwencją. 
 
-Spotkania fizyczne i networking (nadal) mają sens! :)
+**Spotkania fizyczne i networking (nadal) mają sens! :)**
 
-Przygotowania po 2 latach przerwy były dla nas bardzo stresujące (sporo wiedzy wyleciało nam z głów) - wierzymy, że obyło się bez większych zgrzytów organizacyjnych a drobne potknięcia zostaną nam wybaczone.
+Przygotowania do wydarzenia po 2 latach przerwy były dla nas bardzo stresujące (sporo wiedzy wyleciało nam z głów :-) - wierzymy, że obyło się bez większych zgrzytów organizacyjnych a drobne potknięcia zostaną nam wybaczone.
 
 ## Kolejna edycja
 
-Kolejną edycję planujemy na I połowę kwietnia 2022 roku w Warszawie. Rezerwacja przestrzeni wystawienniczej powinna ruszyć w przeciągu 2 tygodni.
+Kolejną edycję planujemy na **I połowę kwietnia 2022 roku w Warszawie.** Rezerwacja przestrzeni wystawienniczej powinna ruszyć w przeciągu 2 tygodni.
 
 ## Ankieta
 

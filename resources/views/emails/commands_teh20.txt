@@ -186,7 +186,7 @@ php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl -
 26 października
 ==============
 
-php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Podziękowania, ankieta, zdjęcia, kolejna edycja? WARSZAWA - KWIECIEŃ 2022!" --email=teh20-summary
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Ankieta, zdjęcia, kolejne Targi? WARSZAWA - KWIECIEŃ 2022!" --email=teh20-summary
 
 
 
