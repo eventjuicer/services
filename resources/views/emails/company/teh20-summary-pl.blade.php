@@ -6,8 +6,8 @@
 
 
 Dziękujemy za udział w 20. Targach eHandlu!
-
-Jest nam niesamowicie miło, że Targi mogły w końcu dojść do realizacji i jak się okazało cieszyły się rekordową frekwencją. 
+ 
+Jest nam niesamowicie miło, że Targi mogły w końcu dojść do realizacji i - jak się okazało - cieszyły się rekordową frekwencją. 
 
 **Spotkania fizyczne i networking (nadal) mają sens! :)**
 
