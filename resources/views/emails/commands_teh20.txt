@@ -172,11 +172,6 @@ php artisan visitors:ticket-reminder --domain=targiehandlu.pl
 
 php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Dostęp do strefy VIP dla Twoich Partnerów i Kontrahentów." --email=teh20-vipreg
 
-
-
-
-
-
 php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Przypomnienie: informacje logistyczne dot. 20. Targów eHandlu" --email=teh20-logistics-final
 
 php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=en --subject="Reminder: Logistics information for 20th Ecommerce Warsaw Expo" --email=teh20-logistics-final
@@ -188,7 +183,10 @@ php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl -
 php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Skanowanie identyfikatorów zwiedzajacych/pozyskiwanie danych kontaktowych." --email=teh20-scanner
 
 
+26 października
+==============
 
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Podziękowania, ankieta, zdjęcia, kolejna edycja? WARSZAWA - KWIECIEŃ 2022!" --email=teh20-summary
 
 
 
