@@ -31,7 +31,7 @@ Poświęć 5 minut, zerknij na tematy, zagłosuj przy pomocy konta na LinkedIn. 
 
 Pozdrawiam! 
 
-Katarzyna Wicher
+Karolina Michalak
 
 @endcomponent
 

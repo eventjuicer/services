@@ -78,7 +78,7 @@ class CallForPapersEmail extends Mailable
         }
 
 
-        $admin_name = "Katarzyna Wicher";
+        $admin_name = "Karolina Michalak";
         $admin_email = "prezentacje@targiehandlu.pl";
        
         $this->profile = new Personalizer( $this->participant, "");

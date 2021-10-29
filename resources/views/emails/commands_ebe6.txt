@@ -86,8 +86,6 @@ php artisan exhibitors:current-event --defaultlang=en --domain=ecommerceberlin.c
 
 
 
-
-
 9 marzec
 =========
 
@@ -107,8 +105,13 @@ php artisan exhibitors:current-event --defaultlang=en --domain=ecommerceberlin.c
 php artisan exhibitors:current-event --defaultlang=en --domain=ecommerceberlin.com --lang=de --subject="E-commerce Berlin Expo 2022 - das offizielle Datum ist bekannt!" --email=ebe6-new-date-feb-2022
 
 
+17 września
+===========
+
+php artisan exhibitors:current-event --defaultlang=en --domain=ecommerceberlin.com --lang=en --subject="Call for Papers - become a speaker at the E-commerce Berlin Expo 2022!" --email=ebe6-newcfp-physical-reminder
 
 
+php artisan exhibitors:current-event --defaultlang=en --domain=ecommerceberlin.com --lang=de --subject="Call for Papers - Teile dein Präsentationsvorschlag mit uns!" --email=ebe6-newcfp-physical-reminder
 
 
 =======================================

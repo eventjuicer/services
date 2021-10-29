@@ -16,7 +16,7 @@ Najwyższą liczbę głosów (127) zdobył Paweł Regiec z eStrategie.pl (gratul
 
 Regards, 
 
-Katarzyna Wicher
+Karolina Michalak
 
 @endcomponent
 

@@ -7,7 +7,7 @@
 
 # Cześć, tu {{  array_get($companydata, "name") }}!
 
-## 23 października będziemy na 18 Targach eHandlu w Warszawie. Jeśli masz czas i chęci, chętnie porozmawiamy na miejscu przy naszym stoisku.
+## 20 października będziemy na 20 Targach eHandlu w Warszawie. Jeśli masz czas i chęci, chętnie porozmawiamy na miejscu przy naszym stoisku.
 
 
 @component('mail::button', ['url' => $promolink])
@@ -15,9 +15,9 @@ Odbierz bezpłatną wejściówkę
 @endcomponent
 
 
-Najbliższe Targi eHandlu to również **aż 6 scen** prezentacyjnych, prawie **100 Wystawców** oferujących produkty i usługi pomagające lepiej sprzedawać w Internecie.
+Najbliższe Targi eHandlu to również **aż 6 scen** prezentacyjnych, prawie **130 Wystawców** oferujących produkty i usługi pomagające lepiej sprzedawać w Internecie.
 
-Wejście zarówno na EXPO jak i sceny prezentacyjne jest bezpłatne.
+Wejście zarówno na EXPO jak i sceny prezentacyjne jest bezpłatne (mogą obowiązywać dodatkowe ograniczenia związane z Covid19)
 
 Do zobaczenia, {{ array_get($companydata, "name") }} 
 

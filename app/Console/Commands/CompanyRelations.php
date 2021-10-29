@@ -58,7 +58,7 @@ class CompanyRelations extends Command
         if($relation === "reps"){
             $role  = $this->anticipate('representative, party?', ['representative', 'party']);
         }
-        $whatWeDo  = $this->anticipate('Send, stats?', ['send', 'stats']);
+        $whatWeDo  = $this->anticipate('Send, stats, test?', ['send', 'stats','test']);
 
 
         if($whatWeDo === "send"){
@@ -135,7 +135,7 @@ class CompanyRelations extends Command
                 $noaccount++;
             }
 
-            $lang           = $ex->getLang();
+            $lang           = $ex->getLang($defaultlang);
             $name           = $ex->getName();
             $event_manager  = $ex->getEventManager();
             $items          = call_user_func_array(array($ex, "get".ucfirst($relation)), [$role]);

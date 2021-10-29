@@ -11,6 +11,7 @@ php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl -
 
 php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Kompletujemy radę Ekspertów ehandel.com.pl - link do wysłania zgłoszenia" --email=ehandelcompl2
 
+
 13 kwietnia
 ===========
 
@@ -40,7 +41,162 @@ php artisan visitors:restore-from-old-events --domain=targiehandlu.pl --email=te
 ==========
 
 
-php artisan visitors:restore-from-old-events --domain=targiehandlu.pl --email=teh20-all2 --subject="Które propozycje powinny wygrać i wejść do agendy 20. Targów eHandlu?" --events=81,83,85,87,89 --throttle=50000
+php artisan visitors:restore-from-old-events --domain=targiehandlu.pl --email=teh20-all2 --subject="Które powinny wygrać i wejść do agendy 20. Targów eHandlu?" --events=81,83,85,87,89 --throttle=50000
+
+
+17 wrzesnia
+===========
+
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Usługi dodatkowe: zabudowa, TV, ulotki..." --email=teh20-upgrades
+ 
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=en --subject="Additional services ordering - carpet flooring, LED display, etc..." --email=teh20-upgrades
+
+
+30 września
+===========
+
+
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Promuj udział i wygraj swój logotyp na ID Zwiedzających, umawianie spotkań, wywiad video..." --email=teh20-promoninja-intro
+
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=en --subject="Promote your expo participation and get many valuable benefits." --email=teh20-promoninja-intro
+
+
+4 października
+==============
+
+php artisan companies:emptyprofile --domain=targiehandlu.pl --defaultLang=pl
+
+
+
+
+4 października
+==============
+
+php artisan companies:emptyprofile --domain=targiehandlu.pl --defaultLang=pl
+
+
+5 października
+==============
+
+php artisan companies:emptyprofile --domain=targiehandlu.pl --defaultLang=pl
+
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Aktualny ranking wystawców, publiczny serwis z materiałami..." --email=teh20-promoninja2
+
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="...i jeszcze jedna rzecz. Daty!" --email=teh20-calendar
+
+
+6 października
+==============
+
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Informacje logistyczne dot. 20. Targów eHandlu w Warszawie" --email=teh20-logistics
+
+
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=en --subject="Logistics information for 20th Ecommerce Warsaw Expo" --email=teh20-logistics
+
+
+php artisan company:relations --domain=targiehandlu.pl --threshold=2 --lang=pl --defaultlang=pl --subject="Możesz juz dodać Przedstawicieli Wystawcy na stoisku" --email=teh20-representatives-list
+
+php artisan company:relations --domain=targiehandlu.pl --threshold=2 --lang=en --defaultlang=pl --subject="Time to add exhibitor's representatives." --email=teh20-representatives-list
+
+
+7 października
+==============
+
+php artisan companies:emptyprofile --domain=targiehandlu.pl --defaultLang=pl
+
+
+php artisan visitors:restore-from-old-events --domain=targiehandlu.pl --email=teh20-all-agenda --subject="Odbierz bilet na 20. Targi eHandlu + Ujawniamy 1/3 tematów. InPost Fulfillment, nowości w VAT, PWA, machine learning w tantis.pl i nie tylko.  " --events=67,76,78,81,83,85,87,89 --throttle=50000
+
+
+php artisan exhibitors:ranking --domain=targiehandlu.pl --defaultlang=pl --threshold=20 --lang=pl --subject="Który Wystawca najmnocniej promuje swój udział w Targach eHandlu? :)" --email=teh20-promoninja3
+
+
+php artisan exhibitors:ranking  --defaultlang=pl --domain=targiehandlu.pl --threshold=20 --lang=pl --subject="Last chance to join the Exhibitor Contest; Quickstart guide" --email=teh20-promoninja3
+
+
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=en --subject="Promote your expo participation and get many valuable benefits." --email=teh20-promoninja-intro
+
+
+8 października
+==============
+
+php artisan company:relations --domain=targiehandlu.pl --threshold=0 --lang=pl --defaultlang=pl --subject="Przedstawiciele Wystawcy na stoisku" --email=teh20-representatives-list
+
+php artisan company:relations --domain=targiehandlu.pl --threshold=0 --lang=en --defaultlang=pl --subject="Exhibitor's representatives @ booth." --email=teh20-representatives-list
+
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Przeglądanie uczestników i umawianie spotkań już dostępne." --email=teh20-meetups
+
+11 października
+===============
+
+php artisan company:relations --domain=targiehandlu.pl --threshold=1 --lang=pl --defaultlang=pl --subject="DEADLINE dzisiaj. Przedstawiciele Wystawcy na stoisku" --email=teh20-representatives-list-final
+
+php artisan company:relations --domain=targiehandlu.pl --threshold=1 --lang=en --defaultlang=pl --subject="DEADLINE is today. Exhibitor's representatives @ booth." --email=teh20-representatives-list-final
+
+12 października
+================
+
+php artisan company:relations --domain=targiehandlu.pl --threshold=1 --lang=pl --defaultlang=pl --subject="Przeglądanie listy zwiędzających i zapraszanie ich na spotkanie" --email=teh20-meetups2
+
+php artisan company:relations --domain=targiehandlu.pl --threshold=1 --lang=pl --defaultlang=pl --subject="DEADLINE dzisiaj. Przedstawiciele Wystawcy na stoisku" --email=teh20-representatives-list-final
+
+php artisan company:relations --domain=targiehandlu.pl --threshold=1 --lang=en --defaultlang=pl --subject="DEADLINE is today. Exhibitor's representatives @ booth." --email=teh20-representatives-list-final
+
+
+php artisan visitors:restore-from-old-events --domain=targiehandlu.pl --email=teh20-all-agenda2 --subject="Zaproszenie na 20. Targi eHandlu | Ujawniamy kolejne 1/3 prezentacji: Amazon, headless commerce, sprzedaż do UK, Akaneo PIM, Opinie, reklamy produktowe... " --throttle=50000
+
+14 października
+================
+
+php artisan company:relations --domain=targiehandlu.pl --threshold=1 --lang=pl --defaultlang=pl --subject="Przeglądanie listy zwiędzających i zapraszanie ich na spotkanie" --email=teh20-meetups2
+
+
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Czy korzystasz z materiałów promocyjnych?" --email=teh20-promo
+
+
+15 października
+===============
+
+php artisan visitors:ticket-reminder --domain=targiehandlu.pl
+
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Rejestracja VIP dla Twoich Partnerów i Kontrahentów." --email=teh20-vipreg
+
+php artisan visitors:restore-from-old-events --domain=targiehandlu.pl --email=teh20-all-final --subject="Zostało 900 wejściówek na środowe Targi eHandlu." --throttle=50000
+
+
+
+18 października
+===============
+
+php artisan visitors:ticket-reminder --domain=targiehandlu.pl
+
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Dostęp do strefy VIP dla Twoich Partnerów i Kontrahentów." --email=teh20-vipreg
+
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Przypomnienie: informacje logistyczne dot. 20. Targów eHandlu" --email=teh20-logistics-final
+
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=en --subject="Reminder: Logistics information for 20th Ecommerce Warsaw Expo" --email=teh20-logistics-final
+
+
+19 października
+==============
+
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Skanowanie identyfikatorów zwiedzajacych/pozyskiwanie danych kontaktowych." --email=teh20-scanner
+
+
+26 października
+==============
+
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Ankieta, zdjęcia, kolejne Targi? WARSZAWA - KWIECIEŃ 2022!" --email=teh20-summary
+
+
+
+28 października
+===============
+
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Zdjęcia Twojego Zespołu i stoiska z 20. Targów eHandlu" --email=teh20-photos
+
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=en --subject="Photos of your Team taken @ 20th Ecommerce Warsaw Expo" --email=teh20-photos
+
 
 
 =======================================

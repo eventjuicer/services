@@ -45,7 +45,7 @@ class TicketDownloadReminder extends Mailable
 
             config(["app.name" => "E-commerce Berlin Expo"]);
 
-            $this->url = "https://ecommerceberlin.com/ticket," . $hash;
+            $this->url = "https://ecommerceberlin.com/tickets/" . $hash;
 
             $this->from("visitors@ecommerceberlin.com", "Lucas Zarna");
 
@@ -61,13 +61,13 @@ class TicketDownloadReminder extends Mailable
 
             config(["app.name" => "Targi eHandlu"]);
 
-            $this->url = "https://targiehandlu.pl/ticket," . $hash;
+            $this->url = "https://targiehandlu.pl/tickets/" . $hash;
 
-            $this->from("zwiedzanie@targiehandlu.pl", "Katarzyna Wicher - Targi eHandlu");
+            $this->from("zwiedzanie@targiehandlu.pl", "Karolina Michalak - Targi eHandlu");
 
-            $this->subject("Mam Twój bilet na Targi eHandlu w Krakowie.");
+            $this->subject("Mam Twój bilet na Targi eHandlu w Warszawie.");
 
-            $this->email = "teh18-ticket";
+            $this->email = "teh20-ticket";
 
         }
        

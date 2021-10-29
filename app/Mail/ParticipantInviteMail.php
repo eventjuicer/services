@@ -75,7 +75,7 @@ class ParticipantInviteMail extends Mailable
     //    $params  = "?utm_source=marketer&utm_medium=email&utm_campaign=teh17partner";
         $params = "";
 
-        $this->ticketUrl = $baseUrl . "/ticket/" . $hash . $params;
+        $this->ticketUrl = $baseUrl . "/tickets/" . $hash . $params;
 
         $this->siteUrl = $baseUrl . $params;
 

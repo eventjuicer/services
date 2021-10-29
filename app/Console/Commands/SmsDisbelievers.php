@@ -56,8 +56,9 @@ class SmsDisbelievers extends Command
      *
      * @return mixed
      */
-    public function handle(ParticipantRepository $repo, ParticipantSendable $sendable)
-    {
+    public function handle(ParticipantRepository $repo, ParticipantSendable $sendable, Personalizer $personalizer){
+
+
 
         $domain = $this->option("domain");
         $prefix = $this->option("prefix");
@@ -87,13 +88,17 @@ class SmsDisbelievers extends Command
             return;
         }
 
-        $sendable->excludeFromFile( base_path("ebeunsub.txt") );
-  
-        $route          = new Resolver($domain);
+        //$sendable->excludeFromFile( base_path("ebeunsub.txt") );
 
+
+
+        $route          = new Resolver($domain);
         $eventId        = $route->getEventId();
         $group_id       = $route->getGroupId();
         $organizer_id   = $route->getOrganizerId();
+      
+
+    
 
         if( $events === "all"){
 
@@ -119,6 +124,7 @@ class SmsDisbelievers extends Command
 
         $all = $repo->all();
 
+
         $this->info("Found " . $all->count() . " records in the this scope!");
 
         $excludes = $all->where("event_id", $eventId )->pluck("email")->all();
@@ -137,6 +143,8 @@ class SmsDisbelievers extends Command
         $done = 0;
 
         $phones = array();
+
+
 
         foreach($filtered as $participant)
         {
@@ -175,25 +183,29 @@ class SmsDisbelievers extends Command
                 continue;
             }
 
-            $profile = new Personalizer($participant);
+            // $personalizer->setModel($participant);
 
             $email = strtolower(trim($participant->email));
 
-            $fname = ucwords(
-                str_replace(
-                    array(","), " ", $profile->fname
-                )
-            );
+            // $fname = ucwords(
+            //     str_replace(
+            //         array(","), " ", $personalizer->translate("[[fname]]")
+            //     )
+            // );
 
-            $phones[] = '"'.$email.'","'.$fname.'","'.$phone.'"';
 
-            //,"https://'.$domain.'/ticket,'.$profile->code.'"';
+            $phones[] = '"'.$email.'","'.$phone.'"';
+
+            //$phones[] = '"'.$email.'","'.$fname.'","'.$phone.'"';
+
+            //,"https://'.$domain.'/tickets/'.$profile->code.'"';
 
 
             if($done % 1000 === 0)
             {
-                $this->info("Dispatched: " . $done);
+                $this->info("processed: " . $done);
             }
+            
 
             $done++;
         }
@@ -206,6 +218,8 @@ class SmsDisbelievers extends Command
         );
 
         $this->info("All done! " . "Check storage/" . $filename);
+
+        
     }
 
 
