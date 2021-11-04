@@ -4,7 +4,7 @@
 
 # Hallo {{ array_get($profile, "fname") }},
 
-**The E-commerce Berlin Expo 2022 rückt immer näher! In eurem Ausstellerprofil habst du bereits die Optionen, zusätzliche Standdienste zu buchen, wie zum Beispiel:**
+**The E-commerce Berlin Expo 2022 rückt immer näher!** In eurem Ausstellerprofil habst du bereits die Optionen, **zusätzliche Standdienste zu buchen, wie zum Beispiel:**
 
 • Vollständiger Standbau mit vollem Branding der Rückwand, Theke, Broschürenhalter
 ​
