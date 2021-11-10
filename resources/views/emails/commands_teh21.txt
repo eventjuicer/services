@@ -1,0 +1,17 @@
+===========================================
+supervisorctl restart laravel-services:*
+php artisan queue:restart
+===========================================
+
+
+
+
+10 listopada
+===============
+
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Start rezerwacji przestrzeni wystawienniczej na Kwiecień 2022" --email=teh21-sales-preinfo
+
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=en --subject="April 2022 edition sales start information" --email=teh21-sales-preinfo
+
+
+

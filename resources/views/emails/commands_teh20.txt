@@ -195,7 +195,15 @@ php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl -
 
 php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Zdjęcia Twojego Zespołu i stoiska z 20. Targów eHandlu" --email=teh20-photos
 
-php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=en --subject="Photos of your Team taken @ 20th Ecommerce Warsaw Expo" --email=teh20-photos
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=en --subject="Photos of your team taken @ 20th Ecommerce Warsaw Expo" --email=teh20-photos
+
+
+10 listopada
+===============
+
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Start rezerwacji przestrzeni wystawienniczej na Kwiecień 2022" --email=teh21-sales-preinfo
+
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=en --subject="April 2022 edition sales start information" --email=teh21-sales-preinfo
 
 
 

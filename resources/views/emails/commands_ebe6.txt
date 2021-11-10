@@ -113,6 +113,19 @@ php artisan exhibitors:current-event --defaultlang=en --domain=ecommerceberlin.c
 
 php artisan exhibitors:current-event --defaultlang=en --domain=ecommerceberlin.com --lang=de --subject="Call for Papers - Teile dein Präsentationsvorschlag mit uns!" --email=ebe6-newcfp-physical-reminder
 
+4 listopada
+===========
+
+php artisan exhibitors:current-event --defaultlang=en --domain=ecommerceberlin.com --lang=en --subject="Additional services reminder / E-commerce Berlin Expo" --email=ebe6-additional-services
+
+php artisan exhibitors:current-event --defaultlang=en --domain=ecommerceberlin.com --lang=de --subject="Erinnerung an zusätzlichen Standdiensten / E-commerce Berlin Expo" --email=ebe6-additional-services
+
+10 listopada
+============
+
+php artisan companies:emptyprofile --domain=ecommerceberlin.com
+
+
 
 =======================================
 supervisorctl restart laravel-api:*
