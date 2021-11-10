@@ -213,6 +213,9 @@ class PingWhenEmptyProfileEmail extends Mailable
             app()->setLocale("en");
             config(["app.name" => $eventName]);
 
+            $this->exampleUrl = "https://ecommerceberlin.com/exhibitors/admitadcom";
+
+
         }else{
 
 
@@ -230,6 +233,9 @@ class PingWhenEmptyProfileEmail extends Mailable
                 app()->setLocale("pl");
                 config(["app.name" => $eventName]);
             }
+
+            $this->exampleUrl = "https://targiehandlu.pl/exhibitors/dpdcompl";
+
             
         }
     
@@ -257,8 +263,7 @@ class PingWhenEmptyProfileEmail extends Mailable
         $this->profileUrl = "https://".$domain."/exhibitors/".$this->participant->company->slug;
        // $this->accountUrl = $this->getSetting("accountUrl")  . $this->participant->token;
         $this->accountUrl = "https://account.".$domain."/#/login?token=" . $this->participant->token;
-        $this->exampleUrl = "https://targiehandlu.pl/exhibitors/dpdcompl";
-
+       
       //  dd($this->event_manager);
 
 
@@ -279,6 +284,6 @@ class PingWhenEmptyProfileEmail extends Mailable
 
         $this->subject( $this->getSetting("subject") );
 
-        return $this->markdown('emails.company.badprofile2-' . $this->lang);
+        return $this->markdown('emails.company.ebe5-badprofile-' . $this->lang);
     }
 }
