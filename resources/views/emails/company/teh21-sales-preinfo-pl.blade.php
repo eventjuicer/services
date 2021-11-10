@@ -2,7 +2,7 @@
 
 @component('mail::message')
  
-# Cześć {{$profile->translate("[[fname]]")}},
+# Cześć {{ array_get($profile, "fname") }},
 
 18 listopada (w czwartek) ruszy sprzedaż na kolejną edycję Targów eHandlu (Warszawa; 14 kwietnia 2022)
 

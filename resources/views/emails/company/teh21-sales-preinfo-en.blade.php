@@ -1,6 +1,6 @@
 @component('mail::message')
 
-# Hi {{$profile->translate("[[fname]]")}},
+# Hello {{ array_get($profile, "fname") }},
 
 We are rolling out the sales of the exhibition spaces for the upcoming 21. Ecommerce Warsaw Expo on the 18th of November (it's a Thursday)
 
