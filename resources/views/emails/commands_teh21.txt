@@ -6,12 +6,42 @@ php artisan queue:restart
 
 
 
+
+16 listopada
+============
+
+
+//TOP30
+
+php artisan exhibitors:award --domain=targiehandlu.pl --award=earlybird --previous --lang=pl --defaultlang=pl --email="teh21-top30" --subject="Targi eHandlu WIOSNA 2022 Warszawa: Stoiska Early Bird TOP30"
+
+php artisan exhibitors:award --domain=targiehandlu.pl --award=earlybird --previous --lang=en --defaultlang=pl --email="teh21-top30" --subject="Ecommerce Warsaw Expo SPRING 2022: Early bird sales for TOP30"
+
+//EARLYBIRD....
+
+
+php artisan exhibitors:award --domain=targiehandlu.pl --award=earlybird --previous --reverse --lang=pl --defaultlang=pl --email="teh21-earlybird" --subject="Targi eHandlu WIOSNA 2022 Warszawa: Stoiska Early Bird"
+
+php artisan exhibitors:award --domain=targiehandlu.pl --award=earlybird --previous --reverse --lang=en --defaultlang=pl --email="teh21-earlybird" --subject="Ecommerce Warsaw Expo SPRING 2022: Early bird sales."
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 10 listopada
 ===============
 
 php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Start rezerwacji przestrzeni wystawienniczej na Kwiecień 2022" --email=teh21-sales-preinfo
 
 php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=en --subject="April 2022 edition sales start information" --email=teh21-sales-preinfo
-
-
-
