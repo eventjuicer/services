@@ -7,7 +7,7 @@
 **W czwartek 18 listopada** o godzinie **10:00** startuje sprzedaż Early Bird **dla TOP30 Rankingu Konkursu dla Wystawców** czyli dla Twojej firmy.
 
 @component('mail::button', ['url' => "https://targiehandlu.pl/top30erlbrd2k04thc"])
-Rezerwacja Early Bird TOP30
+Podgląd układu hali i cen
 @endcomponent
 
 (Ceny, kategorie stoisk mogą jeszcze ulec zmianie)

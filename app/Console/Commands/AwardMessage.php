@@ -193,6 +193,8 @@ class AwardMessage extends Command {
                 $this->info("Assigned for: " . $ex->getName() );
             }
 
+            $done++;
+
             if($whatWeDo !== "stats"){
 
             
@@ -233,7 +235,7 @@ class AwardMessage extends Command {
 
             }
             
-            $done++;
+           
 
         }   
 

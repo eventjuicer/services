@@ -9,7 +9,7 @@
 This early bird sales pool is for exhibitors of the previous edition.
 
 @component('mail::button', ['url' => "https://targiehandlu.pl/exhibit"])
-Booking map
+Secret page for Early bird booking
 @endcomponent
 
 (We reserve the right to minor changes of prices and booth categories.)

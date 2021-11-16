@@ -7,7 +7,7 @@
 **W czwartek 18 listopada** o godzinie **12:00** startuje sprzedaż Early Bird dla Wystawców poprzedniej edycji Targów eHandlu.
 
 @component('mail::button', ['url' => "https://targiehandlu.pl/exhibit"])
-Rezerwacja Early Bird 
+Podgląd układu hali i cen 
 @endcomponent
 
 (Ceny, kategorie stoisk są podawane orientacyjne - mogą jeszcze ulec zmianie)
