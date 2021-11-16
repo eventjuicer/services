@@ -146,8 +146,6 @@ class AwardMessage extends Command {
              return [$item['company_id'] => $item['stats']];
         });
 
-        dd($apiCall);
-
         $prizes = array_get($apiCall, "meta.prizes");
 
         $prizes = collect($prizes)->keyBy("name")->all();
@@ -177,11 +175,6 @@ class AwardMessage extends Command {
 
             $stats   = array_get($ranking, $ex->company_id, []);
             $prizes  = array_get($stats, "prizes", []);
-
-            if($ex->company_id == 1150){
-                dd($stats);
-            }
-            
 
             if(in_array($award, $prizes)){
                 $assigned = 1;
