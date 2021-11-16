@@ -194,7 +194,7 @@ class AwardMessage extends Command {
             if($whatWeDo !== "stats"){
 
             
-                $lang           = $ex->getLang();
+                $lang           = $ex->getLang($defaultlang);
                 $name           = $ex->getName();
                 $event_manager  = $ex->getEventManager();
                 $translations   = array_get($allTranslations, $lang);
