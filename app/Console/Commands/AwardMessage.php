@@ -83,7 +83,9 @@ class AwardMessage extends Command {
             $errors[] = "--domain= must be set!";
         }
 
-        if($whatWeDo === "send"){
+
+
+        if($whatWeDo !== "stats"){
 
             if(empty($subject)) {
                 $errors[] = "--subject= must be set!";
@@ -103,7 +105,7 @@ class AwardMessage extends Command {
         
             $email = $email . "-" . $viewlang;
 
-            if($whatWeDo == "send" && ! view()->exists("emails.company." . $email)) {
+            if(!view()->exists("emails.company." . $email)) {
                 $errors[] = "--email= error. View " . $email . " cannot be found";
             }
 
@@ -219,6 +221,11 @@ class AwardMessage extends Command {
                         "domain"
                     ) 
                 ));
+
+
+
+ 
+
 
                 if($whatWeDo === "test"){
                     break;
