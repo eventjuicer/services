@@ -146,6 +146,8 @@ class AwardMessage extends Command {
              return [$item['company_id'] => $item['stats']];
         });
 
+        dd($apiCall);
+
         $prizes = array_get($apiCall, "meta.prizes");
 
         $prizes = collect($prizes)->keyBy("name")->all();
