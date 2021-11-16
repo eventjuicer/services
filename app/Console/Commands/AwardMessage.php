@@ -176,6 +176,11 @@ class AwardMessage extends Command {
             $stats   = array_get($ranking, $ex->company_id, []);
             $prizes  = array_get($stats, "prizes", []);
 
+            if($ex->company_id == 1150){
+                dd($stats);
+            }
+            
+
             if(in_array($award, $prizes)){
                 $assigned = 1;
             }
