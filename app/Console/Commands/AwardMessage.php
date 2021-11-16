@@ -191,7 +191,7 @@ class AwardMessage extends Command {
                 $this->info("Assigned for: " . $ex->getName() );
             }
 
-            if($whatWeDo === "send"){
+            if($whatWeDo !== "stats"){
 
             
                 $lang           = $ex->getLang();
@@ -219,6 +219,11 @@ class AwardMessage extends Command {
                         "domain"
                     ) 
                 ));
+
+                if($whatWeDo === "test"){
+                    break;
+                }
+
             }
             
             $done++;
