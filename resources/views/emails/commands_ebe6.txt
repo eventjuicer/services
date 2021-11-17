@@ -125,6 +125,16 @@ php artisan exhibitors:current-event --defaultlang=en --domain=ecommerceberlin.c
 
 php artisan companies:emptyprofile --domain=ecommerceberlin.com
 
+17 listopada
+============
+
+
+php artisan exhibitors:current-event --defaultlang=en --domain=ecommerceberlin.com --lang=en --subject="E-commerce Germany Awards are open for submissions!" --email=ebe6-awards-reminder
+
+php artisan exhibitors:current-event --defaultlang=en --domain=ecommerceberlin.com --lang=de --subject="E-commerce Germany Awards ist offen für Bewerbungen!" --email=ebe6-awards-reminder
+
+
+
 
 
 =======================================

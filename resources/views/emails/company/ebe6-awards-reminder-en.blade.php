@@ -14,7 +14,7 @@ Could it get any more tempting? **As an Exhibitor of the Expo, you can take part
 
 To start submitting your company, just follow the link by pressing the button below.
 
-@component('mail::button', ['url' => "https://ecommercegermanyawards.com/"])
+@component('mail::button', ['url' => "https://ecommercegermanyawards.com"])
 Submit your company
 @endcomponent
 

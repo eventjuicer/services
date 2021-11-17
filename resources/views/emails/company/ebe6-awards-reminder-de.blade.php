@@ -14,7 +14,7 @@ Könnte es noch verlockender werden? **Als Aussteller der Expo kannst du völlig
 
 Um dein Unternehmen anzumelden, klicke einfach auf den unten stehenden Link.
 
-@component('mail::button', ['url' => "https://ecommercegermanyawards.com/"])
+@component('mail::button', ['url' => "https://ecommercegermanyawards.com"])
 Melde dein Unternehmen an
 @endcomponent
 
