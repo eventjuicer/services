@@ -4,6 +4,25 @@ php artisan queue:restart
 ===========================================
 
 
+18 listopada
+============
+
+
+
+
+php artisan exhibitors:award --domain=targiehandlu.pl --award=earlybird --previous --lang=pl --defaultlang=pl --email="teh21-top30-reminder" --subject="Rezerwacja stoisk od 10:00 / Targi eHandlu WIOSNA 2022 Warszawa"
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
