@@ -7,16 +7,15 @@ php artisan queue:restart
 18 listopada
 ============
 
-
-
+//TOP30
 
 php artisan exhibitors:award --domain=targiehandlu.pl --award=earlybird --previous --lang=pl --defaultlang=pl --email="teh21-top30-reminder" --subject="Rezerwacja stoisk od 10:00 / Targi eHandlu WIOSNA 2022 Warszawa"
 
+//EARLYBIRD....
 
+php artisan exhibitors:award --domain=targiehandlu.pl --award=earlybird --previous --reverse --lang=pl --defaultlang=pl --email="teh21-earlybird-reminder" --subject="Rezerwacja stoisk od 12:00 / Targi eHandlu WIOSNA 2022 Warszawa"
 
-
-
-
+php artisan exhibitors:award --domain=targiehandlu.pl --award=earlybird --previous --reverse --lang=en --defaultlang=pl --email="teh21-earlybird-reminder" --subject="12:00pm CET Early bird sales for Ecommerce Warsaw Expo SPRING 2022"
 
 
 
