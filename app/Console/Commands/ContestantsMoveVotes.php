@@ -17,7 +17,7 @@ class ContestantsMoveVotes extends Command
     protected $votes_override = 213;
     protected $votes_earned = 256;
 
-    protected $signature = 'contestants:votes {--domain=} {--role=contestant}';
+    protected $signature = 'contestants:votes {--domain=} {--role=}';
     protected $description = 'show and save votes...';
  
     public function __construct()
@@ -34,6 +34,10 @@ class ContestantsMoveVotes extends Command
 
         if(empty($domain)) {
             $errors[] = "--domain= must be set!";
+        }
+
+        if(empty($role)) {
+            $errors[] = "--role= role be set!";
         }
 
         if(count($errors)){
