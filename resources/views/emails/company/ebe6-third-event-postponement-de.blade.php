@@ -12,7 +12,7 @@ Um die Sicherheit aller Teilnehmer zu gewährleisten, wurden entsprechende Maßn
 **Die neuen Beschränkungen der Bundesregierung zur Bekämpfung der COVID-19-Pandemie vom 02.12.2021 reduzieren aber drastisch die potentiellen Teilnehmerzahlen für Veranstaltungen dieser Art.**
 
 Die mit der Organisation der Veranstaltung verbundenen Risiken wurden gründlich analysiert. 
-Nach Rücksprache mit dem Berlin Convention Office und dem Venue-Betreiber haben wir die einzig mögliche Entscheidung getroffen - die E-commerce Berlin Expo auf den **5. Mai 2022** zu verschieben, um die geplante Formel erfolgreich umzusetzen. **Darüber hinaus werden die mit euren Buchungen verbundenen Leistungen und Verpflichtungen ohne zusätzliche Kosten auf den neuen Termin übertragen.**
+Nach Rücksprache mit dem Berlin Convention Office und dem Venue-Betreiber haben wir die einzig mögliche Entscheidung getroffen - ** die E-commerce Berlin Expo auf den 5. Mai 2022 zu verschieben**, um die geplante Formel erfolgreich umzusetzen. **Darüber hinaus werden die mit euren Buchungen verbundenen Leistungen und Verpflichtungen ohne zusätzliche Kosten auf den neuen Termin übertragen.**
 
 Unsere Entscheidung wurde im Interesse unserer Kunden und der Maximierung des ROI der Veranstaltung getroffen. 
 Aufgrund der aktuellen Beschränkungen und der Kapazitäten der STATION Berlin konnte die Veranstaltung in geschlossener Form für nur etwa 1000-1500 Gäste durchgeführt werden. Eine niedrige Zahl würde wahrscheinlich nicht die angemessene Kapitalrendite für die Veranstaltung ermöglichen, und wir sind uns bewusst, dass dieses Ergebnis für keinen unserer Kunden zufriedenstellend sein kann.
