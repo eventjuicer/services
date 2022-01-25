@@ -1,4 +1,29 @@
 
+
+
+25 stycznia
+===========
+
+php artisan exhibitors:current-event --defaultlang=en --domain=ecommerceberlin.com --lang=en --subject="E-commerce Berlin Expo 22: Additional services reminder" --email=ebe6-additional-services-2
+
+php artisan exhibitors:current-event --defaultlang=en --domain=ecommerceberlin.com --lang=de --subject="Erinnerung an zusätzlichen Standdiensten" --email=eebe6-additional-services-2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2021
+
+
 28 lutego
 =========
 
@@ -139,6 +164,10 @@ php artisan exhibitors:current-event --defaultlang=en --domain=ecommerceberlin.c
 php artisan exhibitors:current-event --defaultlang=en --domain=ecommerceberlin.com --lang=en --subject="Postponement of the E-commerce Berlin Expo 2022 / New date released" --email=ebe6-third-event-postponement
 
 php artisan exhibitors:current-event --defaultlang=en --domain=ecommerceberlin.com --lang=de --subject="Verschiebung der E-commerce Berlin Expo 2022 / Neues Datum veröffentlic" --email=ebe6-third-event-postponement
+
+
+
+
 
 
 
