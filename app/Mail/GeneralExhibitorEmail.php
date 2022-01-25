@@ -89,7 +89,7 @@ class GeneralExhibitorEmail extends Mailable
         //this should be moved to settings?...
        if( $this->participant->group_id > 1 ){
 
-            $from = "marta@ecommerceberlin.com";
+            // $from = "marta@ecommerceberlin.com";
             $eventName = "E-commerce Berlin Expo";
             $domain = "ecommerceberlin.com";
             $cc = "ecommerceberlin+auto@ecommerceberlin.com";
@@ -100,7 +100,7 @@ class GeneralExhibitorEmail extends Mailable
         }else{
 
 
-            $from = "karolina.michalak@targiehandlu.pl";
+            // $from = "karolina.michalak@targiehandlu.pl";
             $eventName = "Targi eHandlu";
             $domain = "targiehandlu.pl";
             $cc = "targiehandlu+auto@targiehandlu.pl";
@@ -149,7 +149,7 @@ class GeneralExhibitorEmail extends Mailable
 
         }
 
-        $this->from($from, $emailHelper->getSender() . " - " . $eventName);
+        $this->from($emailHelper->getEmail(), $emailHelper->getSender() . " - " . $eventName);
 
         $this->cc( $cc ); 
 
