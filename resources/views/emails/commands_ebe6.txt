@@ -1,16 +1,29 @@
 
 
 
+
+
+
+
+
+
+2 lutego
+=========
+
+php artisan exhibitors:current-event --defaultlang=en --domain=ecommerceberlin.com --lang=en --subject="Help us invite your dream client to your stand at the EBE 2022!" --email=ebe6-top10-survey-2
+
+php artisan exhibitors:current-event --defaultlang=en --domain=ecommerceberlin.com --lang=de --subject="Hilft uns, den Wunschkunden auf euren Stand auf der EBE 2022 einzuladen!" --email=ebe6-top10-survey-2
+
+
+
+
+
 25 stycznia
 ===========
 
 php artisan exhibitors:current-event --defaultlang=en --domain=ecommerceberlin.com --lang=en --subject="E-commerce Berlin Expo 22: Additional services reminder" --email=ebe6-additional-services-2
 
-php artisan exhibitors:current-event --defaultlang=en --domain=ecommerceberlin.com --lang=de --subject="Erinnerung an zusätzlichen Standdiensten" --email=eebe6-additional-services-2
-
-
-
-
+php artisan exhibitors:current-event --defaultlang=en --domain=ecommerceberlin.com --lang=de --subject="Erinnerung an zusätzlichen Standdiensten" --email=ebe6-additional-services-2
 
 
 
