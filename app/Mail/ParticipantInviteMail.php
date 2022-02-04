@@ -15,6 +15,9 @@ use Eventjuicer\Models\Participant;
 use Eventjuicer\Services\Personalizer;
 use Eventjuicer\Services\Hashids;
 
+use Eventjuicer\ValueObjects\CloudinaryImage;
+
+
 class ParticipantInviteMail extends Mailable
 {
     use Queueable, SerializesModels;
@@ -31,13 +34,15 @@ class ParticipantInviteMail extends Mailable
                 $scheduleURl, 
                 $registerURl,
                 $offersUrl,
-                $unsubscribe;
+                $unsubscribe,
+                $cloudinary;
 
     public function __construct(Participant $participant, string $view, string $subject)
     {
         $this->participant = $participant;
         $this->view = $view;
         $this->subject = $subject;
+        $this->cloudinary = function($image){ return (new CloudinaryImage($image))->thumb(); } 
     }
 
     /**
@@ -67,6 +72,8 @@ class ParticipantInviteMail extends Mailable
             config(["app.name" => "21. Targi eHandlu w Warszawie"]);
              
         }
+
+      
 
         $this->p = new Personalizer( $this->participant, "");
 
