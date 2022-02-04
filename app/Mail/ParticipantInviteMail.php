@@ -42,7 +42,7 @@ class ParticipantInviteMail extends Mailable
         $this->participant = $participant;
         $this->view = $view;
         $this->subject = $subject;
-        $this->cloudinary = function($image){ return (new CloudinaryImage($image))->thumb(); }; 
+     //   $this->cloudinary = function($image){ return (new CloudinaryImage($image))->thumb(); }; 
     }
 
     /**
