@@ -13,9 +13,10 @@ Udostępniamy nagrania video z jubileuszowej 20. edycji Targów, która odbyła 
 
 <table style="font-family:Avenir,Helvetica,sans-serif;box-sizing:border-box;color:#74787e;font-size:16px;line-height:1.5em;margin-top:0;text-align:left">
     <tr>
+        <td></td>
         <td>Damian Wiszowaty - CEO Gonito 
             <strong><a href="https://ehandel.com.pl/rydwany-ognia-czyli-jak-wykorzystac-synergie-modeli-seller-i-vendor-w-serwisie-amazon,2202">Rydwany ognia, czyli jak wykorzystać synergię modeli Seller i Vendor w serwisie Amazon</a></strong>
-        <td></td>
+       
     </td>
     </tr>
     <tr>
@@ -68,7 +69,7 @@ Chcę zostać Prelegentem na Targach eHandlu
        
     </tr>
     <tr>
-        <td></td>
+        <td><img src="https://res.cloudinary.com/eventjuicer/image/upload/w_150,h_150,c_limit,f_auto/v1613654859/c_1142_logotype.png" /></td>
         <td>Paweł Piotuch - Chief Retention Officer - IdoSell 
             <strong><a href="https://ehandel.com.pl/co-pomaga-uruchomic-sklep-szybko-i-tanio-a-w-jakim-przypadku-wdrozenie-przekroczy-budzet-i-sie-nie-uda,2179">Co pomaga uruchomić sklep szybko i tanio, a w jakim przypadku wdrożenie przekroczy budżet i się nie uda?</a></strong>
         </td>
