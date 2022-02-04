@@ -49,7 +49,7 @@ Chcę zostać Prelegentem na Targach eHandlu
 
 @endcomponent
 
-<table style="font-family:Avenir,Helvetica,sans-serif;box-sizing:border-box;color:#74787e;font-size:16px;line-height:1.5em;margin-top:0;text-align:left">
+<table style="font-family:Avenir,Helvetica,sans-serif;box-sizing:border-box;color:#74787e;font-size:16px;line-height:1.5em;margin-top:0;text-align:left;border-spacing:30px;">
     <tr>
         <td><img src="https://res.cloudinary.com/eventjuicer/image/upload/w_300,h_300,c_limit,f_auto/v1540458331/c_1202_logotype.png" alt="" /></td>
         <td>Paweł Zakielarz - CEO - Global24 
