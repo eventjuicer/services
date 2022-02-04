@@ -11,7 +11,7 @@ Aktualnie pracujemy nad agendą wystąpień. **Chcesz wystąpić? informacje pon
 Udostępniamy nagrania video z jubileuszowej 20. edycji Targów, która odbyła się w październiku. 
 
 
-<table style="font-family:Avenir,Helvetica,sans-serif;box-sizing:border-box;color:#74787e;font-size:16px;line-height:1.5em;margin-top:0;text-align:left">
+<table style="font-family:Avenir,Helvetica,sans-serif;box-sizing:border-box;color:#74787e;font-size:16px;line-height:1.5em;margin-top:0;text-align:left;border-spacing:15px;">
     <tr>
         <td><img src="https://res.cloudinary.com/eventjuicer/image/upload/w_250,h_250,c_limit,f_auto/v1633698528/c_1283_logotype.jpg" alt="" /></td>
         <td>Damian Wiszowaty - CEO Gonito 
