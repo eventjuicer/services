@@ -6,6 +6,18 @@
 
 
 
+8 lutego
+=========
+
+php artisan exhibitors:current-event --defaultlang=en --domain=ecommerceberlin.com --lang=en --subject="E-commerce Berlin Expo 2022 - How is your preparation going on?" --email=ebe6-2022-logistics-manual
+
+php artisan exhibitors:current-event --defaultlang=en --domain=ecommerceberlin.com --lang=de --subject="E-commerce Berlin Expo 2022 - Wie geht eure Vorbereitung voran?" --email=ebe6-2022-logistics-manual
+
+
+
+
+
+
 
 2 lutego
 =========
