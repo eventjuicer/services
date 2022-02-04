@@ -47,7 +47,7 @@ class GeneralReminder extends Mailable
     {
 
         app()->setLocale("pl");
-        config(["app.name" => "XX Targi eHandlu"]);
+        config(["app.name" => "21. Targi eHandlu"]);
 
         $this->p = new Personalizer( $this->participant, "");
 
@@ -72,7 +72,7 @@ class GeneralReminder extends Mailable
 
         $this->to(trim(strtolower($this->participant->email)));
 
-        $this->from("zwiedzanie@targiehandlu.pl", "Karolina z Targów eHandlu");
+        $this->from("zwiedzanie@targiehandlu.pl", "Karolina Michalak - Targi eHandlu");
 
       //  $this->subject("Your ticket is ready! Download and print!");
 

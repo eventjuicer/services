@@ -64,7 +64,7 @@ class ParticipantInviteMail extends Mailable
             $this->from("zwiedzanie@targiehandlu.pl", "Karolina Michalak - Targi eHandlu");
             $baseUrl = "https://targiehandlu.pl";
             app()->setLocale("en");
-            config(["app.name" => "XX Targi eHandlu w Warszawie"]);
+            config(["app.name" => "21. Targi eHandlu w Warszawie"]);
              
         }
 
