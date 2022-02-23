@@ -6,6 +6,16 @@ php artisan queue:restart
 
 
 
+23 lutego
+=========
+
+
+php artisan visitors:restore-from-old-events --domain=targiehandlu.pl --email=teh21-videos_cfp_finals --subject="Kto powinien wystąpić LIVE?" --events=78,81,83,85,87,89 --throttle=50000
+
+
+
+
+
 4 lutego
 =========
 
