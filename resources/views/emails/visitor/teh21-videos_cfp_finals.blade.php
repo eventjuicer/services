@@ -11,7 +11,7 @@ które po spełnieniu warunków wejdą do targowej agendy wystąpień.
 
 Niezależnie od tego czy planujesz obecność na 21. Targach eHandlu czy nie - **WARTO ZAGŁOSOWAĆ. Wszyscy, którzy zagłosują otrzymają dostęp do video.**
 
-**Masz 6 głosów!**
+**Masz 6 głosów i czas do 23:59 w czwartek!**
 
 <a href="https://targiehandlu.pl/vote"><img src="https://res.cloudinary.com/eventjuicer/image/upload/w_600,h_600,c_limit,f_auto/v1645617347/teh21_cfp_categories.png" alt="" /></a>
 
