@@ -10,7 +10,7 @@ php artisan queue:restart
 =========
 
 
-php artisan visitors:restore-from-old-events --domain=targiehandlu.pl --email=teh21-videos_cfp_finals --subject="Kto powinien wystąpić LIVE?" --events=78,81,83,85,87,89 --throttle=50000
+php artisan visitors:restore-from-old-events --domain=targiehandlu.pl --email=teh21-videos_cfp_finals --subject="Kto ma wystąpić LIVE? Czyją wiedzę chciał(a)byś na nagraniu VIDEO?" --events=78,81,83,85,87,89 --throttle=50000
 
 
 
