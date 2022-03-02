@@ -6,7 +6,7 @@ Die letzte Expo ist schon eine Weile her, oder? Wir sind hier, um dir dabei zu h
 
 Unten findest den Link zu unserem Artikel, wo wir die wichtigsten Tipps für unsere Aussteller zusammengefasst haben. Dies sollte dir helfen, dich auf das Event vorzubereiten!
 
-@component('mail::button', ['url' => '['https://ecommercegermany.com/blog/how-to-prepare-yourself-for-the-expo?utm_source=exhibitors&utm_medium=system-mail&utm_campaign=best_practicies']'])
+@component('mail::button', ['url' => 'https://ecommercegermany.com/blog/how-to-prepare-yourself-for-the-expo?utm_source=exhibitors&utm_medium=system-mail&utm_campaign=best_practicies'])
 DIE BESTEN TIPPS
 @endcomponent
 
