@@ -14,9 +14,7 @@ CHECK OUT THE BEST TIPS!
 
 If there is anything you’d like to discuss with us regarding the Expo, we’ll be happy to arrange a call and go through all the questions you may have. To do so, please book the meeting with your Account Manager in his/her calendar:
 
-DOMINIK: [CALENDLY](https://calendly.com/dominik-ebe)
-GEROME: [CALENDLY](https://calendly.com/gerome-ebe)
-MARTA: [CALENDLY](https://calendly.com/marta-ebe)
+[{{$calendar}}]({!!$calendar!!})
 
 We’ll be happy to assist you and we’re already looking forward to welcoming you to Berlin very soon!
 

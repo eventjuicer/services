@@ -1,5 +1,3 @@
-
-
 @component('mail::message')
 
 # Hallo {{ array_get($profile, "fname") }},
@@ -14,9 +12,7 @@ DIE BESTEN TIPPS
 
 Falls du mit uns etwas über die Expo besprechen möchtest, können wir uns gerne bei einem Call treffen und deine Fragen klären. Bitte buche dazu ein Termin in dem Kalender deines Ansprechpartners:
 
-DOMINIK: [CALENDLY](https://calendly.com/dominik-ebe)
-GEROME: [CALENDLY](https://calendly.com/gerome-ebe)
-MARTA: [CALENDLY](https://calendly.com/marta-ebe)
+[{{$calendar}}]({!!$calendar!!})
 
 Wir würden dir gerne helfen und können es kaum erwarten, euch bald in Berlin begrüßen zu dürfen!
 

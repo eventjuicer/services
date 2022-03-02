@@ -2,17 +2,17 @@
 
 
 
-marzec
+2 marca
 =========
 
-E-commerce Berlin Expo 2022 - are you all prepared? We’ve got some tips for you!
-DE: E-commerce Berlin Expo 2022 - bist du schon vorbereitet? Wir haben einige Tipps für dich!
 
+php artisan exhibitors:current-event --defaultlang=en --domain=ecommerceberlin.com --lang=en --subject="E-commerce Berlin Expo 2022 - are you all prepared? We’ve got some tips for you!" --email=ebe6-best-practices
+
+php artisan exhibitors:current-event --defaultlang=en --domain=ecommerceberlin.com --lang=de --subject="E-commerce Berlin Expo 2022 - bist du schon vorbereitet? Wir haben einige Tipps für dich!" --email=ebe6-best-practices
 
 
 24 lutego
 ==========
-
 
 php artisan exhibitors:current-event --defaultlang=en --domain=ecommerceberlin.com --lang=en --subject="E-commerce Berlin Expo - do you need more electricity for your stand?" --email=ebe6-additional-services-3-electricity
 
