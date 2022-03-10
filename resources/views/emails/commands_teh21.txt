@@ -4,6 +4,12 @@ php artisan queue:restart
 ===========================================
 
 
+10 marca
+========
+
+
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Dostęp do Panelu Wystacy i harmonogram zadań...." --email=teh21-hello
+
 
 
 23 lutego
