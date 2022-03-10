@@ -8,7 +8,8 @@ php artisan queue:restart
 ========
 
 
-php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Dostęp do Panelu Wystacy i harmonogram zadań...." --email=teh21-hello
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Harmonogram zadań / dostęp do Panelu Wystawcy" --email=teh21-hello
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=en --subject="Preparation schedule / Access to the exhibitor's account" --email=teh21-hello
 
 
 
