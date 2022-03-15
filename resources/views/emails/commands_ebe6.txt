@@ -1,6 +1,17 @@
 
 
 
+15 marca
+=========
+
+
+php artisan exhibitors:current-event --defaultlang=en --domain=ecommerceberlin.com --lang=en --subject="E-commerce Berlin Expo - Time to register company representatives!" --email=ebe6-company-representatives
+
+php artisan exhibitors:current-event --defaultlang=en --domain=ecommerceberlin.com --lang=de --subject="E-commerce Berlin Expo - Zeit die Vertreter zu registrieren!" --email=ebe6-company-representatives
+
+
+
+
 
 2 marca
 =========
