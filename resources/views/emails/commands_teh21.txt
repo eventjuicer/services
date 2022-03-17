@@ -3,6 +3,14 @@ supervisorctl restart laravel-services:*
 php artisan queue:restart
 ===========================================
 
+17 marca
+========
+
+
+php artisan companies:emptyprofile --domain=targiehandlu.pl --defaultLang=pl
+
+
+
 
 10 marca
 ========

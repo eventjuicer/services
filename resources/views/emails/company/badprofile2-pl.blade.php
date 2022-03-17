@@ -20,9 +20,10 @@ Zaloguj mnie do panelu - chcę poprawić teraz
 
 Profil Twojej firmy wygląda teraz [tak]({{$profileUrl}})
 
-Zobacz jak wygląda przykładowy [wypełniony i sformatowany]({{$exampleUrl}}) profil Wystawcy.  
+Pozdrowienia,
 
-Pozdrowienia, {{$adminName}}
+{{$footer}}
+
 
 @endcomponent
 

@@ -284,6 +284,6 @@ class PingWhenEmptyProfileEmail extends Mailable
 
         $this->subject( $this->getSetting("subject") );
 
-        return $this->markdown('emails.company.ebe5-badprofile-' . $this->lang);
+        return $this->markdown('emails.company.badprofile2-' . $this->lang);
     }
 }
