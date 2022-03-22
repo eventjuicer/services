@@ -39,6 +39,9 @@ class GeneralExhibitorEmail extends Mailable
             $profileUrl, 
             $company,
             $accountUrl,
+            $accountUrlVouchers,
+            $accountUrlArrangement,
+            $accountUrlPremium,
             $trackingLink,
             $pollUrl,
             $footer,
@@ -123,6 +126,11 @@ class GeneralExhibitorEmail extends Mailable
         //URLS....
         $this->profileUrl = $companydata->profileUrl();
         $this->accountUrl = $companydata->accountUrl();
+
+        $this->accountUrlVouchers = $companydata->accountUrl("vouchers");
+        $this->accountUrlPremium = $companydata->accountUrl("premium");
+        $this->accountUrlArrangement = $companydata->accountUrl("arrangement");
+
         $this->trackingLink = $companydata->trackedProfileUrl();
         $this->company_id = $companydata->getCompany()->id;
 
