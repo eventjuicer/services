@@ -20,6 +20,7 @@
 
 * ~~Kurator Sceny Prezentacyjnej D~~ SPRZEDANE
 
+
 ## Wyposażenie stoiska - [account.targiehandlu.pl/#/arrangement]({!! $accountUrlArrangement !!})
 
 * Kompleksowa **zabudowa przestrzeni** stoiska w wersji FULLPRINT
@@ -35,6 +36,7 @@
 * **Ekran LED 50 cali** ze statywem
 
 * Niezależne podłączenie prądu 3kW (zamiast standardowych 300W) jeśli planujesz wyposażenie stoiska inne niż 1-2 laptopy i TV
+
 
 ## Dodatkowe vouchery cateringowe i dodatkowe karty parkingowe [account.targiehandlu.pl/#/vouchers]({!! $accountUrlVouchers !!})
 
