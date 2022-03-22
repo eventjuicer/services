@@ -8,15 +8,15 @@
 
 ## Usługi premium - [account.targiehandlu.pl/#/premium]({!! $accountUrlPremium !!})
 
-* Prawo do dystrybucji ulotek poza stoiskiem
+* Prawo do **dystrybucji ulotek** poza stoiskiem
 
 * ~~Dystrybucja smyczy z logotypem Twojej firmy~~ SPRZEDANE
 
-* Twój logotyp na identyfikatorach zwiedzających 
+* Twój **logotyp na identyfikatorach** zwiedzających 
 
-* Sponsor strefy cateringu dla zwiedzających
+* **Sponsor strefy cateringu** dla zwiedzających
 
-* Sponsor strefy VIP (Wystawcy, Prelegenci, Goście VIP)
+* **Sponsor strefy VIP** (Wystawcy, Prelegenci, Goście VIP)
 
 * ~~Kurator Sceny Prezentacyjnej D~~ SPRZEDANE
 
@@ -38,12 +38,7 @@
 
 ## Dodatkowe vouchery cateringowe i dodatkowe karty parkingowe [account.targiehandlu.pl/#/vouchers]({!! $accountUrlVouchers !!})
 
-Standardowo otrzymujesz nie więcej niż 4 vouchery cateringowe (dokładnie tyle ilu zarejestrujesz Przedstawicieli Firmy ale nie więcej niż 4 - o ile nie dokupisz dodatkowych) oraz 1 kartę parkingową
-
-
-Uwaga: Niektóre świadczenia są **ograniczone ilościowo** jak i **czasowo** (np zamówienie związane z zabudową tylko do 24 września)
-
-Sprawdź szczegóły korzystając z przycisku poniżej (przejdź na podstronę "Usługi dodatkowe")
+> Standardowo otrzymujesz nie więcej niż 4 vouchery cateringowe (dokładnie tyle ilu zarejestrujesz Przedstawicieli Firmy ale nie więcej niż 4 - o ile nie dokupisz dodatkowych) oraz 1 kartę parkingową
 
 
 @component('mail::button', ['url' => $accountUrl])
