@@ -161,7 +161,7 @@ class CompanyRelations extends Command
                  $this->error("No company name!");
             }
         
-            if($whatWeDo == "send"){
+            if($whatWeDo != "stats"){
 
                 if($lang !== $viewlang)
                 {
@@ -189,6 +189,10 @@ class CompanyRelations extends Command
 
                        
                 ));
+
+                if( $whatWeDo == "test"){
+                    break;
+                }
             }
 
             $done++;
