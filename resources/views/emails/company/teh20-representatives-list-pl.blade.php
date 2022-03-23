@@ -16,7 +16,7 @@ Przypominamy, że w ramach wykupionej przestrzeni wystawienniczej otrzymujesz ma
 
 Pozdrawiam,
 
-Karolina Michalak
+{{$footer}}
 
 @endcomponent
 
