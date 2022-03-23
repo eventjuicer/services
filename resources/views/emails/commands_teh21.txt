@@ -4,6 +4,12 @@ php artisan queue:restart
 ===========================================
 
 
+23 marca
+========
+
+
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=en --subject="Additional services ordering - carpet flooring, LED display, etc..." --email=teh21-upgrades
+
 
 22 marca
 ========
@@ -11,7 +17,6 @@ php artisan queue:restart
 
 php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Usługi dodatkowe: zabudowa, TV, ulotki..." --email=teh21-upgrades
  
-php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=en --subject="Additional services ordering - carpet flooring, LED display, etc..." --email=teh20-upgrades
 
 
 
