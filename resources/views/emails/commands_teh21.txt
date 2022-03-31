@@ -4,12 +4,20 @@ php artisan queue:restart
 ===========================================
 
 
+
+
+
+
+
+
+
 31 marca
 ===========
 
 
 php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Działania promocyjne. Publiczny serwis z materiałami..." --email=teh21-promoninja-intro
 
+php artisan visitors:restore-from-old-events --domain=targiehandlu.pl --email=teh21-agenda1 --subject="Targi eHandlu. Idziemy na rekord." --events=78,81,83,85,87,89 --throttle=50000
 
 
 
