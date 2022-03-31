@@ -4,6 +4,23 @@ php artisan queue:restart
 ===========================================
 
 
+31 marca
+===========
+
+
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Działania promocyjne. Publiczny serwis z materiałami..." --email=teh21-promoninja-intro
+
+
+
+
+29 marca
+=========
+
+
+php artisan company:relations --domain=targiehandlu.pl --threshold=2 --lang=pl --defaultlang=pl --subject="Zbliża się deadline na dodanie reprezentantów firmy na stoisku..." --email=teh21-representatives-list
+
+php artisan company:relations --domain=targiehandlu.pl --threshold=2 --lang=en --defaultlang=pl --subject="Upcoming deadline. Add exhibitor's representatives." --email=teh21-representatives-list
+
 
 
 23 marca
@@ -12,9 +29,9 @@ php artisan queue:restart
 
 php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=en --subject="Additional services ordering - carpet flooring, LED display, etc..." --email=teh21-upgrades
 
-php artisan company:relations --domain=targiehandlu.pl --threshold=2 --lang=pl --defaultlang=pl --subject="Możesz juz dodać Przedstawicieli Wystawcy na stoisku" --email=teh21-representatives-list
+php artisan company:relations --domain=targiehandlu.pl --threshold=0 --lang=pl --defaultlang=pl --subject="Możesz juz dodać Przedstawicieli Wystawcy na stoisku" --email=teh21-representatives-list
 
-php artisan company:relations --domain=targiehandlu.pl --threshold=2 --lang=en --defaultlang=pl --subject="Time to add exhibitor's representatives." --email=teh21-representatives-list
+php artisan company:relations --domain=targiehandlu.pl --threshold=0 --lang=en --defaultlang=pl --subject="Time to add exhibitor's representatives." --email=teh21-representatives-list
 
 
 

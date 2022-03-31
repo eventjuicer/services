@@ -43,6 +43,8 @@ class GeneralExhibitorEmail extends Mailable
             $accountUrlArrangement,
             $accountUrlPremium,
             $accountUrlReps,
+            $accountUrlRanking,
+            $accountUrlPromote,
             $trackingLink,
             $pollUrl,
             $footer,
@@ -133,6 +135,8 @@ class GeneralExhibitorEmail extends Mailable
         $this->accountUrlArrangement = $companydata->accountUrl("arrangement");
         $this->accountUrlReps = $companydata->accountUrl("representatives");
 
+        $this->accountUrlRanking = $companydata->accountUrl("ranking");
+        $this->accountUrlPromote = $companydata->accountUrl("promote");
 
         
 
