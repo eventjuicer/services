@@ -4,7 +4,12 @@
  
 # Dzień dobry {{ $p->translate("[[fname]]") }},
 
+
+@component('mail::panel')
+
 21. Targi eHandlu już za 2 tygodnie w Warszawie (czwartek, 14 kwietnia. EXPO XXI Warszawa)
+
+@endcomponent
 
 **Nadchodząca edycja będzie rekordowa** pod kątem liczby Wystawców, którymi - dla przypomnienia - są dostawcy usług i produktów wspierających sprzedaż online.
 
