@@ -15,7 +15,7 @@ XXI Targi eHandlu już za 2 tygodnie w Warszawie (czwartek, 14 kwietnia. EXPO XX
 
 Wśród marek, których nie widzieliśmy jeszcze lub dawno nie widzieliśmy na Targach znajdują się m.in. **Grupa WP, Furgonetka.pl, GLS Poland, Klarna, Rating Captain, octopia, direct call, zen.com** 
 
-"Już mnie macie, dawać bilet!" ...proszę! :) [https://targiehandlu.pl/visit](https://targiehandlu.pl/visit?utm_source=oldvisitors&utm_campaign=teh21visitor&utm_medium=email)
+"Już mnie macie, dawać bilet!" ...proszę! :) [https://targiehandlu.pl/visit](https://targiehandlu.pl/visit?utm_source=oldvisitors&amp;utm_campaign=teh21visitor&amp;utm_medium=email)
 
 Po ostatnich średnio-udanych eksperymentach z małymi scenami **wracamy do 4 ogromnych scen**, z których każda powinna zapewnić odpowiedni komfort przyswajania wiedzy... **Zaplanowane są 33 wystąpienia oraz jeden godzinny panel dyskusyjny** 
 
