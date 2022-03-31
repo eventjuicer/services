@@ -7,7 +7,7 @@
 
 @component('mail::panel')
 
-21. Targi eHandlu już za 2 tygodnie w Warszawie (czwartek, 14 kwietnia. EXPO XXI Warszawa)
+XXI Targi eHandlu już za 2 tygodnie w Warszawie (czwartek, 14 kwietnia. EXPO XXI Warszawa)
 
 @endcomponent
 
