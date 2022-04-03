@@ -41,7 +41,7 @@ class PromoNewsletterController extends Controller
         {
             app()->setLocale("en");
 
-            config(["app.name" => "E-commerce Berlin #3"]);
+            config(["app.name" => "E-commerce Berlin #6"]);
         }
 
     }

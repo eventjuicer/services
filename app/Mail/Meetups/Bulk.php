@@ -19,7 +19,7 @@ class Bulk extends Mailable {
     protected $sender_name      = "Karolina Michalak";
     protected $domain           = "targiehandlu.pl";
     
-    public    $subject          = "20. Targi eHandlu - oto Wystawcy, którzy chcą się z Tobą spotkać";
+    public    $subject          = "Targi eHandlu - oto Wystawcy, którzy chcą się z Tobą spotkać";
     public $view             = "bulk_pl";
     
     protected $participant;
