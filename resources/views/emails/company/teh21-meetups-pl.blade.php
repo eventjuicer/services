@@ -12,19 +12,17 @@ Wyciśnij z Targów eHandlu jak najwięcej!
 Przeglądaj listę
 @endcomponent
 
-# Jak to działa od strony Wystawcy
+**Na start masz 10 zaproszeń ale nawet minimalna aktywność w promowaniu swojego targowego profilu Wystawcy ("Pokaż się" -> "Materiały promocyjne") może zwiększyć Twój limit do 60 a nawet 200 zaproszeń.**
 
-Na start masz **10 zaproszeń** ale nawet minimalna aktywność w promowaniu swojego targowego profilu Wystawcy ("Pokaż się" -> "Materiały promocyjne") może zwiększyć Twój limit do 60 a nawet 200 zaproszeń.
+## Jak zacząć?
 
-Przeglądając listę uczestników wybierasz interesującą Cię osobę i klikasz przycisk: "Zaproś" - możesz wpisać swoje zaproszenie. 
-Po kliknięciu "Zapisz" Twoja wiadomość zostanie dodana do wysyłki (zaproszenia rozsyłamy 3x dziennie - "hurtem")
+Przeglądając listę uczestników wybierasz interesującą Cię osobę i klikasz przycisk: "Zaproś" - możesz wpisać własny tekst zaproszenia.
 
-# Jak to działa od strony Zwiedzającego...
+Po kliknięciu "Zapisz" zaplanujemy wysyłkę Twojej wiadomości - zaproszenia rozsyłamy 3x dziennie.
 
-Zaproszenia są grupowane i wysyłane **do 3 razy dziennie** . 
 Zwiedzający może zaakceptować lub odrzucić zaproszenie.
 
-W momencie akceptacji **Wystawca otrzymuje pełne dane kontaktowe do Zwiedzającgo** i może umówić się na spotkanie na stoisku z wykorzystaniem swoich narzędzi i procedur.
+**Jeśli je zaakceptuje otrzymasz kompletne dane kontaktowe do Zwiedzającgo** i możesz umówić się na spotkanie na stoisku z wykorzystaniem swoich narzędzi i procedur.
 
 @component('mail::button', ['url' => $accountUrlVisitors])
 Przeglądaj listę
