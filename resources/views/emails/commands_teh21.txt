@@ -4,9 +4,11 @@ php artisan queue:restart
 ===========================================
 
 
+4 kwietnia
+===========
 
 
-
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Przeglądanie uczestników i umawianie spotkań już dostępne." --email=teh21-meetups
 
 
 
