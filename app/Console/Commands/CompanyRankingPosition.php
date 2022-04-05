@@ -125,7 +125,7 @@ class CompanyRankingPosition extends Command {
 
         $arr = $whatWeDo === "send" ? $filtered : $exhibitors;
 
-        foreach($arr as $ex)
+        foreach($filtered as $ex)
         {
 
             //do we have company assigned?
