@@ -3,6 +3,16 @@ supervisorctl restart laravel-services:*
 php artisan queue:restart
 ===========================================
 
+5 kwietnia
+==========
+
+
+php artisan company:relations --domain=targiehandlu.pl --threshold=4 --lang=pl --defaultlang=pl --subject="DEADLINE 12:00 dzisiaj. Przedstawiciele Wystawcy na stoisku" --email=teh21-representatives-list-final
+
+php artisan company:relations --domain=targiehandlu.pl --threshold=4 --lang=en --defaultlang=pl --subject="DEADLINE 12:00 (noon) today. Exhibitor's representatives @ booth." --email=teh21-representatives-list-final
+
+
+
 
 4 kwietnia
 ===========
