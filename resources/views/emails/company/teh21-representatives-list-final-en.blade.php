@@ -4,7 +4,7 @@
  
 # Hello {{ array_get($profile, "fname") }},
 
-**Please add exhibitor's representatives (team members that will represent your company at the expo booth) TODAY 12:00 (noon)
+**Please add exhibitor's representatives (team members that will represent your company at the expo booth) TODAY 12:00 (noon)**
 
 At 12:01pm we are sending the materials to the printing house.
 
