@@ -8,14 +8,14 @@
 
 XXI Targi eHandlu już za niewiele ponad tydzień w Warszawie (czwartek, 14 kwietnia. EXPO XXI Warszawa)
 
-Ponad **150 Wystawców** i 33 Wystąpienia na 4, komfortowych, scenach prezentacyjnych. 
+Ponad **150 Wystawców** i **33 Wystąpienia** na 4, komfortowych, scenach prezentacyjnych. 
 
 EXTRA: **Godzinny panel dyskusyjny organizowany przez Futuriti z przedstawicielami firm Zalando, SFD i Atomstore.**
 
 @endcomponent
 
 
-Chcesz uczestniczyć?  Proszę. [https://targiehandlu.pl/visit](https://targiehandlu.pl/visit?utm_source=oldvisitors&amp;utm_campaign=teh21visitor2&amp;utm_medium=email)
+## Chcesz uczestniczyć?  Proszę. [https://targiehandlu.pl/visit](https://targiehandlu.pl/visit?utm_source=oldvisitors&amp;utm_campaign=teh21visitor2&amp;utm_medium=email)
 
 (Bilet w PDF otrzymasz na początku kolejnego tygodnia.)
 
