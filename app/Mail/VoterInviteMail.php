@@ -40,7 +40,7 @@ class VoterInviteMail extends Mailable
 
     public function build(){
 
-        $params = "";
+        $params = "?utm_source=voters&utm_campaign=teh21visitor&utm_medium=email";
 
         if($this->voter->organizer_id > 1){
              $this->from("visitors@ecommerceberlin.com", "Lucas Zarna - E-commerce Berlin");

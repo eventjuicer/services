@@ -4,12 +4,11 @@
  
 # Dzień dobry {{ $fname }},
 
-
 @component('mail::panel')
 
-Dziękujemy za oddanie głosu na prezentacje i współtworzenie agendy XXI Targów eHandlu.
+Dziękujemy za oddanie głosu na prezentacje i współtworzenie agendy Targów eHandlu!
 
-**Targi eHandlu już niewielel ponad tydzień w Warszawie (czwartek, 14 kwietnia. EXPO XXI Warszawa)**
+**Targi eHandlu już za niewiele ponad tydzień w Warszawie - w czwartek, 14 kwietnia, w EXPO XXI)**
 
 @endcomponent
 
@@ -19,7 +18,7 @@ Dziękujemy za oddanie głosu na prezentacje i współtworzenie agendy XXI Targ�
 
 Wśród marek, których nie widzieliśmy jeszcze lub dawno nie widzieliśmy na Targach znajdują się m.in. **Grupa WP, Furgonetka.pl, GLS Poland, Klarna, Rating Captain, octopia, direct call, zen.com** 
 
-"Już mnie macie, dawać bilet!" ...proszę! :) [https://targiehandlu.pl/visit](https://targiehandlu.pl/visit?utm_source=voters&amp;utm_campaign=teh21visitor&amp;utm_medium=email)
+"Już mnie macie, dawać bilet!" ...proszę! :) [https://targiehandlu.pl/visit]( {!!$registerURl!! })
 
 Oto część zaplanowanej agendy Wystąpień!
 
@@ -46,17 +45,17 @@ Oto część zaplanowanej agendy Wystąpień!
     </tr>
 </table>
 
-**Udział w Targach eHandlu jest nadal otwarty - wystarczy zarejestrować się i oczekiwać na bilet.**
+**Udział w Targach eHandlu jest nadal otwarty - wystarczy zarejestrować się. Bilet (w PDF) otrzymasz w potwierdzeniu rejestracji.**
 
 @component('mail::panel')
 
-@component('mail::button', ['url' => "https://targiehandlu.pl/visit?utm_source=voters&utm_campaign=teh21visitor&utm_medium=email"])
+@component('mail::button', ['url' => $registerURl])
 Szybka Rejestracja
 @endcomponent
 
 @endcomponent
 
-
+Oto część zaplanowanej agendy Wystąpień!
 
 <table style="font-family:Avenir,Helvetica,sans-serif;box-sizing:border-box;color:#000000;font-size:16px;line-height:1.5em;margin-top:0;text-align:left;border-spacing:30px;min-width:400px; max-width: 800px;">
     <tr>
@@ -85,6 +84,17 @@ Szybka Rejestracja
     </tr>
   
 </table>
+
+
+
+@component('mail::panel')
+
+@component('mail::button', ['url' => $registerURl])
+Szybka Rejestracja
+@endcomponent
+
+@endcomponent
+
 
 
 Z pozdrowieniami,
