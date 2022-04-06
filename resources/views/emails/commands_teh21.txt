@@ -3,6 +3,15 @@ supervisorctl restart laravel-services:*
 php artisan queue:restart
 ===========================================
 
+
+
+6 kwietnia
+==========
+
+php artisan visitors:restore-from-voters --domain=targiehandlu.pl --email=teh21-voters-agenda2 --subject="Bilet wstępu na Targi eHandlu 14.04.2022" 
+
+
+
 5 kwietnia
 ==========
 
@@ -14,7 +23,7 @@ php artisan company:relations --domain=targiehandlu.pl --threshold=2 --lang=en -
 php artisan exhibitors:ranking --domain=targiehandlu.pl --defaultlang=pl --threshold=10 --lang=pl --subject="...nie możemy odnotować Twojej aktywności." --email=teh21-promote
 
 
-php artisan visitors:restore-from-old-events --domain=targiehandlu.pl --email=teh21-agenda2 --subject="Bilet wstępu na Targi eHandlu 14.04.2022" --events=78,81,83,85,87,89 --throttle=50000
+php artisan visitors:restore-from-old-events --domain=targiehandlu.pl --email=teh21-agenda2 --subject="Bilet wstępu na Targi eHandlu 14.04.2022" --throttle=50000
 
 
 
