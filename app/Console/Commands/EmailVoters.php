@@ -145,7 +145,7 @@ class EmailVoters extends Command
 
             if( $whatWeDo === "test" || env("MAIL_TEST", false) ){
             
-                $voter->email = "adam@zygadlewicz.com";
+                // $voter->email = "adam@zygadlewicz.com";
 
                 Bus::dispatchNow( new Job($voter, 
                     $eventId,
