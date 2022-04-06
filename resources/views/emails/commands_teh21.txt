@@ -8,7 +8,7 @@ php artisan queue:restart
 6 kwietnia
 ==========
 
-php artisan visitors:restore-from-voters --domain=targiehandlu.pl --email=teh21-voters-agenda1+2 --subject="Lista prezentacji to Twoja zasługa! Bilet na Targi eHandlu 14.04.2022" 
+php artisan visitors:restore-from-voters --domain=targiehandlu.pl --email=teh21-voters-agenda1+2 --subject="Dziękujemy! Bilet na Targi eHandlu 14.04.2022" 
 
 
 

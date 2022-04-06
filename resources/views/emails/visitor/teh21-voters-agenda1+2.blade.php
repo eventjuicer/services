@@ -14,11 +14,13 @@ Dziękujemy za oddanie głosu na prezentacje i współtworzenie agendy Targów e
 
 **Wracamy do 4 ogromnych scen**, z których każda powinna zapewnić odpowiedni komfort przyswajania wiedzy... **Zaplanowane są 33 wystąpienia oraz jeden godzinny panel dyskusyjny** 
 
+"Już mnie macie, dawać bilet!" ...proszę! :) [https://targiehandlu.pl/visit]({!! $registerURl !!})
+
+
 **Nadchodząca edycja będzie rekordowa** pod kątem liczby Wystawców, którymi - dla przypomnienia - są dostawcy usług i produktów wspierających sprzedaż online.
 
 Wśród marek, których nie widzieliśmy jeszcze lub dawno nie widzieliśmy na Targach znajdują się m.in. **Grupa WP, Furgonetka.pl, GLS Poland, Klarna, Rating Captain, octopia, direct call, zen.com** 
 
-"Już mnie macie, dawać bilet!" ...proszę! :) [https://targiehandlu.pl/visit]( {!!$registerURl!! })
 
 Oto część zaplanowanej agendy Wystąpień!
 
