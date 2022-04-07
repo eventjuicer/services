@@ -13,12 +13,11 @@ php artisan queue:restart
 ===========
 
 
-
 php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Jest ranking. TOP: Grupa Marketer, EasyStorage, Satisfly, Gonito, Idea commerce..." --email=teh21-ranking-update
 
+php artisan visitors:ticket-reminder --domain=targiehandlu.pl
 
-
-
+php artisan visitors:restore-from-old-events --domain=targiehandlu.pl --email=teh21-visitors-moc --subject="Bilet wstępu na Targi eHandlu 14.04.2022" --throttle=50000
 
 
 
