@@ -12,7 +12,7 @@ Dzień dobry!
 
 <img src="https://res.cloudinary.com/eventjuicer/image/upload/w_700,h_700,c_limit,f_auto/v1649335215/1400x1400-MOC.png" alt="" style="max-width: 800px; width: 100%;"/>
 
-Wypełnij krótką ankietę Wybierzemy 2 osoby. [https://forms.gle/CdAaBRirzJbFLgHy8]
+Wypełnij krótką ankietę Wybierzemy 2 osoby. [https://forms.gle/CdAaBRirzJbFLgHy8](https://forms.gle/CdAaBRirzJbFLgHy8)
 
 **Odcinek podcastu Marcina Rudzika -nagrywany w strefie VIP na Targach eHandlu- ukaże się na YouTube, Spotify i kanałach społecznościowych Marcina i naszych.**
 
@@ -20,6 +20,10 @@ Wypełnij krótką ankietę Wybierzemy 2 osoby. [https://forms.gle/CdAaBRirzJbFL
 @component('mail::panel')
 
 **Targi eHandlu już za tydzień w Warszawie - w czwartek, 14 kwietnia, w EXPO XXI)**
+
+@component('mail::button', ['url' => $registerURl])
+Szybka Rejestracja
+@endcomponent
 
 @endcomponent
 
@@ -30,14 +34,6 @@ Wypełnij krótką ankietę Wybierzemy 2 osoby. [https://forms.gle/CdAaBRirzJbFL
 **Nadchodząca edycja będzie rekordowa** pod kątem liczby Wystawców, którymi - dla przypomnienia - są dostawcy usług i produktów wspierających sprzedaż online.
 
 Wśród marek, których nie widzieliśmy jeszcze lub dawno nie widzieliśmy na Targach znajdują się m.in. **Grupa WP, Furgonetka.pl, GLS Poland, Klarna, Rating Captain, octopia, direct call, zen.com** 
-
-@component('mail::panel')
-
-@component('mail::button', ['url' => $registerURl])
-Szybka Rejestracja
-@endcomponent
-
-@endcomponent
 
 
 Oto część zaplanowanej agendy Wystąpień!
