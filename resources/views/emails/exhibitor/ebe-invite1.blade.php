@@ -5,7 +5,9 @@
 
 
 <div style="text-align: center;">
-	<a href="{{$promolink}}" target="_blank"><img_url='https://res.cloudinary.com/ecommerceberlin/image/upload/v1648205241/6_get_your_ticket_646x220.png' alt="" style="margin-top: 10px; margin-bottom: 30px; max-height: 250px;"></a>
+	<a href="{{$promolink}}" target="_blank">
+		<img src='https://res.cloudinary.com/ecommerceberlin/image/upload/f_auto/v1648205241/6_get_your_ticket_646x220.png' alt="" style="margin-top: 10px; margin-bottom: 30px; max-height: 250px;" />
+	</a>
 </div>
 
 
