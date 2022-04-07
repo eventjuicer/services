@@ -5,6 +5,25 @@ php artisan queue:restart
 
 
 
+
+
+
+
+7 kwietnia
+===========
+
+
+
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Jest ranking. TOP: Grupa Marketer, EasyStorage, Satisfly, Gonito, Idea commerce..." --email=teh21-ranking-update
+
+
+
+
+
+
+
+
+
 6 kwietnia
 ==========
 
