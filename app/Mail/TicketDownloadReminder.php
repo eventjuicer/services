@@ -67,7 +67,7 @@ class TicketDownloadReminder extends Mailable
 
             $this->subject("Mam Twój bilet na Targi eHandlu w Warszawie.");
 
-            $this->email = "teh20-ticket";
+            $this->email = "teh21-ticket";
 
         }
        
