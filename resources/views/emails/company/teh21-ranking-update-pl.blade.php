@@ -8,6 +8,12 @@
 
 Wszystkim, którzy traktują ten element współpracy z nami poważnie BARDZO serdecznie dziękujemy.
 
+
+@component('mail::button', ['url' => $accountUrlRanking])
+Sprawdź pozycję i nagrody
+@endcomponent
+
+
 ## TOP Rankingu to:
 
 Grupa Marketer 97 pkt
@@ -36,11 +42,11 @@ Promocja swojego udziału to nie tylko większa liczba Zwiedzających - **zaanga
 
 **Pierwszeństwo** w zakupie przestrzeni wystawienniczej (tym samym niższe ceny)
 
-Dodatkowe zaproszenia w panelu do zapraszania Zwiedzających
+**Dodatkowe zaproszenia w panelu** do zapraszania Zwiedzających
 
-Logotyp firmy na stronie głównej Targów eHandlu aż do kolejnej edycji Targów.
+**Logotyp firmy na stronie głównej Targów eHandlu** aż do kolejnej edycji Targów.
 
-Możliwość ustawienia roll-upa na Hali (np w strefie cateringu...)
+**Możliwość ustawienia roll-upu* na Hali (np w strefie cateringu...)
 
 
 @component('mail::button', ['url' => $accountUrlRanking])
