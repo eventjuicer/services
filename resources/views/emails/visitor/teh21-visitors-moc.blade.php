@@ -4,23 +4,17 @@
  
 Dzień dobry!
 
-#{{$p->translate("[[fname]]")}}, prowadzisz oryginalny sklep internetowy lub oferujesz rewolucyjną usługę wspomagającą sprzedaż w Internecie ?
+# {{$p->translate("[[fname]]")}}, prowadzisz oryginalny sklep internetowy lub oferujesz rewolucyjną usługę wspomagającą sprzedaż w Internecie ?
 
-**...i planujesz uczestniczyć w kolejnych Targach eHandlu?**
+##...i planujesz uczestniczyć w kolejnych Targach eHandlu?
 
-**...i chciał(a)byś zostać Gościem specjalnego wydania podcastu "Merytorycznie o eCommerce"?**
+##...i chciał(a)byś zostać Gościem specjalnego wydania podcastu "Merytorycznie o eCommerce"?
 
 <img src="https://res.cloudinary.com/eventjuicer/image/upload/w_700,h_700,c_limit,f_auto/v1649335215/1400x1400-MOC.png" alt="" style="max-width: 800px; width: 100%;"/>
 
+Wypełnij krótką ankietę Wybierzemy 2 osoby. [https://forms.gle/CdAaBRirzJbFLgHy8]
 
-@component('mail::button', ['url' => "https://forms.gle/CdAaBRirzJbFLgHy8"])
-Zgłoś się tutaj. Wybierzemy 2 osoby.
-@endcomponent
-
-Podcast Marcina Rudzika nagrywany w strefie VIP na Targach eHandlu ukaże się na YouTube, Spotify i kanałach społecznościowych Marcina i naszych.
-
-Do zobaczenia na Targach!
-
+**Odcinek podcastu Marcina Rudzika -nagrywany w strefie VIP na Targach eHandlu- ukaże się na YouTube, Spotify i kanałach społecznościowych Marcina i naszych.**
 
 
 @component('mail::panel')
