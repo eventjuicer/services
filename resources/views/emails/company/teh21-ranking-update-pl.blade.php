@@ -36,6 +36,7 @@ Dzięki!
 
 Promocja swojego udziału to nie tylko większa liczba Zwiedzających - **zaangażowanie nagradzamy** dodatkowymi świadczeniami, które nie są do kupienia.
 
+@component('mail::panel')
 
 ## Nagrody to:
 
@@ -48,7 +49,7 @@ Promocja swojego udziału to nie tylko większa liczba Zwiedzających - **zaanga
 **Logotyp firmy na stronie głównej Targów eHandlu** aż do kolejnej edycji Targów.
 
 **Możliwość ustawienia roll-upu* na Hali (np w strefie cateringu...)
-
+@endcomponent
 
 @component('mail::button', ['url' => $accountUrlRanking])
 Sprawdź pozycję i nagrody
