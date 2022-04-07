@@ -6,8 +6,9 @@
 
 # Opublikowaliśmy ranking zaangażowania Wystawców w promocję swojego udziału w Targach eHandlu.
 
+@component('mail::panel')
 Wszystkim, którzy traktują ten element współpracy z nami poważnie BARDZO serdecznie dziękujemy.
-
+@endcomponent
 
 @component('mail::button', ['url' => $accountUrlRanking])
 Sprawdź pozycję i nagrody
