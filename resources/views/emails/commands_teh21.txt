@@ -17,7 +17,7 @@ php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl -
 
 php artisan visitors:ticket-reminder --domain=targiehandlu.pl
 
-php artisan visitors:restore-from-old-events --domain=targiehandlu.pl --email=teh21-visitors-moc --subject="Bilet wstępu na Targi eHandlu 14.04.2022" --throttle=50000
+php artisan visitors:restore-from-old-events --domain=targiehandlu.pl --email=teh21-visitors-moc --subject="Szukamy Gości do podcastu Merytorycznie o eCommerce" --throttle=50000
 
 
 

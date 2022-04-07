@@ -2,9 +2,9 @@
 
 @component('mail::message')
  
-Dzień dobry {{ $fname }},
+Dzień dobry!
 
-# Prowadzisz oryginalny sklep internetowy lub oferujesz rewolucyjną usługę wspomagającą sprzedaż w Internecie ?
+#{{$p->translate("[[fname]]")}}, prowadzisz oryginalny sklep internetowy lub oferujesz rewolucyjną usługę wspomagającą sprzedaż w Internecie ?
 
 **...i planujesz uczestniczyć w kolejnych Targach eHandlu?**
 
