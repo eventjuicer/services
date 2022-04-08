@@ -22,7 +22,7 @@ ul. Prądzyńskiego 12/14
 
 @endcomponent
 
-**Wysłane paczki znajdą się na Państwa stoisku podczas dnia montażowego czyli 13 kwietnia (w środę).
+**Wysłane paczki znajdą się na Państwa stoisku podczas - opcjonalnego - dnia montażowego czyli 13 kwietnia (w środę).
 Hala jest zamykana i ochraniana po wyjściu organizatora w dzień montażowy.**
 
 ## Miejsce Targów
@@ -51,7 +51,7 @@ Po wejściu na Halę #1 (wejście po lewej patrząc od wejścia głównego) nale
 
 Montaż w dzień targowy możliwy jest tylko i wyłącznie w godzinach **8:00 - 9:30.** (O 10:00 hala zostanie otwarta do publicznego zwiedzania.)
 
-Jeśli nie odbieraliście Państwo welcome-packu w opcjonalny dzień montażowy, w dzień targowy należy udać się do punktu informacyjnego dla Wystawców znajdującego się w strefie VIP (Hala #3 - po prawej stronie od wejścia głównego do kompleksu hal)
+**Jeśli nie odbieraliście Państwo welcome-packu w opcjonalny dzień montażowy**, w dzień targowy należy udać się do punktu informacyjnego dla Wystawców znajdującego się w strefie VIP (Hala #3 - po prawej stronie od wejścia głównego do kompleksu hal)
 
 W razie wystąpienia jakichkolwiek problemów i wątpliwości związanych z Państwa stoiskiem (np z prądem) należy udać się do informacji dla wystawców (Hala #3 / Strefa VIP) lub wysłać SMS na numer do Opiekuna, który znajdzie się w pakiecie powitalnym.
 
@@ -60,12 +60,16 @@ W razie wystąpienia jakichkolwiek problemów i wątpliwości związanych z Pań
 
 ## Welcome pack
 
-Welcome pack zostanie przekazany podczas naszego pierwszego spotkania (13 kwietnia lub w dzień targowy - 14 kwietnia). 
+Welcome pack zostanie przekazany podczas naszego pierwszego spotkania (13 kwietnia lub w dzień targowy - 14 kwietnia. UWAGA: miejsce wydawania różni się 13 i 14 kwietnia, o czym powyżęj). 
 
 * identyfikatory przedstawicieli
+
 * vouchery obiadowe (w liczbie zarejestrowanych w Panelu Wystawcy ale nie więcej niż 4 sztuki - chyba, że dokupiono dodatkowe...)
+
 * numer kontaktowy do osoby z obsługi targów, 
+
 * karta parkingowa (potrzebna do wyjazdu i ew. kolejnego wjazdu-wyjazdu)
+
 * kod WWIFI
 
 ## Dodatkowe informacje i zalecenia
