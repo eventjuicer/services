@@ -1,4 +1,12 @@
 
+8 kwietnia
+===========
+
+
+php artisan exhibitors:current-event --defaultlang=en --domain=ecommerceberlin.com --lang=en --subject="E-commerce Berlin Expo - Exhibitor Contest is live!" --email=ebe6-promoninja-intro
+
+php artisan exhibitors:current-event --defaultlang=en --domain=ecommerceberlin.com --lang=de --subject="E-commerce Berlin Expo - Exhibitor Contest ist live!" --email=ebe6-promoninja-intro
+
 
 
 15 marca
