@@ -35,7 +35,7 @@ This edition will be held in HALL 1 (stands and stages) and HALL 3 (VIP area).
 
 Orientation map
 
-<img src="https://res.cloudinary.com/eventjuicer/image/upload/w_1200,h_1000,c_limit,f_auto/v1649418029/www/logistics/teh21_exhibitor_orientation_map.png" alt="" style="max-width: 700px;"/>
+<img src="https://res.cloudinary.com/eventjuicer/image/upload/w_1200,h_1000,c_limit,f_auto/v1649421612/www/logistics/teh21_exhibitor_orientation_map_en.png" alt="" style="max-width: 700px;"/>
 
 
 ## Parking (the day before the event, the day of the event)
