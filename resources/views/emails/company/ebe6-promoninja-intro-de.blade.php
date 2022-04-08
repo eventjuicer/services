@@ -35,13 +35,19 @@ Darüber hinaus haben wir im Abschnitt **Newsletter Vorlagen** zwei versandferti
 ## Was kann man gewinnen?
 
 In eurem Ausstellerprofil könnt ihr die vollständige Liste der verfügbaren Preise im Abschnitt **Preise** einsehen, wie zum Beispiel:
+
 * Speaking Slot auf einer unserer Bühnen während der Expo,
+
 * Video-Interview,
+
 * Logo-Highlight auf der EBE-Website,
+
 * Und vieles mehr!
  
 Jeder der Preise setzt die Erfüllung der beschriebenen Bedingungen für seine Gewährung voraus:
+
 * minimale Punktzahl (= Seitenaufrufe eures öffentlichen Ausstellerprofils über den individualisierten Link),
+
 * Position im Ausstellerranking.
  
 **Die Preise schließen einander nicht aus** – ihr könnet gleichzeitig mehrere Preise gewinnen.

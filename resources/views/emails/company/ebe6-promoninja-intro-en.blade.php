@@ -25,7 +25,9 @@ Feel free to use the link in email footers, advertisements (FB ads, adwords, soc
 ## How do I share the link?
 
 The link posted on social media can give different visual results:
+
 * the default graphic we designed (appears automatically, no action needed on your side),
+
 * your customised design (active only if you provide the full URL to your graphic in the **Company data** section of your exhibitor’s profile).
 
 You can preview the graphic in tools such as Facebook Debugger or LinkedIn Post Inspector. If the updated graphic isn’t immediately visible, please clear your cache and try again.
@@ -35,13 +37,19 @@ Furthermore, in the **Newsletter templates** section we prepared two ready-to-se
 ## What is there to win?
 
 In your Exhibitor's profile you can see the full list of available prizes in the **Rewards** section, such as:
+
 * Presentation slot on one of our stages during the Expo, 
+
 * Video interview,
+
 * Logo highlight on the EBE website,
+
 * And many more!
  
 Each of the prizes requires fulfilment of the described conditions for its granting:
+
 * minimal number of points (= pageviews of your public exhibitor's profile through the customised link),
+
 * position in the exhibitors ranking.
  
 **The prizes do not exclude each other** - you can be entitled to several prizes simultaneously.
@@ -56,7 +64,7 @@ The ranking is created on the basis of data fetched from our analytics tool. Ple
 
 Let me know, I'll be happy to help! The best way would be to schedule a call with me so we can go through all your questions.
 
-**The Exhibitor Contest ends on April 22, 2022, 11:59 PM CET.
+**The Exhibitor Contest ends on April 22, 2022, 11:59 PM CET.**
 
 Best of luck!
 
