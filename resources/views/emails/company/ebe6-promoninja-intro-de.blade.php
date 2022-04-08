@@ -25,7 +25,9 @@ Ihr könnt den Link in E-Mail-Signaturen, Anzeigen (FB-Anzeigen, Adwords, sozial
 ## Wie teile ich den Link?
 
 Der in den sozialen Medien gepostete Link kann unterschiedliche visuelle Ergebnisse liefern:
+
 * die von uns entworfene Standardgrafik (erscheint automatisch, keine Handlung eurerseits erforderlich),
+
 * euer individuelles Design (nur aktiv, wenn ihr die vollständige URL zu eurer Grafik im Bereich **Firma** eures Ausstellerprofils angebt).
 
 Ihr könnt die Grafik in Tools wie Facebook Debugger oder LinkedIn Post Inspector in der Vorschau anzeigen lassen. Wenn die aktualisierte Grafik nicht sofort sichtbar ist, leert bitte euren Cache und versucht es erneut.
