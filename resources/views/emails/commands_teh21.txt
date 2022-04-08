@@ -5,8 +5,16 @@ php artisan queue:restart
 
 
 
+8 kwietnia
+===========
+
+php artisan visitors:ticket-reminder --domain=targiehandlu.pl
 
 
+
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="" --email=teh21-logistics
+
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=en --subject="" --email=teh21-logistics
 
 
 7 kwietnia
