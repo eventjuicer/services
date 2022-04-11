@@ -20,13 +20,14 @@ Zaproszenia VIP dla Klientów
 
 ## Skanowanie Zwiedzających
 
-Dane kontaktowe Zwiedzających odwiedzających stoisko Twojej firmy **może pozyskiwać każdy reprezentant firmy posiadający smartfona.**. Wystarczy smartfon.
-
-**Firmy, które biorą udział w konkursie i mają min 20 pkt otrzymają eksport danych kontaktowych bez ograniczeń.**
+Dane kontaktowe Zwiedzających odwiedzających stoisko Twojej firmy **może pozyskiwać każdy reprezentant firmy posiadający smartfona.**. 
 
 @component('mail::button', ['url' => $accountUrlBadgescanner])
 Instrukcja skanowania
 @endcomponent
+
+**Firmy, które biorą udział w konkursie i mają min 20 pkt otrzymają eksport danych kontaktowych bez ograniczeń.**
+
 
 Regards, 
 
