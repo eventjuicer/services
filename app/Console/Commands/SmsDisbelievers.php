@@ -12,6 +12,7 @@ use Eventjuicer\Repositories\Criteria\BelongsToGroup;
 use Eventjuicer\Repositories\Criteria\BelongsToOrganizer;
 use Eventjuicer\Repositories\Criteria\SortByDesc;
 use Eventjuicer\Repositories\Criteria\WhereIn;
+use Eventjuicer\Services\Hashids;
 
 use Eventjuicer\Services\Revivers\ParticipantSendable;
 
@@ -193,8 +194,9 @@ class SmsDisbelievers extends Command
             //     )
             // );
 
+            $restoreUrl = "https://teh.com.pl/".(new Hashids())->encode($participant->id);
 
-            $phones[] = '"'.$email.'","'.$phone.'"';
+            $phones[] = '"'.$email.'","'.$phone.'","'.$restoreUrl.'"';
 
             //$phones[] = '"'.$email.'","'.$fname.'","'.$phone.'"';
 
