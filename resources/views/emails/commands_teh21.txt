@@ -8,6 +8,7 @@ php artisan queue:restart
 ============
 
 php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Czy to się zgadza? Vouchery i karty parkingowe" --email=teh21-welcomepack
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=en --subject="Just to confirm. Catering vouchers and parking cards." --email=teh21-welcomepack
 
 
 
