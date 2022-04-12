@@ -76,7 +76,7 @@ class CheckInconsistency extends Command
             if($participant->event_id != $eventId){
 
                 $this->error("Error re: " . $participant->email . " / ". $participant->company->slug);
-                $this->info("Purchase (" . $purchase->id . ") Participant from other (" .  $participant->id . ")");
+                $this->info("Purchase - " . $purchase->id);
 
                 $currentEventParticipantWhichIsExhibitor = $participant->company->participants->where("event_id", $eventId)->filter(function($item){
                     return $item->ticketpivot->filter(function($pivot){
@@ -87,11 +87,6 @@ class CheckInconsistency extends Command
                 if($currentEventParticipantWhichIsExhibitor){
                     $purchase->participant_id = $currentEventParticipantWhichIsExhibitor;
                     $purchase->save();
-
-                    foreach($purchase->ticketpivot as $pivot){
-                        $pivot->participant_id = $currentEventParticipantWhichIsExhibitor;
-                        $pivot->save();
-                    }
                 }
 
 
