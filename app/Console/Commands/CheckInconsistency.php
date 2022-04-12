@@ -6,18 +6,9 @@ use Illuminate\Console\Command;
 
 
 use Eventjuicer\Services\Resolver;
-use Eventjuicer\Repositories\ParticipantRepository;
-
-use Eventjuicer\Repositories\Criteria\BelongsToGroup;
-use Eventjuicer\Repositories\Criteria\BelongsToOrganizer;
-use Eventjuicer\Repositories\Criteria\SortByDesc;
-use Eventjuicer\Repositories\Criteria\WhereIn;
-use Eventjuicer\Services\Hashids;
-
-use Eventjuicer\Services\Revivers\ParticipantSendable;
 use Eventjuicer\Models\Purchase;
-use Eventjuicer\Models\ParticipantFields;
-use Eventjuicer\Services\Personalizer;
+
+
 
 class CheckInconsistency extends Command
 {
@@ -76,7 +67,7 @@ class CheckInconsistency extends Command
         $organizer_id   = $route->getOrganizerId();
       
 
-        $purchases = Purchase::with("participant.company.participants")->where("event_id", $eventId)->get();
+        $purchases = Purchase::with(["participant.company.participants.ticketpivot"])->where("event_id", $eventId)->get();
 
         foreach($purchases as $purchase){
 
@@ -85,8 +76,14 @@ class CheckInconsistency extends Command
             if($participant->event_id != $eventId){
                 $this->error("Error re: " . $participant->email . " / ". $participant->company->slug);
                 $this->info("Purchase (" . $purchase->id . ") Participant from other (" .  $participant->id . ")");
-                $participantsOK = $participant->company->participants->where("event_id", $eventId)->pluck("id")->all();
-                $this->info("Target participants:" . implode(", ", $participantsOK));
+
+                $participantExhbitors = $participant->company->participants->where("event_id", $eventId)->filter(function($item){
+                    return $item->ticketpivot->filter(function($pivot){
+                        return $pivot->sold == 1 && $pivot->ticket->role == "exhibitor";
+                    })->count() > 0;
+                })->pluck("id")->all();
+
+                $this->info("Target participants:" . implode(", ", $participantExhbitors));
 
             }
         }
