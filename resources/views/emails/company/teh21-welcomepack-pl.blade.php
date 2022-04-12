@@ -16,7 +16,7 @@ Karty parkingowe {{ array_get($additionalData, "parkingAssigned")  }}
 
 @endcomponent
 
-**Jeśli nie to proszę do 12:00...**
+**Jeśli NIE to proszę do 12:00...**
 
 @component('mail::button', ['url' => $accountUrlVouchers])
 Dokup vouchery i karty parkingowe
