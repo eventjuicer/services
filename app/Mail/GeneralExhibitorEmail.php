@@ -35,6 +35,7 @@ class GeneralExhibitorEmail extends Mailable
             $prizes,
             $translations,
             $creatives,
+            $additionalData,
             $profile, 
             $profileUrl, 
             $company,
@@ -74,7 +75,9 @@ class GeneralExhibitorEmail extends Mailable
         $this->prizes = array_get($config, "prizes", []);
         $this->translations = array_get($config, "translations", []);
         $this->creatives = array_get($config, "creatives", []);
+        $this->additionalData = array_get($config, "additionalData", []);
 
+        
     }
 
     /**

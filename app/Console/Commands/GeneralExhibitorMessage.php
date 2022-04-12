@@ -88,6 +88,7 @@ class GeneralExhibitorMessage extends Command {
 
         $this->info("Event id: " . $eventId );
 
+        $service->setDatasetRels(["company.participants.tickets"]);
         $exhibitors = $service->getDataset(true);
 
         $this->info("Number of exhibitors with companies assigned: " . $exhibitors->count() );
@@ -111,6 +112,19 @@ class GeneralExhibitorMessage extends Command {
         foreach($filtered as $ex)
         {
 
+            $repsCount = $ex->getReps()->count();
+            $cateringCount = $ex->getPurchases()->where("id", 2003)->sum(function($item){
+                return $item->pivot->quantity;
+            });
+            $parkingCount = $ex->getPurchases()->where("id", 2006)->sum(function($item){
+                return $item->pivot->quantity;
+            });
+            $howManyBooths = $ex->howManyBooths();
+            $cateringAssigned = $repsCount > ($howManyBooths * 4)? ($howManyBooths * 4) + $cateringCount: max($repsCount, 1) + $cateringCount;
+            $parkingAssigned = ($howManyBooths * 1) + $parkingCount;
+
+            $additionalData = compact("repsCount", "cateringCount", "parkingCount", "howManyBooths", "cateringAssigned", "parkingAssigned");
+            
             if(!empty( $exclude_reg_ids ) && in_array($ex->getModel()->id, $exclude_reg_ids) ){
             
                 $this->error("Registration excluded by --exclude_reg_ids: " . $ex->email );
@@ -151,7 +165,16 @@ class GeneralExhibitorMessage extends Command {
             dispatch(new Job(
                 $ex->getModel(), 
                 $eventId, 
-                compact("email", "subject", "event_manager", "viewlang", "lang", "domain", "translations") 
+                compact(
+                    "email", 
+                    "subject", 
+                    "event_manager", 
+                    "viewlang", 
+                    "lang", 
+                    "domain", 
+                    "translations",
+                    "additionalData"
+                    ) 
             ));
 
             $done++;
