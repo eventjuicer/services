@@ -67,23 +67,35 @@ class CheckInconsistency extends Command
         $organizer_id   = $route->getOrganizerId();
       
 
-        $purchases = Purchase::with(["participant.company.participants.ticketpivot"])->where("event_id", $eventId)->get();
+        $purchases = Purchase::with(["ticketpivot", "participant.company.participants.ticketpivot"])->where("event_id", $eventId)->get();
 
         foreach($purchases as $purchase){
 
             $participant = $purchase->participant;
             
             if($participant->event_id != $eventId){
+
                 $this->error("Error re: " . $participant->email . " / ". $participant->company->slug);
                 $this->info("Purchase (" . $purchase->id . ") Participant from other (" .  $participant->id . ")");
 
-                $participantExhbitors = $participant->company->participants->where("event_id", $eventId)->filter(function($item){
+                $currentEventParticipantWhichIsExhibitor = $participant->company->participants->where("event_id", $eventId)->filter(function($item){
                     return $item->ticketpivot->filter(function($pivot){
                         return $pivot->sold == 1 && $pivot->ticket->role == "exhibitor";
                     })->count() > 0;
-                })->pluck("id")->all();
+                })->pluck("id")->first();
 
-                $this->info("Target participants:" . implode(", ", $participantExhbitors));
+                if($currentEventParticipantWhichIsExhibitor){
+                    $purchase->participant_id = $currentEventParticipantWhichIsExhibitor;
+                    $purchase->save();
+
+                    foreach($purchase->ticketpivot as $pivot){
+                        $pivot->participant_id = $currentEventParticipantWhichIsExhibitor;
+                        $pivot->save();
+                    }
+                }
+
+
+                $this->info("Target participants: " . $currentEventParticipantWhichIsExhibitor);
 
             }
         }
