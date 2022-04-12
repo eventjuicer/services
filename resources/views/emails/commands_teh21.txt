@@ -7,7 +7,7 @@ php artisan queue:restart
 12 kwietnia
 ============
 
-php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Czy to się zgadza?" --email=teh21-welcomepack
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Czy to się zgadza? Vouchery i karty parkingowe" --email=teh21-welcomepack
 
 
 

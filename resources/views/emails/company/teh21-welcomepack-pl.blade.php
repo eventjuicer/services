@@ -6,11 +6,15 @@
 
 Zliczyliśmy zawartość Twojego welcome-packa pod kątem voucherów na catering i kart parkingowych.
 
+@component('mail::panel')
+
 ## Czy to się zgadza?
 
 Vouchery cateringowe {{ array_get($additionalData, "cateringAssigned")  }}
 
 Karty parkingowe {{ array_get($additionalData, "parkingAssigned")  }}
+
+@endcomponent
 
 **Jeśli nie to proszę do 12:00...**
 
@@ -24,9 +28,13 @@ Liczba zarejestrowanych Przedstawicieli  {{ array_get($additionalData, "repsCoun
 
 Liczba stoisk {{ array_get($additionalData, "howManyBooths")  }} 
 
-Dokupiono voucherów {{ array_get($additionalData, "cateringCount")  }} (standardowo - bez opłat - przydzielamy tyle voucherów ilu zarejestrowano Przedstawicieli ale nie więcej niż 4 sztuki)
+Dokupiono voucherów {{ array_get($additionalData, "cateringCount")  }} 
 
-Dokupiono kart parkingowych  {{ array_get($additionalData, "parkingCount")  }} (standardowo - bez opłat - przydzielamy 1 kartę parkingową per stoisko)
+(standardowo - bez opłat - przydzielamy tyle voucherów ilu zarejestrowano Przedstawicieli ale nie więcej niż 4 sztuki)
+
+Dokupiono kart parkingowych  {{ array_get($additionalData, "parkingCount")  }} 
+
+(standardowo - bez opłat - przydzielamy 1 kartę parkingową per stoisko)
 
 
 Regards, 
