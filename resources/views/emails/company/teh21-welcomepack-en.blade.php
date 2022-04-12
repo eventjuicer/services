@@ -28,11 +28,11 @@ Representatives submitted  {{ array_get($additionalData, "repsCount")  }}
 
 Number of booths {{ array_get($additionalData, "howManyBooths")  }} 
 
-Additional vouchers purchased {{ array_get($additionalData, "cateringCount")  }} 
+Additional (purchased) vouchers purchased {{ array_get($additionalData, "cateringCount")  }} 
 
 (you get max 4 vouchers per booth free - when having all 4 reps submitted. )
 
-Additional parking cards  {{ array_get($additionalData, "parkingCount")  }} 
+Additional (purchased) parking cards  {{ array_get($additionalData, "parkingCount")  }} 
 
 (you get 1 parkign card per booth free)
 
