@@ -3,9 +3,13 @@ supervisorctl restart laravel-services:*
 php artisan queue:restart
 ===========================================
 
+https://res.cloudinary.com/eventjuicer/image/upload/fl_rasterize,w_1920,f_auto/v1649838782/expoxxi_teh21_agenda.pdf
+
 
 12 kwietnia
 ============
+
+php artisan visitors:sms-to-old-events --domain=targiehandlu.pl --prefix=+48
 
 php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Czy to się zgadza? Vouchery i karty parkingowe" --email=teh21-welcomepack
 php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=en --subject="Just to confirm. Catering vouchers and parking cards." --email=teh21-welcomepack
