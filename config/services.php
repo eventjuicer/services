@@ -29,10 +29,13 @@ return [
         'secret' => env('SPARKPOST_SECRET'),
         'options' => [
             'options' => [
-                            'open_tracking'  => false,
-                            'click_tracking' => false,
-                            'transactional'  => true,
+                'open_tracking'  => false,
+                'click_tracking' => false,
+                'transactional'  => true,
             ],
+            'open_tracking'  => false,
+            'click_tracking' => false,
+            'transactional'  => true,
         ],
     ],
 
