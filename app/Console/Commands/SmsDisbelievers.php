@@ -194,7 +194,7 @@ class SmsDisbelievers extends Command
             //     )
             // );
 
-            $restoreUrl = "https://teh.com.pl/".(new Hashids())->encode($participant->id);
+            $restoreUrl = "https://ecommerceberlin.com/".(new Hashids())->encode($participant->id);
 
             $phones[] = '"'.$email.'","'.$phone.'","'.$restoreUrl.'"';
 

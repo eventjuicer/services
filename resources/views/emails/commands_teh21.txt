@@ -3,6 +3,19 @@ supervisorctl restart laravel-services:*
 php artisan queue:restart
 ===========================================
 
+
+19 kwietnia
+===========
+
+
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Dziękujemy!" --email=teh21-thankyou
+
+
+
+
+
+
+
 https://res.cloudinary.com/eventjuicer/image/upload/fl_rasterize,w_1920,f_auto/v1649838782/expoxxi_teh21_agenda.pdf
 
 
