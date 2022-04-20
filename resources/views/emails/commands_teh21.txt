@@ -8,7 +8,7 @@ php artisan queue:restart
 ===========
 
 
-php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Dziękujemy!" --email=teh21-thankyou
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Dziękujemy! Ankieta, zdjęcia, skany..." --email=teh21-thankyou
 
 
 

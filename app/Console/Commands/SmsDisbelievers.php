@@ -173,7 +173,7 @@ class SmsDisbelievers extends Command
                 continue;
             }
 
-            if(strlen($phone) < 10){
+            if(strlen($phone) < 11){
                 $phone = $prefix . $phone;
             }
 
@@ -194,7 +194,7 @@ class SmsDisbelievers extends Command
             //     )
             // );
 
-            $restoreUrl = "https://ecommerceberlin.com/".(new Hashids())->encode($participant->id);
+            $restoreUrl = "https://ecommberlin.com/".(new Hashids())->encode($participant->id);
 
             $phones[] = '"'.$email.'","'.$phone.'","'.$restoreUrl.'"';
 

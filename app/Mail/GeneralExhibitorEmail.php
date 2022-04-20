@@ -49,6 +49,7 @@ class GeneralExhibitorEmail extends Mailable
             $accountUrlVisitors,
             $accountUrlVips,
             $accountUrlBadgescanner,
+            $accountUrlScans,
 
             $trackingLink,
             $pollUrl,
@@ -147,6 +148,7 @@ class GeneralExhibitorEmail extends Mailable
         $this->accountUrlVisitors = $companydata->accountUrl("visitors");
         $this->accountUrlVips = $companydata->accountUrl("vips");
         $this->accountUrlBadgescanner = $companydata->accountUrl("badgescanner");
+        $this->accountUrlScans = $companydata->accountUrl("scans");
 
 
         $this->trackingLink = $companydata->trackedProfileUrl();
