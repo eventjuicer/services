@@ -1,4 +1,15 @@
 
+
+26 kwietnia
+===========
+
+
+php artisan exhibitors:current-event --defaultlang=en --domain=ecommerceberlin.com --lang=en --subject=" E-commerce Berlin Expo - organisational information" --email=ebe6-parking-and-logistics
+
+php artisan exhibitors:current-event --defaultlang=en --domain=ecommerceberlin.com --lang=de --subject=" E-commerce Berlin Expo - organisatorische Infos" --email=ebe6-parking-and-logistics
+
+
+
 8 kwietnia
 ===========
 
