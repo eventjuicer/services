@@ -1,20 +1,21 @@
 @component('mail::message')
 
-<img src="https://res.cloudinary.com/ecommerceberlin/image/upload/f_auto/v1646742196/EB_2022_master_files_540x300.jpg" alt="E-commerce Berlin Expo" />
+<img src="https://res.cloudinary.com/ecommerceberlin/image/upload/f_auto/v1646742196/EB_2022_master_files_540x300.jpg" alt="E-commerce Berlin Expo" style="margin-bottom: 10px;"/>
 
 # Hello {{$p->translate("[[fname]]")}},
 
 **The wait is finally over.**
 
-E-commerce Expo opens on **5th May on STATION-Berlin**, giving you access to over 200 leading e-commerce and retail suppliers!
+E-commerce Expo opens on **5th May on STATION-Berlin**, giving you access to over **200 leading e-commerce and retail suppliers!**
 
-We're convinced that the combination of keynotes and presentations will give you knowledge and inspiration that you can take back to the office and use to help you thrive in the new digital environment.
-
-Let's have at who is going to share their expertise, shall we
+Let's have at who is going to share their expertise on our **5 stages**, shall we?
 
 @component('mail::button', ['url' => 'https://ecommerceberlin.com/visit?utm_source=visitors_alternative&utm_medium=email&utm_campaign=visitors_alternative_email'])
 Check the full schedule ☛
 @endcomponent
+
+
+We're convinced that the combination of keynotes and presentations will give you knowledge and inspiration that you can take back to the office and use to help you thrive in the new digital environment.
 
 
 Here is a small preview of the hot topics of the conference:
@@ -24,6 +25,11 @@ Here is a small preview of the hot topics of the conference:
 * Delivery Hero, Inés Fernández - Take your campaign to the next 
 level with **SpotOn**
 
+@component('mail::button', ['url' => 'https://ecommerceberlin.com/visit?utm_source=visitors_alternative&utm_medium=email&utm_campaign=visitors_alternative_email'])
+Collect your ticket ☛
+@endcomponent
+
+
 * Douglas, Chiara Fraune - From Beauty retailer to **One-Stop Shopping Platform** for beauty & health
 
 * EXCONCEPT, Jason Weißbach & MissPompadour, Erik Reintjes - Content meets Commerce – MissPompadours Einkaufserlebnis für über 250.000 DIY
@@ -31,14 +37,15 @@ level with **SpotOn**
 * Henkel, Peter Hartmann & Claneo, Matthäus Michalik - Global SEO: Think Global, Act Local Hubspot, Ben Harmanus - The takeaways from extreme sports - and how it helps me to be a better marketer
 
 
+* MY TOYS GROUP, Monique Paulsen & Thomas Ficht - #BNPL – secret sauce or historic hype?
+
+* DKB Service, Dominique Leikauf - How to use the **full potential - of your current and future employees**
+
+
 @component('mail::button', ['url' => 'https://ecommerceberlin.com/visit?utm_source=visitors_alternative&utm_medium=email&utm_campaign=visitors_alternative_email'])
 Collect your ticket ☛
 @endcomponent
 
-
-* MY TOYS GROUP, Monique Paulsen & Thomas Ficht - #BNPL – secret sauce or historic hype?
-
-* DKB Service, Dominique Leikauf - How to use the **full potential - of your current and future employees**
 
 * KADEWE GROUP, Philipp C. Engelmann - How to digitize a luxury department store in lightspeed
 
@@ -50,17 +57,16 @@ Collect your ticket ☛
 
 * Vodafone, Andrzej Kawalec - Extortion as a Service - the evolution of kidnap from people to data
 
+<img src="https://res.cloudinary.com/ecommerceberlin/image/upload/w_500,c_fit,f_auto/v1647954404/Newsletters/1.png" alt="" />
 
-Participation in the conference is free of charge, but all people willing to participate are required to pre-register on the official website of the event.
+
+**Participation in the conference is free of charge, but all people willing to participate are required to pre-register on the official website of the event.**
 
 
 @component('mail::button', ['url' => 'https://ecommerceberlin.com/visit?utm_source=visitors_alternative&utm_medium=email&utm_campaign=visitors_alternative_email'])
 Check the full schedule ☛
 @endcomponent
 
-
-
-<a href="https://res.cloudinary.com/ecommerceberlin/image/upload/w_500,c_fit,f_auto/v1647954404/Newsletters/1.png" alt="" />
 
 
 There's now just one week to go - make sure you tune in to one day of unmissable speakers and content.
