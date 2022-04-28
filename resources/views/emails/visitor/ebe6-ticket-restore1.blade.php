@@ -18,6 +18,12 @@ Check the full schedule ☛
 We're convinced that the combination of keynotes and presentations will give you knowledge and inspiration that you can take back to the office and use to help you thrive in the new digital environment.
 
 
+<img src="https://res.cloudinary.com/ecommerceberlin/image/upload/w_500,c_fit,f_auto/v1647954404/Newsletters/1.png" alt="" />
+
+
+
+
+
 Here is a small preview of the hot topics of the conference:
 
 * Amazon, Rolf Kimmeyer - From Buxtehude to Brooklyn - what companies should know about **internationalization via Amazon Marketplace**
@@ -56,8 +62,6 @@ Collect your ticket ☛
 * TUI.com, Christina Wolff - Personalization at TUI.com
 
 * Vodafone, Andrzej Kawalec - Extortion as a Service - the evolution of kidnap from people to data
-
-<img src="https://res.cloudinary.com/ecommerceberlin/image/upload/w_500,c_fit,f_auto/v1647954404/Newsletters/1.png" alt="" />
 
 
 **Participation in the conference is free of charge, but all people willing to participate are required to pre-register on the official website of the event.**
