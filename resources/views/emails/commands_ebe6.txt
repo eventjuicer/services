@@ -4,7 +4,7 @@
 ===========
 
 
-php artisan visitors:restore-from-old-events --domain=ecommerceberlin.com --email=ebe6-ticket-restore1 --subject="Be part of the biggest Berlin event dedicated to e-commerce only!" --throttle=50000
+php artisan visitors:restore-from-old-events --domain=ecommerceberlin.com --email=ebe6-ticket-restore1 --subject="5th May on STATION-Berlin. The biggest Berlin E-commerce event is coming!" --throttle=50000
 
 
 
