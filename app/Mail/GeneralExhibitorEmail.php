@@ -51,6 +51,8 @@ class GeneralExhibitorEmail extends Mailable
             $accountUrlBadgescanner,
             $accountUrlScans,
 
+            $photosUrl,
+
             $trackingLink,
             $pollUrl,
             $footer,
@@ -149,6 +151,8 @@ class GeneralExhibitorEmail extends Mailable
         $this->accountUrlVips = $companydata->accountUrl("vips");
         $this->accountUrlBadgescanner = $companydata->accountUrl("badgescanner");
         $this->accountUrlScans = $companydata->accountUrl("scans");
+
+        $this->photosUrl = "https://cloudinary.eventjuicer.com/api?folder=teh21_photos&id=" . $companydata->getCompany()->id;
 
 
         $this->trackingLink = $companydata->trackedProfileUrl();
