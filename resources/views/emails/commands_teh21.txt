@@ -22,7 +22,7 @@ https://res.cloudinary.com/eventjuicer/image/upload/fl_rasterize,w_1920,f_auto/v
 29 kwietnia
 ===========
 
-php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Zdjęcia z 21. Targów eHandlu, start sprzedaży TEH #22." --email=teh21-teh22-intro
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Zdjęcia, Start sprzedaży na TEH #22." --email=teh21-teh22-intro
 php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=en --subject="Just to confirm. Catering vouchers and parking cards." --email=teh21-teh22-intro
 
 

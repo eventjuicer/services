@@ -51,7 +51,7 @@ class TicketDownloadReminder extends Mailable
 
             $this->subject("RSVP - E-commerce Berlin Expo");
 
-            $this->email = "ebe5-ticket-reminder";
+            $this->email = "ebe6-ticket-reminder";
 
         }
         else
