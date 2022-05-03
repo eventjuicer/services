@@ -2,7 +2,7 @@
 
 Hi {{ $p->translate("[[fname]]") }},
 
-Are you planning to visit E-commerce Berlin Expo this Thursday and check 56 presentations** & over 200 exhibitors?
+Are you planning to visit E-commerce Berlin Expo this Thursday and check 56 presentations & over 200 exhibitors?
 
 YES! I am going {!! $going !!}
 
