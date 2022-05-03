@@ -1,5 +1,10 @@
 
 
+3 maja
+
+php artisan visitors:ticket-reminder --domain=ecommerceberlin.com
+
+
 30 kwietnia
 ===========
 

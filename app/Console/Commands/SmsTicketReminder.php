@@ -133,7 +133,7 @@ class SmsTicketReminder extends Command
             //when to add a prefix? if not starting
             //strpos($phone, "00") !== 0 && strpos($phone, "+") === false && 
 
-            if(strlen($phone) < 10){
+            if(strlen($phone) < 11){
                 $phone = $prefix . $phone;
             }
 
