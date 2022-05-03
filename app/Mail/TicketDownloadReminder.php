@@ -7,10 +7,6 @@ use Illuminate\Mail\Mailable;
 use Illuminate\Queue\SerializesModels;
 use Illuminate\Contracts\Queue\ShouldQueue;
 
-
-
-
-
 use Eventjuicer\Models\Participant;
 use Eventjuicer\Services\Personalizer;
 use Eventjuicer\Services\Hashids;
@@ -20,7 +16,7 @@ class TicketDownloadReminder extends Mailable
     use Queueable, SerializesModels;
 
     protected $participant, $email;
-    public $p, $url;
+    public $p, $url, $going, $notGoing;
 
     public function __construct(Participant $participant)
     {
@@ -39,6 +35,10 @@ class TicketDownloadReminder extends Mailable
 
         $hash = (new Hashids())->encode($this->participant->id);
 
+        $this->going =  "https://api.eventjuicer.com/v1/services/tickets/". $hash;
+        $this->notGoing = "https://api.eventjuicer.com/v1/services/resignation/" . $hash;
+
+
         if($this->participant->organizer_id > 1){
             
             app()->setLocale("en");
@@ -47,11 +47,11 @@ class TicketDownloadReminder extends Mailable
 
             $this->url = "https://ecommerceberlin.com/tickets/" . $hash;
 
-            $this->from("visitors@ecommerceberlin.com", "Lucas Zarna");
+            $this->from("visitors@ecommerceberlin.de", "Lucas Zarna");
 
-            $this->subject("RSVP - E-commerce Berlin Expo");
+            $this->subject("Important/Wichtig - RSVP - E-commerce Berlin Expo");
 
-            $this->email = "ebe6-ticket-reminder";
+            $this->email = "ebe6-ticket-reminder2";
 
         }
         else
