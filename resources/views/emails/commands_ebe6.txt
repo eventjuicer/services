@@ -1,6 +1,17 @@
 
 
+10 maja
+===========
+
+php artisan exhibitors:current-event --defaultlang=en --domain=ecommerceberlin.com --lang=en --subject="E-commerce Berlin Expo 2022 - we’d love to hear your feedback!" --email=ebe6-survey
+
+php artisan exhibitors:current-event --defaultlang=en --domain=ecommerceberlin.com --lang=de --subject="E-commerce Berlin Expo 2022 - wir warten auf euer Feedback!" --email=ebe6-survey
+
+
+
+
 3 maja
+===========
 
 php artisan visitors:ticket-reminder --domain=ecommerceberlin.com
 
@@ -14,20 +25,11 @@ php artisan visitors:ticket-reminder --domain=ecommerceberlin.com
 28 kwietnia
 ===========
 
-
 php artisan visitors:restore-from-old-events --domain=ecommerceberlin.com --email=ebe6-ticket-restore1 --subject="5th May on STATION-Berlin. The biggest Berlin E-commerce event is coming!" --throttle=50000
-
-
-
-
-
-
-
 
 php artisan exhibitors:current-event --defaultlang=en --domain=ecommerceberlin.com --lang=en --subject="E-commerce Berlin Expo 2022 - How to scan the leads?" --email=ebe6-scanner
 
 php artisan exhibitors:current-event --defaultlang=en --domain=ecommerceberlin.com --lang=de --subject="E-commerce Berlin Expo 2022 - Wie scanne ich die Leads?" --email=ebe6-scanner
-
 
 
 
