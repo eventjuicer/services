@@ -14,7 +14,7 @@ We would greatly appreciate it if you (or your colleagues that took part in the 
 SURVEY
 @endcomponent
 
-Next week we'll start the early-bird sales for 2023 edition, available exclusively for this year's Exhibitors. 
+**Next week we'll start the early-bird sales for 2023 edition,** available exclusively for this year's Exhibitors. 
 
 We'll get in touch with you shortly regarding the best available spaces and the lowest prices.
 
