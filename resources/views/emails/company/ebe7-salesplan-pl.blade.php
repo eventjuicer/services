@@ -25,7 +25,8 @@ Sprzedaż otwarta dla wszystkich zainteresowanych (wystawcy EBE 2022 spoza top30
 
 Z uwagi na zainteresowanie przekraczające limit przestrzeni wdrażamy inny model sprzedaży.
 Stoiska będą sprzedawane w pulach sprzedaży, które są ograniczone ilościowo. 
-Każda kolejna pula aktywuje się automatycznie po wyczerpaniu limitu poprzedniej - może się zdarzyć że w pierwszym dniu aktywują się kolejne - droższe - sprzedaży.
+Każda kolejna pula aktywuje się automatycznie po wyczerpaniu limitu poprzedniej - może się zdarzyć że w pierwszym dniu aktywują się kolejne - droższe - pule sprzedaży z uwagi na wyczerpanie poprzednich.
+
 
 
 Pozdrowienia, 
