@@ -152,8 +152,7 @@ class GeneralExhibitorEmail extends Mailable
         $this->accountUrlBadgescanner = $companydata->accountUrl("badgescanner");
         $this->accountUrlScans = $companydata->accountUrl("scans");
 
-        $this->photosUrl = "https://cloudinary.eventjuicer.com/api?folder=teh21_photos&id=" . $companydata->getCompany()->id;
-
+        $this->photosUrl = "https://photos.ecommerceberlin.com/".$companydata->getCompany()->id."/ebe6";
 
         $this->trackingLink = $companydata->trackedProfileUrl();
         $this->company_id = $companydata->getCompany()->id;

@@ -1,5 +1,19 @@
 
 
+
+
+16 maja
+===========
+
+
+php artisan exhibitors:current-event --defaultlang=en --domain=ecommerceberlin.com --lang=en --subject="E-commerce Berlin Expo 2022 - check out the photos from the Event!" --email=ebe6-photos --exclude_reg_ids=129935,133656,119843
+
+php artisan exhibitors:current-event --defaultlang=en --domain=ecommerceberlin.com --lang=de --subject="E-commerce Berlin Expo 2022 - die Fotos von der Messe sind da!" --email=ebe6-photos --exclude_reg_ids=129935,133656,119843
+
+
+
+
+
 10 maja
 ===========
 
