@@ -1,0 +1,12 @@
+===========================================
+supervisorctl restart laravel-services:*
+php artisan queue:restart
+===========================================
+
+
+16 maja
+===========
+
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Sprzedaż powierzchni - jesienne Targi eHandlu w Warszawie" --email=teh22-salesplan
+
+
