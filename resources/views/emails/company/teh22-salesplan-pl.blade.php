@@ -12,7 +12,7 @@ Sprzedaż dla Wystawców 21. Targów eHandlu zainteresowanych większą przestrz
 
 ## Czwartek - 19 maja 11:00
 
-Sprzedaż otwarta dla wszystkich zainteresowanych - na https://targiehandlu.pl 
+Sprzedaż otwarta dla wszystkich zainteresowanych - mapka i ceny dostępne będą od 9:00 na https://targiehandlu.pl 
 
 
 Pozdrowienia, 
