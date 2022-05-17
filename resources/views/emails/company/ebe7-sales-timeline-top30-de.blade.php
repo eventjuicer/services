@@ -10,8 +10,7 @@ Anbei findest du den Zeitplan des Salesprozesses für die kommende Ausgabe der E
  
 **Exklusiver Vorverkauf für die TOP30 Unternehmen** aus dem Aussteller-Wettbewerb.
 
-
-[ecommerceberlin.com/top30earlybird_t6d63sa9](https://ecommerceberlin.com/top30earlybird_t6d63sa9)
+Ihr seid eines der 30 berechtigten Unternehmen! Bucht die Ausstellungsfläche morgen über [ecommerceberlin.com/top30earlybird_t6d63sa9](https://ecommerceberlin.com/top30earlybird_t6d63sa9)
  
 Über diesen Link könnt ihr die Ausstellungsflächen bis **zum Ende des Tages buchen.** Am Folgetag wird der Verkauf für alle geöffnet und die besten Plätze zu den niedrigsten Preisen können nicht mehr garantiert werden.
  
