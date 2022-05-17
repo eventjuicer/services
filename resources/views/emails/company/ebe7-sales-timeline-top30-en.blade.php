@@ -6,6 +6,8 @@
  
 Below you can find the schedule of the sales process for the upcoming edition of the E-commerce Berlin Expo (February 23, 2023).
  
+@component('mail::panel')
+
 ## Wednesday - May 18, 11:00 am
  
 **Exclusive sale for the TOP30 companies** from the Exhibitor Contest. 
@@ -15,7 +17,9 @@ Below you can find the schedule of the sales process for the upcoming edition of
 You will be able to book the exhibition space through secret link provided above - **till the end of the day.** On the following day the sale will be open for everyone and we won’t be able to guarantee the best places at the lowest prices anymore.
  
 If your company is interested in booking 3 or more exhibition spaces, please let us know.
- 
+
+@endcomponent
+
 ## Thursday - May 19, 11:00 am
  
 Open sale for everyone - the floor plan with prices will be available from Wednesday

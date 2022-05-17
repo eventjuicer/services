@@ -6,6 +6,8 @@
  
 Anbei findest du den Zeitplan des Salesprozesses für die kommende Ausgabe der E-Commerce Berlin Expo, die am 23. Februar 2023 stattfindet.
  
+@component('mail::panel')
+
 ## Mittwoch - 18. Mai, 11:00 Uhr
  
 **Exklusiver Vorverkauf für die TOP30 Unternehmen** aus dem Aussteller-Wettbewerb.
@@ -16,7 +18,9 @@ Anbei findest du den Zeitplan des Salesprozesses für die kommende Ausgabe der E
 Am Folgetag wird der Verkauf für alle geöffnet und die besten Plätze zu den niedrigsten Preisen können nicht mehr garantiert werden.
  
 Falls euer Unternehmen an der Buchung von 3 oder mehr Ausstellungsflächen interessiert ist, teilt uns dies bitte mit.
- 
+
+@endcomponent
+
 ## Donnerstag - 19. Mai, 11:00 Uhr
  
 Offener Verkauf für alle - der Hallenplan mit den Preisen wird ab Donnerstag auf unserer Webseite verfügbar sein: https://ecommerceberlin.com/ 

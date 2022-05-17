@@ -12,10 +12,14 @@ Exclusive sale for the TOP30 companies from the Exhibitor Contest.
 
 If your company is interested in booking 3 or more exhibition spaces, please let us know.
 
+@component('mail::panel')
+
 ## Thursday - May 19, 11:00 am
  
 **Open sale for everyone, including your company** - the floor plan with prices is available on: [ecommerceberlin.com/exhibit](https://ecommerceberlin.com/exhibit)
- 
+
+@endcomponent
+
 ## What does the booking process look like?
  
 Due to the interest exceeding the space limit, we implement a different sales model. 

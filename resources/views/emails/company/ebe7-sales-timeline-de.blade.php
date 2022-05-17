@@ -1,5 +1,3 @@
-
-
 @component('mail::message')
  
 # Hallo {{ array_get($profile, "fname")  }},
@@ -11,11 +9,15 @@ Anbei findest du den Zeitplan des Salesprozesses für die kommende Ausgabe der E
 Exklusiver Vorverkauf für die TOP30 Unternehmen aus dem Aussteller-Wettbewerb. 
  
 Falls euer Unternehmen an der Buchung von 3 oder mehr Ausstellungsflächen interessiert ist, teilt uns dies bitte mit.
- 
+
+@component('mail::panel')
+
 ## Donnerstag - 19. Mai, 11:00 Uhr
  
 **Offener Verkauf für alle** - der Hallenplan mit den Preisen ist auf unserer Webseite verfügbar : [ecommerceberlin.com/exhibit](https://ecommerceberlin.com/exhibit)
  
+@endcomponent
+
 ## Wie sieht der Buchungsprozess aus?
  
 Aufgrund des das Platzlimit übersteigenden Interesses setzen wir ein anderes Verkaufsmodell um.
