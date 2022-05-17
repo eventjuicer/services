@@ -8,13 +8,18 @@ Anbei findest du den Zeitplan des Salesprozesses für die kommende Ausgabe der E
  
 ## Mittwoch - 18. Mai, 11:00 Uhr
  
-Exklusiver Vorverkauf für die TOP30 Unternehmen aus dem Aussteller-Wettbewerb. 
+**Exklusiver Vorverkauf für die TOP30 Unternehmen** aus dem Aussteller-Wettbewerb.
+
+
+[ecommerceberlin.com/top30earlybird_t6d63sa9](https://ecommerceberlin.com/top30earlybird_t6d63sa9)
+ 
+Über diesen Link könnt ihr die Ausstellungsflächen bis **zum Ende des Tages buchen.** Am Folgetag wird der Verkauf für alle geöffnet und die besten Plätze zu den niedrigsten Preisen können nicht mehr garantiert werden.
  
 Falls euer Unternehmen an der Buchung von 3 oder mehr Ausstellungsflächen interessiert ist, teilt uns dies bitte mit.
  
 ## Donnerstag - 19. Mai, 11:00 Uhr
  
-**Offener Verkauf für alle** - der Hallenplan mit den Preisen ist auf unserer Webseite verfügbar : [ecommerceberlin.com/exhibit](https://ecommerceberlin.com/exhibit)
+Offener Verkauf für alle - der Hallenplan mit den Preisen wird ab Donnerstag auf unserer Webseite verfügbar sein: https://ecommerceberlin.com/ 
  
 ## Wie sieht der Buchungsprozess aus?
  

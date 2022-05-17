@@ -7,9 +7,9 @@
 
 //TOP30
 
-php artisan exhibitors:award --domain=ecommerceberlin.com --award=earlybird --previous --lang=en --defaultlang=en --email=ebe7-sales-timeline --subject="EBE2023: Exclusive sales round for TOP30 companies in the recent Exhibitors' Contest"
+php artisan exhibitors:award --domain=ecommerceberlin.com --award=earlybird --previous --lang=en --defaultlang=en --email=ebe7-sales-timeline-top30 --subject="EBE2023: Exclusive sales round for TOP30 companies in the recent Exhibitors' Contest"
 
-php artisan exhibitors:award --domain=ecommerceberlin.com --award=earlybird --previous --lang=de --defaultlang=en --email=ebe7-sales-timeline --subject="EBE2023: Exklusive Salesrunde für die TOP30 Unternehmen aus dem vorherigen Ausstellerwettbewerb"
+php artisan exhibitors:award --domain=ecommerceberlin.com --award=earlybird --previous --lang=de --defaultlang=en --email=ebe7-sales-timeline-top30 --subject="EBE2023: Exklusive Salesrunde für die TOP30 Unternehmen aus dem vorherigen Ausstellerwettbewerb"
 
 //EARLYBIRD....
 
