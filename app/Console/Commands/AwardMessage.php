@@ -139,7 +139,7 @@ class AwardMessage extends Command {
 
         $this->info("Exhibitors that can be notified: " . $filtered->count() );
 
-        $apiCall = $service->getApi("/ranking?event_id=" . $eventId);
+        $apiCall = $service->getApi("/ranking?event_id=" . $eventId, $domain);
 
         // $ranking = array_get($apiCall, "data");
 

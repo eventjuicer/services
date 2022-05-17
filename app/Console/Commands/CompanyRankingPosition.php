@@ -108,7 +108,7 @@ class CompanyRankingPosition extends Command {
         /*
             RANKING SPECIFIC
         **/
-        $apiCall = $service->getApi("/ranking");
+        $apiCall = $service->getApi("/ranking", $domain);
         $ranking = collect(array_get($apiCall, "data", []))->mapWithKeys(function($item){
 
              return [$item['company_id'] => $item['stats']];
