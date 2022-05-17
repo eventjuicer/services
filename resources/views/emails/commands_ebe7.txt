@@ -4,18 +4,19 @@
 =========
 
 
+//GLOBAL
+
+php artisan exhibitors:award --domain=ecommerceberlin.com --award=earlybird --previous --reverse --lang=en --defaultlang=en --email=ebe7-sales-timeline --subject="Thursday 11:00 CET - Beginning of the Early Bird sales for the E-commerce Berlin Expo 2023"
+
+php artisan exhibitors:award --domain=ecommerceberlin.com --award=earlybird --previous --reverse --lang=de --defaultlang=en --email=ebe7-sales-timeline --subject="Donnerstag 11:00 CET - Vorverkauf der Standflächen für die E-commerce Berlin Expo 2023"
+
+
 
 //TOP30
 
 php artisan exhibitors:award --domain=ecommerceberlin.com --award=earlybird --previous --lang=en --defaultlang=en --email=ebe7-sales-timeline-top30 --subject="Wednesday 11:00 CET: Exclusive sales round for TOP30 companies in the recent Exhibitors' Contest"
 
 php artisan exhibitors:award --domain=ecommerceberlin.com --award=earlybird --previous --lang=de --defaultlang=en --email=ebe7-sales-timeline-top30 --subject="Mittwoch 11:00 CET: Exklusive Salesrunde für die TOP30 Unternehmen aus dem vorherigen Ausstellerwettbewerb"
-
-//GLOBAL
-
-php artisan exhibitors:award --domain=ecommerceberlin.com --award=earlybird --previous --reverse --lang=en --defaultlang=en --email=ebe7-sales-timeline --subject="Thursday 11:00 CET - Beginning of the Early Bird sales for the E-commerce Berlin Expo 2023"
-
-php artisan exhibitors:award --domain=ecommerceberlin.com --award=earlybird --previous --reverse --lang=de --defaultlang=en --email=ebe7-sales-timeline --subject="Donnerstag 11:00 CET - Vorverkauf der Standflächen für die E-commerce Berlin Expo 2023"
 
 
 
