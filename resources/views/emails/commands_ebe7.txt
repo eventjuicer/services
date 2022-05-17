@@ -1,0 +1,31 @@
+
+
+17 maja
+=========
+
+
+
+//TOP30
+
+php artisan exhibitors:award --domain=ecommerceberlin.com --award=earlybird --previous --lang=en --defaultlang=en --email=ebe7-sales-timeline --subject="EBE2023: Exclusive sales round for TOP30 companies in the recent Exhibitors' Contest"
+
+php artisan exhibitors:award --domain=ecommerceberlin.com --award=earlybird --previous --lang=de --defaultlang=en --email=ebe7-sales-timeline --subject="EBE2023: Exklusive Salesrunde für die TOP30 Unternehmen aus dem vorherigen Ausstellerwettbewerb"
+
+//EARLYBIRD....
+
+
+php artisan exhibitors:award --domain=ecommerceberlin.com --award=earlybird --previous --reverse --lang=en --defaultlang=en --email=ebe7-sales-timeline --subject="Beginning of the Early Bird sales for the E-commerce Berlin Expo 2023"
+
+php artisan exhibitors:award --domain=ecommerceberlin.com --award=earlybird --previous --reverse --lang=de --defaultlang=en --email=ebe7-sales-timeline --subject="Vorverkauf der Standflächen für die E-commerce Berlin Expo 2023"
+
+
+
+
+
+
+
+=======================================
+supervisorctl restart laravel-api:*
+supervisorctl restart laravel-services:*
+php artisan queue:restart
+
