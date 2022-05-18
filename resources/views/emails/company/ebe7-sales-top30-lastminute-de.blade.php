@@ -10,9 +10,7 @@
  
 **Exklusiver Vorverkauf für die TOP30 Unternehmen** aus dem Aussteller-Wettbewerb.
 
-**Ihr seid eines der 30 berechtigten Unternehmen!** 
-
-Bucht die Ausstellungsfläche heute über [ecommerceberlin.com/top30earlybird_t6d63sa9](https://ecommerceberlin.com/top30earlybird_t6d63sa9)
+**Ihr seid eines der 30 berechtigten Unternehmen! Bucht die Ausstellungsfläche heute über [ecommerceberlin.com/top30earlybird_t6d63sa9](https://ecommerceberlin.com/top30earlybird_t6d63sa9)**
  
 Über diesen Link könnt ihr die Ausstellungsflächen bis **zum Ende des Tages buchen.** 
 
@@ -20,10 +18,6 @@ Am Folgetag wird der Verkauf für alle geöffnet und die besten Plätze zu den n
  
 @endcomponent
 
-**Donnerstag - 19. Mai, 11:00 Uhr**
- 
-Offener Verkauf für alle - der Hallenplan mit den Preisen wird ab Donnerstag auf unserer Webseite verfügbar sein: https://ecommerceberlin.com/ 
- 
 ## Wie sieht der Buchungsprozess aus?
  
 Aufgrund des das Platzlimit übersteigenden Interesses setzen wir ein anderes Verkaufsmodell um.

@@ -8,9 +8,7 @@
  
 **Exclusive sale for the TOP30 companies** from the Exhibitor Contest. 
 
-**You are one of the 30 eligibled companies! 
-
-Book today via [ecommerceberlin.com/top30earlybird_t6d63sa9](https://ecommerceberlin.com/top30earlybird_t6d63sa9)**
+**You are one of the 30 eligibled companies! Book today via [ecommerceberlin.com/top30earlybird_t6d63sa9](https://ecommerceberlin.com/top30earlybird_t6d63sa9)**
  
 You will be able to book the exhibition space through secret link provided above - **till the end of the day.** 
 
@@ -18,9 +16,6 @@ On the following day the sale will be open for everyone and we won’t be able t
  
 @endcomponent
 
-**Thursday - May 19, 11:00 am**
- 
-Open sale for everyone - the floor plan with prices will be available from Wednesday
  
 ## What does the booking process look like?
  
