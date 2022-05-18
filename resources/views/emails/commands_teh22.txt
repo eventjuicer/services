@@ -5,6 +5,12 @@ php artisan queue:restart
 
 
 
+18 maja
+=======
+
+
+php artisan exhibitors:award --domain=targiehandlu.pl --award=earlybird --previous --lang=pl --defaultlang=pl --email="teh22-top30-lastminute" --subject="DZISIAJ/ŚRODA - Start 11:00 - Sekretny link do rezerwacji przestrzeni wystawienniczej..."
+
 
 
 
@@ -18,34 +24,6 @@ php artisan queue:restart
 //TOP30
 
 php artisan exhibitors:award --domain=targiehandlu.pl --award=earlybird --previous --lang=pl --defaultlang=pl --email="teh22-top30" --subject="ŚRODA 11:00 - Niepubliczny link do rezerwacji przestrzeni wystawienniczej..."
-
-
-
-
-
-
-
-
-
-
-
-
-
-php artisan exhibitors:award --domain=targiehandlu.pl --award=earlybird --previous --lang=en --defaultlang=pl --email="teh21-top30" --subject="Ecommerce Warsaw Expo SPRING 2022: Early bird sales for TOP30"
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
