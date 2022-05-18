@@ -9,6 +9,22 @@ php artisan queue:restart
 =======
 
 
+
+//GLOBAL....
+
+
+php artisan exhibitors:award --domain=targiehandlu.pl --award=earlybird --previous --reverse --lang=pl --defaultlang=pl --email="teh22-sales-reminder" --subject="Czwartek, 19 maja,  11:00. Sprzedaż stoisk na 22. Targi eHandlu."
+
+php artisan exhibitors:award --domain=targiehandlu.pl --award=earlybird --previous --reverse --lang=en --defaultlang=pl --email="teh22-sales-reminder" --subject="Thursday, 19th of May. 11:00 CET. Open sales starts..."
+
+
+
+
+
+
+
+//TOP30
+
 php artisan exhibitors:award --domain=targiehandlu.pl --award=earlybird --previous --lang=pl --defaultlang=pl --email="teh22-top30-lastminute" --subject="DZISIAJ/ŚRODA - Start 11:00 - Sekretny link do rezerwacji przestrzeni wystawienniczej..."
 
 
@@ -32,29 +48,24 @@ php artisan exhibitors:award --domain=targiehandlu.pl --award=earlybird --previo
 
 
 
-//GLOBAL....
-
-
-php artisan exhibitors:award --domain=targiehandlu.pl --award=earlybird --previous --reverse --lang=pl --defaultlang=pl --email="teh21-earlybird" --subject="Targi eHandlu WIOSNA 2022 Warszawa: Stoiska Early Bird"
-
-php artisan exhibitors:award --domain=targiehandlu.pl --award=earlybird --previous --reverse --lang=en --defaultlang=pl --email="teh21-earlybird" --subject="Ecommerce Warsaw Expo SPRING 2022: Early bird sales."
-
-
-
-
-
-
-
-
-
-
-
-
-
 16 maja
 ===========
 
 php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Sprzedaż powierzchni - jesienne Targi eHandlu w Warszawie" --email=teh22-salesplan
 
 php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=en --subject="Sales of exhibition spaces - Ecommerce Warsaw Expo - autumn edition" --email=teh22-salesplan
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
