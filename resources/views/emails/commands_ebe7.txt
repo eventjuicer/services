@@ -1,5 +1,18 @@
 
 
+
+18 maja
+=========
+
+//TOP30
+php artisan exhibitors:award --domain=ecommerceberlin.com --award=earlybird --previous --lang=en --defaultlang=en --email=ebe7-sales-top30-lastminute --subject="Today 11:00 CET: Exclusive sales round for TOP30 companies in the recent Exhibitors' Contest"
+
+php artisan exhibitors:award --domain=ecommerceberlin.com --award=earlybird --previous --lang=de --defaultlang=en --email=ebe7-sales-top30-lastminute --subject="Heute 11:00 CET: Exklusive Salesrunde für die TOP30 Unternehmen aus dem vorherigen Ausstellerwettbewerb"
+
+
+
+
+
 17 maja
 =========
 
