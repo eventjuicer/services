@@ -1,6 +1,45 @@
 
 
 
+
+
+
+19 maja
+=========
+
+
+
+php artisan exhibitors:award --domain=ecommerceberlin.com --award=earlybird --previous --reverse --lang=en --defaultlang=en --email=ebe7-sales-eb-last --subject="TODAY 11:00 CET - Beginning of the Early Bird sales for the E-commerce Berlin Expo 2023"
+
+php artisan exhibitors:award --domain=ecommerceberlin.com --award=earlybird --previous --reverse --lang=de --defaultlang=en --email=ebe7-sales-eb-last --subject="Heute 11:00 CET - Vorverkauf der Standflächen für die E-commerce Berlin Expo 2023"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 18 maja
 =========
 
