@@ -5,7 +5,7 @@
 # Hi {{ array_get($profile, "fname")  }},
  
 
-## TODAY (Thursday - May 19) 11:00 am
+## Today (Thursday, May 19th) 11:00 am CET
  
 **Open sale for everyone, including your company**.
 
