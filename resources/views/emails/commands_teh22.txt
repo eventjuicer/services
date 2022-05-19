@@ -3,6 +3,50 @@ supervisorctl restart laravel-services:*
 php artisan queue:restart
 ===========================================
 
+19 maja
+===========
+
+
+teh22-sales-eb-last
+
+//GLOBAL....
+
+
+php artisan exhibitors:award --domain=targiehandlu.pl --award=earlybird --previous --reverse --lang=pl --defaultlang=pl --email="teh22-sales-eb-last" --subject="DZISIAJ 11:00. Otwarta sprzedaż stoisk na 22. Targi eHandlu."
+
+php artisan exhibitors:award --domain=targiehandlu.pl --award=earlybird --previous --reverse --lang=en --defaultlang=pl --email="teh22-sales-eb-last" --subject="TODAY 11:00 CET. Open sales starts...Ecommerce Warsaw Expo autumn edition"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 18 maja
