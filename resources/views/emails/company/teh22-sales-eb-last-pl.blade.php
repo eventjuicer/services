@@ -2,7 +2,7 @@
  
 # Cześć {{ array_get($profile, "fname")  }},
 
-Dzisiaj - **w czwartek o 11:00** - rusza otwarta sprzedaż dla wszystkich zainteresowanych powierzchnią wystawienniczą na jesiennych Targach eHandlu (27 października w Warszawie - EXPO XXI)
+**Dzisiaj - o 11:00** - rusza otwarta sprzedaż dla wszystkich zainteresowanych powierzchnią wystawienniczą na jesiennych Targach eHandlu (27 października w Warszawie - EXPO XXI)
 
 **Mapka i ceny dostępne na [targiehandlu.pl/exhibit](https://targiehandlu.pl/exhibit)**
 
