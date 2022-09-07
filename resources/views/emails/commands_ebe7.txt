@@ -4,40 +4,48 @@
 
 
 
+
+
+
+
+
+
+
+7 września
+==============
+
+php artisan exhibitors:current-event --defaultlang=en --domain=ecommerceberlin.com --lang=en --subject="E-commerce Berlin Expo 2023 - submit your presentation proposal and become a speaker!" --email=ebe7-cfp-1st-message
+
+php artisan exhibitors:current-event --defaultlang=en --domain=ecommerceberlin.com --lang=de --subject="EBE 2023 - Teile dein Präsentationsvorschlag mit uns und werde unser Speaker!" --email=ebe7-cfp-1st-message
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 19 maja
 =========
-
-
 
 php artisan exhibitors:award --domain=ecommerceberlin.com --award=earlybird --previous --reverse --lang=en --defaultlang=en --email=ebe7-sales-eb-last --subject="TODAY 11:00 CET - Beginning of the Early Bird sales for the E-commerce Berlin Expo 2023"
 
 php artisan exhibitors:award --domain=ecommerceberlin.com --award=earlybird --previous --reverse --lang=de --defaultlang=en --email=ebe7-sales-eb-last --subject="Heute 11:00 CET - Vorverkauf der Standflächen für die E-commerce Berlin Expo 2023"
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 18 maja
@@ -47,9 +55,6 @@ php artisan exhibitors:award --domain=ecommerceberlin.com --award=earlybird --pr
 php artisan exhibitors:award --domain=ecommerceberlin.com --award=earlybird --previous --lang=en --defaultlang=en --email=ebe7-sales-top30-lastminute --subject="Today 11:00 CET: Exclusive sales round for TOP30 companies in the recent Exhibitors' Contest"
 
 php artisan exhibitors:award --domain=ecommerceberlin.com --award=earlybird --previous --lang=de --defaultlang=en --email=ebe7-sales-top30-lastminute --subject="Heute 11:00 CET: Exklusive Salesrunde für die TOP30 Unternehmen aus dem vorherigen Ausstellerwettbewerb"
-
-
-
 
 
 17 maja
@@ -69,16 +74,6 @@ php artisan exhibitors:award --domain=ecommerceberlin.com --award=earlybird --pr
 php artisan exhibitors:award --domain=ecommerceberlin.com --award=earlybird --previous --lang=en --defaultlang=en --email=ebe7-sales-timeline-top30 --subject="Wednesday 11:00 CET: Exclusive sales round for TOP30 companies in the recent Exhibitors' Contest"
 
 php artisan exhibitors:award --domain=ecommerceberlin.com --award=earlybird --previous --lang=de --defaultlang=en --email=ebe7-sales-timeline-top30 --subject="Mittwoch 11:00 CET: Exklusive Salesrunde für die TOP30 Unternehmen aus dem vorherigen Ausstellerwettbewerb"
-
-
-
-
-
-
-
-
-
-
 
 
 
