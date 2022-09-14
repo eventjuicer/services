@@ -6,7 +6,7 @@ Kolejne Targi eHandlu odbędą się **27 października na EXPO XXI w Warszawie.*
 
 Aktualnie pracujemy nad agendą wystąpień.
 
-## Chcesz wystąpić? Deadline na zgłoszenie mija dzisiaj o 23:59 - informacje poniżej!
+## Chcesz podzielić się unikatową wiedzą? Wejdź na [targiehandlu.pl/speaking](https://targiehandlu.pl/speaking) i wpisz propozycję prezentacji
 
 Udostępniamy pierwszą porcję nagrań video z 21. edycji Targów, która odbyła się w kwietniu. 
 
