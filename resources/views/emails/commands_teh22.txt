@@ -3,6 +3,18 @@ supervisorctl restart laravel-services:*
 php artisan queue:restart
 ===========================================
 
+
+
+
+14 września
+============
+
+php artisan visitors:restore-from-old-events --domain=targiehandlu.pl --email=teh22_videos_cfp --subject="VIDEO z październikowych Targów eHandlu; Czy chcesz być prelegentem na kolejnej edycji?" --events=78,81,83,85,87,89 --throttle=50000
+
+
+
+
+
 19 maja
 ===========
 
