@@ -17,6 +17,15 @@ Route::get('/', function()
 });
 
 
+
+Route::get('/teh', function () {
+    return Artisan::call('contestants:votes', [
+        '--domain' 	=> 'targiehandlu.pl',
+        '--role' 	=> 'contestant'
+    ]);
+});
+
+
 Route::get('/ebe', function () {
     return Artisan::call('contestants:votes', [
         
