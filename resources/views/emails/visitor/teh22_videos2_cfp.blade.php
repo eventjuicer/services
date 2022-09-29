@@ -4,12 +4,13 @@
 
 Dzisiaj **ostatni dzień** na Twoją decyzję dotyczącą kształtu agendy 22. Targów eHandlu!
 
+## 153 Ekspertów czeka na Twoją przychylność i oddanie głosu. Pomożesz?
+
+
 <a href="https://targiehandlu.pl/vote" target="_blank">
-    <img src="https://res.cloudinary.com/eventjuicer/image/upload/w_450,h_450,c_limit,f_auto/v1664451893/team/teh22_cfp_categories.png
-" alt="strona głosowania" />
+    <img src="https://res.cloudinary.com/eventjuicer/image/upload/w_450,h_450,c_limit,f_auto/v1664453760/team/teh22_cfp_submitters.png" alt="strona głosowania" />
 </a>
 
-## 153 Ekspertów czeka na Twoją przychylność i oddanie głosu. Pomożesz?
 
 @component('mail::panel')
 
