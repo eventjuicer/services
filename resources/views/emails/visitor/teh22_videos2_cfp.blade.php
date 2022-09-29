@@ -4,7 +4,7 @@
 
 Dzisiaj **ostatni dzień** na Twoją decyzję dotyczącą kształtu agendy 22. Targów eHandlu!
 
-## 153 Ekspertów czeka na Twoją przychylność i oddanie głosu. Pomożesz?
+## 153 Ekspertów czeka na Twoją przychylność i [oddanie głosu](https://targiehandlu.pl/vote). Pomożesz?
 
 
 <a href="https://targiehandlu.pl/vote" target="_blank">
