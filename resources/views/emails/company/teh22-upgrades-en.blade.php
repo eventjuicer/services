@@ -10,8 +10,6 @@
 
 * Distribution of lanyards with a logo
 
-* Your **logotype on visitors ID's**
-
 * **Sponsor of the catering area** for Visitors
 
 * **VIP zone sponsor** (Exhibitors, Speakers, VIP guests)
@@ -29,7 +27,7 @@
 
 * Additional furniture
 
-* **50'' LED screen**
+* **50inches LED screen**
 
 * Independent power connection - 3kW (instead of the standard 300W) if you plan to equip the stand other than 1-2 laptops and TV
 
