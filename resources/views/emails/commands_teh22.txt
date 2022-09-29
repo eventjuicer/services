@@ -11,6 +11,10 @@ php artisan queue:restart
 ===========
 
 
+php artisan visitors:restore-from-old-events --domain=targiehandlu.pl --email=teh22_videos2_cfp --subject="Twoja decyzja dot. agendy Targów" --events=81,83,85,87,89,95 --throttle=50000
+
+
+
 php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=en --subject="Additional services ordering - carpet flooring, LED display, etc..." --email=teh22-upgrades
 
 php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Usługi dodatkowe: zabudowa, TV, ulotki..." --email=teh22-upgrades
