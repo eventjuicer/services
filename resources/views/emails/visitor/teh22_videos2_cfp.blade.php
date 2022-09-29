@@ -9,7 +9,7 @@ Dzisiaj **ostatni dzień** na Twoją decyzję dotyczącą kształtu agendy 22. T
 " alt="strona głosowania" />
 </a>
 
-**153 Ekspertów czeka na Twoją przychylność i oddanie głosu. Pomożesz?**
+## 153 Ekspertów czeka na Twoją przychylność i oddanie głosu. Pomożesz?
 
 @component('mail::panel')
 
@@ -19,7 +19,7 @@ Chcę ustalić agendę
 
 @endcomponent
 
-*W ramach podziękowań za Twój czas, udostępniamy kolejną porcję nagrań video z 21. edycji Targów, która odbyła się w kwietniu. *
+*W ramach podziękowań za Twój czas, udostępniamy **kolejną porcję nagrań video** z 21. edycji Targów, która odbyła się w kwietniu. *
 
 <table style="font-family:Avenir,Helvetica,sans-serif;box-sizing:border-box;color:#74787e;font-size:16px;line-height:1.5em;margin-top:0;text-align:left;border-spacing:30px;">
     <tr>
