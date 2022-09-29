@@ -6,10 +6,24 @@ php artisan queue:restart
 
 
 
+
+29 września
+===========
+
+
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=en --subject="Additional services ordering - carpet flooring, LED display, etc..." --email=teh22-upgrades
+
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Usługi dodatkowe: zabudowa, TV, ulotki..." --email=teh22-upgrades
+ 
+
+
+
+
+
 14 września
 ============
 
-php artisan visitors:restore-from-old-events --domain=targiehandlu.pl --email=teh22_videos_cfp --subject="Bezpłatny dostęp do video / Zostań Prelegent-em/ką na październikowych Targach eHandlu" --events=81,83,85,87,89,95 --throttle=50000
+php artisan visitors:restore-from-old-events --domain=targiehandlu.pl --email=teh22_videos_cfp --subject="Bezpłatny dostęp do video | Chcesz wystąpić na październikowych Targach eHandlu?" --events=81,83,85,87,89,95 --throttle=50000
 
 
 
