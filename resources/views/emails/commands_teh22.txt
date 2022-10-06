@@ -5,6 +5,14 @@ php artisan queue:restart
 
 
 
+
+
+php artisan visitors:current-event --domain=targiehandlu.pl --subject="23/10/2020 Targi eHandlu w Warszawie odwołane." --email=teh22-agenda1
+
+
+
+
+
 6 października
 
 
