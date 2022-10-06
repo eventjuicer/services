@@ -9,7 +9,7 @@ Cześć {{ $p->translate("[[fname]]") }}!
 @component('mail::panel')
 Przypominamy, że 22. Targi eHandlu odbędą się **27 października w EXPO XXI w Warszawie.**
 
-Targi eHandlu to 4 sceny z prezentacjami Ekspertów oraz 140 Wystawców - oferentów usług i produktów wspierających handel w Internecie.
+Targi eHandlu to **4 sceny z prezentacjami Ekspertów** oraz **140 Wystawców** - oferentów usług i produktów wspierających handel w Internecie.
 @endcomponent
 
 
