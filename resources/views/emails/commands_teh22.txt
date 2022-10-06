@@ -5,13 +5,19 @@ php artisan queue:restart
 
 
 
+6 października
+
+
+php artisan companies:emptyprofile --domain=targiehandlu.pl --defaultLang=pl
+
+
 
 
 29 września
 ===========
 
 
-php artisan visitors:restore-from-old-events --domain=targiehandlu.pl --email=teh22_videos2_cfp --subject="Twoja decyzja dot. agendy Targów" --events=81,83,85,87,89,95 --throttle=50000
+php artisan visitors:restore-from-old-events --domain=targiehandlu.pl --email=teh22_videos2_cfp --subject="Twoja decyzja dot. agendy Targów eHandlu" --events=81,83,85,87,89,95 --throttle=50000
 
 
 

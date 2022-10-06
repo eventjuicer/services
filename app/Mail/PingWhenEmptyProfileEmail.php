@@ -137,16 +137,16 @@ class PingWhenEmptyProfileEmail extends Mailable
 
         "pl" => [
             "subject" => "Profil Firmy na stronie Targów - wymagane działanie.",
-            "accountUrl" => "https://account.ecommerceberlin.com/#/login?token=",
+            // "accountUrl" => "https://account.ecommerceberlin.com/#/login?token=",
         ],
         "en" => [
             "subject" => "Exhibitor's public profile needs your attention",
-             "accountUrl" => "https://account.ecommerceberlin.com/#/login?token=",
+            //  "accountUrl" => "https://account.ecommerceberlin.com/#/login?token=",
         ],
 
         "de" => [
             "subject" => "Das Ausstellerprofil bedarf der Bearbeitung",
-             "accountUrl" => "https://account.ecommerceberlin.com/#/login?token=",
+            //  "accountUrl" => "https://account.ecommerceberlin.com/#/login?token=",
         ]
     ];
 
@@ -262,7 +262,7 @@ class PingWhenEmptyProfileEmail extends Mailable
 
         $this->profileUrl = "https://".$domain."/exhibitors/".$this->participant->company->slug;
        // $this->accountUrl = $this->getSetting("accountUrl")  . $this->participant->token;
-        $this->accountUrl = "https://account.".$domain."/#/login?token=" . $this->participant->token;
+        $this->accountUrl = "https://account.".$domain."/#/companydata?token=" . $this->participant->token;
        
       //  dd($this->event_manager);
 
