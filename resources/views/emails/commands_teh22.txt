@@ -8,10 +8,10 @@ php artisan queue:restart
 
 
 
+7 października
 
 
-php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Zaproś swoich kluczowych Partnerów i Klientów do Strefy VIP" --email=teh22-vips
-
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Czy chcesz zorganizować warsztat?" --email=teh22-workshops
 
 
 
@@ -21,7 +21,7 @@ php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl -
 
 php artisan companies:emptyprofile --domain=targiehandlu.pl --defaultLang=pl
 php artisan visitors:current-event --domain=targiehandlu.pl --subject="Pamiętasz o dacie 27 października? 50% Agendy ujawnione. | 22 Targi eHandlu w Warszawie" --email=teh22-agenda1
-
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Zaproś swoich kluczowych Partnerów i Klientów do Strefy VIP" --email=teh22-vips
 
 
 
