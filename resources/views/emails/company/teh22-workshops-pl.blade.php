@@ -18,7 +18,7 @@ Warsztaty odbędą się Hali 3 (obok strefy VIP, do której każdy uczestnik bę
 
 ## Czy Twoja firma jest zainteresowana?
 
-Zgłoszenia zbieramy dzisiaj do końca dnia - jako odpowiedź na tę wiadomość. 
+**Zgłoszenia zbieramy dzisiaj do końca dnia** - jako odpowiedź na tę wiadomość. 
 W przyszłym tygodniu - o ile będzie wystarczająca liczba chętnych firm - uruchomimy możliwość bookingu slotu godzinowego.
 
 Pozdrawiam
