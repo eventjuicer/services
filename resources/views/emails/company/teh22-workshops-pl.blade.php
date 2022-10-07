@@ -4,7 +4,7 @@
  
 Cześć {{ array_get($profile, "fname") }},
 
-## Na wniosek kilku Wystawców **planujemy uruchomić strefę warsztatów** dla firm oferujących oprogramowanie.
+## Na wniosek kilku Wystawców planujemy uruchomić strefę warsztatów dla firm oferujących (przede wszystkim) oprogramowanie.
 
 Zasady: 
 
@@ -14,10 +14,12 @@ Zasady:
 
 * Opłata 1000 pln netto
 
-Warsztaty odbędą się Hali 3 (obok strefy VIP, do której każdy uczestnik będzie miał także nielimitowany dostęp),
-nagłośnienie za pośrednictwem słuchawek.
+Warsztaty odbędą się Hali 3 (obok strefy VIP, do której każdy uczestnik będzie miał także nielimitowany dostęp), nagłośnienie za pośrednictwem słuchawek.
 
 ## Czy Twoja firma jest zainteresowana?
+
+Zgłoszenia zbieramy dzisiaj do końca dnia - jako odpowiedź na tę wiadomość. 
+W przyszłym tygodniu - o ile będzie wystarczająca liczba chętnych firm - uruchomimy możliwość bookingu slotu godzinowego.
 
 Pozdrawiam
 
