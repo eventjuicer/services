@@ -9,6 +9,7 @@ use Eventjuicer\Repositories\MeetupRepository;
 use Eventjuicer\Repositories\Criteria\ColumnIsNull;
 use Eventjuicer\Repositories\Criteria\ColumnLessThan;
 use Eventjuicer\Repositories\Criteria\ColumnGreaterThan;
+use Eventjuicer\Repositories\Criteria\FlagEquals;
 
 use App\Jobs\Meetups\BulkNotify;
 use Eventjuicer\Services\Meetups\Sendable;
@@ -63,6 +64,8 @@ class SendBulkMeetupRequests extends Command
             } 
             return;
         }
+
+        $meetups->pushCriteria(new FlagEquals("direction", "C2P"));
 
         //skip already confirmed
         $meetups->pushCriteria(new ColumnIsNull("responded_at"));

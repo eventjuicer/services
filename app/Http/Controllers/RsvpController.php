@@ -8,6 +8,7 @@ use Eventjuicer\Repositories\MeetupRepository;
 use Eventjuicer\Repositories\ParticipantRepository;
 use Eventjuicer\Repositories\Criteria\BelongsToParticipant;
 use Eventjuicer\Repositories\Criteria\SortByDesc;
+use Eventjuicer\Repositories\Criteria\FlagEquals;
 
 use Carbon\Carbon;
 
@@ -78,6 +79,11 @@ class RsvpController extends Controller
         $this->meetups->pushCriteria(
             new SortByDesc("created_at")
         );
+
+        $this->meetups->pushCriteria(
+            new FlagEquals("direction", "C2P")
+        );
+
 
         $meetups = $this->meetups->with(
             ["admin.fields", "company.data"]
