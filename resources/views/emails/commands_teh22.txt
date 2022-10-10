@@ -5,6 +5,11 @@ php artisan queue:restart
 
 
 
+10 października
+===============
+
+
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Leady i konwersja z Targów. Publiczny serwis z materiałami promocyjnymi." --email=teh22-promoninja-intro
 
 
 
