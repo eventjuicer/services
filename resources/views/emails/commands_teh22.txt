@@ -5,6 +5,14 @@ php artisan queue:restart
 
 
 
+
+
+php artisan visitors:restore-from-old-events --domain=targiehandlu.pl --email=teh22-agenda1-for-old --subject="1/2 Agendy ujawniona! Atrakcyjna?" --events=81,83,85,87,89,95 --throttle=50000
+
+
+
+
+
 10 października
 ===============
 
