@@ -6,10 +6,20 @@ Cześć {{ $p->translate("[[fname]]") }}!
 
 ## Opublikowaliśmy [listę prezentacji na scenach A i D](https://targiehandlu.pl/visit) (kompletna agenda będzie upubliczniona jeszcze w tym tygodniu).
 
+
+@component('mail::button', ['url' => 'https://targiehandlu.pl/visit'])
+Zarejestruj się / Sprawdź agendę
+@endcomponent
+
+
 @component('mail::panel')
+
 Przypominamy, że 22. Targi eHandlu odbędą się **27 października w EXPO XXI w Warszawie.**
 
 Targi eHandlu to **4 sceny z prezentacjami Ekspertów** oraz **140 Wystawców** - oferentów usług i produktów wspierających handel w Internecie.
+
+**Podczas tej edycji planujemy także ponad 10 warsztatów.**
+
 @endcomponent
 
 
@@ -57,13 +67,6 @@ Zarejestruj się / Sprawdź agendę
 @endcomponent
 
 
-**Scena B**
-
-(wkrótce)
-
-**Scena C**
-
-(wkrótce)
 
 # Scena D
 
