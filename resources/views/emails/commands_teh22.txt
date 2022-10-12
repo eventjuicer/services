@@ -16,6 +16,9 @@
 12 października
 ===============
 
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=en --subject="Workshop zone - only 12 slots available." --email=teh22-workshops-form
+
+
 php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="12 slotów warsztatowych - czas start! :)" --email=teh22-workshops-form
 
 
