@@ -32,18 +32,17 @@ Mamy **max 12 slotów** (30 minut + 15minut na Q&A / instalację kolejnego Prowa
 
 Planujemy 2 przestrzenie warsztatowe (po 6 Warszatów per przestrzeń); 
 
-Uczestnicy - grupa 20-25 osób, które mogą się zgłosić i **muszą zostać zaakceptowane** przez Prowadzącego za pośrednictwem Panelu Wystawcy
+Uczestnicy - **grupa 20-25 osób,** które mogą się zgłosić i **muszą zostać zaakceptowane** przez Prowadzącego za pośrednictwem Panelu Wystawcy
 
-Prowadzący ma do dyspozycji laptop i mikrofon
+Prowadzący ma do dyspozycji **laptop i mikrofon**
 
-Uczestnicy będą mieli do dyspozycji duże wyświetlacze LED i słuchawki
+Uczestnicy będą mieli do dyspozycji **duże wyświetlacze LED i słuchawki**
 
-Promocję Warsztatów zaczynamy od 17 października (do tego czasu wszystkie informacje muszą być uzupełnione)
+**Aktywną promocję Warsztatów zaczynamy od 17 października**
 
 Opłata 1000 pln netto
 
-Warsztaty odbędą się Hali 3 (obok strefy VIP, do której każdy uczestnik będzie miał także nielimitowany dostęp)
-
+Warsztaty odbędą się obok strefy VIP (HALA 3), do której **każdy uczestnik będzie miał  nielimitowany dostęp**
 
 **Warsztat będzie dostępny dla pierwszych 12 firm, które wypełnią formularz**.
 
@@ -53,7 +52,9 @@ Zgłoszenie warsztatu
 @endcomponent
 
 
-Pozdrawiam
+
+
+Pozdrawiam,
 
 {{$footer}}
 
