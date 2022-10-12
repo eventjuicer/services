@@ -44,7 +44,7 @@ Opłata 1000 pln netto
 
 Warsztaty odbędą się obok strefy VIP (HALA 3), do której **każdy uczestnik będzie miał  nielimitowany dostęp**
 
-**Warsztat będzie dostępny dla pierwszych 12 firm, które wypełnią formularz**.
+## Warsztat będzie dostępny dla pierwszych 12 firm, które wypełnią formularz
 
 
 @component('mail::button', ['url' => "https://targiehandlu.pl/workshops"])
