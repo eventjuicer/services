@@ -6,7 +6,27 @@
 
 
 
+
+
+
+
+php artisan visitors:restore-from-old-events --domain=targiehandlu.pl --email=teh22-agenda2-for-old --subject="Rewelacyjna agenda. Zapisy na warsztaty. | 22. Targi ehandlu"  --throttle=50000
+
+
+
+
+
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=en --subject="DEADLINE: Additional services ordering - electricity, carpet flooring, LED display, etc..." --email=teh22-upgrades-lastcall
+
+
+
 php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Jest ranking. TOP: Grupa Marketer, EasyStorage, Satisfly, Gonito, Idea commerce..." --email=teh22-ranking-update
+
+
+
+
+
+
 
 
 
@@ -16,7 +36,6 @@ php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl -
 13 października
 ===============
 
-php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=en --subject="DEADLINE: Additional services ordering - electricity, carpet flooring, LED display, etc..." --email=teh22-upgrades-lastcall
 
 php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="DEADLINE: wykładzina, dodatkowy prąd, TV, ulotki..." --email=teh22-upgrades-lastcall
  

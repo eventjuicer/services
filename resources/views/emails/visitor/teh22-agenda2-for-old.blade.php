@@ -4,11 +4,11 @@
 
 Cześć {{ $p->translate("[[fname]]") }}!
 
-## Opublikowaliśmy [kompletną listę prezentacji na scenach A, B, C i D](https://targiehandlu.pl/visit).
+# Opublikowaliśmy [kompletną listę prezentacji na scenach A, B, C i D](https://targiehandlu.pl/visit).
 
-Lista prezentacji na scenach, które zostały dzisiaj opublikowane poniżej. 
+(Lista prezentacji na scenach, które zostały dzisiaj opublikowane poniżej.)
 
-Naszym zdaniem agenda jest rewelacyjna! Sporo świeżości! :)
+Naszym zdaniem **agenda jest rewelacyjna! Sporo świeżości! ...a Ty co uwazasz? :)**
 
 @component('mail::button', ['url' => 'https://targiehandlu.pl/visit'])
 Zarejestruj się / Sprawdź agendę
@@ -22,7 +22,7 @@ Targi eHandlu to **4 sceny z prezentacjami Ekspertów** oraz **140 Wystawców** 
 
 @endcomponent
 
-## W przyszłym tygodniu ruszą zapisy na warsztaty (2 strefy warsztatowe, na każdej po 7 warsztatów.)
+# W przyszłym tygodniu ruszą zapisy na warsztaty (2 strefy warsztatowe, na każdej po 7 warsztatów.)
 
 
 Oto część Agendy, którą właśnie opublikowaliśmy.
