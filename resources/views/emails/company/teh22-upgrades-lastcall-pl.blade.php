@@ -45,13 +45,14 @@ Zamawianie usług dodatkowych kilka dni przed wydarzeniem bardzo utrudnia nam or
 
 ## Usługi premium - [account.targiehandlu.pl/#/premium]({!! $accountUrlPremium !!})
 
+* ~~**Sponsor strefy VIP** (Wystawcy, Prelegenci, Goście VIP)~~ SPRZEDANE
+
 * Prawo do **dystrybucji ulotek** poza stoiskiem
 
 * Dystrybucja smyczy z logotypem Twojej firmy
 
 * **Sponsor strefy cateringu** dla zwiedzających
 
-* ~~**Sponsor strefy VIP** (Wystawcy, Prelegenci, Goście VIP)~~ SPRZEDANE
 
 
 
