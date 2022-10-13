@@ -4,14 +4,14 @@
 
 Cześć {{ $p->translate("[[fname]]") }}!
 
-**W przyszłym tygodniu ruszą zapisy na warsztaty (2 strefy warsztatowe, na każdej po 7 warsztatów.)**
+W przyszłym tygodniu ruszą zapisy na warsztaty (2 strefy warsztatowe, na każdej po 7 warsztatów.)
 
 # ... a właśnie teraz opublikowaliśmy [kompletną listę prezentacji na scenach A, B, C i D](https://targiehandlu.pl/visit).
 
-Naszym zdaniem **agenda jest rewelacyjna! Sporo świeżości! ...a Ty co uwazasz? :)**
+Naszym zdaniem **agenda jest rewelacyjna!** Sporo świeżości ...a Ty co uwazasz? :)
 
 @component('mail::button', ['url' => 'https://targiehandlu.pl/visit'])
-Zarejestruj się / Sprawdź agendę
+Sprawdź całą agendę
 @endcomponent
 
 
@@ -26,7 +26,7 @@ Oto część Agendy, którą właśnie opublikowaliśmy.
 
 **Grupa Tense**
 
-utsourcing a in-house. **OKtóre działania SEO outsourcować**, a które wykonywać samodzielnie?
+Outsourcing a in-house. **Które działania SEO outsourcować**, a które wykonywać samodzielnie?
 
 **Przelewy24**
 
@@ -65,7 +65,7 @@ Targi eHandlu to **4 sceny z prezentacjami Ekspertów** oraz **140 Wystawców** 
 @endcomponent
 
 @component('mail::button', ['url' => 'https://targiehandlu.pl/visit'])
-Zarejestruj się / Sprawdź całą agendę
+Zarejestruj się
 @endcomponent
 
 
@@ -109,7 +109,7 @@ Ostatnia prosta w eCommerce: **Ujednolicona strategia po-checkoutowa**
 
 
 @component('mail::button', ['url' => 'https://targiehandlu.pl/visit'])
-Zarejestruj się / Sprawdź całą agendę
+Sprawdź całą agendę
 @endcomponent
 
 

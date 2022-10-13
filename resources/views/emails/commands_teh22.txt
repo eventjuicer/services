@@ -38,7 +38,7 @@ php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl -
 ===============
 
 
-php artisan visitors:restore-from-old-events --domain=targiehandlu.pl --email=teh22-agenda2-for-old --subject="Rewelacyjna agenda. Zapisy na warsztaty. | 22. Targi ehandlu"  --throttle=50000
+php artisan visitors:restore-from-old-events --domain=targiehandlu.pl --email=teh22-agenda2-for-old --subject="Rewelacyjna agenda. Zapisy na warsztaty. | 22. Targi ehandlu"  --throttle=55000
 
 
 
