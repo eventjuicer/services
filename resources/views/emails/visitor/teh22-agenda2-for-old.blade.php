@@ -4,7 +4,9 @@
 
 Cześć {{ $p->translate("[[fname]]") }}!
 
-# Opublikowaliśmy [kompletną listę prezentacji na scenach A, B, C i D](https://targiehandlu.pl/visit).
+**W przyszłym tygodniu ruszą zapisy na warsztaty (2 strefy warsztatowe, na każdej po 7 warsztatów.)**
+
+# ... a właśnie teraz opublikowaliśmy [kompletną listę prezentacji na scenach A, B, C i D](https://targiehandlu.pl/visit).
 
 (Lista prezentacji na scenach, które zostały dzisiaj opublikowane poniżej.)
 
@@ -14,15 +16,6 @@ Naszym zdaniem **agenda jest rewelacyjna! Sporo świeżości! ...a Ty co uwazasz
 Zarejestruj się / Sprawdź agendę
 @endcomponent
 
-@component('mail::panel')
-
-Przypominamy, że 22. Targi eHandlu odbędą się **27 października w EXPO XXI w Warszawie.**
-
-Targi eHandlu to **4 sceny z prezentacjami Ekspertów** oraz **140 Wystawców** - oferentów usług i produktów wspierających handel w Internecie.
-
-@endcomponent
-
-# W przyszłym tygodniu ruszą zapisy na warsztaty (2 strefy warsztatowe, na każdej po 7 warsztatów.)
 
 
 Oto część Agendy, którą właśnie opublikowaliśmy.
@@ -64,6 +57,14 @@ Nowe przepisy dotyczące prezentacji opinii i rabatów w e-sklepach. Sprawdź, *
 **Ideo Force Sp. z o.o.**
 
 Optymalizacja doświadczeń użytkowników w oparciu o dane – czyli **data driven UX**
+
+@component('mail::panel')
+
+Przypominamy, że 22. Targi eHandlu odbędą się **27 października w EXPO XXI w Warszawie.**
+
+Targi eHandlu to **4 sceny z prezentacjami Ekspertów** oraz **140 Wystawców** - oferentów usług i produktów wspierających handel w Internecie.
+
+@endcomponent
 
 @component('mail::button', ['url' => 'https://targiehandlu.pl/visit'])
 Zarejestruj się / Sprawdź całą agendę
