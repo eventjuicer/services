@@ -7,10 +7,11 @@
 
 
 
+php artisan visitors:current-event --domain=targiehandlu.pl --subject="Jest cała agenda! Warsztaty! ...pamiętasz o dacie 27 października? | 22 Targi eHandlu w Warszawie" --email=teh22-agenda2-for-current
 
 
 
-php artisan visitors:restore-from-old-events --domain=targiehandlu.pl --email=teh22-agenda2-for-old --subject="Rewelacyjna agenda. Zapisy na warsztaty. | 22. Targi ehandlu"  --throttle=50000
+
 
 
 
@@ -35,6 +36,10 @@ php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl -
 
 13 października
 ===============
+
+
+php artisan visitors:restore-from-old-events --domain=targiehandlu.pl --email=teh22-agenda2-for-old --subject="Rewelacyjna agenda. Zapisy na warsztaty. | 22. Targi ehandlu"  --throttle=50000
+
 
 
 php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="DEADLINE: wykładzina, dodatkowy prąd, TV, ulotki..." --email=teh22-upgrades-lastcall
