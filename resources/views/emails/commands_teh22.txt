@@ -6,12 +6,19 @@
 
 
 
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Jest ranking. TOP: Grupa Marketer, EasyStorage, Satisfly, Gonito, Idea commerce..." --email=teh22-ranking-update
+
+
+
+
+
+
 13 października
 ===============
 
-php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=en --subject="DEADLINE: Additional services ordering - carpet flooring, LED display, etc..." --email=teh22-upgrades-lastcall
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=en --subject="DEADLINE: Additional services ordering - electricity, carpet flooring, LED display, etc..." --email=teh22-upgrades-lastcall
 
-php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="DEADLINE: Usługi dodatkowe: zabudowa, TV, ulotki..." --email=teh22-upgrades-lastcall
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="DEADLINE: wykładzina, dodatkowy prąd, TV, ulotki..." --email=teh22-upgrades-lastcall
  
 
 
