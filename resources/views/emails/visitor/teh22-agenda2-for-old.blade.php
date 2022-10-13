@@ -8,8 +8,6 @@ Cześć {{ $p->translate("[[fname]]") }}!
 
 # ... a właśnie teraz opublikowaliśmy [kompletną listę prezentacji na scenach A, B, C i D](https://targiehandlu.pl/visit).
 
-(Lista prezentacji na scenach, które zostały dzisiaj opublikowane poniżej.)
-
 Naszym zdaniem **agenda jest rewelacyjna! Sporo świeżości! ...a Ty co uwazasz? :)**
 
 @component('mail::button', ['url' => 'https://targiehandlu.pl/visit'])
