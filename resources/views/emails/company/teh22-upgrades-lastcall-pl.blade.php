@@ -14,7 +14,7 @@ Przypominamy, że **w panelu Wystawcy możesz rozszerzyć swoje zamówienie o do
 
 Dlaczego? Naszą intencją jest przeprocesowanie Państwa zamówień kiedy jest to optymalne i nie zagraża (jeszcze) jakości realizacji wydarzenia.
 
-Zamawianie usług dodatkowych kilka dni przed wydarzeniem bardzo utrudnia nam organizację Targów.
+Zamawianie usług dodatkowych kilka dni przed wydarzeniem bardzo utrudnia nam organizację Targów. Dziękujemy za zrozumienie.
 
 @endcomponent
 
@@ -23,11 +23,11 @@ Zamawianie usług dodatkowych kilka dni przed wydarzeniem bardzo utrudnia nam or
 
 ## Wyposażenie stoiska - [account.targiehandlu.pl/#/arrangement]({!! $accountUrlArrangement !!})
 
-* Kompleksowa **zabudowa przestrzeni** stoiska w wersji FULLPRINT (LAST MINUTE!)
+* ~~Kompleksowa **zabudowa przestrzeni** stoiska w wersji FULLPRINT~~ SPRZEDAŻ ZAKOŃCZONA
 
-* Kompleksowa **zabudowa przestrzeni** stoiska w wersji OSB+logotyp (LAST MINUTE!)
+* ~~Kompleksowa **zabudowa przestrzeni** stoiska w wersji OSB+logotyp~~ SPRZEDAŻ ZAKOŃCZONA
 
-* **Lada** z nadrukiem (LAST MINUTE!)
+* ~~**Lada** z nadrukiem~~ SPRZEDAŻ ZAKOŃCZONA
 
 * **Wykładzina**
 
