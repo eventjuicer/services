@@ -6,13 +6,13 @@
 
 Dobra konwersja inwestycji w Targi nie zależy tylko od lokalizacji stoiska i atrakcyjności formuły wystawiania się :)
 
-Ważne a często kluczowe jest wykorzystanie narzędzi, które Tobie udostępniamy - są to:
+Ważne a często **kluczowe jest wykorzystanie narzędzi, które Tobie udostępniamy** - są to:
 
-* Zapraszanie VIP (kluczowych Partnerów, Prospectów; każdy ma dostęp do ekskluzywnej strefy z kanapami i do bezpłatnego bufetu kawowego)
+* **Zapraszanie VIP** (kluczowych Partnerów, Prospectów; każdy ma dostęp do ekskluzywnej strefy z kanapami i do bezpłatnego bufetu kawowego)
 
-* Wykorzystanie swoich kanałów social media i baz newsletterowych do promocji **swojego profilu Wystawcy - który choćby pokazuje lokalizację Twojego stoiska na Hali**
+* Wykorzystanie swoich kanałów social media i baz newsletterowych do **promocji swojego profilu Wystawcy - który choćby pokazuje lokalizację Twojego stoiska na Hali**
 
-* Przeglądanie listy zarejestrowanych Uczestników i **wysyłanie zaproszeń** do spotkania
+* Przeglądanie listy zarejestrowanych Uczestników i **wysyłanie zaproszeń do spotkania podczas Targów**
 
 ** Wszystkie te elementy są dostępne w Panelu Wystawcy i czekają na Ciebie :)**
 
@@ -55,8 +55,7 @@ Sprawdź materiały promocyjne i ranking
 
 @component('mail::panel')
 
-
-** Pamiętaj, że stronę z materiałami promocyjnymi możesz wysłać do osoby odpowiedzialnej w firmie za działania promocyjne (nie będzie miała ona dostępu do reszty panelu) - wystarczy wysłać ten link 
+**Pamiętaj, że stronę z materiałami promocyjnymi możesz wysłać do osoby odpowiedzialnej w firmie za działania promocyjne** (nie będzie miała ona dostępu do reszty panelu) - wystarczy wysłać ten link 
 
 {!! $accountUrlPromotePublic !!}
 
