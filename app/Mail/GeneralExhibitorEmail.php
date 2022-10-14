@@ -46,6 +46,7 @@ class GeneralExhibitorEmail extends Mailable
             $accountUrlReps,
             $accountUrlRanking,
             $accountUrlPromote,
+            $accountUrlPromotePublic,
             $accountUrlVisitors,
             $accountUrlVips,
             $accountUrlBadgescanner,
@@ -151,6 +152,11 @@ class GeneralExhibitorEmail extends Mailable
         $this->accountUrlVips = $companydata->accountUrl("vips");
         $this->accountUrlBadgescanner = $companydata->accountUrl("badgescanner");
         $this->accountUrlScans = $companydata->accountUrl("scans");
+
+        $this->accountUrlPromotePublic = 'https://account.targiehandlu.pl/#/promote?company_id=' . $companydata->getCompany()->id;
+
+        
+
 
         $this->photosUrl = "https://photos.ecommerceberlin.com/".$companydata->getCompany()->id."/ebe6";
 

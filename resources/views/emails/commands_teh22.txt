@@ -21,12 +21,22 @@ php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl -
 
 
 
-php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Jest ranking. TOP: Grupa Marketer, EasyStorage, Satisfly, Gonito, Idea commerce..." --email=teh22-ranking-update
+
+
+
+
+14 października
+===============
+
+
+
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Top 5: IDEA commerce, Grupa Marketer, EXPANDECO, inSolutions, upblue..." --email=teh22-ranking-update
 
 
 
 
 
+php artisan visitors:restore-from-old-events --domain=targiehandlu.pl --email=teh22-agenda2-for-old --subject="Rewelacyjna agenda. Zapisy na warsztaty. | 22. Targi ehandlu"  --throttle=55000
 
 
 
@@ -37,15 +47,8 @@ php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl -
 13 października
 ===============
 
-
-php artisan visitors:restore-from-old-events --domain=targiehandlu.pl --email=teh22-agenda2-for-old --subject="Rewelacyjna agenda. Zapisy na warsztaty. | 22. Targi ehandlu"  --throttle=55000
-
-
-
 php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="DEADLINE: wykładzina, dodatkowy prąd, TV, ulotki..." --email=teh22-upgrades-lastcall
  
-
-
 
 
 12 października
