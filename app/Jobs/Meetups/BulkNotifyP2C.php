@@ -12,7 +12,7 @@ use Illuminate\Foundation\Bus\Dispatchable;
 use Illuminate\Support\Collection;
 use Eventjuicer\Repositories\MeetupRepository;
 use Illuminate\Support\Facades\Mail;
-use App\Mail\Meetups\Bulk;
+use App\Mail\Meetups\BulkP2C;
 use Carbon\Carbon;
 use Eventjuicer\Services\Meetups\Sendable;
 use Eventjuicer\Models\Company;
@@ -38,7 +38,7 @@ class BulkNotifyP2C implements ShouldQueue
 
 
 
-        
+
 
         // //double check!!!!
 
@@ -57,8 +57,9 @@ class BulkNotifyP2C implements ShouldQueue
 
         // $participant = $this->meetups->first()->participant;
 
-        // Mail::send(new Bulk( $participant, $this->meetups->count() ) );
+        Mail::send(new BulkP2C( $this->company,  $this->number_of_rsvp ) );
 
+        
         // foreach($this->meetups as $meetup)
         // {
         //     if(! env("MAIL_TEST", true))
