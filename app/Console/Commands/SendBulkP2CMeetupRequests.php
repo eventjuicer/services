@@ -11,7 +11,7 @@ use Eventjuicer\Repositories\Criteria\ColumnLessThan;
 use Eventjuicer\Repositories\Criteria\ColumnGreaterThan;
 use Eventjuicer\Repositories\Criteria\FlagEquals;
 
-use App\Jobs\Meetups\BulkNotify;
+use App\Jobs\Meetups\BulkNotifyP2C;
 use Eventjuicer\Services\Meetups\Sendable;
 use Eventjuicer\ValueObjects\EmailAddress;
 
@@ -69,7 +69,7 @@ class SendBulkP2CMeetupRequests extends Command
         
         $all = $meetups->all();
 
-        $this->info("Found: " . $all->count() . " open meetups.");
+        $this->info("Found: " . $all->count() . " not confirmed P2C meetup(s).");
 
         $filtered = $all->filter(function($meetup){
 
@@ -77,13 +77,16 @@ class SendBulkP2CMeetupRequests extends Command
 
         });
 
-        $uniqueCompanies = $filtered->unique("company_id");
+        $uniqueCompanies = $filtered->keyBy("company_id");
 
-        // foreach($groupedByCompany as $meetupsColl)
-        // {
-        //     $this->info("Dispatching notification(s) for: " . $email . ". Requests: " . $meetupsColl->count() );
-        //     dispatch(new BulkNotify($meetupsColl));
-        // }
+        foreach($uniqueCompanies as $company_id => $companyP2CMeetups){
+            
+            $this->info( $company_id );
+            $this->info(  $companyP2CMeetups->count() );
+            
+            $this->info("Dispatching notification(s) for XXX Requests: " );
+            // dispatch(new BulkNotifyP2C($meetupsColl));
+        }
 
         $this->info("Dispatched: " . $uniqueCompanies->count() . " jobs.");
 
