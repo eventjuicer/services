@@ -22,10 +22,11 @@ class BulkNotifyP2C implements ShouldQueue
     use Dispatchable, InteractsWithQueue, Queueable, SerializesModels;
 
     protected $company;
+    protected $number_of_rsvp;
 
-    public function __construct(Company $company)
-    {
+    public function __construct(Company $company, $number_of_rsvp){
         $this->company = $company;
+        $this->number_of_rsvp = $number_of_rsvp;
     }
 
     /**
@@ -33,35 +34,38 @@ class BulkNotifyP2C implements ShouldQueue
      *
      * @return void
      */
-    public function handle(MeetupRepository $repo)
-    {
-
-        //double check!!!!
-
-        $filtered = $this->meetups->filter(function($meetup)
-        {
-
-            return (new Sendable($meetup))->check();
-
-        });
-
-        if(! $filtered->count())
-        {
-            return true;
-        }
+    public function handle(){
 
 
-        $participant = $this->meetups->first()->participant;
 
-        Mail::send(new Bulk( $participant, $this->meetups->count() ) );
+        
 
-        foreach($this->meetups as $meetup)
-        {
-            if(! env("MAIL_TEST", true))
-            {
-                $repo->updateAfterSent($meetup->id);
-            }
-        }
+        // //double check!!!!
+
+        // $filtered = $this->meetups->filter(function($meetup)
+        // {
+
+        //     return (new Sendable($meetup))->check();
+
+        // });
+
+        // if(! $filtered->count())
+        // {
+        //     return true;
+        // }
+
+
+        // $participant = $this->meetups->first()->participant;
+
+        // Mail::send(new Bulk( $participant, $this->meetups->count() ) );
+
+        // foreach($this->meetups as $meetup)
+        // {
+        //     if(! env("MAIL_TEST", true))
+        //     {
+        //         $repo->updateAfterSent($meetup->id);
+        //     }
+        // }
 
     }
 }

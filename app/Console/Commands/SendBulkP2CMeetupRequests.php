@@ -69,7 +69,7 @@ class SendBulkP2CMeetupRequests extends Command
         
         $all = $meetups->all();
 
-        $this->info("Found: " . $all->count() . " not confirmed P2C meetup(s).");
+        $this->info("Found: " . $all->count() . " unconfirmed P2C meetup(s).");
 
         $filtered = $all->filter(function($meetup){
 
@@ -77,15 +77,18 @@ class SendBulkP2CMeetupRequests extends Command
 
         });
 
-        $uniqueCompanies = $filtered->keyBy("company_id");
+        $uniqueCompanies = $filtered->groupBy("company_id");
 
-        foreach($uniqueCompanies as $company_id => $companyP2CMeetups){
+        foreach($uniqueCompanies as $company_id => $company_meetups){
             
-            $this->info( $company_id );
-            $this->info(  $companyP2CMeetups->count() );
+            $meetup = $company_meetups->first();
+
+            $this->info( $meetup->company_id );
+            $this->info(  $company_meetups->count() );
             
             $this->info("Dispatching notification(s) for XXX Requests: " );
-            // dispatch(new BulkNotifyP2C($meetupsColl));
+            
+            dispatch(new BulkNotifyP2C( $meetup->company,  $company_meetups->count()));
         }
 
         $this->info("Dispatched: " . $uniqueCompanies->count() . " jobs.");
