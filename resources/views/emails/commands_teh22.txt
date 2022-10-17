@@ -23,7 +23,17 @@ php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl -
 ===============
 
 
-php artisan visitors:current-event --domain=targiehandlu.pl --subject="Jest cała agenda! Warsztaty! ...pamiętasz o dacie 27 października? | 22 Targi eHandlu w Warszawie" --email=teh22-agenda2-for-current
+
+
+php artisan company:relations --domain=targiehandlu.pl --threshold=2 --lang=pl --defaultlang=pl --subject="DEADLINE 12:00 dzisiaj. Przedstawiciele Wystawcy na stoisku" --email=teh22-representatives-list
+
+php artisan company:relations --domain=targiehandlu.pl --threshold=2 --lang=en --defaultlang=pl --subject="DEADLINE 12:00 (noon) today. Exhibitor's representatives @ booth." --email=teh22-representatives-list
+
+
+
+
+
+php artisan visitors:current-event --domain=targiehandlu.pl --subject="Jest cała agenda! Zapisy na warsztaty ...pamiętasz o dacie 27 października? | 22 Targi eHandlu w Warszawie" --email=teh22-agenda2-for-current
 
 
 
