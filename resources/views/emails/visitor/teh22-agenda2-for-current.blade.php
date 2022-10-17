@@ -4,12 +4,7 @@
 
 Cześć {{ $p->translate("[[fname]]") }}!
 
-Dziękujemy za rejestrację na Targi eHandlu.
-
-**W przyszłym tygodniu ruszą zapisy na warsztaty (2 strefy warsztatowe, na każdej po 7 warsztatów.)**
-
-## Dzisiaj opublikowaliśmy [kompletną listę prezentacji na scenach A, B, C i D](https://targiehandlu.pl/schedule), z którą warto się zapoznać by lepiej zaplanować swój dzień targowy.
-
+Dziękujemy za rejestrację jako Uczestnik Targów eHandlu :)
 
 @component('mail::panel')
 
@@ -19,14 +14,20 @@ Targi eHandlu to **4 sceny z prezentacjami Ekspertów** oraz **140 Wystawców** 
 
 @endcomponent
 
-# Bilety wstępu (PDF) będziemy rozsyłali najwcześniej ok 20 października.
+Ważne informacje
+
+Opublikowaliśmy [kompletną listę prezentacji na scenach A, B, C i D](https://targiehandlu.pl/schedule), z którą warto się zapoznać by lepiej zaplanować swój dzień targowy.
+
+**Bilety wstępu (PDF)** będziemy rozsyłali **najwcześniej ok 20 października** (w czwartek)
+
+Jeszcze w tym tygodniu ruszą zapisy na Warsztaty (14 - ekskluzywnych -  warsztatów)
+
 
 Pozdrawiamy,
 
 Karolina Michalak
 
 Adam Zygadlewicz
-
 
 
 

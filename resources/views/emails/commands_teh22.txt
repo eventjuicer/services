@@ -7,7 +7,6 @@
 
 
 
-php artisan visitors:current-event --domain=targiehandlu.pl --subject="Jest cała agenda! Warsztaty! ...pamiętasz o dacie 27 października? | 22 Targi eHandlu w Warszawie" --email=teh22-agenda2-for-current
 
 
 
@@ -20,6 +19,13 @@ php artisan visitors:current-event --domain=targiehandlu.pl --subject="Jest cał
 php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=en --subject="DEADLINE: Additional services ordering - electricity, carpet flooring, LED display, etc..." --email=teh22-upgrades-lastcall
 
 
+17 października
+===============
+
+
+php artisan visitors:current-event --domain=targiehandlu.pl --subject="Jest cała agenda! Warsztaty! ...pamiętasz o dacie 27 października? | 22 Targi eHandlu w Warszawie" --email=teh22-agenda2-for-current
+
+
 
 
 
@@ -28,43 +34,26 @@ php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl -
 14 października
 ===============
 
-
-
 php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Top 5: IDEA commerce, Grupa Marketer, EXPANDECO, inSolutions, upblue..." --email=teh22-ranking-update
 
-
-
-
-
 php artisan visitors:restore-from-old-events --domain=targiehandlu.pl --email=teh22-agenda2-for-old --subject="Rewelacyjna agenda. Zapisy na warsztaty. | 22. Targi ehandlu"  --throttle=55000
-
-
-
-
-
-
 
 13 października
 ===============
 
 php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="DEADLINE: wykładzina, dodatkowy prąd, TV, ulotki..." --email=teh22-upgrades-lastcall
  
-
-
 12 października
 ===============
 
 php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=en --subject="Workshop zone - only 12 slots available." --email=teh22-workshops-form
 
-
 php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="12 slotów warsztatowych - czas start! :)" --email=teh22-workshops-form
-
 
 11 października
 ===============
 
 php artisan visitors:restore-from-old-events --domain=targiehandlu.pl --email=teh22-agenda1-for-old --subject="1/2 Agendy ujawniona! Atrakcyjna?" --events=81,83,85,87,89,95 --throttle=50000
-
 
 10 października
 ===============
