@@ -3,7 +3,7 @@
 @component('mail::message')
  
 
-# Cześć {{$p->translate("[[fname]]")}},
+# Cześć {{$url}},
 
 ## Networking czyli bezpośrednie spotkania twarzą w twarz to integralna część każdego dobrego wydarzenia biznesowego. Targi eHandlu nie są wyjątkiem. 
 
