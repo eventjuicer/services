@@ -22,7 +22,7 @@ Zwiedzący, który ma umówione spotkanie **otrzymuje automatycznie status VIP**
 
 Użyj [strony z gotowymi materiałami dla Twojej firmy]({!! $accountUrlPromote !!}) lub promuj się tak jak chcesz z wykorzystaniem Twojego URLa - {!! $trackingLink !!}
 
-Pamiętaj, że strona z materiałami promocyjnym jest publiczna. Adres URL do tej strony - {!! $accountUrlPromote !!} - możesz wysłać osobie odpowiedzialnej za działania reklamowe w firmie.
+Pamiętaj, że strona z materiałami promocyjnym jest publiczna. Adres [URL do tej strony]({!! $accountUrlPromote !!}) możesz skopiowac ze paska adresu przeglądarki i wysłać osobie odpowiedzialnej za działania reklamowe w firmie.
 
 
 
