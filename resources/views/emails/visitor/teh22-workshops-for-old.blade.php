@@ -39,7 +39,7 @@ Jak wycisnąć więcej z **email marketingu z GetResponse**?
 
 ## Ważne informacje:
 
-**Udział** w Warsztatch w tej edycji będzie **bezpłatny.**
+**Udział** w Warsztatch w tej edycji będzie **bezpłatny.** lecz limitowany
 
 **Zapisy** na warsztaty startują **w czwartek o 8:00.**
 

@@ -26,7 +26,7 @@ php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl -
 
 
 
-php artisan visitors:restore-from-old-events --domain=targiehandlu.pl --email=teh22-workshops-for-old --subject="Premiera warsztatów Targów eHandlu. Agenda, zapisy... | 22. Targi ehandlu"  --throttle=55000
+php artisan visitors:restore-from-old-events --domain=targiehandlu.pl --email=teh22-workshops-for-old --subject="Premiera warsztatów Targów eHandlu. Lista tematów, zapisy... | 22. Targi ehandlu"  --throttle=55000
 
 
 php artisan visitors:current-event --domain=targiehandlu.pl --subject="Lista warsztatów i zapisy ...pamiętasz o dacie 27 października? | 22 Targi eHandlu w Warszawie" --email=teh22-workshops-for-current
