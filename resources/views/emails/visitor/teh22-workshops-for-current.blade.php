@@ -8,7 +8,7 @@ Cześć {{ $p->translate("[[fname]]") }}!
 
 Ważne informacje:
 
-Udział w Warsztatch w tej edycji będzie bezpłatny.
+Udział w Warsztatch w tej edycji będzie **bezpłatny.**
 
 Zapisy na warsztaty startują **w czwartek o 8:00.**
 
@@ -18,12 +18,12 @@ Będzie można zapisać się na **maksymalnie 2 warsztaty.**
 
 Każdy Uczestnik Warsztatów **otrzymuje status VIP** (dostęp do Strefy VIP dla Wystawców i Prelegentów)
 
-W 1 Warsztacie może uczestniczyć **max 25 osób
+W 1 Warsztacie może uczestniczyć **max 25 osób**
 
-Czas warsztatu to maksymalnie 45 minut (30min + 15min na Q&A)
+Czas warsztatu to maksymalnie **45 minut** (30min + 15min na Q&A)
 
 
-**Niezależnie od warsztatów będą dostępne aż 4 sceny (udział bezpłatny, otwarty)**
+**Niezależnie od warsztatów [dostępne są aż 4 sceny prezentacyjne](https://targiehandlu.pl/schedule)** (udział bezpłatny, otwarty)
 
 
 @component('mail::panel')
@@ -36,15 +36,13 @@ Targi eHandlu to **4 sceny** z prezentacjami Ekspertów oraz **140 Wystawców** 
 
 @endcomponent
 
-**Bilety wstępu (PDF)** będziemy rozsyłali **najwcześniej ok 20 października** (w czwartek)
-
-
 Pozdrawiamy,
 
 Karolina Michalak
 
 Adam Zygadlewicz
 
+PS: **Bilety wstępu (PDF)** będziemy rozsyłali **najwcześniej ok 20 października** (w czwartek)
 
 
 @endcomponent
