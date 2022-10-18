@@ -8,9 +8,9 @@ Cześć {{ $p->translate("[[fname]]") }}!
 
 Ważne informacje:
 
-Udział w Warsztatch w tej edycji będzie **bezpłatny.**
+**Udział** w Warsztatch w tej edycji będzie **bezpłatny.**
 
-Zapisy na warsztaty startują **w czwartek o 8:00.**
+**Zapisy** na warsztaty startują **w czwartek o 8:00.**
 
 Będzie można zapisać się na **maksymalnie 2 warsztaty.**
 
