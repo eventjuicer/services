@@ -52,7 +52,7 @@ class CompanyRankingPosition extends Command {
             $errors[] = "--threshold= must be an integer!";
         }
 
-        if($whatWeDo === "send"){
+        if($whatWeDo === "send" || $whatWeDo === "test"){
 
             if(empty($viewlang)) {
                 $errors[] = "--lang= must be set!";

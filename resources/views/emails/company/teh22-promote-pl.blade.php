@@ -6,7 +6,8 @@
 
 Uprzejmie przypominamy o promocji [publicznego profilu Twojej firmy]({!! $profileUrl !!}) i promocji swojego udziału w Targach eHandlu.
 
-**Oprócz większej konwersji udziału w targach, zaangażowanie w promocję generuje dodatkowe korzyści - m.in. Zwiedzający może zaproponować Tobie spotkanie.** Po akceptacji zaproszenia otrzymasz **pełne dane kontaktowe** a Zwiedzający dostęp do strefy VIP.
+Oprócz **większej konwersji** udziału w targach, zaangażowanie w promocję generuje **dodatkowe korzyści - m.in. Zwiedzający może zaproponować Tobie spotkanie** lub automatycznie **zwiększa się limit zaproszeń wychodzących od Ciebie.**
+Po akceptacji zaproszenia otrzymasz **pełne dane kontaktowe** a Zwiedzający dostęp do strefy VIP.
 
 Jeśli posiadasz **profil na serwisie społecznościowym** lub **bazę newsletterową kontrahentów** - resztę zapewniamy my. 
 
