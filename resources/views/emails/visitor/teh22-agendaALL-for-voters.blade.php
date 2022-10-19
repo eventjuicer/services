@@ -7,11 +7,11 @@ Dziękujemy za Twój głos podczas wyboru Prelegentów Targów eHandlu.
 
 @component('mail::panel')
 
-22. Targi eHandlu odbędą się **27 października w EXPO XXI w Warszawie.**
+Targi eHandlu odbędą się **27 października w EXPO XXI w Warszawie.**
 
 Targi eHandlu to **4 sceny z prezentacjami Ekspertów** oraz **140 Wystawców** - oferentów usług i produktów wspierających handel w Internecie.
 
-Podczas tej edycji planujemy także ponad 14 warsztatów.
+Podczas tej edycji planujemy także  **14 warsztatów.**
 
 @endcomponent
 
