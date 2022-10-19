@@ -73,7 +73,7 @@ class CompanyRankingPosition extends Command {
             $email = $view . "-" . $viewlang;
 
             if($view && ! view()->exists("emails.company." . $email)) {
-                $errors[] = "--email= View cannot be found! Bad language chosen?";
+                $errors[] = "--email= View $email cannot be found! Bad language chosen?";
             }
 
         }
