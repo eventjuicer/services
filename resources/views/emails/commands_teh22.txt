@@ -12,7 +12,7 @@
 
 
 
-php artisan visitors:restore-from-voters --domain=targiehandlu.pl --email=teh21-voters-agenda1+2 --subject="Dziękujemy za współpracę! Bilet na Targi eHandlu 14.04.2022" 
+php artisan visitors:restore-from-voters --domain=targiehandlu.pl --email=teh22-agendaALL-for-voters --subject="Dziękujemy za współpracę! Czy widzimy się na 22. Targach eHandlu w Warszawie?" 
 
 
 
@@ -23,6 +23,8 @@ php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl -
 
 19 października
 ===============
+
+php artisan visitors:restore-from-voters --domain=targiehandlu.pl --email=teh22-agendaALL-for-voters --subject="Dziękujemy za współpracę! Bilet na Targi eHandlu 14.04.2022" 
 
 
 php artisan exhibitors:ranking --domain=targiehandlu.pl --defaultlang=pl --threshold=10 --lang=pl --subject="...nie możemy odnotować Twojej aktywności." --email=teh22-promote
