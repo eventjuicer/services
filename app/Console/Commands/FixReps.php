@@ -63,16 +63,7 @@ class FixReps extends Command
 
         $this->info("Number of exhibitors with companies assigned: " . $exhibitors->count() );
 
-        $filtered = $service->getSendable();
-
-        $this->info("Exhibitors that can be notified: " . $filtered->count() );
-
-        $allTranslations = $service->getTranslations();
-
         $done = 0;
-
-
-
 
         foreach($representatives as $rep)
         {

@@ -18,7 +18,7 @@ class MapCompanyNameToCname2 extends Command
        
        ';
     
-    protected $description = 'Map Company Name to Cname2';
+    protected $description = 'Map Company Name to EXHIBITOR Cname2';
  
     public function __construct()
     {

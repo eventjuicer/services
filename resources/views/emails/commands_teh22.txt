@@ -21,18 +21,28 @@ php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl -
 
 
 
+19 października
+===============
+
+
+php artisan exhibitors:ranking --domain=targiehandlu.pl --defaultlang=pl --threshold=10 --lang=pl --subject="...nie możemy odnotować Twojej aktywności." --email=teh22-promote
+
+
+
+
+
+
+
+
+
+
+
 18 października
 ===============
 
 php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Zwiedzający zaprasza na spotkanie... Nowa funkcjonalność." --email=teh22-p2c
 
-
-
-
-
-
 php artisan visitors:restore-from-old-events --domain=targiehandlu.pl --email=teh22-workshops-for-old --subject="Premiera 14 warsztatów Targów eHandlu. Lista tematów, zapisy... | 22. Targi ehandlu"  --throttle=55000
-
 
 php artisan visitors:current-event --domain=targiehandlu.pl --subject="Lista warsztatów i zapisy ...pamiętasz o dacie 27 października? | 22 Targi eHandlu w Warszawie" --email=teh22-workshops-for-current
 
@@ -41,7 +51,6 @@ php artisan companies:emptyprofile --domain=targiehandlu.pl --defaultLang=pl
 php artisan company:relations --domain=targiehandlu.pl --threshold=2 --lang=pl --defaultlang=pl --subject="DEADLINE DZISIAJ/WTOREK 12:00. Przedstawiciele Wystawcy na stoisku" --email=teh22-reps-final
 
 php artisan company:relations --domain=targiehandlu.pl --threshold=2 --lang=en --defaultlang=pl --subject="DEADLINE TODAY/TUESDAY 12:00 (noon). Exhibitor's representatives @ booth." --email=teh22-reps-final
-
 
 
 17 października
