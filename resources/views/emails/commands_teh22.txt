@@ -26,7 +26,11 @@ php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl -
 ===============
 
 
-php artisan visitors:current-event --domain=targiehandlu.pl --subject="Zgłoszenia wystartowały! | 22 Targi eHandlu w Warszawie" --email=teh22-workshops-apply-for-current
+php artisan visitors:restore-from-old-events --domain=targiehandlu.pl --email=teh22-workshops2-for-old --subject="Zgłoszenia na Warsztaty wystartowały! | 22 Targi eHandlu w Warszawie"  --throttle=55000
+
+
+
+php artisan visitors:current-event --domain=targiehandlu.pl --subject="Zgłoszenia na Warsztaty wystartowały! | 22 Targi eHandlu w Warszawie" --email=teh22-workshops-apply-for-current
 
 
 
