@@ -2,21 +2,35 @@
 
 
 
+php artisan visitors:restore-from-voters --domain=targiehandlu.pl --email=teh22-agendaALL-for-voters --subject="Dziękujemy za zaangażowanie! Zaproszenie na 22. Targi eHandlu w Warszawie" 
 
-
-
-
-
-
-
-
-
-
-php artisan visitors:restore-from-voters --domain=targiehandlu.pl --email=teh22-agendaALL-for-voters --subject="Dziękujemy za współpracę! Czy widzimy się na 22. Targach eHandlu w Warszawie?" 
 
 
 
 php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=en --subject="DEADLINE: Additional services ordering - electricity, carpet flooring, LED display, etc..." --email=teh22-upgrades-lastcall
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+20 pazdziernika
+===============
+
+
+php artisan visitors:current-event --domain=targiehandlu.pl --subject="Zgłoszenia wystartowały! | 22 Targi eHandlu w Warszawie" --email=teh22-workshops-apply-for-current
+
+
+
+
 
 
 
@@ -26,17 +40,7 @@ php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl -
 
 php artisan visitors:restore-from-voters --domain=targiehandlu.pl --email=teh22-agendaALL-for-voters --subject="Dziękujemy za współpracę! Bilet na Targi eHandlu 14.04.2022" 
 
-
 php artisan exhibitors:ranking --domain=targiehandlu.pl --defaultlang=pl --threshold=10 --lang=pl --subject="...nie możemy odnotować Twojej aktywności." --email=teh22-promote
-
-
-
-
-
-
-
-
-
 
 
 18 października
