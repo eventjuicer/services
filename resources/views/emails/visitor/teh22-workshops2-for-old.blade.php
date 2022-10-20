@@ -2,9 +2,9 @@
 
 Cześć {{ $p->translate("[[fname]]") }}!
 
-## Wystartowały zgłoszenia na Warsztaty Targów eHandlu. 
+## Wystartowały zgłoszenia na 14 Warsztatów Targów eHandlu. 
 
-Mamy już 848 zgłoszenia a przyznano 38 miejsc z 350 dostępnych.
+Mamy już 848 zgłoszenia, przyznano 38 miejsc z 350 dostępnych.
 
 [Sprawdź listę Warsztatów i zgłoś się](https://targiehandlu.pl/workshops)
 
@@ -55,8 +55,6 @@ W 1 Warsztacie może uczestniczyć **max 25 osób** i nie zwiększymy tego limit
 
 Czas warsztatu to maksymalnie **45 minut** (30min + 15min na Q&A)
 
-**Niezależnie od warsztatów [dostępne są aż 4 sceny prezentacyjne](https://targiehandlu.pl/schedule)** (udział bezpłatny, otwarty)
-
 
 @component('mail::panel')
 
@@ -71,8 +69,8 @@ Targi eHandlu to **4 sceny** z prezentacjami Ekspertów oraz **140 Wystawców** 
 **Niezależnie od warsztatów [dostępne są aż 4 sceny prezentacyjne](https://targiehandlu.pl/visit)** (udział bezpłatny, otwarty, wymagana rejestracja jako Zwiedzający)
 
 
-@component('mail::button', ['url' => 'https://targiehandlu.pl/visit'])
-Zarejestruj się jako Zwiedzający
+@component('mail::button', ['url' => 'https://targiehandlu.pl/workshops'])
+Lista warsztatów, zgłoszenia
 @endcomponent
 
 
