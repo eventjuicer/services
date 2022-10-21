@@ -116,5 +116,10 @@ class ExhibitorMeetupsRejector extends Command
 
     }
 }
+/**
+ * 
 
-php artisan exhibitors:meetups_ltd --domain=targiehandlu.pl --threshold=25
+ php artisan exhibitors:meetups_ltd --domain=targiehandlu.pl --threshold=25
+
+ * 
+ */
