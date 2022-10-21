@@ -99,12 +99,12 @@ class ExhibitorMeetupsRejector extends Command
             
             foreach($untouched as $untouchedMeetup){
                 
-                // $untouchedMeetup->agreed = 0;
-                // $untouchedMeetup->responded_at =  Carbon::now("UTC");
-                // $untouchedMeetup->comment = "[autorejected] ".$untouchedMeetup->comment;
-                // $untouchedMeetup->save();
+                $untouchedMeetup->agreed = 0;
+                $untouchedMeetup->responded_at =  Carbon::now("UTC");
+                $untouchedMeetup->comment = "[autorejected] ".$untouchedMeetup->comment;
+                $untouchedMeetup->save();
 
-                // dispatch(new HandleLTDReject($untouchedMeetup));
+                dispatch(new HandleLTDReject($untouchedMeetup));
                 $this->line($untouchedMeetup->id . " - rejecting LTD meetup - " . $untouchedMeetup->participant->email);
             }
 
