@@ -6,10 +6,10 @@ use Illuminate\Console\Command;
 
 
 use Eventjuicer\Services\Resolver;
-use Eventjuicer\Repositories\EloquentTicketRepository;
-use Eventjuicer\Services\Revivers\ParticipantSendable;
-use App\Jobs\SendGeneralReminder as Job;
 use Eventjuicer\Crud\CompanyMeetups\Fetch as CompanyMeetupsFetch;
+use Eventjuicer\Jobs\Meetups\HandleLTDReject;
+use Carbon\Carbon;
+
 
 
 class ExhibitorMeetupsRejector extends Command
@@ -95,13 +95,23 @@ class ExhibitorMeetupsRejector extends Command
             if($agreed->count() < $threshold){
                 continue;
             }
+            $this->line("threshold matched!");
+            
+            foreach($untouched as $untouchedMeetup){
+                
+                $untouchedMeetup->agreed = 0;
+                $untouchedMeetup->responded_at =  Carbon::now("UTC");
+                $untouchedMeetup->comment = "[autorejected] ".$untouchedMeetup->comment;
+                $untouchedMeetup->save();
 
-        
-            dd($untouched->toArray());
+                dispatch(new HandleLTDReject($untouchedMeetup));
+                $this->line("rejecting LTD meetup - " . $untouchedMeetup->participant->email);
+            }
+
+            $this->line("----------------------------------");
+
 
        }
-
-
         
 
     }
