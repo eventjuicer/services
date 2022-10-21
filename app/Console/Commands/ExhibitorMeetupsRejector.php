@@ -99,13 +99,13 @@ class ExhibitorMeetupsRejector extends Command
             
             foreach($untouched as $untouchedMeetup){
                 
-                $untouchedMeetup->agreed = 0;
-                $untouchedMeetup->responded_at =  Carbon::now("UTC");
-                $untouchedMeetup->comment = "[autorejected] ".$untouchedMeetup->comment;
-                $untouchedMeetup->save();
+                // $untouchedMeetup->agreed = 0;
+                // $untouchedMeetup->responded_at =  Carbon::now("UTC");
+                // $untouchedMeetup->comment = "[autorejected] ".$untouchedMeetup->comment;
+                // $untouchedMeetup->save();
 
-                dispatch(new HandleLTDReject($untouchedMeetup));
-                $this->line("rejecting LTD meetup - " . $untouchedMeetup->participant->email);
+                // dispatch(new HandleLTDReject($untouchedMeetup));
+                $this->line($untouchedMeetup->id . " - rejecting LTD meetup - " . $untouchedMeetup->participant->email);
             }
 
             $this->line("----------------------------------");
@@ -116,3 +116,5 @@ class ExhibitorMeetupsRejector extends Command
 
     }
 }
+
+php artisan exhibitors:meetups_ltd --domain=targiehandlu.pl --threshold=25
