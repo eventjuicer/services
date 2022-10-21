@@ -98,6 +98,12 @@ class ExhibitorMeetupsRejector extends Command
             $this->line("threshold matched!");
             
             foreach($untouched as $untouchedMeetup){
+
+                /**double protection! */
+
+                if($untouchedMeetup->agreed || $untouchedMeetup->responded_at){
+                    continue;
+                }
                 
                 $untouchedMeetup->agreed = 0;
                 $untouchedMeetup->responded_at =  Carbon::now("UTC");
