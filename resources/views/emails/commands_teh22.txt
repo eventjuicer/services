@@ -13,11 +13,7 @@ php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl -
 
 
 
-
-
-
-
-
+php artisan visitors:ticket-reminder --domain=targiehandlu.pl
 
 
 
@@ -25,18 +21,9 @@ php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl -
 20 pazdziernika
 ===============
 
-
-php artisan visitors:restore-from-old-events --domain=targiehandlu.pl --email=teh22-workshops2-for-old --subject="Zgłoszenia na Warsztaty wystartowały! | 22 Targi eHandlu w Warszawie"  --throttle=55000
-
-
+php artisan visitors:restore-from-old-events --domain=targiehandlu.pl --email=teh22-workshops2-for-old --subject="Wystartowały zgłoszenia na Warsztaty! ...przyznano 38 miejsc z 350 dostępnych | 22 Targi eHandlu w Warszawie"  --throttle=55000
 
 php artisan visitors:current-event --domain=targiehandlu.pl --subject="Zgłoszenia na Warsztaty wystartowały! | 22 Targi eHandlu w Warszawie" --email=teh22-workshops-apply-for-current
-
-
-
-
-
-
 
 
 19 października
