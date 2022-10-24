@@ -16,6 +16,10 @@ php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl -
 php artisan visitors:ticket-reminder --domain=targiehandlu.pl
 
 
+24 października
+===============
+
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Informacje logistyczne." --email=teh22-logistics
 
 
 20 pazdziernika
