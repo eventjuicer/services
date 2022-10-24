@@ -19,7 +19,7 @@ Poniżej tylko wybrane informacje:
 
 Expo XXI, ul. Prądzyńskiego 12/14, 01-222 Warszawa
 
-**ta edycja będzie realizowana w HALI 1 (stoiska i sceny) oraz HALI 3 (Strefa VIP)**
+**ta edycja będzie realizowana w HALI 1 (stoiska i sceny) oraz HALI 3 (catering i Strefa VIP)**
 
 Mapka sytuacyjna.
 
