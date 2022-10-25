@@ -2,7 +2,7 @@
 
 Cześć {{ $p->translate("[[fname]]") }}!
 
-Kolejna porcja informacji dla zarejestrowanych Uczestników czwartkowych Targów eHandlu.
+Oto kolejna porcja informacji dla zarejestrowanych Uczestników czwartkowych Targów eHandlu! :)
 
 
 @component('mail::panel')
