@@ -8,7 +8,7 @@ use Eventjuicer\Jobs\GeneralExhibitorMessageJob as Job;
 use Eventjuicer\Services\Exhibitors\Console;
 use Eventjuicer\Crud\CompanyMeetups\Fetch as CompanyMeetupsFetch;
 
-class GeneralExhibitorMessage extends Command {
+class ExhibitorMeetupsRsvpReminder extends Command {
 
  
     protected $signature = 'exhibitors:meetups_p2c 
