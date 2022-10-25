@@ -51,7 +51,7 @@ class BulkP2C extends Mailable {
 
 
 
-        $this->url = "https://account.".$this->domain."/rsvp?token=" . $this->token;
+        $this->url = "https://account.".$this->domain.'/#/meetups?filter=%7B"direction"%3A"P2C"%7D&token=' . $this->token;
 
         $this->from($this->sender_email, $this->sender_name);
 
