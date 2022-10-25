@@ -20,7 +20,7 @@ class BulkP2C extends Mailable {
     
     protected $recipient;
     protected $token;
-    public $howmanyMeetups = 1;
+    public $number_of_rsvp = 0;
     public $url = "";
 
     public function __construct(array $config = []){
