@@ -5,7 +5,7 @@ namespace App\Mail\Meetups;
 use Illuminate\Bus\Queueable;
 use Illuminate\Mail\Mailable;
 use Illuminate\Queue\SerializesModels;
-use Eventjuicer\Models\Company;
+use Eventjuicer\Models\Participant;
 
 class BulkP2C extends Mailable {
 
@@ -18,14 +18,16 @@ class BulkP2C extends Mailable {
     public $subject          = "Potwierdź/odrzuć prośby o spotkanie";
     public $view             = "bulk_p2c_pl";
     
-    protected $company;
+    protected $recipient;
+    protected $token;
     public $howmanyMeetups = 1;
-    public $url = "asdasd";
+    public $url = "";
 
-    public function __construct(Company $company, $howmanyMeetups = 1){
+    public function __construct(array $config = []){
 
-        $this->company = $company;
-        $this->howmanyMeetups = $howmanyMeetups;
+        $this->recipient = $config["email"];
+        $this->token = $config["token"];
+        $this->number_of_rsvp = $config["number_of_rsvp"];
     }
 
     /**
@@ -49,7 +51,7 @@ class BulkP2C extends Mailable {
 
 
 
-        // $this->url = "https://rsvp.".$this->domain."/rsvp?token=" . $this->participant->token;
+        $this->url = "https://account.".$this->domain."/rsvp?token=" . $this->token;
 
         $this->from($this->sender_email, $this->sender_name);
 

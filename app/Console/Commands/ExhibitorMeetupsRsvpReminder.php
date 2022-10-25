@@ -140,8 +140,8 @@ class ExhibitorMeetupsRsvpReminder extends Command {
 
             if($lang !== $viewlang)
             {
-                $this->info("Skipped! Lang mismatch. ");
-                continue;
+                // $this->info("Skipped! Lang mismatch. ");
+                // continue;
             }
 
             dispatch(new BulkNotifyP2C($ex->getModel(), $untouched->count()));

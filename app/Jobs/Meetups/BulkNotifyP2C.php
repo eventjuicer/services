@@ -32,10 +32,25 @@ class BulkNotifyP2C //implements ShouldQueue
      */
     public function handle(){
 
+        $company = $this->participant->company;
+        $sales_manager = $company->people->where("role", "sales_manager");
 
+        if($sales_manager->count()){
+            foreach( $sales_manager as $recipient){
 
-        // $sales_manager = $ex->company->people->where("role", "sales_manager");
+                $email = $recipient->email;
 
+                Mail::send(new BulkP2C( array(
+                    "email"=> $recipient->email,
+                    "token" => $this->participant->token,
+                    "number_of_rsvp",  $this->number_of_rsvp
+                ) ) );
+            }  
+        }else{
+
+        }
+
+        // pl-p2c-meetup-untouched
         // if($sales_manager->count() > 1){
         //     $recipient = $sales_manager->first()->email;
 
@@ -61,16 +76,8 @@ class BulkNotifyP2C //implements ShouldQueue
 
         // $participant = $this->meetups->first()->participant;
 
-        Mail::send(new BulkP2C( $this->company,  $this->number_of_rsvp ) );
 
         
-        // foreach($this->meetups as $meetup)
-        // {
-        //     if(! env("MAIL_TEST", true))
-        //     {
-        //         $repo->updateAfterSent($meetup->id);
-        //     }
-        // }
 
     }
 }
