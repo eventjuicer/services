@@ -37,7 +37,7 @@ class BulkP2C extends Mailable {
      */
     public function build(){
 
-        if($this->company->group_id > 1){
+
 
             // app()->setLocale("en");
             // config(["app.name" => "E-commerce Berlin Expo"]);
@@ -47,7 +47,7 @@ class BulkP2C extends Mailable {
             // $this->sender_name = "Lucas Zarna - E-commerce Berlin Expo";
             // $this->subject = "Exhibitors that want to meet you. Your action needed.";
             // $this->view = "bulk_en";
-        }
+    
 
 
 
