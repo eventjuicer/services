@@ -5,7 +5,7 @@ namespace App\Mail\Meetups;
 use Illuminate\Bus\Queueable;
 use Illuminate\Mail\Mailable;
 use Illuminate\Queue\SerializesModels;
-use Eventjuicer\Models\Participant;
+
 
 class BulkP2C extends Mailable {
 
