@@ -10,7 +10,7 @@ use Eventjuicer\Crud\CompanyMeetups\Fetch as CompanyMeetupsFetch;
 use Eventjuicer\Jobs\Meetups\HandleLTDReject;
 use Carbon\Carbon;
 use Eventjuicer\Services\Exhibitors\CompanyData;
-
+use Eventjuicer\Models\Company;
 
 class ExhibitorMeetupsRsvpReminder extends Command {
 
@@ -91,13 +91,12 @@ class ExhibitorMeetupsRsvpReminder extends Command {
                 continue;
             }
             $this->line("Threshold matches!");  
-            
-            $company = new CompanyData($untouched->first()->company);
+            $company = Company::find($company_id);
+            $cd = new CompanyData( $company );
 
             $sales_manager = $company->people->where("role", "sales_manager");
 
             $this->line("Threshold matches! $sales_manager");  
-
 
 
             // foreach($untouched as $untouchedMeetup){
