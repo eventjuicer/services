@@ -7,25 +7,21 @@ use Illuminate\Queue\SerializesModels;
 use Illuminate\Queue\InteractsWithQueue;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Foundation\Bus\Dispatchable;
-
-
-use Illuminate\Support\Collection;
-use Eventjuicer\Repositories\MeetupRepository;
 use Illuminate\Support\Facades\Mail;
 use App\Mail\Meetups\BulkP2C;
 use Carbon\Carbon;
 use Eventjuicer\Services\Meetups\Sendable;
-use Eventjuicer\Models\Company;
+use Eventjuicer\Models\Participant;
 
-class BulkNotifyP2C implements ShouldQueue
+class BulkNotifyP2C //implements ShouldQueue
 {
     use Dispatchable, InteractsWithQueue, Queueable, SerializesModels;
 
-    protected $company;
+    protected $participant;
     protected $number_of_rsvp;
 
-    public function __construct(Company $company, $number_of_rsvp){
-        $this->company = $company;
+    public function __construct(Participant $participant, $number_of_rsvp){
+        $this->participant = $participant;
         $this->number_of_rsvp = $number_of_rsvp;
     }
 
@@ -38,6 +34,14 @@ class BulkNotifyP2C implements ShouldQueue
 
 
 
+        // $sales_manager = $ex->company->people->where("role", "sales_manager");
+
+        // if($sales_manager->count() > 1){
+        //     $recipient = $sales_manager->first()->email;
+
+        // }else{
+        //     $recipient = $ex->email;
+        // }
 
 
         // //double check!!!!

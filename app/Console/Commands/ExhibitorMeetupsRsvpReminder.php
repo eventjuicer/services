@@ -4,7 +4,7 @@ namespace App\Console\Commands;
 
 use Illuminate\Console\Command;
 
-use Eventjuicer\Jobs\GeneralExhibitorMessageJob as Job;
+use App\Jobs\Meetups\BulkNotifyP2C;
 use Eventjuicer\Services\Exhibitors\Console;
 use Eventjuicer\Crud\CompanyMeetups\Fetch as CompanyMeetupsFetch;
 
@@ -117,7 +117,7 @@ class ExhibitorMeetupsRsvpReminder extends Command {
             $companyMeetups = isset($groupedByCompany[$ex->company_id]) ? $groupedByCompany[$ex->company_id] : null;
 
             if(!$companyMeetups){
-                $this->error("No company P2C meetups for " . $ex->email . " - skipped.");
+                $this->error("No P2C meetups - ".$ex->email ." skipping.");
                 continue;
             }
 
@@ -129,21 +129,13 @@ class ExhibitorMeetupsRsvpReminder extends Command {
             $this->line("total: ".$companyMeetups->count()." agreed: ".$agreed->count().", untouched: ".$untouched->count());
 
             if($untouched->count() === 0){
+                $this->info("No UNTOUCHED meetups for - ". $ex->email ." found. ...skipping.");
                 continue;
             }
-
-            $this->line("Threshold matches!");  
-            
-            $sales_manager = $ex->company->people->where("role", "sales_manager");
-
-            $this->line("Threshold matches! $sales_manager");  
-
-
 
             $lang           = $ex->getLang($defaultlang);
             $name           = $ex->getName();
             $event_manager  = $ex->getEventManager();
-            //$cReps          = $ex->getReps();
 
 
             if($lang !== $viewlang)
@@ -152,9 +144,8 @@ class ExhibitorMeetupsRsvpReminder extends Command {
                 continue;
             }
 
-            $this->line("Processing " . $name);
+            dispatch(new BulkNotifyP2C($ex->getModel(), $untouched->count()));
 
-            $this->line("Notifying " . $ex->email);
 
 
             // dispatch(new Job(
