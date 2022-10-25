@@ -4,11 +4,11 @@ Cześć {{ $p->translate("[[fname]]") }}!
 
 @component('mail::panel')
 
-Targi eHandlu już w czwartek 27 października na EXPO XXI w Warszawie.
+Targi eHandlu już w **czwartek 27 października na EXPO XXI w Warszawie.**
+
+Mamy **149 Wystawców**, **35 Prelegentów** 
 
 Pierwsze prezentacje startują o 10:40.
-
-Mamy 149 Wystawców, 35 Prelegentów. 
 
 @endcomponent
 
@@ -30,9 +30,11 @@ Mamy 149 Wystawców, 35 Prelegentów.
 
 <img src="https://res.cloudinary.com/eventjuicer/image/upload/w_1200,h_1000,c_limit,f_auto/v1666696812/www/teh22_mapsearch_invite.png" alt="" style="max-width: 700px;"/>
 
+@component('mail::panel')
 
-## 7 godzin na aktywnie spędzonych na Targach eHandlu to ekwiwalent tygodni spędzonych na komunikacji z oferentami usług i produktów do e-handlu i czytaniu artykułów branżowych.
+**7 godzin na aktywnie spędzonych na Targach eHandlu to ekwiwalent tygodni** spędzonych na komunikacji z oferentami usług i produktów do e-handlu i czytaniu artykułów branżowych.
 
+@endcomponent
 
 @component('mail::button', ['url' => 'https://targiehandlu.pl/visit'])
 Sprawdź całą agendę i zarejestruj się.
