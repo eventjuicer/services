@@ -33,17 +33,16 @@ class BulkNotifyP2C //implements ShouldQueue
     public function handle(){
 
         $company = $this->participant->company;
-        $sales_manager = $company->people->where("role", "sales_manager");
+        $sales_managers = $company->people->where("role", "sales_manager");
 
-        if($sales_manager->count()){
-            foreach( $sales_manager as $recipient){
+        if($sales_managers->count()){
 
-                $email = $recipient->email;
+            foreach( $sales_managers as $sales_manager){
 
                 Mail::send(new BulkP2C( array(
-                    "email"=> $recipient->email,
+                    "email" => $sales_manager->email,
                     "token" => $this->participant->token,
-                    "number_of_rsvp",  $this->number_of_rsvp
+                    "number_of_rsvp" =>  $this->number_of_rsvp
                 ) ) );
             }  
         }else{
