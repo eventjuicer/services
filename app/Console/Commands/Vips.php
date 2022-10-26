@@ -4,19 +4,10 @@ namespace App\Console\Commands;
 
 use Illuminate\Console\Command;
 
-
-
 use Eventjuicer\Services\Resolver;
 use Eventjuicer\Services\GetByRole;
-use Eventjuicer\Jobs\GeneralExhibitorMessageJob as Job;
-use Eventjuicer\Services\Revivers\ParticipantSendable;
-
-
-use Eventjuicer\ValueObjects\EmailAddress;
 use Eventjuicer\Services\SaveOrder;
-use Eventjuicer\Models\Participant;
 use Eventjuicer\Services\Personalizer;
-
 use Eventjuicer\Repositories\MeetupRepository;
 use Eventjuicer\Repositories\Criteria\FlagEquals;
 use Eventjuicer\Repositories\Criteria\BelongsToEvent;
@@ -26,8 +17,7 @@ class Vips extends Command {
     protected $signature = 'visitors:vips
 
         {--domain=}
-        {--email=}
-        {--subject=}
+        {--direction=""}
        
     ';
     
@@ -42,28 +32,13 @@ class Vips extends Command {
     {
        
         $domain = $this->option("domain");
-        $email = $this->option("email");
-        $subject = $this->option("subject");
+        $direction = $this->option("direction");
 
         $errors = [];
-
-        $whatToDo = $this->anticipate("send, report, all, testsend", ["send","report", "all", "testsend"]);
 
 
         if(empty($domain)) {
             $errors[] = "--domain= must be set!";
-        }
-
-        if($whatToDo !== "report" && empty($subject)) {
-            $errors[] = "--subject= must be set!";
-        }
-    
-        if($whatToDo !== "report" && empty($email)) {
-            $errors[] = "--email= must be set!";
-        }
-
-         if($whatToDo !== "report" && $email && ! view()->exists("emails.visitor." . $email)) {
-            $errors[] = "--email= error. View cannot be found!";
         }
 
         if(count($errors)){
@@ -88,9 +63,13 @@ class Vips extends Command {
 
         $meetups->pushCriteria(new BelongsToEvent($eventId));
         $meetups->pushCriteria(new FlagEquals("agreed", 1));
-        $vips = $meetups->with(["participant.fields"])->all()->unique("participant_id");
+        if($direction){
+            $meetups->pushCriteria(new FlagEquals("direction", $direction));
+        }
 
-        $this->info("Number of unique VIPs: " . $vips->count() );
+        $vips = $meetups->with(["participant.fields", "rel_participant_id.fields"])->all();
+
+        $this->info("Number of unique VIPs: " . $vips->unique("participant_id")->count() );
 
         $done = 0;
 
@@ -101,14 +80,14 @@ class Vips extends Command {
         {
 
             $participant = $vip->participant;
+            $presenter = $vip->presenter;
 
-            $profile = (new Personalizer($participant));
+            $participant_profile = (new Personalizer($participant));
+            $presenter_profile = (new Personalizer($presenter));
 
-            $details = $profile->translate('"[[fname]]","[[lname]]"," [[cname2]]"');
+            $details = $participant_profile->translate('"[[fname]]", "[[lname]]", "[[cname2]]", "[[phone]]", "[[presentation_venue]]", "[[presentation_time]]"');
             
             $this->line($details);
-            
-            $phones[] = $profile->translate("[[phone]]");
 
             $all[] = $details;
 
@@ -119,17 +98,17 @@ class Vips extends Command {
 
         $baseFilename = "export".md5(time() . $eventId).".txt";
 
-        file_put_contents(
-            app()->basePath("storage/app/public/" . "phones_".$baseFilename), 
-            implode( "\n", $phones )
-        );
+        // file_put_contents(
+        //     app()->basePath("storage/app/public/" . "phones_".$baseFilename), 
+        //     implode( "\n", $phones )
+        // );
 
         file_put_contents(
             app()->basePath("storage/app/public/" . "all_".$baseFilename), 
             implode( "\n", $all )
         );
 
-        $this->info("storage/" . "phones_" . $baseFilename);
+        // $this->info("storage/" . "phones_" . $baseFilename);
         $this->info("storage/" . "all_" . $baseFilename);
 
     }
