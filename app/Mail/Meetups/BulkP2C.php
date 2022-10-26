@@ -6,11 +6,14 @@ use Illuminate\Bus\Queueable;
 use Illuminate\Mail\Mailable;
 use Illuminate\Queue\SerializesModels;
 use Eventjuicer\Services\Exhibitors\Email;
+use Eventjuicer\Models\Participant;
+
 
 class BulkP2C extends Mailable {
 
     use Queueable, SerializesModels;
 
+    protected $participant;
     protected $domain           = "targiehandlu.pl";
     
     public $subject          = "Potwierdź/odrzuć prośby o spotkanie";
@@ -22,10 +25,10 @@ class BulkP2C extends Mailable {
     public $url = "";
     public $footer;
 
-    public function __construct(array $config = []){
-
+    public function __construct(Participant $participant, array $config = []){
+        $this->participant = $participant;
         $this->recipient = $config["email"];
-        $this->token = $config["token"];
+        $this->token = $participant->token;
         $this->number_of_rsvp = $config["number_of_rsvp"];
     }
 

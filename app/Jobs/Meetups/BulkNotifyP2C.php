@@ -42,17 +42,15 @@ class BulkNotifyP2C //implements ShouldQueue
                     continue;
                 }
 
-                Mail::send(new BulkP2C( array(
+                Mail::send(new BulkP2C($this->participant, array(
                     "email" => $sales_manager->email,
-                    "token" => $this->participant->token,
                     "number_of_rsvp" =>  $this->number_of_rsvp
                 ) ) );
             }  
         }else{
 
-            Mail::send(new BulkP2C( array(
+            Mail::send(new BulkP2C($this->participant, array(
                 "email" => $this->participant->email,
-                "token" => $this->participant->token,
                 "number_of_rsvp" =>  $this->number_of_rsvp
             ) ) );
         }
