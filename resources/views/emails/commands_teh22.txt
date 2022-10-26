@@ -18,6 +18,8 @@ php artisan visitors:current-event --domain=targiehandlu.pl --subject="...to ju�
 26 października
 ===============
 
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=en --subject="Scanning of visitors' badges to collect contact data." --email=teh22-scanner
+
 php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Skanowanie ID Zwiedzających podczas Targów." --email=teh22-scanner
 
 php artisan exhibitors:meetups_p2c --domain=targiehandlu.pl
