@@ -32,7 +32,7 @@ class Vips extends Command {
     {
        
         $domain = $this->option("domain");
-        $direction = $this->option("direction");
+        $direction = strtoupper($this->option("direction"));
 
         $errors = [];
 
@@ -63,13 +63,13 @@ class Vips extends Command {
 
         $meetups->pushCriteria(new BelongsToEvent($eventId));
         $meetups->pushCriteria(new FlagEquals("agreed", 1));
-        if($direction){
+        if(in_array($direction, ["LTD", "P2C", "C2P"])){
             $meetups->pushCriteria(new FlagEquals("direction", $direction));
         }
 
-        $vips = $meetups->with(["participant.fields", "rel_participant_id.fields"])->all();
+        $vips = $meetups->with(["participant.fields", "presenter.fields"])->all();
 
-        $this->info("Number of unique VIPs: " . $vips->unique("participant_id")->count() );
+        $this->info("Number of unique VIPs: " . $vips->count() );
 
         $done = 0;
 
