@@ -4,11 +4,11 @@
 
 It is probably the last e-mail message before we meet at the Expo!
 
-## Scanning of Visitor Badges
+## Scanning of Visitors' Badges
 
-All contact information from guests visiting your stand can be collected using barcode scanning website.
+All contact information from guests visiting your stand can be easily collected using barcode scanning website (yes, no app is necessary!)
 
-All your representatives can use above website to collect data. Data can be previewed and processed immediately in the Exhibitor's Panel.
+**All your representatives** can use our tool to collect data. After scanning data can be previewed and processed immediately in the Exhibitor's Panel.
 
 @component('mail::button', ['url' => $accountUrlBadgescanner])
 Step-by-step tutorial
