@@ -146,23 +146,6 @@ class ExhibitorMeetupsRsvpReminder extends Command {
 
             dispatch(new BulkNotifyP2C($ex->getModel(), $untouched->count()));
 
-
-
-            // dispatch(new Job(
-            //     $ex->getModel(), 
-            //     $eventId, 
-            //     compact(
-            //         "email", 
-            //         "subject", 
-            //         "event_manager", 
-            //         "viewlang", 
-            //         "lang", 
-            //         "domain", 
-            //         "translations",
-            //         "additionalData"
-            //         ) 
-            // ));
-
             $done++;
 
             if($done && $whatWeDo === "test"){

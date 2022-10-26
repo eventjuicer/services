@@ -5,14 +5,12 @@ namespace App\Mail\Meetups;
 use Illuminate\Bus\Queueable;
 use Illuminate\Mail\Mailable;
 use Illuminate\Queue\SerializesModels;
-
+use Eventjuicer\Services\Exhibitors\Email;
 
 class BulkP2C extends Mailable {
 
     use Queueable, SerializesModels;
 
-    protected $sender_email     = "zwiedzanie+rsvp@targiehandlu.pl";
-    protected $sender_name      = "Karolina Michalak";
     protected $domain           = "targiehandlu.pl";
     
     public $subject          = "Potwierdź/odrzuć prośby o spotkanie";
@@ -22,6 +20,7 @@ class BulkP2C extends Mailable {
     protected $token;
     public $number_of_rsvp = 0;
     public $url = "";
+    public $footer;
 
     public function __construct(array $config = []){
 
@@ -37,25 +36,23 @@ class BulkP2C extends Mailable {
      */
     public function build(){
 
+        $emailHelper = new Email($this->participant);
+
+        $this->footer = $emailHelper->getFooter();
+        $cc = "targiehandlu+auto@targiehandlu.pl";
+        $eventName = "Targi eHandlu";
 
 
-            // app()->setLocale("en");
-            // config(["app.name" => "E-commerce Berlin Expo"]);
-
-            // $this->domain = "ecommerceberlin.com";
-            // $this->sender_email = "rsvp@ecommerceberlin.com";
-            // $this->sender_name = "Lucas Zarna - E-commerce Berlin Expo";
-            // $this->subject = "Exhibitors that want to meet you. Your action needed.";
-            // $this->view = "bulk_en";
-    
-
-
+        app()->setLocale("pl");
+        config(["app.name" => "Targi eHandlu / E-commerce Warsaw Expo"]);
 
         $this->url = "https://account.".$this->domain.'/#/meetups?filter=%7B"direction"%3A"P2C"%7D&token=' . $this->token;
 
-        $this->from($this->sender_email, $this->sender_name);
+        $this->to((string) $this->recipient);
 
-        $this->to((string) "adam+test@zygadlewicz.com");
+        $this->from($emailHelper->getEmail(), $emailHelper->getSender() . " - " . $eventName);
+
+        $this->cc( $cc ); 
 
         $this->subject($this->subject);
 
