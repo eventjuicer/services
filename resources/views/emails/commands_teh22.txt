@@ -15,6 +15,13 @@ php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl -
 php artisan visitors:current-event --domain=targiehandlu.pl --subject="...to już za 2 dni! | 22 Targi eHandlu w Warszawie" --email=teh22-mapsearch-for-current
 
 
+26 października
+===============
+
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Skanowanie ID Zwiedzających podczas Targów." --email=teh22-scanner
+
+php artisan exhibitors:meetups_p2c --domain=targiehandlu.pl
+
 
 
 
@@ -24,7 +31,6 @@ php artisan visitors:current-event --domain=targiehandlu.pl --subject="...to ju�
 php artisan visitors:ticket-reminder --domain=targiehandlu.pl
 
 php artisan visitors:restore-from-old-events --domain=targiehandlu.pl --email=teh22-mapsearch-for-old --subject="CZWARTEK. 3 powody, dla których warto być na Targach eHandlu w Warszawie."  --throttle=55000
-
 
 
 24 października
