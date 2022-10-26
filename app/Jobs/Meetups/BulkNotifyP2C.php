@@ -9,8 +9,6 @@ use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Foundation\Bus\Dispatchable;
 use Illuminate\Support\Facades\Mail;
 use App\Mail\Meetups\BulkP2C;
-use Carbon\Carbon;
-use Eventjuicer\Services\Meetups\Sendable;
 use Eventjuicer\Models\Participant;
 
 class BulkNotifyP2C //implements ShouldQueue
@@ -39,6 +37,11 @@ class BulkNotifyP2C //implements ShouldQueue
 
             foreach( $sales_managers as $sales_manager){
 
+
+                if(!filter_var($sales_manager->email, FILTER_VALIDATE_EMAIL)){
+                    continue;
+                }
+
                 Mail::send(new BulkP2C( array(
                     "email" => $sales_manager->email,
                     "token" => $this->participant->token,
@@ -47,36 +50,14 @@ class BulkNotifyP2C //implements ShouldQueue
             }  
         }else{
 
+            Mail::send(new BulkP2C( array(
+                "email" => $this->participant->email,
+                "token" => $this->participant->token,
+                "number_of_rsvp" =>  $this->number_of_rsvp
+            ) ) );
         }
 
-        // pl-p2c-meetup-untouched
-        // if($sales_manager->count() > 1){
-        //     $recipient = $sales_manager->first()->email;
-
-        // }else{
-        //     $recipient = $ex->email;
-        // }
-
-
-        // //double check!!!!
-
-        // $filtered = $this->meetups->filter(function($meetup)
-        // {
-
-        //     return (new Sendable($meetup))->check();
-
-        // });
-
-        // if(! $filtered->count())
-        // {
-        //     return true;
-        // }
-
-
-        // $participant = $this->meetups->first()->participant;
-
-
-        
+       
 
     }
 }
