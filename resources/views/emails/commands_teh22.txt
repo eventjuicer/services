@@ -15,6 +15,19 @@ php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl -
 php artisan visitors:current-event --domain=targiehandlu.pl --subject="...to już za 2 dni! | 22 Targi eHandlu w Warszawie" --email=teh22-mapsearch-for-current
 
 
+
+
+
+
+2 listopada
+===========
+
+
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Dziękujemy. Skany, Ankieta." --email=teh22-thankyou
+
+
+
+
 26 października
 ===============
 
