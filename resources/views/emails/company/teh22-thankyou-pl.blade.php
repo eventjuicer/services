@@ -15,6 +15,7 @@ Ankieta
 @endcomponent
 
 **Jeśli Twój zespół skanował identyfikatory zwiedzających - [są one dostępne do pobrania w panelu Wystawcy.]({!! $accountUrlScans !!})**
+Komentarze widoczne są w wyeksportowanym pliku.
 
 
 Regards, 
