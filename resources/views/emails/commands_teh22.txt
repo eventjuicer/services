@@ -10,7 +10,7 @@ php artisan visitors:current-event --domain=targiehandlu.pl --subject="...to ju�
 9 listopada
 ===========
 
-php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Sprzedaż powierzchni - wiosenne Targi eHandlu w Warszawie" --email=teh22-salesplan
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Sprzedaż powierzchni na 6 kwietnia 2023 / wiosenne Targi eHandlu w Warszawie" --email=teh23-salesplan
 
 
 
