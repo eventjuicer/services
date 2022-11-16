@@ -7,6 +7,22 @@
 16 listopada
 =======
 
+
+
+//TOP30 LAST LAST LAST CALL
+
+php artisan exhibitors:award --domain=targiehandlu.pl --award=earlybird --previous --lang=pl --defaultlang=pl --email="teh23-top30-start" --subject="Wystartowaliśmy! Sekretny link do rezerwacji przestrzeni wystawienniczej..."
+
+
+
+
+
+
+
+
+
+
+
 php artisan exhibitors:award --domain=targiehandlu.pl --award=earlybird --previous --reverse --lang=pl --defaultlang=pl --email="teh23-sales-reminder" --subject="Czwartek, 17 listopada,  11:00. Sprzedaż stoisk na 23. Targi eHandlu."
 
 php artisan exhibitors:award --domain=targiehandlu.pl --award=earlybird --previous --reverse --lang=en --defaultlang=pl --email="teh23-sales-reminder" --subject="Thursday, 17th of November. 11:00 CET. Open sales starts..."
