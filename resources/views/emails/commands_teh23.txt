@@ -1,5 +1,25 @@
 
 
+17 listopada
+
+
+
+
+
+php artisan exhibitors:award --domain=targiehandlu.pl --award=earlybird --previous --reverse --lang=pl --defaultlang=pl --email="teh23-sales-started" --subject="Wystartowaliśmy! Otwarta rezerwacja przestrzeni wystawienniczej na 23. Targi eHandlu."
+
+php artisan exhibitors:award --domain=targiehandlu.pl --award=earlybird --previous --reverse --lang=en --defaultlang=pl --email="teh23-sales-started" --subject="We have just started! Book an exhibition space for Ecommerce Warsaw Expo Spring edition"
+
+
+
+
+
+
+
+
+
+
+
 
 
 
