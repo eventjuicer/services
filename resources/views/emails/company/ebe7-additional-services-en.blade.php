@@ -17,7 +17,7 @@
 • Additional electricity connection
 
 The services are available online till January 13th, 2023.
-​
+
 Check out prices, images and specs by clicking the button below.
 
 @component('mail::button', ['url' => $accountUrlArrangement])

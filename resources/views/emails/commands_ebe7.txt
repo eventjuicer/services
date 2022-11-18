@@ -5,9 +5,9 @@
 ===============
 
 
-php artisan exhibitors:current-event --defaultlang=en --domain=ecommerceberlin.com --lang=en --subject="Additional services reminder / E-commerce Berlin Expo" --email=ebe7-additional-services
+php artisan exhibitors:current-event --defaultlang=en --domain=ecommerceberlin.com --lang=en --subject="Additional services  / E-commerce Berlin Expo 2023" --email=ebe7-additional-services
 
-php artisan exhibitors:current-event --defaultlang=en --domain=ecommerceberlin.com --lang=de --subject="Erinnerung an zusätzlichen Standdiensten / E-commerce Berlin Expo" --email=ebe7-additional-services
+php artisan exhibitors:current-event --defaultlang=en --domain=ecommerceberlin.com --lang=de --subject="Zusätzliche Standdiensten / E-commerce Berlin Expo 2023" --email=ebe7-additional-services
 
 
 
