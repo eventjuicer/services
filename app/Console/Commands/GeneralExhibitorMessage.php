@@ -97,7 +97,7 @@ class GeneralExhibitorMessage extends Command {
 
         $this->info("Exhibitors that can be notified: " . $filtered->count() );
 
-        $allTranslations = $service->getTranslations();
+        $allTranslations = [];//$service->getTranslations();
 
         $done = 0;
 
