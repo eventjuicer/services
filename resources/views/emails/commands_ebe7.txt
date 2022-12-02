@@ -5,14 +5,13 @@
 
 
 
-18 listopada
+2 grudnia
 ===============
 
 
-php artisan exhibitors:current-event --defaultlang=en --domain=ecommerceberlin.com --lang=en --subject="Additional services  / E-commerce Berlin Expo 2023" --email=ebe7-additional-services
+php artisan exhibitors:current-event --defaultlang=en --domain=ecommerceberlin.com --lang=en --subject="E-commerce Germany Awards are open for submissions!" --email=ebe7-awards-start
 
-php artisan exhibitors:current-event --defaultlang=en --domain=ecommerceberlin.com --lang=de --subject="Zusätzliche Standdiensten / E-commerce Berlin Expo 2023" --email=ebe7-additional-services
-
+php artisan exhibitors:current-event --defaultlang=en --domain=ecommerceberlin.com --lang=de --subject="E-commerce Germany Awards ist offen für Bewerbungen!" --email=ebe7-awards-start
 
 
 
