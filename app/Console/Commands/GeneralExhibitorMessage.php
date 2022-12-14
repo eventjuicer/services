@@ -18,8 +18,9 @@ class GeneralExhibitorMessage extends Command {
         {--subject=}
         {--lang=}
         {--defaultlang=} 
-        {--throttle=1}
-        {--exclude_reg_ids=""}';
+        {--throttle=1} 
+        {--exclude_reg_ids=""} 
+        {--exclude_company_ids=""}';
     
     protected $description = '--exclude_reg_ids="100,102,103';
  
@@ -39,6 +40,7 @@ class GeneralExhibitorMessage extends Command {
         $email      = $this->option("email");
         $subject    = $this->option("subject");
         $exclude_reg_ids =  array_filter(explode(",", $this->option("exclude_reg_ids")), function($value){ return intval($value) > 0; }); 
+        $exclude_company_ids =  array_filter(explode(",", $this->option("exclude_company_ids")), function($value){ return intval($value) > 0; }); 
 
         $errors = [];
 
@@ -105,9 +107,16 @@ class GeneralExhibitorMessage extends Command {
 
         if(!empty($exclude_reg_ids)) {
             
-            $this->error( count($exclude_reg_ids) . " regs excluded" );
+            $this->info( count($exclude_reg_ids) . " regs excluded" );
         
         }
+
+        if(!empty($exclude_company_ids)) {
+            
+            $this->info( count($exclude_company_ids) . " companies excluded" );
+        
+        }
+
 
         foreach($filtered as $ex)
         {
@@ -137,6 +146,12 @@ class GeneralExhibitorMessage extends Command {
             {
                 $this->error("No company assigned for " . $ex->email . " - skipped.");
                 continue;
+            }
+
+            if(!empty( $exclude_company_ids ) && in_array($ex->company_id, $exclude_company_ids) ){
+            
+                $this->error("Company excluded by --exclude_company_ids: " . $ex->email );
+                continue;                
             }
 
 
