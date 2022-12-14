@@ -2,6 +2,13 @@
 
 
 
+13 grudnia
+===========
+
+php artisan exhibitors:current-event --defaultlang=en --domain=ecommerceberlin.com --lang=en --subject="Booth arrangement order - reminder" --email=ebe7-additional-services-2 --exclude_company_ids="1759,2120,1910,1716,2088,2081,2188,2203,1667,2180,2086,1402,2212,2205,2194,2193,2196,2206,2195,2029,1644,2184,1576,1954,2079,2207,2124,2055,1930,2138,2214,2095,1957,2130,2223,2140,1977,2150,2251,2187,1048,2167,1914,2133,2250,1382,1851,2252,1790,2131,1649,1722,2078,2029,2244,1831,1926,1058,2254,2201,2222"
+
+php artisan exhibitors:current-event --defaultlang=en --domain=ecommerceberlin.com --lang=de --subject="Standbau - kurze Erinnerung" --email=ebe7-additional-services-2 --exclude_company_ids="1759,2120,1910,1716,2088,2081,2188,2203,1667,2180,2086,1402,2212,2205,2194,2193,2196,2206,2195,2029,1644,2184,1576,1954,2079,2207,2124,2055,1930,2138,2214,2095,1957,2130,2223,2140,1977,2150,2251,2187,1048,2167,1914,2133,2250,1382,1851,2252,1790,2131,1649,1722,2078,2029,2244,1831,1926,1058,2254,2201,2222"
+
 
 
 
@@ -16,32 +23,13 @@ php artisan exhibitors:current-event --defaultlang=en --domain=ecommerceberlin.c
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 18 listopada
 ===============
 
 
 php artisan exhibitors:current-event --defaultlang=en --domain=ecommerceberlin.com --lang=en --subject="Additional services  / E-commerce Berlin Expo 2023" --email=ebe7-additional-services
 
-php artisan exhibitors:current-event --defaultlang=en --domain=ecommerceberlin.com --lang=de --subject="Zusätzliche Standdiensten / E-commerce Berlin Expo 2023" --email=ebe7-additional-services
+php artisan exhibitors:current-event --defaultlang=en --domain=ecommerceberlin.com --lang=de --subject="Zusätzliche Standdienste / E-commerce Berlin Expo 2023" --email=ebe7-additional-services
 
 
 
