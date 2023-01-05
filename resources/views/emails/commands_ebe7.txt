@@ -1,4 +1,12 @@
 
+5 stycznia
+==========
+
+
+
+php artisan exhibitors:current-event --defaultlang=en --domain=ecommerceberlin.com --lang=en --subject="Add your contacts to stay up to date | EBE 2023" --email=ebe7-people
+
+php artisan exhibitors:current-event --defaultlang=en --domain=ecommerceberlin.com --lang=de --subject="Füge Kontakte aus deinem Unternehmen hinzu, um auf dem Laufenden zu bleiben | EBE23" --email=ebe7-people 
 
 
 
