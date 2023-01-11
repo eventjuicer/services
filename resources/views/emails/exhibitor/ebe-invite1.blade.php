@@ -14,7 +14,7 @@
 
 Wir freuen uns, Dir mitteilen zu können, dass wir als **Aussteller auf der E-Commerce Berlin Expo 2023** auch mit dabei sind und wollen Dich einladen, uns am **23. Februar in der STATION Berlin**, Luckenwalder Str. 4-6 persönlich zu besuchen.
 
-Sichere dir jetzt dein **kostenloses Ticket** und komm an unserem Stand vorbei, um sich mit uns zu unterhalten - hier geht's zur Anmeldung:
+Sichere dir jetzt dein **kostenloses Ticket** und komm an unserem Stand vorbei, um sich mit uns zu unterhalten:
 
 @component('mail::button', ['url' => $promolink])
 	Klick hier, um dich für ein kostenloses Ticket zu registrieren

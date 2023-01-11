@@ -9,7 +9,7 @@
 
 # Hi,
 
-We would like to let you know that **{{  array_get($companydata, "name") }} is exhibiting at the E-Commerce Berlin Expo 2023** which will take place on **23rd of February** at STATION Berlin, Luckenwalder Str. 4-6.
+We would like to let you know that **{{  array_get($companydata, "name") }} is exhibiting at the E-Commerce Berlin Expo 2023** which will take place on **23rd of February at STATION Berlin**, Luckenwalder Str. 4-6.
 
 **Get your free ticket** now and stop by our stand to chat with us:**
 
