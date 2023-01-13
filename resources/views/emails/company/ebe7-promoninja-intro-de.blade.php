@@ -1,74 +1,37 @@
-
-
 @component('mail::message')
 
-# Hello {{ array_get($profile, "fname") }},
+Hallo {{ array_get($profile, "fname") }},
 
-Wir befinden uns im Endspurt vor der E-Commerce Berlin Expo. Es ist höchste Zeit, euch die neueste Herausforderung vorzustellen, die exklusiv für unsere Aussteller verfügbar ist.
+Wir befinden uns auf der Zielgeraden vor der E-Commerce Berlin Expo. Alle Hände an Deck, denn wir haben einen **exklusiven Wettbewerb für die Aussteller** aufgesetzt. Zu gewinnen gibt es attraktive Preise: **ein Video-Interview, einen Frühbucherzugang für EBE2024-Stände** und vieles mehr!
 
-## Was ist die Idee dahinter?
+Für den Sieg muss man die meisten Punkte sammeln! Wie kann man sie sammeln? Durch das Teilen der Links, die mit den von uns vorbereiteten Werbematerialien verknüpft sind. Diese Materialien sollen für Eure Teilnahme an der Expo werben und Eure Kunden zur Teilnahme an dem Event einladen.
 
-Wir glauben, dass es bei einer erfolgreichen Veranstaltung nicht nur darum geht, neue Kunden kennenzulernen, sondern auch die Beziehungen zu bestehenden Kunden zu stärken. Und was wäre eine bessere Gelegenheit dafür, als sie auf der Expo zu treffen?
+**Die Links und die vorgefertigten Promo-Materialien kannst du auf der Ausstellerplattform unter Promo-Materialien finden. Klicke sie an, um den entsprechenden Link zu finden.**
 
-## Wie funktioniert das?
-
-Bei diesem Wettbewerb könnt ihr Punkte sammeln, indem ihr einen Link teilt, der eure Teilnahme an der Expo bewirbt und eure Kunden zur Teilnahme an der Veranstaltung einlädt. Jeder Klick eines Nutzers entspricht einem Punkt – ganz einfach! Der Trick ist, dass ihr euren personalisierten Link teilen müsst, um die Punkte zu erhalten.
- 
-Euren individuellen Link findet ihr in eurem Ausstellerprofil im Bereich **Werbematerial**.
-
-@component('mail::button', ['url' => $accountUrl])
-Zu meinem Account gelangen
+@component('mail::button', ['url' => $accountUrlPromote])
+Promo materials page for your company
 @endcomponent
 
-Ihr könnt den Link in E-Mail-Signaturen, Anzeigen (FB-Anzeigen, Adwords, sozialen Medien) oder mit Hilfe des direkten Kommunikationsweges bei euren Kunden verwenden. Jeder Link kann auch in die Zwischenablage kopiert und per Messenger, E-Mail oder in euren Newslettern versendet werden.
+**Alle Werbematerialien sind mit dem öffentlichen Ausstellerprofil verknüpft, **
 
-## Wie teile ich den Link?
+wo die Besucher mehr über deine Firma erfahren und sehen, was ihr zu bieten habt
 
-Der in den sozialen Medien gepostete Link kann unterschiedliche visuelle Ergebnisse liefern:
+die Lage des Messestandes auf der EXPO finden
 
-* die von uns entworfene Standardgrafik (erscheint automatisch, keine Handlung eurerseits erforderlich),
+ein Treffen mit Euch am Stand vereinbaren können (NEUE)
 
-* euer individuelles Design (nur aktiv, wenn ihr die vollständige URL zu eurer Grafik im Bereich **Firma** eures Ausstellerprofils angebt).
+**Für jeden engagierten Besuch eines Nutzers auf eurem öffentlichen Profil, der über euren speziellen Link läuft, erhaltet ihr einen Punkt. Je mehr Punkte, desto größer die Chance, Preise zu gewinnen!**
 
-Ihr könnt die Grafik in Tools wie Facebook Debugger oder LinkedIn Post Inspector in der Vorschau anzeigen lassen. Wenn die aktualisierte Grafik nicht sofort sichtbar ist, leert bitte euren Cache und versucht es erneut.
+Willst du deine Position im Wettbewerb wissen oder mehr über die verschiedenen Preise erfahren? Gehe dann zur Seite Promotion -> Ranking.
 
-Darüber hinaus haben wir im Abschnitt **Newsletter Vorlagen** zwei versandfertige Newsletter (Englisch und Deutsch) vorbereitet, die eure Kunden und Partner über eure Teilnahme an der Veranstaltung informieren sollen. Ihr könnt die HTML kopieren oder eine ZIP-Datei herunterladen, die einfach von Newsletter2go oder Mailchimp-ähnlicher Software importiert werden kann.
+Das Beste daran ist, dass der Gewinn eines Preises andere Preise nicht ausschließt - man kann mehrere Preise gleichzeitig gewinnen!
 
-## Was kann man gewinnen?
+**Der Ausstellerwettbewerb endet am 20. Februar 2023, 23:59 Uhr MEZ.**
 
-In eurem Ausstellerprofil könnt ihr die vollständige Liste der verfügbaren Preise im Abschnitt **Preise** einsehen, wie zum Beispiel:
+Bei Fragen stehe ich gerne zur Verfügung. Viel Glück!
 
-* Speaking Slot auf einer unserer Bühnen während der Expo,
-
-* Video-Interview,
-
-* Logo-Highlight auf der EBE-Website,
-
-* Und vieles mehr!
- 
-Jeder der Preise setzt die Erfüllung der beschriebenen Bedingungen für seine Gewährung voraus:
-
-* minimale Punktzahl (= Seitenaufrufe eures öffentlichen Ausstellerprofils über den individualisierten Link),
-
-* Position im Ausstellerranking.
- 
-**Die Preise schließen einander nicht aus** – ihr könnet gleichzeitig mehrere Preise gewinnen.
-
-## Wo sind wir im Ranking? 
-
-Im Bereich **Preise** eures Ausstellerprofils findet ihr den Referenzlink zum Ranking, wo ihr eure aktuelle Position im Wettbewerb einsehen könnt.
-
-Das Ranking wird auf der Grundlage von Daten erstellt, die von unserem Analysetool abgerufen werden. Bitte beachtet, dass es eine Weile dauert, bis die Punkte dort sichtbar sind - wenn ihr die Ergebnisse früh morgens überprüft, seht ihr möglicherweise die Ergebnisse vom Vortag.
-
-## Fragen?
-
-Meldet euch gerne bei mir und ich helfe gerne weiter! Vereinbart am besten einen Call mit mir, damit wir alle Fragen durchgehen können.
-
-**Das Gewinnspiel endet am 22. April 2022, 23:59 Uhr MEZ.**
-
-Viel Erfolg!
+Beste Grüße,
 
 {{$footer}}
 
 @endcomponent
-

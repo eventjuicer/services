@@ -4,7 +4,7 @@
 ==========
 
 
-php artisan exhibitors:current-event --defaultlang=en --domain=ecommerceberlin.com --lang=en --subject="Promote your public profile and get AMAZING benefits. | EBE 2023" --email=ebe7-promoninja-intro 
+php artisan exhibitors:current-event --defaultlang=en --domain=ecommerceberlin.com --lang=en --subject="Contest: Promote your public profile and get AMAZING benefits. | EBE 2023" --email=ebe7-promoninja-intro 
 
 
 
