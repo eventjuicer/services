@@ -6,6 +6,7 @@
 
 php artisan exhibitors:current-event --defaultlang=en --domain=ecommerceberlin.com --lang=en --subject="Contest: Promote your public profile and get AMAZING benefits. | EBE 2023" --email=ebe7-promoninja-intro 
 
+php artisan exhibitors:current-event --defaultlang=en --domain=ecommerceberlin.com --lang=de --subject="Nimm am Promocontest für Aussteller teil! | EBE 2023" --email=ebe7-promoninja-intro 
 
 
 
@@ -18,7 +19,6 @@ php artisan exhibitors:current-event --defaultlang=en --domain=ecommerceberlin.c
 
 
 
-php artisan exhibitors:current-event --defaultlang=en --domain=ecommerceberlin.com --lang=de --subject="Füge Kontakte aus deinem Unternehmen hinzu, um auf dem Laufenden zu bleiben | EBE23" 
 
 
 

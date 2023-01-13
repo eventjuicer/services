@@ -9,7 +9,7 @@ Für den Sieg muss man die meisten Punkte sammeln! Wie kann man sie sammeln? Dur
 **Die Links und die vorgefertigten Promo-Materialien kannst du auf der Ausstellerplattform unter Promo-Materialien finden. Klicke sie an, um den entsprechenden Link zu finden.**
 
 @component('mail::button', ['url' => $accountUrlPromote])
-Promo materials page for your company
+Zu meinem Account gelangen
 @endcomponent
 
 **Alle Werbematerialien sind mit dem öffentlichen Ausstellerprofil verknüpft, **
