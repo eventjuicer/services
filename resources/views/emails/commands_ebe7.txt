@@ -1,12 +1,40 @@
 
+
+11 stycznia
+==========
+
+
+php artisan exhibitors:current-event --defaultlang=en --domain=ecommerceberlin.com --lang=en --subject="Promote your public profile and get AMAZING benefits. | EBE 2023" --email=ebe7-promoninja-intro 
+
+
+
+
+
+
+
+
+
+
+
+
+
+php artisan exhibitors:current-event --defaultlang=en --domain=ecommerceberlin.com --lang=de --subject="Füge Kontakte aus deinem Unternehmen hinzu, um auf dem Laufenden zu bleiben | EBE23" 
+
+
+
+
+
+
+
+
 5 stycznia
 ==========
 
 
 
-php artisan exhibitors:current-event --defaultlang=en --domain=ecommerceberlin.com --lang=en --subject="Add your contacts to stay up to date | EBE 2023" --email=ebe7-people
+php artisan exhibitors:current-event --defaultlang=en --domain=ecommerceberlin.com --lang=en --subject="Add your contacts to stay up to date | EBE 2023" --email=ebe7-people --exclude_company_ids="2266,2245,2210,1644,2070,1900,2251,2265,2063,1428,2220,2233,2165,2200,2168,1367,2227,1832,2204,2067,2169,1928,1023,2059,2054,1745,1876,1880,1603,1603,2170,1340,1851,2080,2052,2189,2138,2089,2081,2081,2224,2217,2186,2184,2234,2209,2130,1957,2212,1889,1751,2215,1944,2171,2082,2082,2203,2203,1577,2078,2124"
 
-php artisan exhibitors:current-event --defaultlang=en --domain=ecommerceberlin.com --lang=de --subject="Füge Kontakte aus deinem Unternehmen hinzu, um auf dem Laufenden zu bleiben | EBE23" --email=ebe7-people 
+php artisan exhibitors:current-event --defaultlang=en --domain=ecommerceberlin.com --lang=de --subject="Füge Kontakte aus deinem Unternehmen hinzu, um auf dem Laufenden zu bleiben | EBE23" --email=ebe7-people --exclude_company_ids="2266,2245,2210,1644,2070,1900,2251,2265,2063,1428,2220,2233,2165,2200,2168,1367,2227,1832,2204,2067,2169,1928,1023,2059,2054,1745,1876,1880,1603,1603,2170,1340,1851,2080,2052,2189,2138,2089,2081,2081,2224,2217,2186,2184,2234,2209,2130,1957,2212,1889,1751,2215,1944,2171,2082,2082,2203,2203,1577,2078,2124"
 
 
 
