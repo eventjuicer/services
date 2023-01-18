@@ -1,9 +1,22 @@
 
 
-17 stycznia
+
+
+19 stycznia
 ===========
 
+php artisan exhibitors:current-event --defaultlang=en --domain=ecommerceberlin.com --lang=en --subject="NEW! Visitors may request a meeting with you | EBE2023" --email=ebe7-p2c
 
+php artisan exhibitors:current-event --defaultlang=en --domain=ecommerceberlin.com --lang=de --subject="NEW! EXPO-Besucher können jetzt einen Termin mit Euch buchen | EBE2023" --email=ebe7-p2c
+
+
+
+
+
+
+
+17 stycznia
+===========
 
 php artisan exhibitors:current-event --defaultlang=en --domain=ecommerceberlin.com --lang=en --subject="Time to register company representatives! | EBE2023" --email=ebe7-company-representatives
 
@@ -11,34 +24,12 @@ php artisan exhibitors:current-event --defaultlang=en --domain=ecommerceberlin.c
 
 
 
-
-
-
 11 stycznia
 ==========
-
 
 php artisan exhibitors:current-event --defaultlang=en --domain=ecommerceberlin.com --lang=en --subject="Contest: Promote your public profile and get AMAZING benefits. | EBE 2023" --email=ebe7-promoninja-intro 
 
 php artisan exhibitors:current-event --defaultlang=en --domain=ecommerceberlin.com --lang=de --subject="Nimm am Promocontest für Aussteller teil! | EBE 2023" --email=ebe7-promoninja-intro 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 5 stycznia
