@@ -8,7 +8,7 @@ Kolejne Targi eHandlu odbędą się **6 kwietnia na EXPO XXI w Warszawie.**
 
 Aktualnie pracujemy nad agendą wystąpień. **Chcesz wystąpić? informacje poniżej!**
 
-Udostępniamy pierwszą porcję nagrań video z jesiennej 22. edycji Targów, która odbyła się w październiku. Polecamy obserwować portal ehandel.com.pl, na którym regularnie publikujemy kolejne nagrania.
+Udostępniamy pierwszą porcję nagrań video z jesiennej 22. edycji Targów, która odbyła się w październiku. 
 
 
 <table style="font-family:Avenir,Helvetica,sans-serif;box-sizing:border-box;color:#74787e;font-size:16px;line-height:1.5em;margin-top:0;text-align:left;border-spacing:30px;">
@@ -41,6 +41,10 @@ Udostępniamy pierwszą porcję nagrań video z jesiennej 22. edycji Targów, kt
 
 
 </table>
+
+**Polecamy zaglądać na portal ehandel.com.pl, na którym będziemy publikować kolejne nagrania.**
+
+
 
 @component('mail::panel')
 
