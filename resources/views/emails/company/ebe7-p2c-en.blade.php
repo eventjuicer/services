@@ -10,11 +10,11 @@ Visitors can be the initiator of a meeting with your company to establish commun
 
 When you promote your participation in the EXPO (a gentle reminder: you can use promotional materials provided by us) and you send the link to your Exhibitor’s public profile to the visitors - they can arrange a meeting with you by clicking “REQUEST A MEETING”
 
-All invitations from Visitors land in the RSVPs tab on the Exhibitor Platform (we will also notify you of pending invitations).
+All invitations from Visitors land in the RSVPs tab on the Exhibitor's account (we will also notify you of pending invitations).
 
 By confirming an appointment you get instant access to the visitor’s contact details.
 
-How do I promote my Exhibitor profile and appointment function?
+## How do I promote my Exhibitor profile and appointment function?
 
 Use [a section with ready-made materials for your company]({!! $accountUrlPromote !!}) or promote yourself as you wish using your URL - {!! $trackingLink !!}
 

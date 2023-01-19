@@ -14,7 +14,7 @@ Alle Einladungen von Besuchern landen in der RSVPs auf der Ausstellerplattform (
 
 Wenn du einen Termin bestätigst, erhältst du sofortigen Zugang zu den Kontaktdaten des Besuchers.
 
-Wie kann ich mein Ausstellerprofil und meine Terminfunktion promoten?
+## Wie kann ich mein Ausstellerprofil und meine Terminfunktion promoten?
 
 Nutze den [Teil mit vorgefertigten Materialien für dein Unternehmen auf der Austtellerplatform]({!! $accountUrlPromote !!}) oder werbe mit deinem eigenen URL - {!! $trackingLink !!}
 
