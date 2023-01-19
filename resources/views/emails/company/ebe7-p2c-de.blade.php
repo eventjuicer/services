@@ -4,7 +4,7 @@
 
 [Auf deinem öffentlichen Ausstellerprofil]({!! $trackingLink !!}) wurde eine neue Funktion "REQUEST A MEETING" eingeführt.
 
-Besucher können dein Unternehmen zu einem Treffen einladen, um schon vor dem Messetag mit euch Kontakt aufzunehmen.
+**Besucher können dein Unternehmen zu einem Treffen einladen, um schon vor dem Messetag mit euch Kontakt aufzunehmen.**
 
 ## Wie funktioniert das?
 
@@ -18,7 +18,7 @@ Wenn du einen Termin bestätigst, erhältst du sofortigen Zugang zu den Kontaktd
 
 Nutze den [Teil mit vorgefertigten Materialien für dein Unternehmen auf der Austtellerplatform]({!! $accountUrlPromote !!}) oder werbe mit deinem eigenen URL - {!! $trackingLink !!}
 
-Bitte beachte, dass der Teil mit dem Werbematerial auf der Website öffentlich ist. Kopiere die Adresse [URL zu dieser Seite]({!! $accountUrlPromote !!}) aus der Adresszeile deines Browsers und schicke sie an die Person, die für die Werbemaßnahmen in deiner Firma zuständig ist.
+Bitte beachte, dass der Teil mit dem Werbematerial auf der Website öffentlich ist. Kopiere die Adresse [URL zu dieser Seite]({!! $accountUrlPromote !!}) **aus der Adresszeile deines Browsers** und schicke sie an die Person, die für die Werbemaßnahmen in deiner Firma zuständig ist.
 
 Viele Grüße,
 
