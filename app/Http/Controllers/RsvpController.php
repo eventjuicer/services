@@ -149,8 +149,10 @@ class RsvpController extends Controller
 
             //makeVIP!
 
-            $this->saveorder->setParticipant( $meetup->participant );
-            $this->saveorder->makeVip("meetup");
+            // this must be configurable
+            // $this->saveorder->setParticipant( $meetup->participant );
+            // $this->saveorder->makeVip("meetup");
+
             $meetup->participant->fresh();
 
             Mail::queue( new Approved( $meetup->fresh() ) );
