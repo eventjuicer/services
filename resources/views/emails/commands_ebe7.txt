@@ -2,6 +2,26 @@
 
 
 
+
+
+25 stycznia
+============
+
+
+
+php artisan exhibitors:current-event --defaultlang=en --domain=ecommerceberlin.com --lang=en --subject="Go through the list of registered attendees and send meeting invitation" --email=ebe7-promonija_c2p
+
+php artisan exhibitors:current-event --defaultlang=en --domain=ecommerceberlin.com --lang=de --subject=" Schau dir die registrierten Besucher der E-commerce Berlin Expo an und sende Einladungen zu einem Treffen" --email=ebe7-promonija_c2p
+
+
+
+
+
+
+
+
+
+
 19 stycznia
 ===========
 

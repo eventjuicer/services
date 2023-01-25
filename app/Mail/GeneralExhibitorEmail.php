@@ -157,7 +157,7 @@ class GeneralExhibitorEmail extends Mailable
         $this->accountUrlLogistics = $companydata->accountUrl("logistics");
         $this->accountUrlPeople = $companydata->accountUrl("people");
 
-        $this->accountUrlPromotePublic = 'https://account.targiehandlu.pl/#/promote?company_id=' . $companydata->getCompany()->id;
+        $this->accountUrlPromotePublic = 'https://account.ecommerceberlin.com/#/promote?company_id=' . $companydata->getCompany()->id;
 
         
 
