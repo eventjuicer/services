@@ -1,6 +1,24 @@
 
 
 
+27 stycznia
+===========
+
+
+
+php artisan exhibitors:current-event --defaultlang=en --domain=ecommerceberlin.com --lang=en --subject="Register your representatives for the Networking Party!" --email=ebe7-party
+
+php artisan exhibitors:current-event --defaultlang=en --domain=ecommerceberlin.com --lang=de --subject="Melde deine Teammitglieder für die Networking Party an!" --email=ebe7-party
+
+
+
+
+
+
+
+
+
+
 
 
 

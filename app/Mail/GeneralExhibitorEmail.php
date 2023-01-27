@@ -53,7 +53,8 @@ class GeneralExhibitorEmail extends Mailable
             $accountUrlScans,
             $accountUrlLogistics,
             $accountUrlPeople,
-
+            $accountUrlParty,
+            
             $photosUrl,
 
             $trackingLink,
@@ -156,6 +157,7 @@ class GeneralExhibitorEmail extends Mailable
         $this->accountUrlScans = $companydata->accountUrl("scans");
         $this->accountUrlLogistics = $companydata->accountUrl("logistics");
         $this->accountUrlPeople = $companydata->accountUrl("people");
+        $this->accountUrlParty = $companydata->accountUrl("party");
 
         $this->accountUrlPromotePublic = 'https://account.ecommerceberlin.com/#/promote?company_id=' . $companydata->getCompany()->id;
 
