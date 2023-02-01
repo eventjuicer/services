@@ -1,4 +1,21 @@
 
+
+supervisorctl restart laravel-api:*
+supervisorctl restart laravel-services:*
+php artisan queue:restart
+
+1 lutego
+===========
+
+php artisan exhibitors:current-event --lang=en --defaultlang=en --domain=ecommerceberlin.com  --subject="Electricity connection to exhibitor booth" --email=ebe7-upgrades-electricity
+
+php artisan exhibitors:current-event --lang=de --defaultlang=en --domain=ecommerceberlin.com  --subject="Stromanschluss am Messestand" --email=ebe7-upgrades-electricity
+
+
+
+
+
+
 31 stycznia
 ===========
 
