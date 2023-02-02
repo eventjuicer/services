@@ -8,7 +8,7 @@ php artisan queue:restart
 2 lutego
 =============
 
-php artisan exhibitors:current-event --lang=en --defaultlang=en --domain=ecommerceberlin.com  --subject="Electricity connection to exhibitor booth" --email=ebe7-promoninja-ping
+php artisan exhibitors:current-event --lang=en --defaultlang=en --domain=ecommerceberlin.com  --subject="Current leaders: Allegro, Outvio OÜ, Dealavo, 2txt, weclapp." --email=ebe7-promoninja-ping
 
 php artisan exhibitors:current-event --lang=de --defaultlang=en --domain=ecommerceberlin.com  --subject="Stromanschluss am Messestand" --email=ebe7-promoninja-ping
 

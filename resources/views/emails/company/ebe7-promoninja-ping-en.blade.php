@@ -22,14 +22,16 @@ A short update:
 
 # VIP invitations
 
-The top distributor of the VIP invitations are currently ** WOW24-7**m, **Synesty**, **ITscope** - wow! 
+The top distributors of the VIP invitations are currently ** WOW24-7**, **Synesty**, **ITscope** - wow! 
 
 @component('mail::button', ['url' => $accountUrlVips])
 Send VIP invitations to partners and customers
 @endcomponent
 
 
-# TOP 5 (1:20pm CET) companies actively promoting their presence at the Expo and using our tools (rewarded with additional services!) are:
+# Exhibitor’s Profile
+
+TOP 5 (1:20pm CET) companies actively promoting their presence at the Expo and using our tools (rewarded with additional services!) are:
 
 * Allegro
 
@@ -49,7 +51,9 @@ See promotional materials and ranking page
 
 @component('mail::panel')
 
-To all others out there, you still have time to promote your presence at our event! The simplest way to do so is to simply share the following link with your PR & social media department (access to the rest of the Exhibitor Panel excluded).
+How to promote your presence at our event "the simplest way"? 
+
+Share the following link with your PR & social media department or external agency (when using this link other exhibitor's panel features will be blocked.).
 
 {!! $accountUrlPromotePublic !!}
 
