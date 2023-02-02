@@ -4,6 +4,21 @@ supervisorctl restart laravel-api:*
 supervisorctl restart laravel-services:*
 php artisan queue:restart
 
+
+2 lutego
+=============
+
+php artisan exhibitors:current-event --lang=en --defaultlang=en --domain=ecommerceberlin.com  --subject="Electricity connection to exhibitor booth" --email=ebe7-promoninja-ping
+
+php artisan exhibitors:current-event --lang=de --defaultlang=en --domain=ecommerceberlin.com  --subject="Stromanschluss am Messestand" --email=ebe7-promoninja-ping
+
+
+SELECT *,count(*)  FROM `bob_participant_fields` WHERE `field_id` = 259 AND `field_value` LIKE 'C%' AND `event_id` = 96 GROUP BY `field_value`  ORDER BY `count(*)`  DESC
+
+
+
+
+
 1 lutego
 ===========
 
