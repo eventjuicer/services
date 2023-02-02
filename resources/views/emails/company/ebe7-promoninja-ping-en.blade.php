@@ -53,7 +53,7 @@ See promotional materials and ranking page
 
 How to promote your presence at our event "the simplest way"? 
 
-Share the following link with your PR & social media department or external agency (when using this link other exhibitor's panel features will be blocked.).
+**Share the following link with your PR & social media department or external agency** (when using this link other exhibitor's panel features will be blocked.).
 
 {!! $accountUrlPromotePublic !!}
 
