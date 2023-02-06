@@ -36,7 +36,7 @@ Please be reminded that:
 
 Each exhibitor package will come with a number of exhibitor badges and catering vouchers consistent with the number of registered representatives, specified in Exhibitor’s stand package.
 
-**If you would like to add more representatives** you may purchase additional catering vouchers (25 EUR net/person) [in your exhibitor panel.]($accountUrlVouchers)
+**If you would like to add more representatives** you may purchase additional catering vouchers (25 EUR net/person) [in your exhibitor panel.]({{!$accountUrlVouchers!}})
 
 Do you have any questions? Feel free to contact me.
 
