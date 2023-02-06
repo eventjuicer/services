@@ -16,7 +16,7 @@ The number of company representatives entitled for registration depends on the t
 
 The list of already defined representatives is as follows:
 
-@forelse($representatives as $rep)
+@foreach($representatives as $rep)
 
 	{{$rep->translate("[[fname]] [[lname]] [[position]]")}}
 
@@ -24,7 +24,7 @@ The list of already defined representatives is as follows:
 
 **Not yet defined!**
 
-@endforelse
+@endforeach
 
 @component('mail::button', ['url' => $accountUrlReps])
 Sing In to add or edit

@@ -16,7 +16,7 @@ Die maximale Zahl der Firmenvertreter hängt von der jeweiligen Kategorie des Au
 
 Im Folgenden sind die bereits eingetragene Vertreter aufgelistet:
 
-@forelse($representatives as $rep)
+@foreach($representatives as $rep)
 
 	{{$rep->translate("[[fname]] [[lname]] [[position]]")}}
 
@@ -24,7 +24,7 @@ Im Folgenden sind die bereits eingetragene Vertreter aufgelistet:
 
 **Noch nicht bestimmt!**
 
-@endforelse
+@endforeach
 
 @component('mail::button', ['url' => $accountUrlReps])
 Zugang zum Aussteller Konto
