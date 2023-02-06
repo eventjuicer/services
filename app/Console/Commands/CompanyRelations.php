@@ -61,7 +61,7 @@ class CompanyRelations extends Command
         $whatWeDo  = $this->anticipate('Send, stats, test?', ['send', 'stats','test']);
 
 
-        if($whatWeDo === "send"){
+        if($whatWeDo != "stats"){
 
             if(empty($viewlang)) {
                 $errors[] = "--lang= must be set!";
