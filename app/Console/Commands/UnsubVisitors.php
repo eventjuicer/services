@@ -87,10 +87,11 @@ class UnsubVisitors extends Command {
             }
 
             if($whatWeDo == "run"){
+                
                 foreach($matches as $match){
-                    
+
                     if(stristr($match->email, "removed")===false){
-                        $match->email == $match->email . "+removed";
+                        $match->email = $match->email . "+removed";
                         $match->save();
                     }
                 } 
