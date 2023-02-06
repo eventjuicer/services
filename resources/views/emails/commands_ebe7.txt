@@ -12,9 +12,9 @@ php artisan queue:restart
 
 
 
-php artisan company:relations --domain=ecommerceberlin.com --threshold=4 --lang=en --defaultlang=en --subject="Deadline. Company representatives registration" --email=ebe7-representatives-list
+php artisan company:relations --domain=ecommerceberlin.com --threshold=3 --lang=en --defaultlang=en --subject="Company representatives registration" --email=ebe7-representatives-list
 
-php artisan company:relations --domain=ecommerceberlin.com --threshold=4 --lang=de --defaultlang=en --subject="Deadline. Anmeldung der Firmenvertreter" --email=ebe7-representatives-list
+php artisan company:relations --domain=ecommerceberlin.com --threshold=3 --lang=de --defaultlang=en --subject="Anmeldung der Firmenvertreter" --email=ebe7-representatives-list
 
 
 

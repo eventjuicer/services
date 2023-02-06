@@ -27,7 +27,7 @@ The list of already defined representatives is as follows:
 @endforelse
 
 @component('mail::button', ['url' => $accountUrlReps])
-Sing In to add or edit
+Sign In to add or edit
 @endcomponent
 
 Each representative will receive a personalised badge, lanyard and a catering voucher in the Welcome pack, to be collected in the venue at the Exhibitor information desk.
