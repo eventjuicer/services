@@ -78,7 +78,7 @@ class UnsubVisitors extends Command {
             $matches = $all->where("email", trim($email,'",'));
 
             if($matches->count()){
-                $this->line("Match found: " . $email );
+                $this->line("Match found: " . $email . ". " . $matches->count() . " times.");
                 $done++;
             }
 
