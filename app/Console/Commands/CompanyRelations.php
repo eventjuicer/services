@@ -83,7 +83,7 @@ class CompanyRelations extends Command
             $email = $email . "-" . $viewlang;
 
             if($viewlang && ! view()->exists("emails.company." . $email)) {
-                $errors[] = "--email= error. View cannot be found!";
+                $errors[] = "--email= error. View $email cannot be found!";
             }
         }
  
