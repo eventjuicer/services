@@ -36,7 +36,7 @@ Bitte denke daran, dass:
 
 Jedes Ausstellerpaket besteht aus der Anzahl von Ausstellerausweisen und Catering-Gutscheinen, die der Anzahl der angemeldeten Vertreter entspricht.
 
-**Wenn du mehr Vertreter** eintragen möchtest, musst du zusätzliche Catering-Gutscheine (25 EUR netto/Person) kaufen [auf deiner Ausstellerplatform.]({{!$accountUrlVouchers!}})
+**Wenn du mehr Vertreter** eintragen möchtest, musst du zusätzliche Catering-Gutscheine (25 EUR netto/Person) kaufen [auf deiner Ausstellerplatform.]({!!$accountUrlVouchers!!})
 
 Hast du noch Fragen? Dann lass mich bitte wissen!
 
