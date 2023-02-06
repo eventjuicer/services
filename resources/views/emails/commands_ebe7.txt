@@ -11,7 +11,7 @@ php artisan queue:restart
 ============
 
 
-php artisan exhibitors:current-event --defaultlang=en --domain=ecommerceberlin.com --lang=en --subject="Company representatives registration" --email=ebe7-representatives-list
+php artisan exhibitors:current-event --defaultlang=en --domain=ecommerceberlin.com --lang=en --subject="Company representatives registration - Deadline 10th of February 2023. " --email=ebe7-representatives-list
 
 php artisan exhibitors:current-event --defaultlang=en --domain=ecommerceberlin.com --lang=de --subject=" Anmeldung der Firmenvertreter" --email=ebe7-representatives-list
 
