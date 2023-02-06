@@ -73,9 +73,13 @@ class UnsubVisitors extends Command {
 
         $all = $participants->all();
 
+        $keyed = $all->groupBy("email");
+
         foreach($emails as $email){
 
-            $matches = $all->where("email", trim($email,'",'));
+            $cleanEmail = trim($email,', ');
+
+            $matches = isset($keyed[$cleanEmail])? $keyed[$cleanEmail]: collect([]);
 
             if($matches->count()){
                 $this->line("Match found: " . $email . ". " . $matches->count() . " times.");
