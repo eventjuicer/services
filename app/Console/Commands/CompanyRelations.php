@@ -141,11 +141,16 @@ class CompanyRelations extends Command
             $items          = call_user_func_array(array($ex, "get".ucfirst($relation)), [$role]);
             $translations   = array_get($allTranslations, $lang);
 
-
+        //     if(empty($name)){
+        //         $this->error("No company name!");
+        //    }
+       
+            
             if($items->count() > $threshold){
                  continue;
             }else{
 
+    
                 $this->line("--------------------------------");
                 $this->line("Processing " . $ex->email);
 
@@ -155,48 +160,47 @@ class CompanyRelations extends Command
                 }else{
                     $this->line($relation . "/". $role . " count: " . $items->count() );
                 }
+            
+            
+                if($whatWeDo != "stats"){
+
+                    if($lang !== $viewlang)
+                    {
+                        $this->info("Skipped! Lang mismatch. ");
+                        continue;
+                    }
+    
+                    $this->info("Notified");
+    
+                    dispatch(new Job(
+                            $ex->getModel(), 
+                            $eventId,
+                            array(
+                                "email" => $emailWithLang,
+                                "viewlang" => $viewlang, 
+                                "lang" => $lang,
+                                "event_manager" => $event_manager,
+                                "subject" => $subject,
+                                "domain" => $domain,
+                                "translations" => $translations,
+                                "representatives" =>  $relation === "reps" ? $items : null,
+                                "meetups" => $relation === "meetups" ? $items : null
+                            )
+    
+    
+                           
+                    ));
+    
+                    if( $whatWeDo == "test"){
+                        break;
+                    }
+                }            
+            
+                $done++;
+                
             }
 
-            if(empty($name)){
-                 $this->error("No company name!");
-            }
-        
-            if($whatWeDo != "stats"){
-
-                if($lang !== $viewlang)
-                {
-                    $this->info("Skipped! Lang mismatch. ");
-                    continue;
-                }
-
-                $this->info("Notified");
-
-                dispatch(new Job(
-                        $ex->getModel(), 
-                        $eventId,
-                        array(
-                            "email" => $emailWithLang,
-                            "viewlang" => $viewlang, 
-                            "lang" => $lang,
-                            "event_manager" => $event_manager,
-                            "subject" => $subject,
-                            "domain" => $domain,
-                            "translations" => $translations,
-                            "representatives" =>  $relation === "reps" ? $items : null,
-                            "meetups" => $relation === "meetups" ? $items : null
-                        )
-
-
-                       
-                ));
-
-                if( $whatWeDo == "test"){
-                    break;
-                }
-            }
-
-            $done++;
-
+           
         }   
 
         $this->info("---------------------------------");
