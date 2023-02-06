@@ -80,10 +80,10 @@ class CompanyRelations extends Command
                 $errors[] = "--email= must be set!";
             }
 
-            $email = $email . "-" . $viewlang;
+            $emailWithLang = $email . "-" . $viewlang;
 
-            if($viewlang && ! view()->exists("emails.company." . $email)) {
-                $errors[] = "--email= error. View $email cannot be found!";
+            if($viewlang && ! view()->exists("emails.company." . $emailWithLang)) {
+                $errors[] = "--email= error. View $emailWithLang cannot be found!";
             }
         }
  
@@ -175,7 +175,7 @@ class CompanyRelations extends Command
                         $ex->getModel(), 
                         $eventId,
                         array(
-                            "email" => $email,
+                            "email" => $emailWithLang,
                             "viewlang" => $viewlang, 
                             "lang" => $lang,
                             "event_manager" => $event_manager,
