@@ -80,7 +80,7 @@
                 <div class="title m-b-md">
                     
                      <p>
-                       <a href="{{ action('UnsubscribeController@muteEvent', ['hash'=>$hash]) }}">Wypisz się z <strong>obecnej edycji </strong> Targów eHandlu</a>
+                       <a href="{{ action('UnsubscribeController@muteEvent', ['hash'=>$hash]) }}">Unsubscribe <strong>from current edition </strong></a>
                     </p>
 
                 <!--     <p>
@@ -88,7 +88,7 @@
                     </p>
  -->
                     <p>
-                        <a href="{{ action('UnsubscribeController@muteGroup', ['hash'=> $hash]) }}">Wypisz się <strong>z wszystkich edycji</strong> Targów eHandlu</a>
+                        <a href="{{ action('UnsubscribeController@muteGroup', ['hash'=> $hash]) }}">Unsubscribe <strong>from all future editions</strong></a>
                     </p>
                    
                    
