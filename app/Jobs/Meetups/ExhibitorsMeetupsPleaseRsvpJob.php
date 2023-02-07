@@ -16,12 +16,10 @@ class ExhibitorsMeetupsPleaseRsvpJob //implements ShouldQueue
     use Dispatchable, InteractsWithQueue, Queueable, SerializesModels;
 
     protected $participant;
-    protected $number_of_rsvp;
     protected $config;
 
-    public function __construct(Participant $participant, $number_of_rsvp, array $config){
+    public function __construct(Participant $participant, array $config){
         $this->participant = $participant;
-        $this->number_of_rsvp = $number_of_rsvp;
         $this->config = $config;
     }
 
@@ -33,37 +31,33 @@ class ExhibitorsMeetupsPleaseRsvpJob //implements ShouldQueue
     public function handle(){
 
         $company = $this->participant->company;
-        $sales_managers = $company->people->where("role", "sales_manager");
+        $context_recipients = $company->people->where("role", $this->config()."_manager");
         $sent_to_valid_sales_manager = false;
 
         if($sales_managers->count()){
 
             foreach( $sales_managers as $sales_manager){
 
+                if(filter_var($sales_manager->email, FILTER_VALIDATE_EMAIL)){
+                   
+                    Mail::send(new Email(
+                        $this->participant, 
+                        $this->config,
+                        $sales_manager->email
+                    ));
 
-                if(!filter_var($sales_manager->email, FILTER_VALIDATE_EMAIL)){
-                    continue;
+                    $sent_to_valid_sales_manager = true;
+
                 }
-
-                $sent_to_valid_sales_manager = true;
-
-                Mail::send(new Email($this->participant, 
-                    array_merge($this->config,[
-                        "recipient" => $sales_manager->email,
-                        "number_of_rsvp" =>  $this->number_of_rsvp
-                    ])
-                ));
-  
             }
         }
-        
-        if(!$sent_to_valid_sales_manager){
 
-            Mail::send(new Email($this->participant, 
-                array_merge($this->config,[
-                    "recipient" => $this->participant->email,
-                    "number_of_rsvp" =>  $this->number_of_rsvp
-                ])
+        if(!$sales_managers->count() || !$sent_to_valid_sales_manager){
+
+            Mail::send(new Email(
+                $this->participant, 
+                $this->config,
+                $this->participant->email
             ));
 
         }        

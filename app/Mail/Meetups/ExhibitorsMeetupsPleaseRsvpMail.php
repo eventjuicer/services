@@ -5,31 +5,42 @@ namespace App\Mail\Meetups;
 use Illuminate\Bus\Queueable;
 use Illuminate\Mail\Mailable;
 use Illuminate\Queue\SerializesModels;
-use Eventjuicer\Services\Exhibitors\Email;
 use Eventjuicer\Models\Participant;
+use Eventjuicer\Services\Personalizer;
+use Eventjuicer\Services\Exhibitors\Email;
+use Eventjuicer\Services\Exhibitors\CompanyData;
 
-
-class ExhibitorsMeetupsPleaseRsvpMail extends Mailable {
-
+class ExhibitorsMeetupsPleaseRsvpMail extends Mailable
+{
     use Queueable, SerializesModels;
 
-    protected $participant;
-    protected $domain           = "targiehandlu.pl";
-    
-    public $subject          = "Potwierdź/odrzuć prośby o spotkanie";
-    public $view             = "bulk_p2c_pl";
-    
-    protected $recipient;
-    protected $token;
-    public $number_of_rsvp = 0;
-    public $url = "";
-    public $footer;
+    /**
+     * Create a new message instance.
+     *
+     * @return void
+     */
 
-    public function __construct(Participant $participant, array $config = []){
-        $this->participant = $participant;
-        $this->recipient = $config["email"];
+    protected $participant, $domain, $token;
+
+    public  $subject,
+            $view,
+            $lang,
+            $recipient,
+            $footer,
+            $url, 
+            $count;
+
+    public function __construct(Participant $participant, array $config, string $recipient)
+    {
+        $this->participant  = $participant;
+        $this->domain = array_get($config, "domain");
+        $this->subject = array_get($config, "subject", "");
+        $this->view = array_get($config, "view");
+        $this->lang = array_get($config, "lang");
+        $this->recipient = $recipient;
+
         $this->token = $participant->token;
-        $this->number_of_rsvp = $config["number_of_rsvp"];
+        $this->count = array_get($config, "count");
     }
 
     /**
@@ -40,18 +51,44 @@ class ExhibitorsMeetupsPleaseRsvpMail extends Mailable {
     public function build(){
 
         $emailHelper = new Email($this->participant);
-
         $this->footer = $emailHelper->getFooter();
-        $cc = "targiehandlu+auto@targiehandlu.pl";
-        $eventName = "Targi eHandlu";
+       
+        //this should be moved to settings?...
+       if( $this->participant->group_id > 1 ){
+
+            // $from = "marta@ecommerceberlin.com";
+            $eventName = "E-commerce Berlin Expo";
+            $domain = "ecommerceberlin.com";
+            $cc = "ecommerceberlin+auto@ecommerceberlin.com";
+
+            app()->setLocale("en");
+            config(["app.name" => $eventName]);
+
+        }else{
 
 
-        app()->setLocale("pl");
-        config(["app.name" => "Targi eHandlu / E-commerce Warsaw Expo"]);
+            // $from = "karolina.michalak@targiehandlu.pl";
+            $eventName = "Targi eHandlu";
+            $domain = "targiehandlu.pl";
+            $cc = "targiehandlu+auto@targiehandlu.pl";
 
-        $this->url = "https://account.".$this->domain.'/#/meetups?filter=%7B"direction"%3A"P2C"%7D&token=' . $this->token;
+            if($this->lang === "en"){
+                app()->setLocale("en");
+                config(["app.name" => "E-commerce Warsaw Expo"]);
+            }
+            else
+            {
+                app()->setLocale("pl");
+                config(["app.name" => $eventName]);
+            }
+            
+        }
 
-        $this->to((string) $this->recipient);
+
+        $this->url = "https://account.".$this->domain.'/#/meetups?token=' . $this->token;
+
+
+        $this->to( $this->recipient );
 
         $this->from($emailHelper->getEmail(), $emailHelper->getSender() . " - " . $eventName);
 
@@ -59,6 +96,6 @@ class ExhibitorsMeetupsPleaseRsvpMail extends Mailable {
 
         $this->subject($this->subject);
 
-        return $this->markdown('emails.meetups.' . $this->view);
+        return $this->markdown('emails.company.' . $this->view);
     }
 }

@@ -19,12 +19,13 @@ class ExhibitorsMeetupsPleaseRsvp extends Command {
 
     protected $signature = 'exhibitors:meetups_please_rsvp 
     {--domain=} 
-    {--email=} 
+    {--email=meetups-rsvp} 
     {--subject=}
     {--lang=}
     {--defaultlang=} 
     {--direction=P2C} 
     {--threshold=3} 
+    {--context=sales}
     ';
 
     protected $description = 'Send info to companies!';
@@ -47,6 +48,7 @@ class ExhibitorsMeetupsPleaseRsvp extends Command {
             'defaultlang' => 'required|string',
             'direction' => 'required|string',
             'threshold' => 'required|numeric',
+            'context' => 'required|string',
         ]);
 
         $service->run();
@@ -115,14 +117,14 @@ class ExhibitorsMeetupsPleaseRsvp extends Command {
 
             dispatch(
                 new ExhibitorsMeetupsPleaseRsvpJob(
-                    $ex->getModel(),
-                    $groupedMeetups[$ex->company_id]->count(),
-                    [
-                        "subject" => $service->getParam("subject"),
-                        "view" => $service->getParam("email") . "-" . $lang,
-                        "direction" => $direction,
-                        "lang" => $lang
-                    ]
+                    $ex->getModel(), array_merge(
+                        $this->options(), 
+                        [
+                            "count" => $groupedMeetups[$ex->company_id]->count(), 
+                            "view" => $service->getParam("email") . "-" . $direction . "-". $lang,
+                        ]
+                    )
+                   
                     )
             );
 
