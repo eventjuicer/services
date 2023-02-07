@@ -7,7 +7,17 @@ php artisan queue:restart
 7 lutego
 ========
 
-php artisan visitors:restore-from-old-events --domain=ecommerceberlin.com --email=ebe7-restore-masterclasses --subject="Masterclasses @ E-commerce Berlin Expo 2023" --throttle=50000
+
+
+
+
+php artisan visitors:current-event --domain=ecommerceberlin.com --subject="09.02 9:00am CET - Masterclasses @ E-commerce Berlin Expo 2023" --email=ebe7-visitors-masterclasses
+
+
+
+
+
+php artisan visitors:restore-from-old-events --domain=ecommerceberlin.com --email=ebe7-restore-masterclasses --subject="09.02 9:00am CET - Masterclasses @ E-commerce Berlin Expo 2023" --throttle=50000
 
 
 
