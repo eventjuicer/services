@@ -12,7 +12,7 @@ Take advantage of this opportunity to learn from the **experts from** renowned b
 
 @component('mail::panel')
 
-**The registration is starting on Thursday (09.02) at 8:00**
+**The registration is starting on Thursday (09.02) at 9:00 am CET**
 
 Participation is **free of charge**, but the **seats are limited** to 30 for each session.
 
