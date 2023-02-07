@@ -43,24 +43,28 @@ class GeneralReminder extends Mailable
      *
      * @return $this
      */
-    public function build()
-    {
+    public function build(){
 
-        app()->setLocale("pl");
-        config(["app.name" => "Targi eHandlu"]);
+    
+        if($this->participant->organizer_id > 1){
+            $this->from("visitors@ecommerceberlin.com", "Lucas Zarna - E-commerce Berlin");
+            $baseUrl = "https://ecommerceberlin.com";
+            app()->setLocale("en");
+            config(["app.name" => "E-commerce Berlin Expo"]);
+
+        }else{
+            $this->from("zwiedzanie@targiehandlu.pl", "Karolina Michalak - Targi eHandlu");
+            $baseUrl = "https://targiehandlu.pl";
+            app()->setLocale("en");
+            config(["app.name" => "Targi eHandlu w Warszawie"]);
+        }
 
         $this->p = new Personalizer( $this->participant, "");
-
         $hash = (new Hashids())->encode($this->participant->id);
-
-
-        $baseUrl = "https://targiehandlu.pl";
         $params  = "";
 
         $this->ticketUrl = $baseUrl . "/tickets/" . $hash . $params;
-
         $this->siteUrl = $baseUrl . $params;
-
         $this->exhibitorsURl = $baseUrl . "/exhibitors" . $params;
         $this->presentersURl = $baseUrl . "/presenters" . $params;
         $this->scheduleURl = $baseUrl . "/schedule" . $params;
@@ -69,10 +73,7 @@ class GeneralReminder extends Mailable
 
         $this->unsubscribe = "https://services.eventjuicer.com/unsubscribe/" . $hash; 
 
-
         $this->to(trim(strtolower($this->participant->email)));
-
-        $this->from("zwiedzanie@targiehandlu.pl", "Karolina Michalak - Targi eHandlu");
 
       //  $this->subject("Your ticket is ready! Download and print!");
 
