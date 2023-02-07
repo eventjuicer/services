@@ -9,7 +9,7 @@ use Eventjuicer\Services\Exhibitors\Email;
 use Eventjuicer\Models\Participant;
 
 
-class BulkP2C extends Mailable {
+class ExhibitorsMeetupsPleaseRsvpMail extends Mailable {
 
     use Queueable, SerializesModels;
 

@@ -8,19 +8,21 @@ use Illuminate\Queue\InteractsWithQueue;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Foundation\Bus\Dispatchable;
 use Illuminate\Support\Facades\Mail;
-use App\Mail\Meetups\BulkP2C;
+use App\Mail\Meetups\ExhibitorsMeetupsPleaseRsvpMail as Email;
 use Eventjuicer\Models\Participant;
 
-class BulkNotifyP2C //implements ShouldQueue
+class ExhibitorsMeetupsPleaseRsvpJob //implements ShouldQueue
 {
     use Dispatchable, InteractsWithQueue, Queueable, SerializesModels;
 
     protected $participant;
     protected $number_of_rsvp;
+    protected $config;
 
-    public function __construct(Participant $participant, $number_of_rsvp){
+    public function __construct(Participant $participant, $number_of_rsvp, array $config){
         $this->participant = $participant;
         $this->number_of_rsvp = $number_of_rsvp;
+        $this->config = $config;
     }
 
     /**
@@ -32,6 +34,7 @@ class BulkNotifyP2C //implements ShouldQueue
 
         $company = $this->participant->company;
         $sales_managers = $company->people->where("role", "sales_manager");
+        $sent_to_valid_sales_manager = false;
 
         if($sales_managers->count()){
 
@@ -42,20 +45,27 @@ class BulkNotifyP2C //implements ShouldQueue
                     continue;
                 }
 
-                Mail::send(new BulkP2C($this->participant, array(
-                    "email" => $sales_manager->email,
-                    "number_of_rsvp" =>  $this->number_of_rsvp
-                ) ) );
-            }  
-        }else{
+                $sent_to_valid_sales_manager = true;
 
-            Mail::send(new BulkP2C($this->participant, array(
-                "email" => $this->participant->email,
-                "number_of_rsvp" =>  $this->number_of_rsvp
-            ) ) );
+                Mail::send(new Email($this->participant, 
+                    array_merge($this->config,[
+                        "recipient" => $sales_manager->email,
+                        "number_of_rsvp" =>  $this->number_of_rsvp
+                    ])
+                ));
+  
+            }
         }
+        
+        if(!$sent_to_valid_sales_manager){
 
-       
+            Mail::send(new Email($this->participant, 
+                array_merge($this->config,[
+                    "recipient" => $this->participant->email,
+                    "number_of_rsvp" =>  $this->number_of_rsvp
+                ])
+            ));
 
+        }        
     }
 }
