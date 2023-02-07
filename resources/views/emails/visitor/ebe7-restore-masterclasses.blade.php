@@ -22,7 +22,7 @@ You can only take part in one session (and then take part in our 5 public stages
 
 @endcomponent
 
-**Presenters will review all applications and we will notify you via email if you have been accepted**. If there won’t be a free slot for you - no worries! You will be able to apply for another Masterclass then or just come and benefit from 5 open stages.
+**Presenters will review all applications and we will notify you via email if you have been accepted**. If there won’t be a free slot for you - no worries! You will be able to apply for another Masterclass or just come to the Expo and benefit from 5 open stages and > 240 exhibitors.
 
 [Check the full masterclasses agenda here](https://ecommerceberlin.com/masterclasses)
 
