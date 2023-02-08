@@ -31,28 +31,28 @@ class ExhibitorsMeetupsPleaseRsvpJob //implements ShouldQueue
     public function handle(){
 
         $company = $this->participant->company;
-        $context_recipients = $company->people->where("role", $this->config()."_manager");
-        $sent_to_valid_sales_manager = false;
+        $context_recipients = $company->people->where("role", $this->config["context"]."_manager");
+        $sent_to_context = false;
 
-        if($sales_managers->count()){
+        if($context_recipients->count()){
 
-            foreach( $sales_managers as $sales_manager){
+            foreach( $context_recipients as $context_recipient){
 
-                if(filter_var($sales_manager->email, FILTER_VALIDATE_EMAIL)){
+                if(filter_var($context_recipient->email, FILTER_VALIDATE_EMAIL)){
                    
                     Mail::send(new Email(
                         $this->participant, 
                         $this->config,
-                        $sales_manager->email
+                        $context_recipient->email
                     ));
 
-                    $sent_to_valid_sales_manager = true;
+                    $sent_to_context = true;
 
                 }
             }
         }
 
-        if(!$sales_managers->count() || !$sent_to_valid_sales_manager){
+        if(!$context_recipients->count() || !$sent_to_context){
 
             Mail::send(new Email(
                 $this->participant, 

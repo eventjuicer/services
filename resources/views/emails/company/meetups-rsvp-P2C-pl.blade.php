@@ -9,10 +9,13 @@ Bardzo prosimy o przetworzenie ich :)
 Akceptacja ujawnia dane kontaktowe Uczestnika oraz nadaje mu status VIP.
 
 
-@component('mail::button', ['url' => $url])
+@component('mail::button', ['url' => $url("meetups") ])
 Zobacz listę osób chcących się spotkać
 @endcomponent
 
+@component('mail::panel')
+
+@endcomponent
 
 pozdrowienia
 

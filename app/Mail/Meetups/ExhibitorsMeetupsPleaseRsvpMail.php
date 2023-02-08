@@ -6,7 +6,6 @@ use Illuminate\Bus\Queueable;
 use Illuminate\Mail\Mailable;
 use Illuminate\Queue\SerializesModels;
 use Eventjuicer\Models\Participant;
-use Eventjuicer\Services\Personalizer;
 use Eventjuicer\Services\Exhibitors\Email;
 use Eventjuicer\Services\Exhibitors\CompanyData;
 
@@ -14,13 +13,7 @@ class ExhibitorsMeetupsPleaseRsvpMail extends Mailable
 {
     use Queueable, SerializesModels;
 
-    /**
-     * Create a new message instance.
-     *
-     * @return void
-     */
-
-    protected $participant, $domain, $token;
+    protected $participant, $domain;
 
     public  $subject,
             $view,
@@ -28,7 +21,9 @@ class ExhibitorsMeetupsPleaseRsvpMail extends Mailable
             $recipient,
             $footer,
             $url, 
-            $count;
+            $count,
+            $profileUrl,
+            $accountUrlPromotePublic;
 
     public function __construct(Participant $participant, array $config, string $recipient)
     {
@@ -39,16 +34,21 @@ class ExhibitorsMeetupsPleaseRsvpMail extends Mailable
         $this->lang = array_get($config, "lang");
         $this->recipient = $recipient;
 
-        $this->token = $participant->token;
         $this->count = array_get($config, "count");
+
+        $companydata = new CompanyData($this->participant);
+
+        $this->url = function($subpage="") use ($companydata) {
+            return $companydata->accountUrl($subpage);
+        };
+
+        $this->profileUrl = $companydata->profileUrl();
+        $this->accountUrlPromotePublic = $companydata->accountUrlPromotePublic();
     }
 
-    /**
-     * Build the message.
-     *
-     * @return $this
-     */
-    public function build(){
+
+    public function build()
+    {
 
         $emailHelper = new Email($this->participant);
         $this->footer = $emailHelper->getFooter();
@@ -58,9 +58,7 @@ class ExhibitorsMeetupsPleaseRsvpMail extends Mailable
 
             // $from = "marta@ecommerceberlin.com";
             $eventName = "E-commerce Berlin Expo";
-            $domain = "ecommerceberlin.com";
             $cc = "ecommerceberlin+auto@ecommerceberlin.com";
-
             app()->setLocale("en");
             config(["app.name" => $eventName]);
 
@@ -69,7 +67,6 @@ class ExhibitorsMeetupsPleaseRsvpMail extends Mailable
 
             // $from = "karolina.michalak@targiehandlu.pl";
             $eventName = "Targi eHandlu";
-            $domain = "targiehandlu.pl";
             $cc = "targiehandlu+auto@targiehandlu.pl";
 
             if($this->lang === "en"){
@@ -84,8 +81,6 @@ class ExhibitorsMeetupsPleaseRsvpMail extends Mailable
             
         }
 
-
-        $this->url = "https://account.".$this->domain.'/#/meetups?token=' . $this->token;
 
 
         $this->to( $this->recipient );

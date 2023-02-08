@@ -10,9 +10,16 @@ Please RSVP to avoid further reminders.
 
 **Accepting meeting request reveals the Participant's contact details ** 
 
-@component('mail::button', ['url' => $url])
+@component('mail::button', ['url' => $url("meetups") ])
 Sign up to check meeting requests
 @endcomponent
+
+
+@component('mail::panel')
+{!!$profileUrl!!}
+{!!$accountUrlPromotePublic!!}
+@endcomponent
+
 
 regards,
 
