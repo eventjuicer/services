@@ -91,6 +91,7 @@ class ExhibitorsMeetupsPleaseRsvp extends Command {
 
         foreach($filtered as $ex){
             
+
             /**
              * "Eventjuicer\Services\Exhibitors\CompanyData"
             */
@@ -99,6 +100,8 @@ class ExhibitorsMeetupsPleaseRsvp extends Command {
                 $this->error("No company assigned for " . $ex->email . " - skipped.");
                 continue;
             }
+
+            $name = $ex->getName();
 
             if(!isset($groupedMeetups[$ex->company_id])){
                 continue;
@@ -114,6 +117,9 @@ class ExhibitorsMeetupsPleaseRsvp extends Command {
                 $this->info("Skipped! Lang mismatch. ");
                 continue;
             }
+
+
+            $this->info("Pinging: " . $name . " count: ".$groupedMeetups[$ex->company_id]->count() . "");
 
             dispatch(
                 new ExhibitorsMeetupsPleaseRsvpJob(
