@@ -1,31 +1,27 @@
 @component('mail::message')
  
-Cześć
+Hallo,
 
-W Panelu Wystawcy czekają zaproszenia od Uczestników Targów eHandlu wysłane przez publiczny profil Wystawcy.
+Du hast auf deiner Ausstellerplattform **Terminanfragen von den Teilnehmern** der E-Commerce Berlin Expo erhalten. **Diese warten auf deine Antwort.**
 
-Bardzo prosimy o przetworzenie ich :)
-
-Akceptacja ujawnia dane kontaktowe Uczestnika oraz nadaje mu status VIP.
-
+**Hinweis: Durch die Annahme der Terminanfrage werden die Kontaktdaten der Teilnehmer angezeigt.**
 
 @component('mail::button', ['url' => $url("meetups") ])
-Zobacz listę osób chcących się spotkać
+Siehe Termineinladungen hier
 @endcomponent
-
-
-{!!$profileUrl!!}
-{!!$accountUrlPromotePublic!!}
 
 @component('mail::panel')
 
-{!!$profileUrl!!}
-{!!$accountUrlPromotePublic!!}
+Um mehr Terminanfragen zu erhalten und eure Präsenz zu erhöhen, teile euer [öffentliches Ausstellerprofil]({!!$profileUrl!!}) mit anderen. [Hier findest du gebrauchsfertige Werbematerialien]({!!$accountUrlPromotePublic!!}), die dir dabei nützlich sein können.
 
 @endcomponent
 
-pozdrowienia
+Viele Grüße,
 
 {{$footer}}
 
 @endcomponent
+
+
+
+
