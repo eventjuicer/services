@@ -2,7 +2,7 @@
  
 # Dzień dobry {{ $p->translate("[[fname]]") }},
 
-Potrzebujemy Cię! :) Jeszcze przez 24 godziny możesz wpłynąć na kształt agendy kwietniowej edycji Targów eHandlu w Warszawie.**
+Potrzebujemy Cię! :) Jeszcze **przez 24 godziny możesz wpłynąć na kształt agendy kwietniowej edycji Targów eHandlu** w Warszawie.
 
 <a href="https://targiehandlu.pl/vote" target="_blank">
     <img src="https://res.cloudinary.com/eventjuicer/image/upload/w_450,h_450,c_limit,f_auto/v1675852651/team/teh23_cfp_submitters.png" alt="strona głosowania" />
@@ -19,7 +19,7 @@ Chcę wpłynąć na agendę kwietniowej edycji Targów
 
 @endcomponent
 
-W ramach podziękowań za Twoje zaangażowanie, **udostępniamy kolejną porcję nagrań video** z edycji Targów eHandlu, która odbyła się jesienią 2022.
+W ramach podziękowań za Twoje zaangażowanie, **dajemy Tobie dostęp do  kolejnych nagrań video** prezentacji z jesiennej edycji Targów eHandlu.
 
 
 <table style="font-family:Avenir,Helvetica,sans-serif;box-sizing:border-box;color:#74787e;font-size:16px;line-height:1.5em;margin-top:0;text-align:left;border-spacing:30px;">
