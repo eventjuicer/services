@@ -114,7 +114,7 @@ class ExhibitorsMeetupsPleaseRsvp extends Command {
             $companyLang           = $ex->getLang($service->getParam("defaultlang"));
         
             if($lang !== $companyLang){
-                $this->info("Skipped! Lang mismatch. ");
+                $this->line("Skipped! Lang mismatch. ");
                 continue;
             }
 

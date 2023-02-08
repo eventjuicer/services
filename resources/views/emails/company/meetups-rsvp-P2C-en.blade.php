@@ -4,7 +4,7 @@ Hello,
 
 You have received **meeting requests** from the E-commerce Berlin Expo participants via your [Exhibitor Profile]({!!$profileUrl!!}). **They are awaiting your answer. **
 
-**Note: Accepting the meeting request will reveal contact information to the participant.** 
+**Note: Accepting the meeting request will reveal contact information of the participant.** 
 
 @component('mail::button', ['url' => $url("meetups")  ])
 Sign up to check meeting requests
