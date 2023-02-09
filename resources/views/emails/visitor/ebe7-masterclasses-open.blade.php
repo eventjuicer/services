@@ -9,24 +9,23 @@ Hello {{ $p->translate("[[fname]]") }},
 Take advantage of this opportunity to learn from the **experts from** renowned brands such as **Sendinblue, Custobar, Mondu, Zissu, FedEx Express, everstox, Xentral, axytos, Tradebyte and Intive.** 
 With topics varying from **multichannel marketing to e-commerce logistics, and growth strategies**, there's something for everyone. 
 
-[Check the full masterclasses agenda here and apply here](https://ecommerceberlin.com/masterclasses)
+[Check the full masterclasses agenda and apply here](https://ecommerceberlin.com/masterclasses)
 
 ## Now, what do you have to know about the Masterclasses?
 
 @component('mail::panel')
 
-Masterclasses are part of E-commerce Berlin Expo - 23rd FEBRUARY 2023 - STATION Berlin.
-
-**The registration is now OPEN**
+**Masterclasses are part of E-commerce Berlin Expo** (Do you remember the date and location?  **23rd FEBRUARY 2023 @ STATION Berlin**.
 
 Participation is **free of charge**, but the **seats are limited to 30/masterclass**.
 
-You can only take part in one session (and then take part in our 5 public stages!)
+You can only take part in one session.
+
+**Presenters will review all applications and we will notify you via email if you have been accepted** (If not: you will be able to apply for another Masterclass)
+
+Each participant of the Masterclass has access to the rest of the Expo: **240 exhibitors and 5 public stages.**
 
 @endcomponent
-
-**Presenters will review all applications and we will notify you via email if you have been accepted**. 
-If there won’t be a free slot for you - no worries! You will be able to apply for another Masterclass or just come to the Expo and benefit from 5 open stages and > 240 exhibitors.
 
 [Check the full masterclasses agenda and apply here](https://ecommerceberlin.com/masterclasses)
 
