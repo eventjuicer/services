@@ -1,8 +1,6 @@
 @component('mail::message')
 
 Hello {{ $p->translate("[[fname]]") }},
-
-**You can now sign up for our new, exclusive, format**, that will be part of this year's E-commerce Berlin Expo 
     
 # Masterclasses applications are now OPEN
 
