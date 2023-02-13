@@ -107,6 +107,8 @@ class ExhibitorsMeetupsPleaseRsvp extends Command {
                 continue;
             }
             
+            $count = $groupedMeetups[$ex->company_id]->count();
+
             if($whatWeDo === "stats"){
                 break;
             }
@@ -118,15 +120,19 @@ class ExhibitorsMeetupsPleaseRsvp extends Command {
                 continue;
             }
 
+            if($count < $service->getParam("threshold")){
+                $this->line("Skipped! Too little invites / ". $count);
+                continue;
+            }
 
-            $this->info("Pinging: " . $name . " count: ".$groupedMeetups[$ex->company_id]->count() . "");
+            $this->info("Pinging: " . $name . " count: ". $count . "");
 
             dispatch(
                 new ExhibitorsMeetupsPleaseRsvpJob(
                     $ex->getModel(), array_merge(
                         $this->options(), 
                         [
-                            "count" => $groupedMeetups[$ex->company_id]->count(), 
+                            "count" => $count, 
                             "view" => $service->getParam("email") . "-" . $direction . "-". $lang,
                         ]
                     )
