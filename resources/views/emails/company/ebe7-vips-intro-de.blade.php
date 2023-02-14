@@ -20,7 +20,7 @@ VIP-Einladungen können auf 2 Wegen verteilt werden:
 
 * Kopieren eines individuellen Links auf der Ausstellerplattform und Versand über eigene Kanäle.
 
-Du hast 5 Einladungen als Grundlage. **Indem euer öffentliches Ausstellerprofil bewerbt, könnt ihr bis zu 20 VIP-Einladungen zur Nutzung erhalten.**
+Du hast 10 Einladungen als Grundlage. **Indem euer öffentliches Ausstellerprofil bewerbt, könnt ihr bis zu 20 VIP-Einladungen zur Nutzung erhalten.**
 
 Beste Grüße,
 

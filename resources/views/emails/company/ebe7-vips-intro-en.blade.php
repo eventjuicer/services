@@ -2,7 +2,7 @@
  
 # Hello {{ array_get($profile, "fname")  }},
 
-A VIP invitations feature has been launched on the Exhibitor's platform.
+A VIP invitations feature is waiting for you on the Exhibitor's platform.
 
 ## Invite your VIPs to the exclusive VIP Zone at the Fair. 
 
@@ -20,7 +20,7 @@ VIP invitations can be distributed in 2 ways:
 
 * copying an individual link from the Exhibitor's platform and sending via your own channels.
 
-You get 5 invitations to start. By promoting your public company profile ("promo materials"), you can easily get up to 20 invitations.
+You get 10 invitations to start. By promoting your public company profile ("promo materials"), you can easily get up to 20 invitations.
 
 Regards, 
 
