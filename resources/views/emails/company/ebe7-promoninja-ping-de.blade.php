@@ -34,15 +34,15 @@ Versende VIP-Einladungen an Partner und Kunden
 
 Die TOP 5 (13:40 Uhr) Unternehmen, die aktiv für ihre Präsenz auf der Expo werben und unsere Tools nutzen (mit zusätzlichen Dienstleistungen belohnt!), sind:
 
-* Allegro
+* Foxintelligence
+
+* BigBuy
+
+* iteo S.A.
+
+* Allegro Sp. z o.o.
 
 * Outvio OÜ
-
-* Dealavo
-
-* 2txt – natural language generation GmbH
-
-* weclapp
 
 **Wir freuen uns sehr, dass ihr die Bedeutung der Lead-Generierung versteht und unsere Tools nutzt, um eure Präsenz auf der Veranstaltung zu maximieren!**
 

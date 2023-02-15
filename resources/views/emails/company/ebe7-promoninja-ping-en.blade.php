@@ -33,15 +33,15 @@ Send VIP invitations to partners and customers
 
 TOP 5 (1:20pm CET) companies actively promoting their presence at the Expo and using our tools (rewarded with additional services!) are:
 
-* Allegro
+* Foxintelligence
+
+* BigBuy
+
+* iteo S.A.
+
+* Allegro Sp. z o.o.
 
 * Outvio OÜ
-
-* Dealavo
-
-* 2txt – natural language generation GmbH
-
-* weclapp
 
 **We are so happy that you understand the importance of lead generation and that you use our tools to maximize your exposure at the event!**
 
