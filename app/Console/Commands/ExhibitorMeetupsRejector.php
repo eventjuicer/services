@@ -23,7 +23,7 @@ class ExhibitorMeetupsRejector extends Command
      *
      * @var string
      */
-    protected $signature = 'exhibitors:meetups_ltd {--domain=} {--threshold=25} {--howold=3}';
+    protected $signature = 'exhibitors:meetups_ltd {--domain=} {--threshold=25} {--older_than=5}';
 
     /**
      * The console command description.
@@ -54,7 +54,7 @@ class ExhibitorMeetupsRejector extends Command
 
         $domain = $this->option("domain");
         $threshold = $this->option("threshold");
-        $howold = Carbon::now()->subDays( $this->option("howold")) ;
+        $howold = Carbon::now()->subDays( $this->option("older_than")) ;
 
 
         if(empty($domain)) {
@@ -126,8 +126,6 @@ class ExhibitorMeetupsRejector extends Command
                     dispatch(new HandleLTDReject($untouchedMeetup));
                 }
 
-             
-                $this->line($untouchedMeetup->id . " - rejecting LTD meetup - " . $untouchedMeetup->participant->email);
             }
 
             $this->line("----------------------------------");

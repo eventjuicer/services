@@ -5,6 +5,16 @@ supervisorctl restart laravel-services:*
 php artisan queue:restart
 
 
+15 lutego
+=========
+
+php artisan exhibitors:meetups_ltd --domain=ecommerceberlin.com --threshold=25 --howold=5
+
+php artisan exhibitors:meetups_please_rsvp --domain=ecommerceberlin.com --lang=en --defaultlang=en --subject="RSVP! Meeting invitations awaiting in your Exhibitor Profile"
+
+php artisan exhibitors:meetups_please_rsvp --domain=ecommerceberlin.com --lang=de --defaultlang=en --subject="RSVP! Termineinladungen warten auf deiner Ausstellerplattform."
+
+
 14 lutego
 ==========
 
@@ -13,25 +23,7 @@ php artisan exhibitors:current-event --defaultlang=en --domain=ecommerceberlin.c
 php artisan exhibitors:current-event --defaultlang=en --domain=ecommerceberlin.com --lang=de --subject="Ladet eure wichtigsten Kunden mit einer VIP-Ticket zu der E-commerce Berlin Expo" --email=ebe7-vips-intro
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-PUSCIC REJECTY do LTD
-
-DOWNGRADES
+### VIP DOWNGRADES
 
 UPDATE `bob_participants` SET `important`=0 WHERE `id` IN (SELECT `participant_id` FROM `eventjuicer_meetups` WHERE `direction` LIKE 'P2C' AND `event_id` = 96 AND `agreed`=1)
 UPDATE `bob_participants` SET `important`=0 WHERE `id` IN (SELECT `participant_id` FROM `eventjuicer_meetups` WHERE `direction` LIKE 'LTD' AND `event_id` = 96 AND `agreed`=1)
@@ -42,20 +34,13 @@ UPDATE `bob_participant_fields` SET `field_value`="" WHERE  `field_id` = 258 AND
 UPDATE `bob_participant_fields` SET `field_value`="" WHERE  `field_id` = 259 AND `participant_id` IN (SELECT `participant_id` FROM `eventjuicer_meetups` WHERE `direction` LIKE 'P2C' AND `event_id` = 96 AND `agreed`=1)
 UPDATE `bob_participant_fields` SET `field_value`="" WHERE  `field_id` = 259 AND `participant_id` IN (SELECT `participant_id` FROM `eventjuicer_meetups` WHERE `direction` LIKE 'LTD' AND `event_id` = 96 AND `agreed`=1)
 
-
-UPDGRADES
-
+### VIP UPDGRADES
 
 UPDATE `bob_participants` SET `important`=1 WHERE `id` IN (SELECT `participant_id` FROM `eventjuicer_meetups` WHERE `direction` LIKE 'C2P' AND `event_id` = 96 AND `agreed`=1);
 ## important
 UPDATE `bob_participant_fields` SET `field_value`=1 WHERE  `field_id` = 258 AND `participant_id` IN (SELECT `participant_id` FROM `eventjuicer_meetups` WHERE `direction` LIKE 'C2P' AND `event_id` = 96 AND `agreed`=1);
 ## referral
 UPDATE `bob_participant_fields` SET `field_value`="meetup" WHERE  `field_id` = 259 AND `participant_id` IN (SELECT `participant_id` FROM `eventjuicer_meetups` WHERE `direction` LIKE 'C2P' AND `event_id` = 96 AND `agreed`=1);
-
-
-
-
-
 
 
 13 lutego
@@ -65,10 +50,6 @@ php artisan exhibitors:meetups_please_rsvp --domain=ecommerceberlin.com --lang=e
 
 php artisan exhibitors:meetups_please_rsvp --domain=ecommerceberlin.com --lang=de --defaultlang=en --subject="RSVP! Termineinladungen warten auf deiner Ausstellerplattform."
 
-
-
-
-
 9 lutego
 ========
 
@@ -76,23 +57,12 @@ php artisan visitors:current-event --domain=ecommerceberlin.com --subject="OPEN!
 
 php artisan visitors:restore-from-old-events --domain=ecommerceberlin.com --email=ebe7-masterclasses-open --subject="Only 296 seats available. Apply now for a Masterclass @ E-commerce Berlin Expo 2023" --throttle=500000
 
-
-
-
-
-
 8 lutego
 ========
 
 php artisan exhibitors:meetups_please_rsvp --domain=ecommerceberlin.com --lang=en --defaultlang=en --subject="RSVP! Meeting invitations awaiting in your Exhibitor Profile"
 
 php artisan exhibitors:meetups_please_rsvp --domain=ecommerceberlin.com --lang=de --defaultlang=en --subject="RSVP! Termineinladungen warten auf deiner Ausstellerplattform."
-
-
-
-
-
-
 
 7 lutego
 ========
