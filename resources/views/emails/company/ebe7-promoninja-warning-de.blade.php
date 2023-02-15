@@ -4,25 +4,19 @@ Hallo {{ array_get($profile, "fname")  }},
 
 ## Nur noch 7 Tage bis zum Wettbewerbstermin. Es ist wichtig, dass du diese Gelegenheit nutzt.
 
-@component('mail::panel')
-
-Um deine Chancen auf Erfolg zu maximieren, empfehlen wir dir, VIP-Einladungen zu versenden. Lade deine wichtigen Partner und potenziellen Kunden ein und gib ihnen Zugang zur exklusiven VIP-Zone mit bequemen Sitzmöglichkeiten und Erfrischungen.
-
-Vergiss nicht deine RSVPs und noch ausstehende Einladungen, denn du möchtest keine Leads verpassen.
-
-@component('mail::button', ['url' => $accountUrlVips])
-Versende VIP-Einladungen an Partner und Kunden
-@endcomponent
-
-@endcomponent
-
 # Ausstellerprofil
 
-@component('mail::panel')
 Teilt euer Ausstellerprofil auf euren Social-Media-Kanälen, um eure Fläche in der Mappe zu präsentieren und Einladungsanfragen für Meetings von den potentiellen Kunden zu erhalten)
+
+@component('mail::panel')
+
+An alle anderen da draußen, ihr habt noch Zeit, für eure Präsenz bei unserer Veranstaltung zu werben! **Am einfachsten geht das, indem ihr einfach den folgenden Link mit eurer PR- & Social-Media-Abteilung teilt** (Zugriff auf das restliche Aussteller-Panel ausgenommen).
+
+{!! $accountUrlPromotePublic !!}
+
 @endcomponent
 
-Die TOP 5 (14:40 Uhr) Unternehmen, die aktiv für ihre Präsenz auf der Expo werben und unsere Tools nutzen (mit zusätzlichen Dienstleistungen belohnt!), sind:
+**Die TOP 5 (14:40 Uhr) Unternehmen, die aktiv für ihre Präsenz auf der Expo werben** und unsere Tools nutzen (mit zusätzlichen Dienstleistungen belohnt!), sind:
 
 * Foxintelligence
 
@@ -40,14 +34,20 @@ Die TOP 5 (14:40 Uhr) Unternehmen, die aktiv für ihre Präsenz auf der Expo wer
 Siehe Werbematerialien und Ranking-Seite
 @endcomponent
 
+
+# VIP-Einladungen
+
 @component('mail::panel')
 
-An alle anderen da draußen, ihr habt noch Zeit, für eure Präsenz bei unserer Veranstaltung zu werben! **Am einfachsten geht das, indem ihr einfach den folgenden Link mit eurer PR- & Social-Media-Abteilung teilt** (Zugriff auf das restliche Aussteller-Panel ausgenommen).
+Um deine Chancen auf Erfolg zu maximieren, empfehlen wir dir, VIP-Einladungen zu versenden. Lade deine wichtigen Partner und potenziellen Kunden ein und gib ihnen Zugang zur exklusiven VIP-Zone mit bequemen Sitzmöglichkeiten und Erfrischungen.
 
-{!! $accountUrlPromotePublic !!}
+@component('mail::button', ['url' => $accountUrlVips])
+Versende VIP-Einladungen an Partner und Kunden
+@endcomponent
 
 @endcomponent
 
+Vergiss nicht deine RSVPs und noch ausstehende Einladungen, denn du möchtest keine Leads verpassen.
 
 Liebe Grüße, 
 
