@@ -8,11 +8,24 @@ php artisan queue:restart
 15 lutego
 =========
 
+
+php artisan exhibitors:ranking --domain=ecommerceberlin.com --defaultlang=pl --threshold=10 --lang=en --subject="Alert! We are worried about your participation in the fair... low engagement promoting your Exhibitor Profile..." --email=ebe7-promoninja_warning
+
+php artisan exhibitors:ranking --domain=ecommerceberlin.com --defaultlang=pl --threshold=10 --lang=de --subject="Warnung! Wir machen uns Sorgen über deine Teilnahme bei der Expo... geringes Engagement im Traffic, Leads Generierung, Stärkung des Ausstellerprofils." --email=ebe7-promoninja_warning
+
+
+
+
+
+
+
 php artisan exhibitors:meetups_ltd --domain=ecommerceberlin.com --threshold=25 --howold=5
 
 php artisan exhibitors:meetups_please_rsvp --domain=ecommerceberlin.com --lang=en --defaultlang=en --subject="RSVP! Meeting invitations awaiting in your Exhibitor Profile"
 
 php artisan exhibitors:meetups_please_rsvp --domain=ecommerceberlin.com --lang=de --defaultlang=en --subject="RSVP! Termineinladungen warten auf deiner Ausstellerplattform."
+
+
 
 
 14 lutego
