@@ -23,7 +23,7 @@ class ExhibitorMeetupsRejector extends Command
      *
      * @var string
      */
-    protected $signature = 'exhibitors:meetups_ltd {--domain=} {--threshold=}';
+    protected $signature = 'exhibitors:meetups_ltd {--domain=} {--threshold=25} {--howold=3}';
 
     /**
      * The console command description.
@@ -54,6 +54,7 @@ class ExhibitorMeetupsRejector extends Command
 
         $domain = $this->option("domain");
         $threshold = $this->option("threshold");
+        $howold = Carbon::now()->subDays( $this->option("howold")) ;
 
 
         if(empty($domain)) {
@@ -75,29 +76,40 @@ class ExhibitorMeetupsRejector extends Command
         $eventId =  $route->getEventId();
         $this->info("Event id: " . $eventId);
 
-
-
         $meetups->setParam("event_id", $eventId );
         $ltd = $meetups->getAllForEventByDirection("LTD");
         $groupedByCompany = $ltd->groupBy('company_id');
+
+        $whatWeDo  = $this->anticipate('Send, test?', ['test', 'send']);
 
 
        foreach($groupedByCompany as $company_id => $companyMeetups){
 
             $this->info("Company id $company_id");
+
             $agreed = $companyMeetups->where("agreed", 1);
+
             $untouched = $companyMeetups->filter(function($item){
                 return !$item->responded_at;
             });
 
-            $this->line("total: ".$companyMeetups->count()." agreed: ".$agreed->count().", untouched: ".$untouched->count());
+            $old = $untouched->filter(function($item)use($howold){
+                return $howold->gt( $item->created_at );
+            });
+
+            $this->line(
+                "total: ".$companyMeetups->count().
+                " agreed: ".$agreed->count(). 
+                " untouched: ".$untouched->count().
+                " old: " .$old->count()
+            );
 
             if($agreed->count() < $threshold){
                 continue;
             }
             $this->line("threshold matched!");
             
-            foreach($untouched as $untouchedMeetup){
+            foreach($old as $untouchedMeetup){
 
                 /**double protection! */
 
@@ -105,12 +117,16 @@ class ExhibitorMeetupsRejector extends Command
                     continue;
                 }
                 
-                $untouchedMeetup->agreed = 0;
-                $untouchedMeetup->responded_at =  Carbon::now("UTC");
-                $untouchedMeetup->comment = "[autorejected] ".$untouchedMeetup->comment;
-                $untouchedMeetup->save();
+                if($whatWeDo === "send"){
+                    
+                    $untouchedMeetup->agreed = 0;
+                    $untouchedMeetup->responded_at =  Carbon::now("UTC");
+                    $untouchedMeetup->comment = "[autorejected] ".$untouchedMeetup->comment;
+                    $untouchedMeetup->save();
+                    dispatch(new HandleLTDReject($untouchedMeetup));
+                }
 
-                dispatch(new HandleLTDReject($untouchedMeetup));
+             
                 $this->line($untouchedMeetup->id . " - rejecting LTD meetup - " . $untouchedMeetup->participant->email);
             }
 
