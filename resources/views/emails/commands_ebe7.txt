@@ -5,19 +5,23 @@ supervisorctl restart laravel-services:*
 php artisan queue:restart
 
 
+
+
+
+
+
+
+
+
+
+
+
 15 lutego
 =========
-
 
 php artisan exhibitors:ranking --domain=ecommerceberlin.com --defaultlang=pl --threshold=100 --lang=en --subject="Alert! We are worried about your participation in the fair... low engagement promoting your Exhibitor Profile..." --email=ebe7-promoninja-warning
 
 php artisan exhibitors:ranking --domain=ecommerceberlin.com --defaultlang=pl --threshold=100 --lang=de --subject="Warnung! Wir machen uns Sorgen über deine Teilnahme bei der Expo... geringes Engagement im Traffic, Leads Generierung, Stärkung des Ausstellerprofils." --email=ebe7-promoninja-warning
-
-
-
-
-
-
 
 php artisan exhibitors:meetups_ltd --domain=ecommerceberlin.com --threshold=25 --howold=5
 
@@ -25,16 +29,12 @@ php artisan exhibitors:meetups_please_rsvp --domain=ecommerceberlin.com --lang=e
 
 php artisan exhibitors:meetups_please_rsvp --domain=ecommerceberlin.com --lang=de --defaultlang=en --subject="RSVP! Termineinladungen warten auf deiner Ausstellerplattform."
 
-
-
-
 14 lutego
 ==========
 
 php artisan exhibitors:current-event --defaultlang=en --domain=ecommerceberlin.com --lang=en --subject="VIP invitations! Invite your key Customers to the E-commerce Berlin Expo" --email=ebe7-vips-intro
 
 php artisan exhibitors:current-event --defaultlang=en --domain=ecommerceberlin.com --lang=de --subject="Ladet eure wichtigsten Kunden mit einer VIP-Ticket zu der E-commerce Berlin Expo" --email=ebe7-vips-intro
-
 
 ### VIP DOWNGRADES
 
@@ -54,7 +54,6 @@ UPDATE `bob_participants` SET `important`=1 WHERE `id` IN (SELECT `participant_i
 UPDATE `bob_participant_fields` SET `field_value`=1 WHERE  `field_id` = 258 AND `participant_id` IN (SELECT `participant_id` FROM `eventjuicer_meetups` WHERE `direction` LIKE 'C2P' AND `event_id` = 96 AND `agreed`=1);
 ## referral
 UPDATE `bob_participant_fields` SET `field_value`="meetup" WHERE  `field_id` = 259 AND `participant_id` IN (SELECT `participant_id` FROM `eventjuicer_meetups` WHERE `direction` LIKE 'C2P' AND `event_id` = 96 AND `agreed`=1);
-
 
 13 lutego
 ========
@@ -84,20 +83,12 @@ php artisan visitors:current-event --domain=ecommerceberlin.com --subject="09.02
 
 php artisan visitors:restore-from-old-events --domain=ecommerceberlin.com --email=ebe7-restore-masterclasses --subject="09.02 9:00am CET - Masterclasses @ E-commerce Berlin Expo 2023" --throttle=50000
 
-
 6 lutego
 ============
-
-
 
 php artisan company:relations --domain=ecommerceberlin.com --threshold=3 --lang=en --defaultlang=en --subject="Company representatives registration" --email=ebe7-representatives-list
 
 php artisan company:relations --domain=ecommerceberlin.com --threshold=3 --lang=de --defaultlang=en --subject="Anmeldung der Firmenvertreter" --email=ebe7-representatives-list
-
-
-
-
-
 
 2 lutego
 =============
@@ -106,12 +97,7 @@ php artisan exhibitors:current-event --lang=en --defaultlang=en --domain=ecommer
 
 php artisan exhibitors:current-event --lang=de --defaultlang=en --domain=ecommerceberlin.com  --subject="5 führende Unternehmen: Allegro, Outvio OÜ, Dealavo, 2txt, weclapp." --email=ebe7-promoninja-ping
 
-
 SELECT *,count(*)  FROM `bob_participant_fields` WHERE `field_id` = 259 AND `field_value` LIKE 'C%' AND `event_id` = 96 GROUP BY `field_value`  ORDER BY `count(*)`  DESC
-
-
-
-
 
 1 lutego
 ===========
@@ -120,65 +106,26 @@ php artisan exhibitors:current-event --lang=en --defaultlang=en --domain=ecommer
 
 php artisan exhibitors:current-event --lang=de --defaultlang=en --domain=ecommerceberlin.com  --subject="Stromanschluss am Messestand" --email=ebe7-upgrades-electricity
 
-
-
-
-
-
 31 stycznia
 ===========
-
-
 
 php artisan exhibitors:current-event --defaultlang=en --domain=ecommerceberlin.com --lang=en --subject="VIP invitations! Invite your key Customers to the E-commerce Berlin Expo" --email=ebe7-vips-intro
 
 php artisan exhibitors:current-event --defaultlang=en --domain=ecommerceberlin.com --lang=de --subject="Ladet eure wichtigsten Kunden mit einer VIP-Ticket zu der E-commerce Berlin Expo" --email=ebe7-vips-intro
 
-
-
-
-
-
-
-
 27 stycznia
 ===========
-
-
 
 php artisan exhibitors:current-event --defaultlang=en --domain=ecommerceberlin.com --lang=en --subject="Register your representatives for the Networking Party!" --email=ebe7-party
 
 php artisan exhibitors:current-event --defaultlang=en --domain=ecommerceberlin.com --lang=de --subject="Melde deine Teammitglieder für die Networking Party an!" --email=ebe7-party
 
-
-
-
-
-
-
-
-
-
-
-
-
 25 stycznia
 ============
-
-
 
 php artisan exhibitors:current-event --defaultlang=en --domain=ecommerceberlin.com --lang=en --subject="Go through the list of registered attendees and send meeting invitation" --email=ebe7-promonija_c2p
 
 php artisan exhibitors:current-event --defaultlang=en --domain=ecommerceberlin.com --lang=de --subject=" Schau dir die registrierten Besucher der E-commerce Berlin Expo an und sende Einladungen zu einem Treffen" --email=ebe7-promonija_c2p
-
-
-
-
-
-
-
-
-
 
 19 stycznia
 ===========
@@ -187,20 +134,12 @@ php artisan exhibitors:current-event --defaultlang=en --domain=ecommerceberlin.c
 
 php artisan exhibitors:current-event --defaultlang=en --domain=ecommerceberlin.com --lang=de --subject="NEW! EXPO-Besucher können jetzt einen Termin mit Euch buchen | EBE2023" --email=ebe7-p2c
 
-
-
-
-
-
-
 17 stycznia
 ===========
 
 php artisan exhibitors:current-event --defaultlang=en --domain=ecommerceberlin.com --lang=en --subject="Time to register company representatives! | EBE2023" --email=ebe7-company-representatives
 
 php artisan exhibitors:current-event --defaultlang=en --domain=ecommerceberlin.com --lang=de --subject="Zeit die Vertreter zu registrieren! | EBE2023" --email=ebe7-company-representatives
-
-
 
 11 stycznia
 ==========
@@ -209,17 +148,12 @@ php artisan exhibitors:current-event --defaultlang=en --domain=ecommerceberlin.c
 
 php artisan exhibitors:current-event --defaultlang=en --domain=ecommerceberlin.com --lang=de --subject="Nimm am Promocontest für Aussteller teil! | EBE 2023" --email=ebe7-promoninja-intro 
 
-
 5 stycznia
 ==========
-
-
 
 php artisan exhibitors:current-event --defaultlang=en --domain=ecommerceberlin.com --lang=en --subject="Add your contacts to stay up to date | EBE 2023" --email=ebe7-people --exclude_company_ids="2266,2245,2210,1644,2070,1900,2251,2265,2063,1428,2220,2233,2165,2200,2168,1367,2227,1832,2204,2067,2169,1928,1023,2059,2054,1745,1876,1880,1603,1603,2170,1340,1851,2080,2052,2189,2138,2089,2081,2081,2224,2217,2186,2184,2234,2209,2130,1957,2212,1889,1751,2215,1944,2171,2082,2082,2203,2203,1577,2078,2124"
 
 php artisan exhibitors:current-event --defaultlang=en --domain=ecommerceberlin.com --lang=de --subject="Füge Kontakte aus deinem Unternehmen hinzu, um auf dem Laufenden zu bleiben | EBE23" --email=ebe7-people --exclude_company_ids="2266,2245,2210,1644,2070,1900,2251,2265,2063,1428,2220,2233,2165,2200,2168,1367,2227,1832,2204,2067,2169,1928,1023,2059,2054,1745,1876,1880,1603,1603,2170,1340,1851,2080,2052,2189,2138,2089,2081,2081,2224,2217,2186,2184,2234,2209,2130,1957,2212,1889,1751,2215,1944,2171,2082,2082,2203,2203,1577,2078,2124"
-
-
 
 13 grudnia
 ===========
@@ -228,34 +162,19 @@ php artisan exhibitors:current-event --defaultlang=en --domain=ecommerceberlin.c
 
 php artisan exhibitors:current-event --defaultlang=en --domain=ecommerceberlin.com --lang=de --subject="Standbau - kurze Erinnerung" --email=ebe7-additional-services-2 --exclude_company_ids="1759,2120,1910,1716,2088,2081,2188,2203,1667,2180,2086,1402,2212,2205,2194,2193,2196,2206,2195,2029,1644,2184,1576,1954,2079,2207,2124,2055,1930,2138,2214,2095,1957,2130,2223,2140,1977,2150,2251,2187,1048,2167,1914,2133,2250,1382,1851,2252,1790,2131,1649,1722,2078,2029,2244,1831,1926,1058,2254,2201,2222"
 
-
-
-
 2 grudnia
 ===============
-
 
 php artisan exhibitors:current-event --defaultlang=en --domain=ecommerceberlin.com --lang=en --subject="E-commerce Germany Awards are open for submissions!" --email=ebe7-awards-start
 
 php artisan exhibitors:current-event --defaultlang=en --domain=ecommerceberlin.com --lang=de --subject="E-commerce Germany Awards ist offen für Bewerbungen!" --email=ebe7-awards-start
 
-
-
-
 18 listopada
 ===============
-
 
 php artisan exhibitors:current-event --defaultlang=en --domain=ecommerceberlin.com --lang=en --subject="Additional services  / E-commerce Berlin Expo 2023" --email=ebe7-additional-services
 
 php artisan exhibitors:current-event --defaultlang=en --domain=ecommerceberlin.com --lang=de --subject="Zusätzliche Standdienste / E-commerce Berlin Expo 2023" --email=ebe7-additional-services
-
-
-
-
-
-
-
 
 7 września
 ==============
@@ -264,35 +183,12 @@ php artisan exhibitors:current-event --defaultlang=en --domain=ecommerceberlin.c
 
 php artisan exhibitors:current-event --defaultlang=en --domain=ecommerceberlin.com --lang=de --subject="EBE 2023 - Teile dein Präsentationsvorschlag mit uns und werde unser Speaker!" --email=ebe7-cfp-1st-message
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 19 maja
 =========
 
 php artisan exhibitors:award --domain=ecommerceberlin.com --award=earlybird --previous --reverse --lang=en --defaultlang=en --email=ebe7-sales-eb-last --subject="TODAY 11:00 CET - Beginning of the Early Bird sales for the E-commerce Berlin Expo 2023"
 
 php artisan exhibitors:award --domain=ecommerceberlin.com --award=earlybird --previous --reverse --lang=de --defaultlang=en --email=ebe7-sales-eb-last --subject="Heute 11:00 CET - Vorverkauf der Standflächen für die E-commerce Berlin Expo 2023"
-
 
 18 maja
 =========
@@ -302,10 +198,8 @@ php artisan exhibitors:award --domain=ecommerceberlin.com --award=earlybird --pr
 
 php artisan exhibitors:award --domain=ecommerceberlin.com --award=earlybird --previous --lang=de --defaultlang=en --email=ebe7-sales-top30-lastminute --subject="Heute 11:00 CET: Exklusive Salesrunde für die TOP30 Unternehmen aus dem vorherigen Ausstellerwettbewerb"
 
-
 17 maja
 =========
-
 
 //GLOBAL
 
@@ -313,27 +207,11 @@ php artisan exhibitors:award --domain=ecommerceberlin.com --award=earlybird --pr
 
 php artisan exhibitors:award --domain=ecommerceberlin.com --award=earlybird --previous --reverse --lang=de --defaultlang=en --email=ebe7-sales-timeline --subject="Donnerstag 11:00 CET - Vorverkauf der Standflächen für die E-commerce Berlin Expo 2023"
 
-
-
 //TOP30
 
 php artisan exhibitors:award --domain=ecommerceberlin.com --award=earlybird --previous --lang=en --defaultlang=en --email=ebe7-sales-timeline-top30 --subject="Wednesday 11:00 CET: Exclusive sales round for TOP30 companies in the recent Exhibitors' Contest"
 
 php artisan exhibitors:award --domain=ecommerceberlin.com --award=earlybird --previous --lang=de --defaultlang=en --email=ebe7-sales-timeline-top30 --subject="Mittwoch 11:00 CET: Exklusive Salesrunde für die TOP30 Unternehmen aus dem vorherigen Ausstellerwettbewerb"
-
-
-
-
-=======================================
-supervisorctl restart laravel-api:*
-supervisorctl restart laravel-services:*
-php artisan queue:restart
-
-
-
-
-
-
 
 //TOP30
 
@@ -343,10 +221,6 @@ php artisan exhibitors:award --domain=ecommerceberlin.com --award=earlybird --pr
 
 //GLOBAL
 
-
 php artisan exhibitors:award --domain=ecommerceberlin.com --award=earlybird --previous --reverse --lang=en --defaultlang=en --email=ebe7-sales-timeline --subject="Beginning of the Early Bird sales for the E-commerce Berlin Expo 2023"
 
 php artisan exhibitors:award --domain=ecommerceberlin.com --award=earlybird --previous --reverse --lang=de --defaultlang=en --email=ebe7-sales-timeline --subject="Vorverkauf der Standflächen für die E-commerce Berlin Expo 2023"
-
-
-

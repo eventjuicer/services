@@ -20,6 +20,7 @@ Looking forward to see you!
 Kind Regards, 
 Lucas Zarna, E-commerce Berlin Expo Team.
 
+PS: Link does not work? try this - {!!$url!!}
 
 @endcomponent
 
