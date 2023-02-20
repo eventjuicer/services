@@ -5,6 +5,13 @@ supervisorctl restart laravel-services:*
 php artisan queue:restart
 
 
+20 lutego
+=========
+
+
+php artisan exhibitors:current-event --defaultlang=en --domain=ecommerceberlin.com --lang=en --subject="Get Ready for EBE 2023: Your Exhibitor’s Guide to the E-commerce Berlin Expo" --email=ebe7-logistics-final
+
+php artisan exhibitors:current-event --defaultlang=en --domain=ecommerceberlin.com --lang=de --subject="Mach dich bereit für die EBE 2023: Dein Ausstellerleitfaden für die E-Commerce Berlin Expo" --email=ebe7-logistics-final
 
 
 
@@ -12,9 +19,10 @@ php artisan queue:restart
 
 
 
+16 lutego
+=========
 
-
-
+php artisan exhibitors:meetups_ltd --domain=ecommerceberlin.com --threshold=25 --older_than=3
 
 15 lutego
 =========
