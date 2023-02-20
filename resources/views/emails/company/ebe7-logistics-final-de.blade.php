@@ -35,6 +35,7 @@ Hier sind auch einige Faktoren zu beachten, während du dich auf die Messe vorbe
 [Badge-Scannen / Lead-Sammlung](https://account.ecommerceberlin.com/#/logistics?scans)
 
 [Problemmeldung](https://account.ecommerceberlin.com/#/logistics?problems)
+
 [Standabbau](https://account.ecommerceberlin.com/#/logistics?disassembly)
 
 ## EBE 2023 | Nach der Messe
