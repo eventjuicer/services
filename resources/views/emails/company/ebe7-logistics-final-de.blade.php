@@ -37,7 +37,7 @@ Hier sind auch einige Faktoren zu beachten, während du dich auf die Messe vorbe
 [Problemmeldung](https://account.ecommerceberlin.com/#/logistics?problems)
 [Standabbau](https://account.ecommerceberlin.com/#/logistics?disassembly)
 
-­## EBE 2023 | Nach der Messe
+## EBE 2023 | Nach der Messe
 
 [Exportiere Daten von gescannten Badges](https://account.ecommerceberlin.com/#/logistics?leads)
 

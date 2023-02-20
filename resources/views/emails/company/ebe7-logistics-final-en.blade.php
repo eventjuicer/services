@@ -38,7 +38,7 @@ Here are also some factors to take into account whilst preparing for the expo. Y
 
 [Stand disassembly](https://account.ecommerceberlin.com/#/logistics?disassembly)
 
-­## EBE 2023 | After the Expo
+## EBE 2023 | After the Expo
 
 [Export data from scanned badges](https://account.ecommerceberlin.com/#/logistics?leads)
 
