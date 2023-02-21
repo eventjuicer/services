@@ -17,6 +17,17 @@ Route::get('/', function()
 });
 
 
+Route::get('/masterclasses', function () {
+    return Artisan::call('visitor:vips', [
+        
+        //'--domain' => 'ecommerceberlin.com'
+        '--domain' 	=> 'ecommerceberlin.com',
+        '--direction' 	=> 'LTD'
+    ]);
+
+    //
+});
+
 
 Route::get('/teh', function () {
     return Artisan::call('contestants:votes', [
