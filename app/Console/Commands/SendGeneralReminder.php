@@ -111,10 +111,10 @@ class SendGeneralReminder extends Command
             });
         }else{
             $filtered = $sendable->filter($participants, $eventId);
+            $this->info("Visitors not going:" . $sendable->howManyNotGoing() );
         }
 
         $this->info("Visitors that can be notified: " . $filtered->count() );
-        $this->info("Visitors not going:" . $sendable->howManyNotGoing() );
 
         if($whatWeDo === "stats"){
             return;
