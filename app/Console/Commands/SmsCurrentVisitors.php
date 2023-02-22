@@ -127,17 +127,17 @@ class SmsCurrentVisitors extends Command
 
             $phone = trim( $query->first()->field_value );
 
+            $phone = str_replace("(0)", "", $phone);
+
             $phone = preg_replace("/[^0-9]+/", "", $phone);
 
             $phone = ltrim($phone, "0");
-
-            // $phone = str_replace("(0)", "", $phone);
 
             if(empty($phone) || strlen($phone) < 9){
                 continue;
             }
 
-            if(strlen($phone) < 11){
+            if(strlen($phone) < 13){
                 $phone = $prefix . $phone;
             }
 
@@ -151,7 +151,7 @@ class SmsCurrentVisitors extends Command
                 )
             );
 
-            $phones[] = '"'.$phone .'","https://'. $domain . '/tickets/'.$profile->code.'","'. $fname . '"';
+            $phones[] = '"'.$phone .'","!'.$profile->code.'","https://'. $domain . '/tickets/'.$profile->code.'","'. $fname . '"';
 
             if($counter % 100 === 0){
 
