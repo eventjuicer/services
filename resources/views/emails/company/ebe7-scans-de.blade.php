@@ -8,8 +8,6 @@ Wir haben etwas Besonderes für dich vorbereitet! Auf der Expo kannst du mühelo
 Scannen Anweisung
 @endcomponent
 
-Bitte beachte, dass du bei der Öffnung von [expojuicer.com](http://expojuicer.com) unbedingt deinen Firmennamen auswählst. **Dies ist entscheidend, um sicherzustellen, dass die Kontaktinformationen in deinem Profil gespeichert werden.**
-
 Alle von dir gesammelten Kontaktinformationen werden sofort im Abschnitt *Gescannte Leads* deines Aussteller-Panels gespeichert. Um alle Kontaktdaten und Kommentare zu sehen, nutze bitte die Exportfunktion.
 
 Wenn du Fragen hast, zögere bitte nicht, uns zu kontaktieren!
