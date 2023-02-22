@@ -1,14 +1,13 @@
 @component('mail::message')
 
 Hello {{ $p->translate("[[fname]]") }},
-    
 
-@component('mail::panel')
+Thank you for downloading the ticket for E-ecommerce Berlin Expo.
 
-{{$hash}}
+We hope to see you tomorrow at 10:00am at STATION Berlin.
 
-@endcomponent
+If you are unable to print or accidentally have lost your printed ticket, please show the code presented below at the registration point.
 
-
+# {{$hash}}
 
 @endcomponent
