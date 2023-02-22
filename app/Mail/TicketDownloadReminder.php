@@ -49,9 +49,9 @@ class TicketDownloadReminder extends Mailable
 
             $this->from("visitors@ecommerceberlin.de", "Lucas Zarna - E-commerce Berlin Expo");
 
-            $this->subject("Important/Wichtig - RSVP.");
+            $this->subject("Re: Thursday. Important/Wichtig - RSVP.");
 
-            $this->email = "ebe6-ticket-reminder2";
+            $this->email = "ebe7-ticket-reminder";
 
         }
         else
