@@ -81,17 +81,27 @@ class SmsCurrentVisitors extends Command
 
         $this->info("current event id: " . $eventId);
 
-        $participants = $roles->get($eventId, "visitor", ["ticketdownloads"]);
+        $participants = $roles->get($eventId, "visitor", ["ticketdownload"]);
 
         $this->info("Total visitors: " . $participants->count() );
 
         //exlude fuckers with RSVP - NO
+        
+        $status  = $this->anticipate('All, Going?', ['all', 'going']);
 
-        $filtered = $participants->filter(function($item){
+        // if($status == "going"){
+            $filtered = $participants->filter(function($participant){
+                if( is_null($participant->ticketdownload) || (int) $participant->ticketdownload->going === 0 ){
+                    return false;
+                }
+                return true;
+            });
+        // }
 
-            //no RSVP OR ... has a ticket!
-            return is_null($item->ticketdownload) || $item->ticketdownload->going == 1;
-        });
+        // $filtered = $participants->filter(function($item){
+        //     //no RSVP OR ... has a ticket!
+        //     return is_null($item->ticketdownload) || $item->ticketdownload->going == 1;
+        // });
 
         $this->info("Total visitors without RSVP=NO: " . $filtered->count() );
 
@@ -117,15 +127,17 @@ class SmsCurrentVisitors extends Command
 
             $phone = trim( $query->first()->field_value );
 
-            $phone = str_replace("(0)", "", $phone);
+            $phone = preg_replace("/[^0-9]+/", "", $phone);
 
-            $phone = preg_replace("/[^\+0-9]+/", "", $phone);
+            $phone = ltrim($phone, "0");
+
+            // $phone = str_replace("(0)", "", $phone);
 
             if(empty($phone) || strlen($phone) < 9){
                 continue;
             }
 
-            if(strlen($phone) < 10){
+            if(strlen($phone) < 11){
                 $phone = $prefix . $phone;
             }
 
