@@ -5,6 +5,27 @@ supervisorctl restart laravel-services:*
 php artisan queue:restart
 
 
+
+22 lutego
+=========
+
+
+php artisan exhibitors:current-event --defaultlang=en --domain=ecommerceberlin.com --lang=en --subject="Discover the Easiest Way to Collect Contact Details at the Expo" --email=ebe7-scans
+
+php artisan exhibitors:current-event --defaultlang=en --domain=ecommerceberlin.com --lang=de --subject="Entdecke den einfachsten Weg, um Kontaktdaten auf der Expo zu sammeln" --email=ebe7-scans
+
+
+
+
+
+
+
+
+
+php artisan visitors:ticket-reminder --domain=ecommerceberlin.com
+//ebe6-ticket-reminder2
+
+
 20 lutego
 =========
 
