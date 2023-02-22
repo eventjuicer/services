@@ -71,7 +71,7 @@ class GeneralReminder extends Mailable
         $this->scheduleURl = $baseUrl . "/schedule" . $params;
         $this->registerURl = $baseUrl . "/visit" . $params;
         $this->url = $this->ticketUrl;
-        $this->hash = "!".$this->hash;
+        $this->hash = "!".$hash;
 
         $this->unsubscribe = "https://services.eventjuicer.com/unsubscribe/" . $hash; 
 
