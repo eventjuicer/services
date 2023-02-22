@@ -15,15 +15,8 @@ php artisan exhibitors:current-event --defaultlang=en --domain=ecommerceberlin.c
 php artisan exhibitors:current-event --defaultlang=en --domain=ecommerceberlin.com --lang=de --subject="Entdecke den einfachsten Weg, um Kontaktdaten auf der Expo zu sammeln" --email=ebe7-scans
 
 
-
-
-
-
-
-
-
 php artisan visitors:ticket-reminder --domain=ecommerceberlin.com
-//ebe6-ticket-reminder2
+//ebe7-ticket-reminder
 
 
 20 lutego

@@ -103,6 +103,7 @@ class SendGeneralReminder extends Command
 
         $this->info("Visitors that can be notified: " . $filtered->count() );
 
+        $this->info("Visitors not going:" . $sendable->howManyNotGoing() );
 
         $whatWeDo  = $this->anticipate('Send, stats, test?', ['test', 'send', 'stats']);
 
