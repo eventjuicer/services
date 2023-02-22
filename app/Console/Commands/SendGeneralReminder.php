@@ -101,11 +101,20 @@ class SendGeneralReminder extends Command
         
         $filtered = $sendable->filter($participants, $eventId);
 
-        $this->info("Visitors that can be notified: " . $filtered->count() );
-
-        $this->info("Visitors not going:" . $sendable->howManyNotGoing() );
-
         $whatWeDo  = $this->anticipate('Send, stats, test?', ['test', 'send', 'stats']);
+        $status  = $this->anticipate('All, Going?', ['all', 'going']);
+
+        if($status == "going"){
+            $filtered = $filtered->filter(function($participant){
+                if( is_null($participant->ticketdownload) ){
+                    return false;
+                }
+                return true;
+            });
+        }
+
+        $this->info("Visitors that can be notified: " . $filtered->count() );
+        $this->info("Visitors not going:" . $sendable->howManyNotGoing() );
 
         if($whatWeDo === "stats"){
             return;
