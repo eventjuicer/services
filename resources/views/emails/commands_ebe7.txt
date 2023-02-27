@@ -6,21 +6,31 @@ php artisan queue:restart
 
 
 
+27 lutego
+=========
+
+php artisan exhibitors:current-event --defaultlang=en --domain=ecommerceberlin.com --lang=en --subject="Post-event survey: Help us improve the E-commerce Berlin Expo" --email=ebe7-thankyou
+
+php artisan exhibitors:current-event --defaultlang=en --domain=ecommerceberlin.com --lang=de --subject="E-Commerce Berlin Expo 2023 - Wir würden gerne dein Feedback hören!" --email=ebe7-thankyou
+
+
+
+
+
+
+
+
+
+
+
 22 lutego
 =========
 
-
 php artisan visitors:current-event --domain=ecommerceberlin.com --subject="Your code" --email=ebe7-quick-ticket-retrieval
-
-
-
-
-
 
 php artisan exhibitors:current-event --defaultlang=en --domain=ecommerceberlin.com --lang=en --subject="Discover the Easiest Way to Collect Contact Details at the Expo" --email=ebe7-scans
 
 php artisan exhibitors:current-event --defaultlang=en --domain=ecommerceberlin.com --lang=de --subject="Entdecke den einfachsten Weg, um Kontaktdaten auf der Expo zu sammeln" --email=ebe7-scans
-
 
 php artisan visitors:ticket-reminder --domain=ecommerceberlin.com
 //ebe7-ticket-reminder
