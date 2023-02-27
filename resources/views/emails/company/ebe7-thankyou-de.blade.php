@@ -10,7 +10,7 @@ Wir würden gerne um dein Feedback bitten, um das Event nächstes Jahr noch bess
 UMFRAGE
 @endcomponent
 
-Als diesjähriger Aussteller freuen wir uns, dir mitteilen zu können, dass der Vorverkauf für das Event 2024 im März beginnen wird. Wir werden dich bald mit Details zu den besten verfügbaren Plätzen und den niedrigsten Preisen kontaktieren.
+Als diesjähriger Aussteller freuen wir uns, dir mitteilen zu können, dass **der Vorverkauf für das Event 2024 im März beginnen wird.** Wir werden dich bald mit Details zu den besten verfügbaren Plätzen und den niedrigsten Preisen kontaktieren.
 
 Vielen Dank, dass du dir die Zeit genommen hast, die Umfrage auszufüllen, und wir hoffen, dich nächstes Jahr wieder in Berlin zu sehen!
 

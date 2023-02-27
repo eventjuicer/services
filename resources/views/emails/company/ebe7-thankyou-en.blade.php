@@ -10,7 +10,7 @@ We would like to ask for your feedback to help us make the event even better nex
 SURVEY
 @endcomponent
 
-As this year's Exhibitor, we are happy to inform you that early-bird sales for the 2024 event will start at the beginning of March. We will contact you soon with details on the best available spaces and lowest prices.
+As this year's Exhibitor, **we are happy to inform you that early-bird sales for the 2024 event will start at the beginning of March.** We will contact you soon with details on the best available spaces and lowest prices.
 
 Thank you for taking the time to complete the survey, and we hope to see you again in Berlin next year!
 
