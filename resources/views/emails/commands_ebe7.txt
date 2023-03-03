@@ -6,6 +6,38 @@ php artisan queue:restart
 
 
 
+
+
+
+
+
+2 marca
+=======
+
+
+
+php artisan exhibitors:current-event --defaultlang=en --domain=ecommerceberlin.com --lang=en --subject="Are you ready for a 2-days Expo? Let us know! | Post-event survey" --email=ebe7-photos
+
+php artisan exhibitors:current-event --defaultlang=en --domain=ecommerceberlin.com --lang=de --subject="Seid ihr bereit für ein 2-tägiges Event? Gibt uns Bescheid!" --email=ebe7-photos
+
+
+
+
+
+
+28 lutego
+=========
+
+php artisan exhibitors:current-event --defaultlang=en --domain=ecommerceberlin.com --lang=en --subject="Are you ready for a 2-days Expo? Let us know! | Post-event survey" --email=ebe7-thankyou --exclude_company_ids="1684,1926,1586,2194,1880,2150,2078,2264,1496,2154,2195,1790,1068,1373,2058"
+
+php artisan exhibitors:current-event --defaultlang=en --domain=ecommerceberlin.com --lang=de --subject="Seid ihr bereit für ein 2-tägiges Event? Gibt uns Bescheid!" --email=ebe7-thankyou --exclude_company_ids="1684,1926,1586,2194,1880,2150,2078,2264,1496,2154,2195,1790,1068,1373,2058"
+
+
+
+
+
+
+
 27 lutego
 =========
 
