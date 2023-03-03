@@ -1,6 +1,7 @@
 @component('mail::message')
 
-Hallo {{ array_get($profile, “fname”) }},
+Hallo  {{ array_get($profile, "fname") }},
+
 vielen Dank, dass du bei der E-commerce Berlin Expo 2023 teilgenommen hast. Wir hoffen, du hattest eine tolle Zeit und hast wertvolle Kontakte geknüpft!
 
 (1)

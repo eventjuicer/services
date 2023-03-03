@@ -16,9 +16,9 @@ php artisan queue:restart
 
 
 
-php artisan exhibitors:current-event --defaultlang=en --domain=ecommerceberlin.com --lang=en --subject="Are you ready for a 2-days Expo? Let us know! | Post-event survey" --email=ebe7-photos
+php artisan exhibitors:current-event --defaultlang=en --domain=ecommerceberlin.com --lang=en --subject="Get your PHOTOS from the Expo | Fill in the post-event survey" --email=ebe7-photos
 
-php artisan exhibitors:current-event --defaultlang=en --domain=ecommerceberlin.com --lang=de --subject="Seid ihr bereit für ein 2-tägiges Event? Gibt uns Bescheid!" --email=ebe7-photos
+php artisan exhibitors:current-event --defaultlang=en --domain=ecommerceberlin.com --lang=de --subject="Fülle den Fragebogen aus und lade dir deine Bilder von der Expo runter!" --email=ebe7-photos
 
 
 
