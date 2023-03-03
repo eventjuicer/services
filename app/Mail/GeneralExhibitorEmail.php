@@ -164,7 +164,7 @@ class GeneralExhibitorEmail extends Mailable
         
 
 
-        $this->photosUrl = "https://photos.ecommerceberlin.com/".$companydata->getCompany()->id."/ebe6";
+        $this->photosUrl = "https://photos.ecommerceberlin.com/".$companydata->getCompany()->id."/ebe7";
 
         $this->trackingLink = $companydata->trackedProfileUrl();
         $this->company_id = $companydata->getCompany()->id;
