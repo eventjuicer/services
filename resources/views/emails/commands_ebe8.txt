@@ -10,8 +10,9 @@ php artisan queue:restart
 
 
 
-php artisan exhibitors:current-event --defaultlang=pl --domain=ecommerceberlin.com --lang=pl --subject="Sprzedaż powierzchni na 6 kwietnia 2023 / wiosenne Targi eHandlu w Warszawie" --email=ebe8-salesplan
+php artisan exhibitors:current-event --defaultlang=en --domain=ecommerceberlin.com --lang=en --subject="Exclusive Sales plan for E-commerce Berlin Expo 2024 exhibition spaces - book your spot!" --email=ebe8-salesplan
 
+php artisan exhibitors:current-event --defaultlang=en --domain=ecommerceberlin.com --lang=de --subject="Exklusiver Verkaufsplan für Ausstellungsflächen bei der E-commerce Berlin Expo 2024 - sichere jetzt einen Platz!" --email=ebe8-salesplan
 
 
 

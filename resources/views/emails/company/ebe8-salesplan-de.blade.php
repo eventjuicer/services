@@ -8,7 +8,7 @@ Habt ihr vor, nächstes Jahr teilzunehmen? Dann schaue dir den **Sales Schedule 
 
 ## BEGINNT JETZT bis MONTAG 13/03/2023
 
-Wir freuen uns, allen Ausstellern aus der E-commerce Berlin Expo 2023, die an einer Buchung von drei oder mehr Ausstellungsflächen interessiert sind, einen Vorzugspreis anbieten zu können.
+Wir freuen uns, allen Ausstellern aus der E-commerce Berlin Expo 2023, die an einer **Buchung von drei oder mehr Ausstellungsflächen** interessiert sind, einen Vorzugspreis anbieten zu können.
 
 Der Hallenplan ist hier zu finden: 
 
