@@ -1,0 +1,46 @@
+@component('mail::message')
+
+
+## Receive your official e-badge to visit the event on May 5 at STATION Berlin!
+
+<a href="https://res.cloudinary.com/ecommerceberlin/image/upload/v1646742196/EB_2022_master_files_540x300.jpg" alt="" />
+
+
+![BADGE!](https://res.cloudinary.com/ecommerceberlin/image/upload/v1646742196/EB_2022_master_files_540x300.jpg “BADGE”)
+
+
+PLEASE NOTE: in order to find your badge, please activate your account via the button above and you will receive the ticket once the form is completed.
+
+<h1> Why E-commerce Berlin Expo is the only industry event you need to attend this year</h1>
+
+* Discover the winning ecommerce formula from the leading german estores: hear from KaDeWe, Zalando, Douglas, Otto, TUI, MediaMarktSaturn, NBB, MyToys and many more
+
+* Killer keynotes from those leading the way in ecommerce and technology including including Vodafone, Plug and Play, Wish, Sky, Allegro, Delivery Hero and many more
+
+* 5 Conference stages - practical tips and takeaways and how to grow revenues, featuring sessions from Global-e, Octopia, Lowell, BigCommerce, Namogoo and more
+
+* Marketplace of over 200 e-commerce tech and product providers – the widest range at any event in the Berlin covering payments, marketing, platforms, delivery, logistics and customer service
+
+@component('mail::button', ['url' => 'https://ecommerceberlin.com/visit?utm_source=visitors_alternative&utm_medium=email&utm_campaign=visitors_alternative_email'])
+Check the full schedule >>
+@endcomponent
+
+
+<h1>MAIN SPONSORS </h1>
+
+<a href="https://res.cloudinary.com/ecommerceberlin/image/upload/v1650631090/Newsletters/main_expo_partners3.png" alt="Main Sponsors" />
+
+ 
+**Participation in the fair and the conference is free of charge**, 
+but all people willing to participate are required to pre-register on the official website of the event.
+
+All the best,
+​
+
+
+
+
+​
+@endcomponent
+​
+

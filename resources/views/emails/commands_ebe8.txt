@@ -1,0 +1,26 @@
+
+
+supervisorctl restart laravel-api:*
+supervisorctl restart laravel-services:*
+php artisan queue:restart
+
+
+
+
+
+
+
+php artisan exhibitors:current-event --defaultlang=pl --domain=ecommerceberlin.com --lang=pl --subject="Sprzedaż powierzchni na 6 kwietnia 2023 / wiosenne Targi eHandlu w Warszawie" --email=ebe8-salesplan
+
+
+
+
+
+
+
+
+
+php artisan exhibitors:award --domain=targiehandlu.pl --award=earlybird --previous --reverse --lang=pl --defaultlang=pl --email="ecommerceberlin.com" --subject="DZISIAJ 11:00. Otwarta sprzedaż stoisk na 22. Targi eHandlu."
+
+php artisan exhibitors:award --domain=targiehandlu.pl --award=earlybird --previous --reverse --lang=en --defaultlang=pl --email="ecommerceberlin.com" --subject="TODAY 11:00 CET. Open sales starts...Ecommerce Warsaw Expo autumn edition"
+
