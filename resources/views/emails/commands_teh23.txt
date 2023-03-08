@@ -2,6 +2,14 @@
 
 
 
+8 marca
+=========
+
+
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=en --subject="Workshop zone - only 12 slots available." --email=teh23-workshops-form
+
+
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="12 slotów warsztatowych - czas start! :)" --email=teh23-workshops-form
 
 
 
@@ -84,6 +92,9 @@ php artisan exhibitors:award --domain=targiehandlu.pl --award=earlybird --previo
 //TOP30
 
 php artisan exhibitors:award --domain=targiehandlu.pl --award=earlybird --previous --lang=pl --defaultlang=pl --email="teh23-top30-lastminute" --subject="DZISIAJ/ŚRODA - Start 11:00 - Sekretny link do rezerwacji przestrzeni wystawienniczej..."
+
+
+
 
 
 
