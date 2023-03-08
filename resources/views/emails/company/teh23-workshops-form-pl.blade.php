@@ -4,8 +4,7 @@
  
 Cześć {{ array_get($profile, "fname") }},
 
-Po udanej premierze Warsztatów podczas poprzedniej edycji Targów eHandlu, ponownie  **uruchamiamy zapisy dla firm, które chcą prowadzić Warsztat dla wybranych przez siebie Uczestników** 
-
+Po bardzo udanej premierze Warsztatów podczas poprzedniej edycji Targów eHandlu, ponownie  **uruchamiamy zapisy dla firm, które chcą prowadzić Warsztat** dla wybranych przez siebie osób z grona zarejestrowanych Uczestników Targów
 
 @component('mail::button', ['url' => "https://targiehandlu.pl/workshops/register"])
 Zgłoszenie warsztatu
