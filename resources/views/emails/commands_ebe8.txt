@@ -6,18 +6,56 @@ php artisan queue:restart
 
 
 
-9 marca
+13 marca
 ========
 
 
 //TOP30
-php artisan exhibitors:award --domain=ecommerceberlin.com --award=earlybird --previous --lang=en --defaultlang=en --email=ebe8-salesplan-reminder-top30 --subject="EBE2024 Wholesale still live!  Information for EBE2023 TOP30 Contest Winners"
+php artisan exhibitors:award --domain=ecommerceberlin.com --award=earlybird --previous --lang=en --defaultlang=en --email=ebe8-salesplan-daybefore-top30 --subject="Booking tomorrow! | Exclusive Sales Round for E-commerce Berlin Expo TOP30 Winners"
 
+php artisan exhibitors:award --domain=ecommerceberlin.com --award=earlybird --previous --lang=de --defaultlang=en --email=ebe8-salesplan-daybefore-top30 --subject="Buchung öffnet morgen! | Exklusiver Verkaufsrunde für die TOP30 Gewinner der E-commerce Berlin Expo"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//OTHERS
+php artisan exhibitors:award --domain=ecommerceberlin.com --award=earlybird --previous --reverse --lang=en --defaultlang=en --email=ebe8-salesplan-daybefore-others --subject=""
+
+php artisan exhibitors:award --domain=ecommerceberlin.com --award=earlybird --previous --reverse --lang=de --defaultlang=en --email=ebe8-salesplan-daybefore-others --subject=""
+
+
+
+
+
+9 marca
+========
+
+//TOP30
+php artisan exhibitors:award --domain=ecommerceberlin.com --award=earlybird --previous --lang=en --defaultlang=en --email=ebe8-salesplan-reminder-top30 --subject="EBE2024 Wholesale still live!  Information for EBE2023 TOP30 Contest Winners"
 php artisan exhibitors:award --domain=ecommerceberlin.com --award=earlybird --previous --lang=de --defaultlang=en --email=ebe8-salesplan-reminder-top30 --subject="Großhandel noch aktiv! Information für EBE2023 TOP30-Gewinner"
 
 //OTHERS
 php artisan exhibitors:award --domain=ecommerceberlin.com --award=earlybird --previous --reverse --lang=en --defaultlang=en --email=ebe8-salesplan-reminder-others --subject="EBE2024 Wholesale still live! Information for EBE 2023 Exhibitors."
-
 php artisan exhibitors:award --domain=ecommerceberlin.com --award=earlybird --previous --reverse --lang=de --defaultlang=en --email=ebe8-salesplan-reminder-others --subject="Großhandel noch aktiv! - Information für EBE 2023 Aussteller"
 
 
