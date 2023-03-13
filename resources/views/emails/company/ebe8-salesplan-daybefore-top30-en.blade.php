@@ -8,7 +8,7 @@ Please note that the reservation of exhibition spaces will only be available unt
 
 The sales round for the OTHER exhibitors from the 2023 edition will be released on March 15th, 2023.
 
-To view all available exhibition spaces, please click on the following link:
+To view all available exhibition spaces, please click on the following link and **scroll down the page to see available booths in Halls 3, 4, 7**
 
 @component('mail::button', ['url' => 'https://ecommerceberlin.com/top30earlybird_t63sUa9'])
 Map, prices, booking here
