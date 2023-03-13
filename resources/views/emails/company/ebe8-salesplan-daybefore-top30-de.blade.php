@@ -8,7 +8,7 @@ Bitte beachte, dass die Reservierung von Ausstellungsflächen nur bis zum Ende d
 
 Die Verkaufsrunde für die ANDEREN Aussteller der Ausgabe 2023 wird am 15. März 2023 veröffentlicht.
 
-Um alle verfügbaren Ausstellungsflächen anzusehen, klicke bitte auf den folgenden Link:
+Um alle verfügbaren Ausstellungsflächen zu sehen, bitte auf den folgenden Link klicken und **auf der Seite nach unten scrollen, um die verfügbaren Stände in den Hallen 3, 4, 7 zu sehen**
 
 @component('mail::button', ['url' => 'https://ecommerceberlin.com/top30earlybird_t63sUa9'])
 Buchungsplan & Preise
