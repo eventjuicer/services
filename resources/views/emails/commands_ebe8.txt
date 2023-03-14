@@ -6,6 +6,24 @@ php artisan queue:restart
 
 
 
+
+14 marca
+========
+
+
+php artisan exhibitors:award --domain=ecommerceberlin.com --award=earlybird --previous --lang=en --defaultlang=en --email=ebe8-salesplan-starts-top30 --subject="Your exclusive sales round for the E-commerce Berlin Expo 2024 will be active soon!"
+
+php artisan exhibitors:award --domain=ecommerceberlin.com --award=earlybird --previous --lang=de --defaultlang=en --email=ebe8-salesplan-starts-top30 --subject="Deine exklusive Verkaufsrunde für die E-commerce Berlin Expo 2024 wird bald aktiv sein!"
+
+
+
+
+
+
+
+
+
+
 13 marca
 ========
 
