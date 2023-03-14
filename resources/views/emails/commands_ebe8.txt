@@ -11,6 +11,35 @@ php artisan queue:restart
 ========
 
 
+
+
+
+
+//OTHERS
+php artisan exhibitors:award --domain=ecommerceberlin.com --award=earlybird --previous --reverse --lang=en --defaultlang=en --email=ebe8-salesplan-daybefore-others --subject="Booking tomorrow! | Exclusive Sales Round for E-commerce Berlin Expo Exhibitors"
+
+php artisan exhibitors:award --domain=ecommerceberlin.com --award=earlybird --previous --reverse --lang=de --defaultlang=en --email=ebe8-salesplan-daybefore-others --subject="Buchung öffnet morgen! | Exklusive Verkaufsrunde für E-commerce Berlin Expo Aussteller"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 php artisan exhibitors:award --domain=ecommerceberlin.com --award=earlybird --previous --lang=en --defaultlang=en --email=ebe8-salesplan-starts-top30 --subject="Your exclusive sales round for the E-commerce Berlin Expo 2024 will be active soon!"
 
 php artisan exhibitors:award --domain=ecommerceberlin.com --award=earlybird --previous --lang=de --defaultlang=en --email=ebe8-salesplan-starts-top30 --subject="Deine exklusive Verkaufsrunde für die E-commerce Berlin Expo 2024 wird bald aktiv sein!"
@@ -49,17 +78,6 @@ php artisan exhibitors:award --domain=ecommerceberlin.com --award=earlybird --pr
 
 
 
-
-
-
-
-
-
-
-//OTHERS
-php artisan exhibitors:award --domain=ecommerceberlin.com --award=earlybird --previous --reverse --lang=en --defaultlang=en --email=ebe8-salesplan-daybefore-others --subject=""
-
-php artisan exhibitors:award --domain=ecommerceberlin.com --award=earlybird --previous --reverse --lang=de --defaultlang=en --email=ebe8-salesplan-daybefore-others --subject=""
 
 
 
