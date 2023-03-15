@@ -6,82 +6,43 @@ php artisan queue:restart
 
 
 
-
-14 marca
+15 marca
 ========
 
 
 
 
+//OTHERS
+php artisan exhibitors:award --domain=ecommerceberlin.com --award=earlybird --previous --reverse --lang=en --defaultlang=en --email=ebe8-salesplan-starts-others --subject="Book your space! Exclusive sales round just for today!"
 
+php artisan exhibitors:award --domain=ecommerceberlin.com --award=earlybird --previous --reverse --lang=de --defaultlang=en --email=ebe8-salesplan-starts-others --subject="Buche deinen Platz! - Exklusiver Verkauf nur heute!"
+
+
+
+
+
+
+
+14 marca
+========
 
 //OTHERS
 php artisan exhibitors:award --domain=ecommerceberlin.com --award=earlybird --previous --reverse --lang=en --defaultlang=en --email=ebe8-salesplan-daybefore-others --subject="Booking tomorrow! | Exclusive Sales Round for E-commerce Berlin Expo Exhibitors"
 
 php artisan exhibitors:award --domain=ecommerceberlin.com --award=earlybird --previous --reverse --lang=de --defaultlang=en --email=ebe8-salesplan-daybefore-others --subject="Buchung öffnet morgen! | Exklusive Verkaufsrunde für E-commerce Berlin Expo Aussteller"
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+//TOP30
 php artisan exhibitors:award --domain=ecommerceberlin.com --award=earlybird --previous --lang=en --defaultlang=en --email=ebe8-salesplan-starts-top30 --subject="Your exclusive sales round for the E-commerce Berlin Expo 2024 will be active soon!"
 
 php artisan exhibitors:award --domain=ecommerceberlin.com --award=earlybird --previous --lang=de --defaultlang=en --email=ebe8-salesplan-starts-top30 --subject="Deine exklusive Verkaufsrunde für die E-commerce Berlin Expo 2024 wird bald aktiv sein!"
 
-
-
-
-
-
-
-
-
-
 13 marca
 ========
-
 
 //TOP30
 php artisan exhibitors:award --domain=ecommerceberlin.com --award=earlybird --previous --lang=en --defaultlang=en --email=ebe8-salesplan-daybefore-top30 --subject="Booking tomorrow! | Exclusive Sales Round for E-commerce Berlin Expo TOP30 Winners"
 
 php artisan exhibitors:award --domain=ecommerceberlin.com --award=earlybird --previous --lang=de --defaultlang=en --email=ebe8-salesplan-daybefore-top30 --subject="Buchung öffnet morgen! | Exklusiver Verkaufsrunde für die TOP30 Gewinner der E-commerce Berlin Expo"
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 9 marca
 ========
@@ -94,23 +55,7 @@ php artisan exhibitors:award --domain=ecommerceberlin.com --award=earlybird --pr
 php artisan exhibitors:award --domain=ecommerceberlin.com --award=earlybird --previous --reverse --lang=en --defaultlang=en --email=ebe8-salesplan-reminder-others --subject="EBE2024 Wholesale still live! Information for EBE 2023 Exhibitors."
 php artisan exhibitors:award --domain=ecommerceberlin.com --award=earlybird --previous --reverse --lang=de --defaultlang=en --email=ebe8-salesplan-reminder-others --subject="Großhandel noch aktiv! - Information für EBE 2023 Aussteller"
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+//7 marca
 
 php artisan exhibitors:current-event --defaultlang=en --domain=ecommerceberlin.com --lang=en --subject="Exclusive Sales plan for E-commerce Berlin Expo 2024 exhibition spaces - book your spot!" --email=ebe8-salesplan
 
