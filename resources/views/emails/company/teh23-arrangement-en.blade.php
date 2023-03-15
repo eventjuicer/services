@@ -8,7 +8,7 @@ Hello {{ array_get($profile, "fname") }},
 
 Important
 
-If you are interested in **free set of furniture (2 high chairs and 1 table), please order them (free!) via exhibitor's panel.**
+If you are interested in a **free set of furniture (2 high chairs and 1 table), please order them (free!) via exhibitor's panel.**
 
 @endcomponent
 
@@ -28,7 +28,7 @@ Browse/order additional services
 
 * **50'' LED screen**
 
-* Independent **power connection: **3-phase 16/32A** - if you would like to connect coffee maker, etc
+* Independent **power connection: 3-phase 16/32A** - if you would like to connect coffee maker, etc
 
 * Independent **power connection: 3kW (instead of the standard 300W)** if you plan to equip the stand other than 1-2 laptops and TV
 
