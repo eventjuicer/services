@@ -5,27 +5,12 @@
 =========
 
 
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=en --subject="Deadline: TOMORROW EOD;  Carpet flooring, LED display, complete arrangement, etc..." --email=teh23-arrangement
+
+
 
 php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Deadline: DO JUTRA. Meble, zapotrzebowanie na prąd, wykładzina, TV, zabudowa..." --email=teh23-arrangement
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=en --subject="Additional services ordering - carpet flooring, LED display, etc..." --email=teh23-arrangement
 
 
 
