@@ -9,7 +9,7 @@ Cześć {{ array_get($profile, "fname") }},
 
 **UWAGA:**
 
-**Podczas nadchodzącej edycji Targów eHandlu bezpłatne meble (stolik, 2 wysokie krzesła) musisz zamówić BEZPŁATNIE w panelu wystawcy.** 
+Podczas nadchodzącej edycji Targów eHandlu **bezpłatne meble (stolik, 2 wysokie krzesła) musisz zamówić BEZPŁATNIE w panelu wystawcy.** 
 
 @endcomponent
 
@@ -37,7 +37,7 @@ Oferowane usługi to:
 
 * Prawo do **dystrybucji ulotek** poza stoiskiem
 
-
+ 
 Pozdrawiam,
 
 {{$footer}}
