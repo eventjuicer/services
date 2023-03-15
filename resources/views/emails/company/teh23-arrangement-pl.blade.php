@@ -2,12 +2,14 @@
  
 Cześć {{ array_get($profile, "fname") }},
 
-# Tylko do jutra (16 marca), do końca dnia, masz możliwość zamówienia dodatkowych usług związanych z przestrzenią wystawienniczą. 
+## Tylko do jutra, do końca dnia, (16 marca 23:59) masz możliwość zamówienia dodatkowych usług związanych z przestrzenią wystawienniczą. 
 
 
 @component('mail::panel')
 
-**UWAGA: Podczas nadchodzącej edycji Targów eHandlu** bezpłatne meble (stolik, 2 wysokie krzesła) musisz zamówić BEZPŁATNIE w panelu wystawcy.** 
+**UWAGA:**
+
+**Podczas nadchodzącej edycji Targów eHandlu bezpłatne meble (stolik, 2 wysokie krzesła) musisz zamówić BEZPŁATNIE w panelu wystawcy.** 
 
 @endcomponent
 
@@ -25,15 +27,16 @@ Oferowane usługi to:
 
 * **Wykładzina**
 
-* Dodatkowe meble (ponad te oferowane bezpłatnie o ile zostaną zamówione w panelu)
-
 * **Ekran LED 50 cali** ze statywem
 
-* Niezależne podłączenie prądu - 3-fazowe 16A/32A (jeśli planujesz korzystać np z ekspresu do kawy) 
+* Niezależne **podłączenie prądu - 3-fazowe 16A/32A** (jeśli planujesz korzystać np z ekspresu do kawy) 
 
-* Niezależne podłączenie prądu 3kW (zamiast standardowych 300W) jeśli planujesz wyposażenie stoiska inne niż 1-2 laptopy i TV
+* Niezależne **podłączenie prądu 3kW** (zamiast standardowych 300W) jeśli planujesz wyposażenie stoiska inne niż 1-2 laptopy i TV
+
+* Dodatkowe meble (ponad te oferowane bezpłatnie o ile zostaną zamówione w panelu)
 
 * Prawo do **dystrybucji ulotek** poza stoiskiem
+
 
 Pozdrawiam,
 
