@@ -1,6 +1,27 @@
 
 
 
+
+
+
+
+
+16 marca
+=========
+
+
+
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Maksymalna konwersja z Targów. Publiczny serwis z materiałami promocyjnymi." --email=teh23-promoninja-intro
+
+
+
+php artisan companies:emptyprofile --domain=targiehandlu.pl --defaultLang=pl
+
+
+
+
+
+
 15 marca
 =========
 
