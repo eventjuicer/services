@@ -14,7 +14,7 @@ Strona z materiałami dla Twojej firmy
 
 **Chcesz podesłać stronę z materiałami promocyjnymi innej osobie?**
 
-Prześlij ten link: {{$accountUrlPromotePublic}} - umożliwia on korzystanie z materiałów bez dostępu do innych części panelu.
+Prześlij ten link: {{$accountUrlPromotePublic}} - umożliwia on korzystanie z materiałów promocyjnych z wyłączeniem dostępu do innych części panelu.
 
 Wszystkie materiały kierują [do Twojego publicznego profilu Wystawcy]({{$profileUrl}}). Ta strona nie tylko opisuje Twoją firmę ale także:
 
@@ -22,7 +22,7 @@ Wszystkie materiały kierują [do Twojego publicznego profilu Wystawcy]({{$profi
 
 * pozwala Zwiedzającym **umówić się na spotkanie** (po akceptacji takiej propozycji masz dostęp do pełnych danych kontaktowych)
 
-**Ruch na Twoim publicznym profilu Wystawcy to punkty, które wymieniamy na super korzyści**: **dostęp do puli early-bird** na kolejną edycję Targów, dostęp do **większej puli zaproszeń** Zwiedzających na spotkanie czy większa liczbę zaproszeń VIP.
+**Ruch na Twoim publicznym profilu Wystawcy to punkty, które wymieniamy na super korzyści**: **dostęp do puli early-bird** na kolejną edycję Targów, dostęp do **większej puli zaproszeń** Zwiedzających na spotkanie czy **większa liczbę zaproszeń VIP.**
 
 Pozdrawiam, 
 

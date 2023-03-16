@@ -117,6 +117,10 @@ class GeneralExhibitorEmail extends Mailable
             app()->setLocale("en");
             config(["app.name" => $eventName]);
 
+            $this->accountUrlPromotePublic = 'https://account.ecommerceberlin.com/#/promote?company_id=' . $companydata->getCompany()->id;
+            $this->photosUrl = "https://photos.ecommerceberlin.com/".$companydata->getCompany()->id."/ebe7";
+    
+
         }else{
 
 
@@ -134,6 +138,10 @@ class GeneralExhibitorEmail extends Mailable
                 app()->setLocale("pl");
                 config(["app.name" => $eventName]);
             }
+            
+            $this->accountUrlPromotePublic = 'https://account.targiehandlu.pl/#/promote?company_id=' . $companydata->getCompany()->id;
+            $this->photosUrl = "https://photos.targiehandlu.pl/".$companydata->getCompany()->id."/teh23";
+
             
         }
 
@@ -159,12 +167,6 @@ class GeneralExhibitorEmail extends Mailable
         $this->accountUrlPeople = $companydata->accountUrl("people");
         $this->accountUrlParty = $companydata->accountUrl("party");
 
-        $this->accountUrlPromotePublic = 'https://account.ecommerceberlin.com/#/promote?company_id=' . $companydata->getCompany()->id;
-
-        
-
-
-        $this->photosUrl = "https://photos.ecommerceberlin.com/".$companydata->getCompany()->id."/ebe7";
 
         $this->trackingLink = $companydata->trackedProfileUrl();
         $this->company_id = $companydata->getCompany()->id;
