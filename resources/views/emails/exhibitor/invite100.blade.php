@@ -2,12 +2,15 @@
 
 @component('mail::message')
 
-
-<a href="{{$promolink}}"><img src="{{$imageEnc}}" alt="" style="margin-bottom: 30px;"></a>
+<div style="text-align: center;">
+	<a href="{{$promolink}}">
+		<img src="{{$imageEnc}}" alt="" style="margin-top: 10px; margin-bottom: 30px;">
+	</a>
+</div>
 
 # Cześć, tu {{  array_get($companydata, "name") }}!
 
-## 27 października będziemy na 22. Targach eHandlu w Warszawie. 
+## 6 kwietnia będziemy na 23. Targach eHandlu w Warszawie. 
 Jeśli masz czas i chęci, chętnie porozmawiamy na miejscu przy naszym stoisku.
 
 
@@ -16,7 +19,7 @@ Odbierz bezpłatną wejściówkę
 @endcomponent
 
 
-Najbliższe Targi eHandlu to również 4 sceny prezentacyjne, prawie **140 Wystawców** oferujących produkty i usługi pomagające lepiej sprzedawać w Internecie.
+Najbliższe Targi eHandlu to również 4 sceny prezentacyjne, 3 ścieżki warsztatowe i prawie **140 Wystawców** oferujących produkty i usługi pomagające lepiej sprzedawać w Internecie.
 
 Wejście zarówno na EXPO jak i sceny prezentacyjne jest bezpłatne.
 
