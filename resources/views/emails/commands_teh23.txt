@@ -2,6 +2,20 @@
 
 
 
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Deadline: DO JUTRA. Meble, zapotrzebowanie na prąd, wykładzina, TV, zabudowa..." --email=teh23-arrangement-final
+
+
+
+
+21 marca
+=========
+
+
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=en --subject="Deadline: TOMORROW EOD;  Carpet flooring, LED display, complete arrangement, etc..." --email=teh23-arrangement
+
+
+
+
 
 
 

@@ -21,7 +21,7 @@ class GeneralExhibitorMessage extends Command {
         {--throttle=1} 
         {--exclude_reg_ids=""} 
         {--exclude_company_ids=""}
-        {--context=""}';
+        {--context=}';
      
     
     protected $description = '--exclude_reg_ids="100,102,103';
@@ -67,6 +67,10 @@ class GeneralExhibitorMessage extends Command {
 
         if(empty($defaultlang)) {
             $errors[] = "--defaultlang= must be set!";
+        }
+
+        if(empty($context)) {
+            $errors[] = "--context= must be set!";
         }
 
         $email = $email . "-" . $viewlang;
