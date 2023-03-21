@@ -202,6 +202,8 @@ class PingWhenEmptyProfileEmail extends Mailable
 
         $this->footer = $emailHelper->getFooter();
        
+        $mainRecipient = trim( strtolower($this->participant->email));
+
 
        if( $this->participant->group_id > 1 ){
 
@@ -267,16 +269,17 @@ class PingWhenEmptyProfileEmail extends Mailable
       //  dd($this->event_manager);
 
 
-       if(filter_var($this->event_manager, FILTER_VALIDATE_EMAIL) && $this->participant->email !== $this->event_manager){
 
-            $this->to( $this->event_manager );
-            $this->cc( $this->participant->email );
-        }
-        else{
+      $context_people = app(FetchCompanyPerson::class)->getForParticipantFiltered($this->participant, "event_manager");
 
-            $this->to( trim( strtolower($this->participant->email)) );
+      if($context_people->count()){
 
-        }
+        $this->to( $context_people  );
+        $this->cc(  $mainRecipient );
+
+      }else{
+        $this->to( $mainRecipient  );
+      }
 
         $this->from($from, $emailHelper->getSender() . " - " . $eventName);
 
