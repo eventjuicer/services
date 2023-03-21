@@ -6,12 +6,12 @@ use Illuminate\Bus\Queueable;
 use Illuminate\Mail\Mailable;
 use Illuminate\Queue\SerializesModels;
 use Illuminate\Contracts\Queue\ShouldQueue;
-
-
 use Eventjuicer\Models\Participant;
 use Eventjuicer\Services\Personalizer;
 use Eventjuicer\Services\Exhibitors\Email;
 use Eventjuicer\Services\Exhibitors\CompanyData;
+use Eventjuicer\Crud\CompanyPeople\FetchCompanyPerson;
+
 
 class GeneralExhibitorEmail extends Mailable
 {
@@ -29,7 +29,7 @@ class GeneralExhibitorEmail extends Mailable
             $view,
             $lang,
             $viewlang,
-            $event_manager,
+            $context,
             $stats,
             $representatives,
             $prizes,
@@ -76,13 +76,14 @@ class GeneralExhibitorEmail extends Mailable
         $this->view = array_get($config, "email");
         $this->lang = array_get($config, "lang");
         $this->viewlang = array_get($config, "viewlang");
-        $this->event_manager = array_get($config, "event_manager", "");
+
         $this->stats = array_get($config, "stats", []);
         $this->representatives = array_get($config, "representatives", []);
         $this->prizes = array_get($config, "prizes", []);
         $this->translations = array_get($config, "translations", []);
         $this->creatives = array_get($config, "creatives", []);
         $this->additionalData = array_get($config, "additionalData", []);
+        $this->context = array_get($config, "context", "");
 
         
     }
@@ -183,9 +184,12 @@ class GeneralExhibitorEmail extends Mailable
 
         $recipient =  trim( strtolower( $this->participant->email ));
 
-        if($this->event_manager && $recipient !== $this->event_manager){
+        if($this->context){
 
-            $this->to( $this->event_manager );
+            $context_people = app(FetchCompanyPerson::class);
+            $context_people->getForParticipantFiltered($this->participant, $this->context);
+
+            $this->to( $context_people  );
             $this->cc( $recipient );
         }
         else{

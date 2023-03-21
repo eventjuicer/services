@@ -20,7 +20,9 @@ class GeneralExhibitorMessage extends Command {
         {--defaultlang=} 
         {--throttle=1} 
         {--exclude_reg_ids=""} 
-        {--exclude_company_ids=""}';
+        {--exclude_company_ids=""}
+        {--context=""}';
+     
     
     protected $description = '--exclude_reg_ids="100,102,103';
  
@@ -41,6 +43,7 @@ class GeneralExhibitorMessage extends Command {
         $subject    = $this->option("subject");
         $exclude_reg_ids =  array_filter(explode(",", $this->option("exclude_reg_ids")), function($value){ return intval($value) > 0; }); 
         $exclude_company_ids =  array_filter(explode(",", $this->option("exclude_company_ids")), function($value){ return intval($value) > 0; }); 
+        $context    = $this->option("context");
 
         $errors = [];
 
@@ -162,7 +165,6 @@ class GeneralExhibitorMessage extends Command {
 
             $lang           = $ex->getLang($defaultlang);
             $name           = $ex->getName();
-            $event_manager  = $ex->getEventManager();
             //$cReps          = $ex->getReps();
             $translations   = array_get($allTranslations, $lang);
 
@@ -183,12 +185,12 @@ class GeneralExhibitorMessage extends Command {
                 compact(
                     "email", 
                     "subject", 
-                    "event_manager", 
                     "viewlang", 
                     "lang", 
                     "domain", 
                     "translations",
-                    "additionalData"
+                    "additionalData",
+                    "context"
                     ) 
             ));
 
