@@ -33,6 +33,12 @@ Zobacz/zamów usługi dodatkowe
 * Prawo do **dystrybucji ulotek** poza stoiskiem
 
 
+@component('mail::button', ['url' => $accountUrlArrangement])
+Zobacz/zamów usługi dodatkowe
+@endcomponent
+
+
+
 Pozdrawiam,
 
 {{$footer}}
