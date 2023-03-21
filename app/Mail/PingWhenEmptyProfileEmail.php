@@ -6,11 +6,11 @@ use Illuminate\Bus\Queueable;
 use Illuminate\Mail\Mailable;
 use Illuminate\Queue\SerializesModels;
 use Illuminate\Contracts\Queue\ShouldQueue;
-
-
 use Eventjuicer\Models\Participant;
 use Eventjuicer\Services\Personalizer;
 use Eventjuicer\Services\Exhibitors\Email;
+use Eventjuicer\Crud\CompanyPeople\FetchCompanyPerson;
+
 
 class PingWhenEmptyProfileEmail extends Mailable
 {
