@@ -186,8 +186,7 @@ class GeneralExhibitorEmail extends Mailable
 
         if($this->context){
 
-            $context_people = app(FetchCompanyPerson::class);
-            $context_people->getForParticipantFiltered($this->participant, $this->context);
+            $context_people = app(FetchCompanyPerson::class)->getForParticipantFiltered($this->participant, $this->context);
 
             $this->to( $context_people  );
             $this->cc( $recipient );
