@@ -2,7 +2,7 @@
 
 @component('mail::message')
  
-# Cześć {{ array_get($profile, "fname") }},
+Cześć {{ array_get($profile, "fname") }},
 
 Pragniemy przypomnieć, że **każdy Wystawca ma swój [publiczny profil Wystawcy]({{$profileUrl}})**.
 
@@ -12,9 +12,11 @@ Ta strona nie tylko opisuje Twoją firmę i oferowane produkty i usługi ale tak
 
 * pozwala Zwiedzającym **umówić się na spotkanie**. Po akceptacji takiej propozycji **masz dostęp do pełnych danych kontaktowych a Zwiedzający ma dostęp do strefy VIP**
 
-...zatem warto ją promować by wynieść z Targów eHandlu jak najwięcej. Efektem ubocznym promowania swojego publicznego profilu Wystawcy jest zdobywanie punktów w Konkursie dla Wystawców!  (o nim niżej)
+##...zatem warto ją promować by wyjechać z Targów z niekończącą się listą kontaktów. 
 
-##Przypominamy, że **udostępniliśmy materiały promocyjne**: bannery, szablony newslettera, linki do udostępniania profilu Wystawcy.
+Efektem ubocznym promowania swojego publicznego profilu Wystawcy jest zdobywanie punktów w Konkursie dla Wystawców! (o tym niżej)
+
+##Przypominamy, że **udostępniliśmy materiały promocyjne**: bannery, szablony newslettera, linki do udostępniania profilu Wystawcy w serwisach społecznościowych
 
 @component('mail::button', ['url' => $accountUrlPromote])
 Strona z materiałami dla Twojej firmy
@@ -28,11 +30,13 @@ Prześlij ten link: {{$accountUrlPromotePublic}} - umożliwia on korzystanie z m
 
 Wszystkie materiały kierują do Twojego publicznego profilu Wystawcy - {{$profileUrl}}. 
 
-**Ruch na Twoim publicznym profilu Wystawcy to punkty, które wymieniamy na super korzyści**: **dostęp do puli early-bird** na kolejną edycję Targów, dostęp do **większej puli zaproszeń** Zwiedzających na spotkanie czy **większa liczbę zaproszeń VIP.**
+**Ruch na Twoim publicznym profilu Wystawcy to punkty, które wymieniamy na super korzyści**: 
 
-Pozdrawiam, 
+**dostęp do puli early-bird** na kolejną edycję Targów, 
 
-{{$footer}}
+dostęp do **większej puli zaproszeń** Zwiedzających na spotkanie czy 
+
+**większa liczbę zaproszeń VIP.**
 
 Jeśli chcesz się wyróżnić i masz możliwość przygotowania własnych materiałów graficznych - do kierowania na profil Wystawcy użyj "gołego" linka.
 
@@ -41,6 +45,12 @@ Jeśli chcesz się wyróżnić i masz możliwość przygotowania własnych mater
 @component('mail::panel')
 [{{ $trackingLink }}]({{ $trackingLink }}) 
 @endcomponent
+
+
+Pozdrawiam, 
+
+{{$footer}}
+
 
 
 @endcomponent
