@@ -14,7 +14,7 @@ Ta strona nie tylko opisuje Twoją firmę i oferowane produkty i usługi ale tak
 
 ##...zatem warto ją promować by wyjechać z Targów z niekończącą się listą kontaktów. 
 
-Efektem ubocznym promowania swojego publicznego profilu Wystawcy jest zdobywanie punktów w Konkursie dla Wystawców! (o tym niżej)
+Efektem ubocznym promowania swojego publicznego profilu Wystawcy jest zdobywanie punktów w Konkursie dla Wystawców! **JUTRO odsłonimy punkty w rankingu**
 
 ##Przypominamy, że **udostępniliśmy materiały promocyjne**: bannery, szablony newslettera, linki do udostępniania profilu Wystawcy w serwisach społecznościowych
 
@@ -37,6 +37,8 @@ Wszystkie materiały kierują do Twojego publicznego profilu Wystawcy - {{$profi
 dostęp do **większej puli zaproszeń** Zwiedzających na spotkanie czy 
 
 **większa liczbę zaproszeń VIP.**
+
+i inne (uzyskanie konkretnych świadczeń możesz sprawdzić w Rankingu w ramach Panelu Wystawcy)
 
 Jeśli chcesz się wyróżnić i masz możliwość przygotowania własnych materiałów graficznych - do kierowania na profil Wystawcy użyj "gołego" linka.
 
