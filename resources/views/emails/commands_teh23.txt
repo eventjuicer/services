@@ -2,22 +2,41 @@
 
 
 
-php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Deadline: DO JUTRA. Meble, zapotrzebowanie na prąd, wykładzina, TV, zabudowa..." --email=teh23-arrangement-final
+22 marca
+=========
 
 
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Ostatnie dni na zamówienie usług dodatkowych. Prąd, wykładzina, TV..." --email=teh23-premium-10off --context=event_manager,pr_manager
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Maksymalna konwersja z Targów. Publiczny serwis z materiałami promocyjnymi." --email=teh23-promoninja-intro --context=pr_manager
 
 
 21 marca
 =========
 
+php artisan companies:emptyprofile --domain=targiehandlu.pl --defaultLang=pl
 
-php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=en --subject="Deadline: TOMORROW EOD;  Carpet flooring, LED display, complete arrangement, etc..." --email=teh23-arrangement
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=en --subject="Last days to order additional services: 3kW electricity, carpet flooring, LED display, etc..." --email=teh23-arrangement-final --context=event_manager
 
-
-
-
-
-
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Ostatnie dni na zamówienie usług dodatkowych. Prąd, wykładzina, TV..." --email=teh23-arrangement-final --context=event_manager
 
 
 16 marca
@@ -25,7 +44,7 @@ php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl -
 
 
 
-php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Maksymalna konwersja z Targów. Publiczny serwis z materiałami promocyjnymi." --email=teh23-promoninja-intro
+
 
 
 
@@ -55,6 +74,20 @@ php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl -
 
 
 php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Start zapisów na warsztaty - tylko 18 slotów" --email=teh23-workshops-form
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
