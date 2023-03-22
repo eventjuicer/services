@@ -6,7 +6,36 @@
 =========
 
 
-php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Ostatnie dni na zamówienie usług dodatkowych. Prąd, wykładzina, TV..." --email=teh23-premium-10off --context=event_manager,pr_manager
+
+
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Jak znaleźć Twoją firmę na hali targowej? jak umówić się z Tobą na spotkanie?" --email=teh23-promoninja2 --context=event_manager,pr_manager
+
+
+
+
+
+
+
+
+
+
+
+
+php artisan visitors:restore-from-old-events --domain=targiehandlu.pl --email=teh23-agenda1-for-old --subject="Rewelacyjna agenda. Data zapisów na warsztaty. | 23. Targi ehandlu"  --throttle=55000
+
+
+
+
+
+
+
+
+
+
+
+
+
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Dzisiaj 10% rabatu na: sponsor smyczy, partner strefy VIP. " --email=teh23-premium-10off --context=event_manager,pr_manager
 
 
 

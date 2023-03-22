@@ -2,6 +2,27 @@
 
 
 
+
+
+
+
+
+
+
+php artisan visitors:current-event --domain=targiehandlu.pl --subject="Cała agenda 4 scen! Zapisy na warsztaty ...pamiętasz o dacie 27 października? | 22 Targi eHandlu w Warszawie" --email=teh22-agenda2-for-current
+
+
+
+
+
+
+
+
+
+
+
+
+
 php artisan visitors:restore-from-voters --domain=targiehandlu.pl --email=teh22-agendaALL-for-voters --subject="Dziękujemy za zaangażowanie! Zaproszenie na 22. Targi eHandlu w Warszawie" 
 php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=en --subject="DEADLINE: Additional services ordering - electricity, carpet flooring, LED display, etc..." --email=teh22-upgrades-lastcall
 php artisan visitors:current-event --domain=targiehandlu.pl --subject="...to już za 2 dni! | 22 Targi eHandlu w Warszawie" --email=teh22-mapsearch-for-current
