@@ -15,9 +15,9 @@ Sprawdź całą agendę
 
 @component('mail::panel')
 
-23. Targi eHandlu odbędą się 6 kwietnia (czwartek), w Warszawie (EXPO XXI)
+Targi eHandlu odbędą się **6 kwietnia (czwartek) w Warszawie (EXPO XXI)**
 
-Zwiedzanie stoisk (140 produktów i usług e-commerce) oraz udział w prezentacjach (37 prelegentów) - wstęp otwarty (wymagana rejestracja na stronie)
+Zwiedzanie stoisk (140 produktów i usług e-commerce) oraz udział w prezentacjach (37 prelegentów): **wstęp otwarty** - wymagana rejestracja na stronie
 
 Udział w warszatach (wymagana rejestracja i akceptacja ze strony prowadzącego; więcej szczegółów wkrótce)
 
