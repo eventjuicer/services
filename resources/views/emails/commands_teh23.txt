@@ -1,11 +1,31 @@
 
+23 marca
+========
+
+
+
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Zaproś swoich kluczowych Partnerów i Klientów do Strefy VIP" --email=teh23-vips --context=pr,event,sales
+
+
+
+
+
+
+
+
+
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Zaproszenia VIP, Zaproszenia Zwiedzających" --email=teh23-ranking-intro --context=event_manager,pr_manager,sales_manager
+
+
+
+
 
 
 
 22 marca
 =========
 
-
+php artisan visitors:restore-from-old-events --domain=targiehandlu.pl --email=teh23-agenda1-for-old --subject="Targi eHandlu Warszawa 6/04. 4 sceny, 3 ścieżki warsztatowe, 140 Wystawców."  --throttle=55000
 
 
 php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Jak znaleźć Twoją firmę na hali targowej? jak umówić się z Tobą na spotkanie?" --email=teh23-promoninja2 --context=event_manager,pr_manager
@@ -21,7 +41,7 @@ php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl -
 
 
 
-php artisan visitors:restore-from-old-events --domain=targiehandlu.pl --email=teh23-agenda1-for-old --subject="Rewelacyjna agenda. Data zapisów na warsztaty. | 23. Targi ehandlu"  --throttle=55000
+
 
 
 
