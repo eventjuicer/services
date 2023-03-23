@@ -3,6 +3,10 @@
 ========
 
 
+php artisan visitors:restore-from-old-events --domain=targiehandlu.pl --email=teh23-workshops1-for-old --subject="21 Warsztatów na Targach eHandlu. Warszawa 6/04."  --throttle=55000
+
+
+
 
 php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Zaproś swoich kluczowych Partnerów i Klientów do Strefy VIP" --email=teh23-vips --context=pr,event,sales
 

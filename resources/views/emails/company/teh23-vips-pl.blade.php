@@ -6,7 +6,7 @@ W panelu wystawcy uruchomiona została opcja wysyłki zaproszeń VIP.
 
 ## Zaproś swoich Partnerów, kluczowych Klientów do ekskluzywnej Strefy VIP na Targach. 
 
-Strefa VIP to miejsce do komfortowych, kuluarowych rozmów Prelegentów, Wystawców, wybranych Zwiedzających oraz **gości których zaprosisz przez panel Wystawcy.**.
+Strefa VIP to miejsce do komfortowych, kuluarowych rozmów Prelegentów, Wystawców, wybranych Zwiedzających oraz **gości, których zaprosisz przez Panel Wystawcy.**.
 
 @component('mail::panel')
 
