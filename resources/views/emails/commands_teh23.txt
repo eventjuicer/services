@@ -1,9 +1,24 @@
 
 
 
-php artisan  exhibitors:remap --domain=targiehandlu.pl
 
-php artisan purchases:check --domain=targiehandlu.pl
+
+
+
+
+
+
+
+
+
+
+
+
+27 marca
+========
+
+
+php artisan visitors:current-event --domain=targiehandlu.pl --subject="Jest cała agenda! Zapisy na warsztaty ...pamiętasz o dacie 6 kwietnia? | 23 Targi eHandlu w Warszawie" --email=teh23-agenda-workshops-for-current
 
 
 
@@ -14,14 +29,9 @@ php artisan exhibitors:meetups_please_rsvp --domain=targiehandlu.pl --lang=pl --
 
 php artisan exhibitors:meetups_please_rsvp --domain=targiehandlu.pl --lang=en --defaultlang=pl --subject="RSVP! Meeting invitations awaiting in your Exhibitor Profile"
 
+php artisan  exhibitors:remap --domain=targiehandlu.pl
 
-
-
-
-27 marca
-========
-
-
+php artisan purchases:check --domain=targiehandlu.pl
 
 php artisan company:relations --domain=targiehandlu.pl --threshold=1 --lang=pl --defaultlang=pl --subject="Deadline. Przedstawiciele Wystawcy na stoisku" --email=teh23-reps-list-final
 
