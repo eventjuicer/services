@@ -28,7 +28,10 @@ Jak za pomocą **customer journey map** zwiększyć sprzedaż w Twoim e-commerce
 
 Szybki **audyt działań email marketingowych**
 
-[Sprawdź listę Warsztatów i zgłoś się](https://targiehandlu.pl/workshops)
+@component('mail::button', ['url' => 'https://targiehandlu.pl/workshops'])
+Lista warsztatów, zgłoszenia
+@endcomponent
+
 
 ## Ważne informacje:
 
@@ -61,9 +64,7 @@ Targi eHandlu to **4 sceny** z prezentacjami Ekspertów oraz **140 Wystawców** 
 **Niezależnie od warsztatów [dostępne są aż 4 sceny prezentacyjne](https://targiehandlu.pl/visit)** (udział bezpłatny, otwarty, wymagana rejestracja jako Zwiedzający)
 
 
-@component('mail::button', ['url' => 'https://targiehandlu.pl/workshops'])
-Lista warsztatów, zgłoszenia
-@endcomponent
+
 
 
 Pozdrawiamy,
