@@ -11,6 +11,18 @@
 
 
 
+28 marca
+========
+
+
+
+php artisan visitors:restore-from-old-events --domain=targiehandlu.pl --email=teh22-workshops2-for-old --subject="Wystartowały zgłoszenia na Warsztaty! ...przyznano 38 miejsc z 350 dostępnych | 22 Targi eHandlu w Warszawie"  --throttle=55000
+
+php artisan visitors:current-event --domain=targiehandlu.pl --subject="Zgłoszenia na Warsztaty wystartowały! | 22 Targi eHandlu w Warszawie" --email=teh23-workshops-apply-for-current
+
+
+
+
 
 
 
@@ -18,12 +30,12 @@
 ========
 
 
+php artisan visitors:restore-from-voters --domain=targiehandlu.pl --email=teh23-agendaALL-for-voters --subject="Zaproszenie na 23. Targi eHandlu w Warszawie - 6.04.2023" 
+
+
+
+
 php artisan visitors:current-event --domain=targiehandlu.pl --subject="Jest cała agenda! Zapisy na warsztaty ...pamiętasz o dacie 6 kwietnia? | 23 Targi eHandlu w Warszawie" --email=teh23-agenda-workshops-for-current
-
-
-
-
-
 
 php artisan exhibitors:meetups_please_rsvp --domain=targiehandlu.pl --lang=pl --defaultlang=pl --subject="RSVP! Zaproszenia na spotkanie czekają na Twoim profilu"
 
