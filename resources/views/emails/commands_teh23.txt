@@ -16,9 +16,9 @@
 
 
 
-php artisan visitors:restore-from-old-events --domain=targiehandlu.pl --email=teh22-workshops2-for-old --subject="Wystartowały zgłoszenia na Warsztaty! ...przyznano 38 miejsc z 350 dostępnych | 22 Targi eHandlu w Warszawie"  --throttle=55000
+php artisan visitors:restore-from-old-events --domain=targiehandlu.pl --email=teh23-workshops2-for-old --subject="...tylko 525 miejsc. Wystartowały zgłoszenia na Warsztaty!  | Targi eHandlu w Warszawie"  --throttle=55000
 
-php artisan visitors:current-event --domain=targiehandlu.pl --subject="Zgłoszenia na Warsztaty wystartowały! | 22 Targi eHandlu w Warszawie" --email=teh23-workshops-apply-for-current
+php artisan visitors:current-event --domain=targiehandlu.pl --subject="Zgłoszenia na Warsztaty wystartowały! | Targi eHandlu w Warszawie" --email=teh23-workshops-apply-for-current
 
 
 
