@@ -15,15 +15,24 @@
 ========
 
 
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Zaproś swoich kluczowych Partnerów i Klientów do Strefy VIP" --email=teh23-vips2 --context=pr,event,sales
+
+
+
+
+
+
+
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Zaproszenia VIP, Zaproszenia Zwiedzających" --email=teh23-ranking-intro --context=event_manager,pr_manager,sales_manager
+
+
+
+
+
 
 php artisan visitors:restore-from-old-events --domain=targiehandlu.pl --email=teh23-workshops2-for-old --subject="...tylko 525 miejsc. Wystartowały zgłoszenia na Warsztaty!  | Targi eHandlu w Warszawie"  --throttle=55000
 
 php artisan visitors:current-event --domain=targiehandlu.pl --subject="Zgłoszenia na Warsztaty wystartowały! | Targi eHandlu w Warszawie" --email=teh23-workshops-apply-for-current
-
-
-
-
-
 
 
 27 marca
@@ -31,8 +40,6 @@ php artisan visitors:current-event --domain=targiehandlu.pl --subject="Zgłoszen
 
 
 php artisan visitors:restore-from-voters --domain=targiehandlu.pl --email=teh23-agendaALL-for-voters --subject="Zaproszenie na 23. Targi eHandlu w Warszawie - 6.04.2023" 
-
-
 
 
 php artisan visitors:current-event --domain=targiehandlu.pl --subject="Jest cała agenda! Zapisy na warsztaty ...pamiętasz o dacie 6 kwietnia? | 23 Targi eHandlu w Warszawie" --email=teh23-agenda-workshops-for-current
@@ -50,31 +57,12 @@ php artisan company:relations --domain=targiehandlu.pl --threshold=1 --lang=pl -
 php artisan company:relations --domain=targiehandlu.pl --threshold=1 --lang=en --defaultlang=pl --subject="Deadline. Exhibitor's representatives @ booth." --email=teh23-reps-list-final
 
 
-
-
-
-
-
-
-
-
-
-
 24 marca
 ========
-
-
 
 php artisan company:relations --domain=targiehandlu.pl --threshold=2 --lang=pl --defaultlang=pl --subject="Deadline. Przedstawiciele Wystawcy na stoisku" --email=teh23-reps-list
 
 php artisan company:relations --domain=targiehandlu.pl --threshold=2 --lang=en --defaultlang=pl --subject="Deadline is coming. Exhibitor's representatives @ booth." --email=teh23-reps-list
-
-
-
-
-
-
-
 
 23 marca
 ========
@@ -82,78 +70,16 @@ php artisan company:relations --domain=targiehandlu.pl --threshold=2 --lang=en -
 
 php artisan visitors:restore-from-old-events --domain=targiehandlu.pl --email=teh23-workshops1-for-old --subject="21 Warsztatów na Targach eHandlu. Warszawa 6/04."  --throttle=55000
 
-
-
-
 php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Zaproś swoich kluczowych Partnerów i Klientów do Strefy VIP" --email=teh23-vips --context=pr,event,sales
-
-
-
-
-
-
-
-
-
-php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Zaproszenia VIP, Zaproszenia Zwiedzających" --email=teh23-ranking-intro --context=event_manager,pr_manager,sales_manager
-
-
-
-
-
-
 
 22 marca
 =========
 
 php artisan visitors:restore-from-old-events --domain=targiehandlu.pl --email=teh23-agenda1-for-old --subject="Targi eHandlu Warszawa 6/04. 4 sceny, 3 ścieżki warsztatowe, 140 Wystawców."  --throttle=55000
 
-
 php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Jak znaleźć Twoją firmę na hali targowej? jak umówić się z Tobą na spotkanie?" --email=teh23-promoninja2 --context=event_manager,pr_manager
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Dzisiaj 10% rabatu na: sponsor smyczy, partner strefy VIP. " --email=teh23-premium-10off --context=event_manager,pr_manager
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Maksymalna konwersja z Targów. Publiczny serwis z materiałami promocyjnymi." --email=teh23-promoninja-intro --context=pr_manager
@@ -172,17 +98,7 @@ php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl -
 16 marca
 =========
 
-
-
-
-
-
-
 php artisan companies:emptyprofile --domain=targiehandlu.pl --defaultLang=pl
-
-
-
-
 
 
 15 marca
@@ -191,12 +107,7 @@ php artisan companies:emptyprofile --domain=targiehandlu.pl --defaultLang=pl
 
 php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=en --subject="Deadline: TOMORROW EOD;  Carpet flooring, LED display, complete arrangement, etc..." --email=teh23-arrangement
 
-
-
 php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Deadline: DO JUTRA. Meble, zapotrzebowanie na prąd, wykładzina, TV, zabudowa..." --email=teh23-arrangement
-
-
-
 
 
 8 marca
@@ -205,37 +116,7 @@ php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl -
 
 php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Start zapisów na warsztaty - tylko 18 slotów" --email=teh23-workshops-form
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="12 slotów warsztatowych - czas start! :)" --email=teh23-workshops-form
-
-
 
 
 8 lutego
@@ -243,70 +124,25 @@ php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl -
 
 php artisan visitors:restore-from-old-events --domain=targiehandlu.pl --email=teh23-cfp-voting_with_videos --subject="Masz dostęp do video z Targów eHandlu; Zagłosuj na kwietniową agendę" --events=85,87,89,95,97 --throttle=50000
 
-
-
-
-
-
-
-
-
-
-
 8 stycznia
 ============
 
 php artisan visitors:restore-from-old-events --domain=targiehandlu.pl --email=teh23-videos_cfp --subject="VIDEO z październikowych Targów eHandlu; Czy chcesz być prelegentem na kolejnej edycji?" --events=85,87,89,95,97 --throttle=50000
 
 
-
-
-
-
-
-
 17 listopada
-
-
-
-
+============
 
 php artisan exhibitors:award --domain=targiehandlu.pl --award=earlybird --previous --reverse --lang=pl --defaultlang=pl --email="teh23-sales-started" --subject="Wystartowaliśmy! Otwarta rezerwacja przestrzeni wystawienniczej na 23. Targi eHandlu."
 
 php artisan exhibitors:award --domain=targiehandlu.pl --award=earlybird --previous --reverse --lang=en --defaultlang=pl --email="teh23-sales-started" --subject="We have just started! Book an exhibition space for Ecommerce Warsaw Expo 2023 Spring edition"
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 16 listopada
 =======
-
-
 
 //TOP30 LAST LAST LAST CALL
 
 php artisan exhibitors:award --domain=targiehandlu.pl --award=earlybird --previous --lang=pl --defaultlang=pl --email="teh23-top30-start" --subject="Wystartowaliśmy! Sekretny link do rezerwacji przestrzeni wystawienniczej..."
-
-
-
-
-
-
-
-
-
-
 
 php artisan exhibitors:award --domain=targiehandlu.pl --award=earlybird --previous --reverse --lang=pl --defaultlang=pl --email="teh23-sales-reminder" --subject="Czwartek, 17 listopada,  11:00. Sprzedaż stoisk na 23. Targi eHandlu."
 
