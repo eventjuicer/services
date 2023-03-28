@@ -6,7 +6,10 @@ Cześć {{ $p->translate("[[fname]]") }}!
 
 Mamy tylko 525 miejsc.
 
-[Sprawdź listę Warsztatów i zgłoś się](https://targiehandlu.pl/workshops)
+@component('mail::button', ['url' => 'https://targiehandlu.pl/workshops'])
+Sprawdź listę Warsztatów i zgłoś się
+@endcomponent
+
 
 ## Wybrane tematy
 
@@ -28,9 +31,7 @@ Jak za pomocą **customer journey map** zwiększyć sprzedaż w Twoim e-commerce
 
 Szybki **audyt działań email marketingowych**
 
-@component('mail::button', ['url' => 'https://targiehandlu.pl/workshops'])
-Lista warsztatów, zgłoszenia
-@endcomponent
+[Lista wszystkich warsztatów, zgłoszenia](https://targiehandlu.pl/workshops)
 
 
 ## Ważne informacje:
@@ -46,8 +47,6 @@ Każdy Uczestnik Warsztatów **otrzymuje status VIP** (dostęp do Strefy VIP dla
 W 1 Warsztacie może uczestniczyć **max 25 osób** i nie zwiększymy tego limitu.
 
 Czas warsztatu to maksymalnie **45 minut** (30min + 15min na Q&A)
-
-**Niezależnie od warsztatów [dostępne są aż 4 sceny prezentacyjne](https://targiehandlu.pl/schedule)** (udział bezpłatny, otwarty)
 
 
 @component('mail::panel')
