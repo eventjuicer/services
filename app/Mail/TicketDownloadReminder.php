@@ -63,7 +63,7 @@ class TicketDownloadReminder extends Mailable
 
             $this->url = "https://targiehandlu.pl/tickets/" . $hash;
 
-            $this->from("zwiedzanie@targiehandlu.pl", "Karolina Michalak - Targi eHandlu");
+            $this->from("zwiedzanie@ecommercewarsaw.com", "Karolina - Targi eHandlu");
 
             $this->subject("Mam Twój bilet na Targi eHandlu w Warszawie.");
 

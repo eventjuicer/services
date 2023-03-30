@@ -125,7 +125,6 @@ class GeneralExhibitorEmail extends Mailable
         }else{
 
 
-            // $from = "karolina.michalak@targiehandlu.pl";
             $eventName = "Targi eHandlu";
             $domain = "targiehandlu.pl";
             $cc = "targiehandlu+auto@targiehandlu.pl";

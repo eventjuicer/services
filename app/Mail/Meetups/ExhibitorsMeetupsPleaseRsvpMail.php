@@ -65,7 +65,6 @@ class ExhibitorsMeetupsPleaseRsvpMail extends Mailable
         }else{
 
 
-            // $from = "karolina.michalak@targiehandlu.pl";
             $eventName = "Targi eHandlu";
             $cc = "targiehandlu+auto@targiehandlu.pl";
 
