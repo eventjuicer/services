@@ -6,7 +6,7 @@ Cześć {{ $p->translate("[[fname]]") }}!
 
 @component('mail::panel')
 
-23. Targi eHandlu to **4 sceny** z **34 prezentacjami** Ekspertów oraz 
+Targi eHandlu to **4 sceny** z **34 prezentacjami** Ekspertów oraz 
 
 **140 Wystawców** - oferentów usług i produktów wspierających handel w Internecie.
 
@@ -15,6 +15,8 @@ Cześć {{ $p->translate("[[fname]]") }}!
 @endcomponent
 
 ## Pozostało jeszcze 117 miejsc na Warsztatach Targów eHandlu
+
+(uwolniliśmy starsze/nierozstrzygnięte zgłoszenia)
 
 @component('mail::button', ['url' => 'https://targiehandlu.pl/workshops'])
 Zobacz listę warsztatów i zgłoś się

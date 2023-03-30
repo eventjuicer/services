@@ -25,7 +25,7 @@
 
 
 
-php artisan visitors:restore-from-old-events --domain=targiehandlu.pl --email=teh23-workshops3-for-old --subject="...tylko 525 miejsc. Wystartowały zgłoszenia na Warsztaty!  | Targi eHandlu w Warszawie"  --throttle=55000
+php artisan visitors:restore-from-old-events --domain=targiehandlu.pl --email=teh23-workshops3-for-old --subject="Pozostało 117 miejsc na Warsztatach Targów eHandlu! | 6 kwietnia Warszawa EXPOXXI"  --throttle=55000
 
 
 
