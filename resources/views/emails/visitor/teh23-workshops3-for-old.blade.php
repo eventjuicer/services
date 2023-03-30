@@ -6,7 +6,7 @@ Cześć {{ $p->translate("[[fname]]") }}!
 
 @component('mail::panel')
 
-Targi eHandlu to **4 sceny** z prezentacjami Ekspertów oraz 
+23. Targi eHandlu to **4 sceny** z **34 prezentacjami** Ekspertów oraz 
 
 **140 Wystawców** - oferentów usług i produktów wspierających handel w Internecie.
 
