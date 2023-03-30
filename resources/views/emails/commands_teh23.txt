@@ -3,10 +3,31 @@
 
 
 
+30 marca
+========
+
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="CREHLER, Go2Market, Futuriti, IdoSell liderami zaangażowania." --email=teh23-ranking-intro --context=event_manager,pr_manager,sales_manager
 
 
 
 
+
+
+
+
+
+
+php artisan exhibitors:meetups_please_rsvp --domain=targiehandlu.pl --lang=pl --defaultlang=pl --subject="RSVP! Zaproszenia na spotkanie czekają na Twoim profilu"
+
+php artisan exhibitors:meetups_please_rsvp --domain=targiehandlu.pl --lang=en --defaultlang=pl --subject="RSVP! Meeting invitations awaiting in your Exhibitor Profile"
+
+
+
+
+
+
+
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Zaproś swoich kluczowych Partnerów i Klientów do Strefy VIP" --email=teh23-vips2 --context=pr,event,sales
 
 
 
@@ -15,15 +36,8 @@
 ========
 
 
-php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Zaproś swoich kluczowych Partnerów i Klientów do Strefy VIP" --email=teh23-vips2 --context=pr,event,sales
 
 
-
-
-
-
-
-php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Zaproszenia VIP, Zaproszenia Zwiedzających" --email=teh23-ranking-intro --context=event_manager,pr_manager,sales_manager
 
 
 
