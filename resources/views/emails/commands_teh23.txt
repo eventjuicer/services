@@ -3,45 +3,54 @@
 
 
 
+
+
+php artisan visitors:current-event --domain=targiehandlu.pl --subject="117 miejsc na Warsztatach...| Targi eHandlu w Warszawie" --email=teh23-workshops2-apply-for-current
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+php artisan visitors:restore-from-old-events --domain=targiehandlu.pl --email=teh23-workshops2-for-old --subject="...tylko 525 miejsc. Wystartowały zgłoszenia na Warsztaty!  | Targi eHandlu w Warszawie"  --throttle=55000
+
+
+
+
 30 marca
 ========
 
+
+
+php artisan exhibitors:meetups_ltd --domain=targiehandlu.pl --threshold=20 --older_than=1
+
 php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="CREHLER, Go2Market, Futuriti, IdoSell liderami zaangażowania." --email=teh23-ranking-intro --context=event_manager,pr_manager,sales_manager
-
-
-
-
-
-
-
-
-
 
 php artisan exhibitors:meetups_please_rsvp --domain=targiehandlu.pl --lang=pl --defaultlang=pl --subject="RSVP! Zaproszenia na spotkanie czekają na Twoim profilu"
 
 php artisan exhibitors:meetups_please_rsvp --domain=targiehandlu.pl --lang=en --defaultlang=pl --subject="RSVP! Meeting invitations awaiting in your Exhibitor Profile"
 
 
-
-
-
-
+29 marca
+========
 
 php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Zaproś swoich kluczowych Partnerów i Klientów do Strefy VIP" --email=teh23-vips2 --context=pr,event,sales
 
-
-
-
 28 marca
 ========
-
-
-
-
-
-
-
-
 
 
 php artisan visitors:restore-from-old-events --domain=targiehandlu.pl --email=teh23-workshops2-for-old --subject="...tylko 525 miejsc. Wystartowały zgłoszenia na Warsztaty!  | Targi eHandlu w Warszawie"  --throttle=55000
