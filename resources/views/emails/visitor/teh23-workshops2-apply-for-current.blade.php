@@ -9,34 +9,25 @@ Cześć {{ $p->translate("[[fname]]") }}!
 
 **Nadal dostępne warsztaty**
 
-Zwiększ sprzedaż w e-sklepie dzięki przejęciu kontroli nad procesami post-checkout
+Zwiększ sprzedaż w e-sklepie dzięki **przejęciu kontroli nad procesami post-checkout**
 
-Standardowe i niestandardowe techniki pozyskiwania linków
+Standardowe i niestandardowe **techniki pozyskiwania linków**
 
-Wystawiasz papierowe paragony do każdego zamówienia? To błąd. Najwyższy czas na e-paragony.
+Wystawiasz papierowe paragony do każdego zamówienia? To błąd. Najwyższy **czas na e-paragony.**
 
-Jak wybrać rynki dla cross-border e-commerce?
+Jak wybrać **rynki dla cross-border e-commerce**?
 
-Jak negocjować najlepsze oferty z dostawcami usług kurierskich w logistyce międzynarodowej?
+**Jak negocjować najlepsze oferty z dostawcami usług kurierskich** w logistyce międzynarodowej?
 
-Od archaicznych technologii do najnowocześniejszych - czy migracja Twojego e-commerce'u musi być koszmarem?
+Komunikacja **mobile push** - od wdrożenia do konwersji
 
-Jak operator logistyczny może pomóc rozwinąć Twój biznes?
+Jak bezproblemowo przeprowadzić **integrację e-commerce z fulfillmentem?**
 
-Komunikacja mobile push - od wdrożenia do konwersji
-
-Jak bezproblemowo przeprowadzić integrację e-commerce z fulfillmentem?
-
-Integracja systemów z fulfillmentem - możliwości, zagrożenia oraz best pratices
-
-Zaprojektuj pulpit managera e-commerce z pomocą systemu ERP nowej generacji!
-
-Prowadzisz sprzedaż hurtową? Sprzedajesz na kredyt? Przejdź na SolEx Pay - finansowanie sprzedaży B2B bez prowizji, nawet do 60 dni
+Zaprojektuj **pulpit managera e-commerce** z pomocą systemu ERP nowej generacji!
 
 [Zobacz listę i zapisz się](https://targiehandlu.pl/workshops) 
 
-
-Ważne informacje:
+**Ważne informacje:**
 
 Prowadzący Warsztaty dostali prośbę by akceptować **nie więcej niż kilka zgłoszeń dziennie** (by dać każdemu szansę). Otrzymasz wiadomość zwrotną przy akceptacji lub przekroczeniu czasu na akceptację zgłoszenia.
 
