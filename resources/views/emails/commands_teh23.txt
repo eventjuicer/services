@@ -33,6 +33,8 @@ php artisan visitors:restore-from-old-events --domain=targiehandlu.pl --email=te
 30 marca
 ========
 
+php artisan purchases:check --domain=targiehandlu.pl
+
 php artisan visitors:current-event --domain=targiehandlu.pl --subject="Pozostało 117 miejsc na Warsztatach...| Targi eHandlu w Warszawie" --email=teh23-workshops2-apply-for-current
 
 php artisan exhibitors:meetups_ltd --domain=targiehandlu.pl --threshold=20 --older_than=1

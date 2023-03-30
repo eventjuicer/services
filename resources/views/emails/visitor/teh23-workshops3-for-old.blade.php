@@ -69,6 +69,6 @@ Pozdrawiamy,
 
 Zespół Targów eHandlu
 
-
+**[Konfiguracja newslettera]({{ $unsubscribe }})**
 
 @endcomponent
