@@ -4,8 +4,9 @@ Cześć {{ $p->translate("[[fname]]") }}!
 
 ## Pozostało jeszcze 117 miejsc na Warsztatach Targów eHandlu
 
-[Zobacz listę i zapisz się](https://targiehandlu.pl/workshops) 
-
+@component('mail::button', ['url' => 'https://targiehandlu.pl/workshops'])
+Zobacz listę warsztatów i zgłoś się
+@endcomponent
 
 **Nadal dostępne warsztaty**
 
@@ -25,7 +26,9 @@ Jak bezproblemowo przeprowadzić **integrację e-commerce z fulfillmentem?**
 
 Zaprojektuj **pulpit managera e-commerce** z pomocą systemu ERP nowej generacji!
 
-[Zobacz listę i zapisz się](https://targiehandlu.pl/workshops) 
+@component('mail::button', ['url' => 'https://targiehandlu.pl/workshops'])
+Zobacz listę warsztatów i zgłoś się
+@endcomponent
 
 **Ważne informacje:**
 
@@ -41,7 +44,7 @@ W 1 Warsztacie może uczestniczyć **max 25 osób** i nie zwiększymy tego limit
 
 Czas warsztatu to maksymalnie **45 minut** (30min + 15min na Q&A)
 
-**Niezależnie od warsztatów [dostępne są aż 4 sceny prezentacyjne](https://targiehandlu.pl/schedule)** (udział bezpłatny, otwarty)
+**Niezależnie od warsztatów [dostępne są aż 4 sceny prezentacyjne](https://targiehandlu.pl/workshops)** (udział bezpłatny, otwarty)
 
 
 @component('mail::panel')
@@ -55,8 +58,9 @@ Targi eHandlu to **4 sceny** z prezentacjami Ekspertów oraz **140 Wystawców** 
 @endcomponent
 
 
-[Zobacz listę i zapisz się](https://targiehandlu.pl/workshops) 
-
+@component('mail::button', ['url' => 'https://targiehandlu.pl/workshops'])
+Zobacz listę warsztatów i zgłoś się
+@endcomponent
 
 Pozdrawiamy,
 
