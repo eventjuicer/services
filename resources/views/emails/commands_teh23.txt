@@ -1,9 +1,8 @@
 
 
 
+php artisan visitors:ticket-reminder --domain=targiehandlu.pl
 
-
-php artisan visitors:restore-from-old-events --domain=targiehandlu.pl --email=teh23-workshops3-for-old --subject="Pozostało 98 miejsc na Warsztatach Targów eHandlu! | 6 kwietnia Warszawa EXPOXXI"  --throttle=55000
 
 
 
@@ -17,6 +16,8 @@ php artisan visitors:restore-from-old-events --domain=targiehandlu.pl --email=te
 31 marca
 ========
 
+php artisan visitors:restore-from-old-events --domain=targiehandlu.pl --email=teh23-workshops3-for-old --subject="Zaproszenie. 98 miejsc na Warsztatach Targów eHandlu! | 6 kwietnia Warszawa"  --throttle=55000
+
 php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="DEADLINE:  Wyślij wejściówkę VIP kluczowym Partnerom i Klientom" --email=teh23-vips2 --context=pr,event,sales
 
 php artisan exhibitors:meetups_ltd --domain=targiehandlu.pl --threshold=15 --older_than=2
@@ -24,19 +25,6 @@ php artisan exhibitors:meetups_ltd --domain=targiehandlu.pl --threshold=15 --old
 php artisan exhibitors:meetups_please_rsvp --domain=targiehandlu.pl --lang=pl --defaultlang=pl --subject="RSVP! Zaproszenia na spotkanie czekają na Twoim profilu"
 
 php artisan exhibitors:meetups_please_rsvp --domain=targiehandlu.pl --lang=en --defaultlang=pl --subject="RSVP! Meeting invitations awaiting in your Exhibitor Profile"
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 30 marca
 ========
