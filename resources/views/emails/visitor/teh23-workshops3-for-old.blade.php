@@ -2,21 +2,22 @@
 
 Cześć {{ $p->translate("[[fname]]") }}!
 
-## Czy widzimy się 6 kwietnia na EXPO XXI w Warszawie?
+Czy widzimy się 6 kwietnia na Targach eHandlu w Warszawie?
+
+## ...to będzie rekordowa pod względem oferty merytorycznej edycja
 
 @component('mail::panel')
 
-Targi eHandlu to **4 sceny** z **34 prezentacjami** Ekspertów oraz 
+**Zwiedzanie stoisk** (140 produktów i usług e-commerce) oraz **udział w prezentacjach** (37 prelegentów): **wstęp otwarty** - wymagana rejestracja na stronie
 
-**140 Wystawców** - oferentów usług i produktów wspierających handel w Internecie.
+Udział w warszatach (wymagana rejestracja i akceptacja ze strony prowadzącego; więcej szczegółów poniżej)
 
-...**oraz 21 warsztatów**
+Targi eHandlu odbędą się **6 kwietnia (czwartek) w Warszawie (EXPO XXI)**
 
 @endcomponent
 
-## Pozostało jeszcze 117 miejsc na Warsztatach Targów eHandlu
 
-(uwolniliśmy starsze/nierozstrzygnięte zgłoszenia)
+## Pozostało jeszcze ok 98 miejsc na Warsztatach Targów eHandlu
 
 @component('mail::button', ['url' => 'https://targiehandlu.pl/workshops'])
 Zobacz listę warsztatów i zgłoś się
@@ -44,21 +45,29 @@ Zaprojektuj **pulpit managera e-commerce** z pomocą systemu ERP nowej generacji
 Zobacz listę warsztatów i zgłoś się
 @endcomponent
 
-**Ważne informacje:**
+**jeśli nie Warszataty to może 37 Prelekcji?**
 
-Prowadzący Warsztaty dostali prośbę by akceptować **nie więcej niż kilka zgłoszeń dziennie** (by dać każdemu szansę). Otrzymasz wiadomość zwrotną przy akceptacji lub przekroczeniu czasu na akceptację zgłoszenia.
+##Wybrane tematy:
 
-**Możesz się zgłosić do maksymalnie 2 warsztatów** (w przypadku "uwolnienia" zgłoszenia przez brak reakcji ze strony Prowadzącego - limit się odnowi)
+**[Omnibus] Promocja zabija Twój biznes** - jak skutecznie nią zarządzić!
 
-**Udział** w Warsztatch w tej edycji jest **bezpłatny.**
+**Jak skutecznie obsłużyć rosnącą sprzedaż e-commerce bez zwiększania zatrudnienia?**
 
-Każdy Uczestnik Warsztatów **otrzymuje status VIP** (dostęp do Strefy VIP dla Wystawców i Prelegentów)
+**TikTok commerce:** jak zwiększać sprzedaż dzięki rolkom, shortom i tiktokom?
 
-W 1 Warsztacie może uczestniczyć **max 25 osób** i nie zwiększymy tego limitu.
+**Sztuczna inteligencja w e-commerce.**
 
-Czas warsztatu to maksymalnie **45 minut** (30min + 15min na Q&A)
+Gdzie schowała się rentowność? **3 miejsca w Twoim e-Commerce, w których tracisz najwięcej pieniędzy**
 
-**Niezależnie od warsztatów [dostępne są aż 4 sceny prezentacyjne](https://targiehandlu.pl/workshops)** (przewiń stronę :-)
+**Nowe doświadczenia zakupowe z Generative AI**
+
+**Od intencji do retencji. 9 rzeczy, o których zapominasz, aby zatrzymać klienta w sklepie**
+
+**EmpikPlace** ...jak dotrzeć do milionów klientów na platformie e-commerce z 25-letnim doświadczeniem.
+
+**Jak wykorzystać FOMO** i skusić klienta do zakupu TERAZ!
+
+**Automatyzacja po-checkoutowa**
 
 
 @component('mail::button', ['url' => 'https://targiehandlu.pl/workshops'])
