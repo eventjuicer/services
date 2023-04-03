@@ -4,10 +4,13 @@
 
 Cześć {{ $p->translate("[[fname]]") }}!
 
-# Kolejne Targi eHandlu już w czwartek w Warszawie! 
+# Cały eHandel w jednym miejscu już w czwartek
+
+{{ $p->translate("[[fname]]") }}, widzimy się na Targach eHandlu w EXPO XXI?
+
 
 @component('mail::button', ['url' => 'https://targiehandlu.pl/visit'])
-Sprawdź agendę prezentacji
+Sprawdź agendę prezentacji i zarejestruj się
 @endcomponent
 
 
@@ -63,7 +66,7 @@ Gdzie schowała się rentowność? **3 miejsca w Twoim e-Commerce, w których tr
 
 
 
-# {{ $p->translate("[[fname]]") }}, widzimy się w czwartek w EXPO XXI?
+
 
 
 @component('mail::button', ['url' => 'https://targiehandlu.pl/visit'])
