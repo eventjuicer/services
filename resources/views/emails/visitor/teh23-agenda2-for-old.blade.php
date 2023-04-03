@@ -15,9 +15,9 @@ Sprawdź agendę prezentacji
 
 Targi eHandlu odbędą się **6 kwietnia (czwartek) w Warszawie (EXPO XXI)**
 
-Zwiedzanie stoisk - **140 produktów i usług wspierających rozwój e-handlu** - [wymagana rejestracja na stronie](https://targiehandlu.pl/visit)
+Zwiedzanie stoisk - **140 produktów i usług wspierających rozwój e-handlu** - [zarejestruj się na stronie](https://targiehandlu.pl/visit)
 
-Udział w prezentacjach - **37 prelegentów** - [wymagana rejestracja na stronie](https://targiehandlu.pl/visit)
+Udział w prezentacjach - **37 prelegentów** - [zarejestruj się na stronie](https://targiehandlu.pl/visit)
 
 Udział w jednym z 21 warszatów - [zgłoszenie chęci na stronie targiehandlu.pl/workshops](https://targiehandlu.pl/workshops) - o udziale decyduje Prowadzący.
 
@@ -25,16 +25,19 @@ Udział w jednym z 21 warszatów - [zgłoszenie chęci na stronie targiehandlu.p
 
 **Jak zaplanować skuteczny dzień na Targach eHandlu?**
 
-## [Zapoznaj się z listą Wystawców](https://targiehandlu.pl/exhibitors)
+# [Zapoznaj się z listą Wystawców](https://targiehandlu.pl/exhibitors)
 
 Każdemu Wystawcy, którego oferta wydaje się Tobie interesująca, możesz zaproponować Spotkanie przez jego publiczny profil Wystawcy 
 
-<img src="https://res.cloudinary.com/eventjuicer/image/upload/w_750,c_limit,f_auto/v1680522241/teh23_invites.png" alt="umawianie spotkań" />
+<img src="https://res.cloudinary.com/eventjuicer/image/upload/w_750,c_limit,f_auto/v1680522241/teh23_invites.png" alt="umawianie spotkań" style="margin-top:10px; margin-bottom: 10px;"/>
 
 Jeśli Wystawca zaakceptuje Twoją propozycję spotkania, **otrzymasz od nas wejściówkę VIP** - uprawniająca do wejścia do strefy VIP (Hala 3). 
 W tej strefie spotkasz Przedstawicieli Wystawców, Prelegentów, Trenerów Warsztatów oraz innych Gości VIP. 
 
-## [Zapoznaj się z listą Prezentacji](https://targiehandlu.pl/schedule)
+
+# [Zapoznaj się z listą Prezentacji](https://targiehandlu.pl/schedule)
+
+Oto Wybrane tematy Scen Prezentacyjnych
 
 **Sztuczna inteligencja w e-commerce.**
 
