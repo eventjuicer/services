@@ -6,7 +6,10 @@ use Illuminate\Console\Command;
 
 
 use Eventjuicer\Services\Resolver;
-use Eventjuicer\Repositories\EloquentTicketRepository;
+// use Eventjuicer\Repositories\EloquentTicketRepository;
+
+use Eventjuicer\Services\GetByRole;
+
 use Eventjuicer\Services\Revivers\ParticipantSendable;
 use App\Jobs\SendGeneralReminder as Job;
 
@@ -50,7 +53,8 @@ class SendGeneralReminder extends Command
      * @return mixed
      */
     public function handle(
-        EloquentTicketRepository $ticketRepo, 
+        // EloquentTicketRepository $ticketRepo, 
+        GetByRole $ticketRepo,
         ParticipantSendable $sendable
     )
     {
@@ -93,27 +97,60 @@ class SendGeneralReminder extends Command
 
         $this->info("Event id: " . $eventId);
 
-        $participants = $ticketRepo->getParticipantsWithTicketRole("visitor", "event", $eventId);
+        // $participants = $ticketRepo->getParticipantsWithTicketRole("visitor", "event", $eventId);
+        $participants = $ticketRepo->get($eventId, "visitor", ["workshops", "ticketdownload"]);
 
         $this->info("Total visitors: " . $participants->count());
 
         $sendable->checkUniqueness(true);
-        
+        $sendable->checkMutes(false);
+        $sendable->validateEmails(true);
+
         $whatWeDo  = $this->anticipate('Send, stats, test?', ['test', 'send', 'stats']);
-        $status  = $this->anticipate('All, Going?', ['all', 'going']);
+        $status  = $this->anticipate('All, Going, Not applied to workshops, Vips?', 
+        ['all', 'going', "not_yet_applied_to_workshops", "vips"]);
 
-        if($status == "going"){
-            $filtered = $participants->filter(function($participant){
-                if( is_null($participant->ticketdownload) || (int) $participant->ticketdownload->going === 0 ){
+        switch($status){
+
+            case "going":
+
+                $participants = $participants->filter(function($participant){
+                    if( is_null($participant->ticketdownload) || (int) $participant->ticketdownload->going === 0 ){
+                        return false;
+                    }
+                    return true;
+                });
+            break;
+
+            case "not_yet_applied_to_workshops":
+
+                $participants = $participants->filter(function($participant){
+                    if( is_null($participant->workshops) ){
+                        return true;
+                    }
                     return false;
-                }
-                return true;
-            });
-        }else{
-            $filtered = $sendable->filter($participants, $eventId);
-            $this->info("Visitors not going:" . $sendable->howManyNotGoing() );
-        }
+                });
 
+            break;
+
+            case "vips":
+                $filtered = $participants->filter(function($participant){
+                    if( $participant->important ){
+                        return true;
+                    }
+                    return false;
+                });
+            break;
+
+    
+
+        }
+        /**
+         * 
+         *  we should always skip not going, right?
+         */
+        $filtered = $sendable->filter($participants, $eventId);
+        $this->info("Visitors not going:" . $sendable->howManyNotGoing() );
         $this->info("Visitors that can be notified: " . $filtered->count() );
 
         if($whatWeDo === "stats"){
@@ -125,10 +162,10 @@ class SendGeneralReminder extends Command
         foreach($filtered as $participant)
         {
 
-            if(!filter_var($participant->email, FILTER_VALIDATE_EMAIL)){
-                $this->error("Wrong email address: " . $participant->email);
-                continue;
-            }
+            // if(!filter_var($participant->email, FILTER_VALIDATE_EMAIL)){
+            //     $this->error("Wrong email address: " . $participant->email);
+            //     continue;
+            // }
 
             if($counter % 100 === 0){
 
