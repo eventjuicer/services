@@ -5,17 +5,6 @@
 
 
 
-php artisan visitors:restore-from-old-events --domain=targiehandlu.pl --email=teh23-agenda2-for-old --subject="Zaproszenie: Czwartek, EXPO XXI Warszawa."  --throttle=55000 --events=81,83,85,87,89,95,97
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -25,6 +14,23 @@ php artisan visitors:restore-from-old-events --domain=targiehandlu.pl --email=te
 
 4 kwietnia
 ===========
+
+
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=en --subject="Scanning of visitors' badges to collect contact data." --email=teh23-scanner
+
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Skanowanie ID Zwiedzających podczas Targów." --email=teh23-scanner
+
+php artisan visitors:ticket-reminder --domain=targiehandlu.pl
+
+
+
+
+
+
+3 kwietnia
+===========
+
+php artisan visitors:restore-from-old-events --domain=targiehandlu.pl --email=teh23-agenda2-for-old --subject="Zaproszenie: Czwartek, EXPO XXI Warszawa."  --throttle=55000 --events=81,83,85,87,89,95,97
 
 php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="DEADLINE: Zaproś swoich kluczowych Partnerów i Klientów do Strefy VIP" --email=teh23-vips2 --context=pr,event,sales
 
@@ -39,6 +45,9 @@ php artisan exhibitors:meetups_ltd --domain=targiehandlu.pl --threshold=20 --old
 php artisan exhibitors:meetups_please_rsvp --domain=targiehandlu.pl --lang=pl --defaultlang=pl --subject="RSVP! Zaproszenia na spotkanie czekają na Twoim profilu"
 
 php artisan exhibitors:meetups_please_rsvp --domain=targiehandlu.pl --lang=en --defaultlang=pl --subject="RSVP! Meeting invitations awaiting in your Exhibitor Profile"
+
+
+
 
 
 
