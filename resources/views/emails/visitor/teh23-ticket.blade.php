@@ -1,25 +1,27 @@
 @component('mail::message')
 
-# Cześć {{$p->translate("[[fname]]") }} 
+Cześć {{$p->translate("[[fname]]") }} 
 
-Twój bilet na 23 Targi eHandlu w Warszawie jest gotowy do pobrania i druku.
+Twój bilet na czwartkowe 23 Targi eHandlu w Warszawie jest gotowy do pobrania i druku.
 
-@component('mail::button', ['url' => $url])
-Pobierz bilet
+# [IDĘ / Pobieram bilet]({!! $going !!})
+
+## [Nie Idę]({!! $notGoing !!})
+
+@component('mail::panel')
+
+Targi eHandlu odbędą się **6 kwietnia (czwartek) w Warszawie (EXPO XXI)**
+
+**140 produktów i usług e-commerce** w ramach przestrzeni wystawienniczej
+
+**37 prelegentów** w ramach 4 otwartych scen prezentacyjnych
+
+21 Warszatów (wymagana rejestracja i akceptacja ze strony prowadzącego; [ostatnie miejsca na targiehandlu.pl/workshops](https://targiehandlu.pl/workshops) )
+
 @endcomponent
-
-**Pobierz go również wtedy gdy nie masz możliwości wydrukowania ...pokażesz go w punkcie rejestracyjnym.**
-
-**Jeśli nie możesz uczestniczyć w Targach - proszę zaznacz to na stronie pobierania biletu**
-
-{{$p->translate("[[fname]]") }}, na stronie z biletem znajdują się przyciski do pochwalenia się na Facebook, Twitter i Linkedin, że będziesz na Targach. 
-
-Przypominamy, że Targi odbędą się **6 kwietnia (to czwartek!) w Warszawie** na EXPO XXI / Hala 1
 
 Do zobaczenia! 
 
 Zespół Targów eHandlu
-
-PS: Na stronie z biletem znajduje się także **szczegółowa agenda prezentacji na wszystkich 4 scenach** 
 
 @endcomponent
