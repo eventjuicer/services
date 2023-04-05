@@ -3,7 +3,9 @@
  
 # Cześć {{ array_get($profile, "fname") }},
 
-Od kilku poprzednich edycji Targów eHandlu, **wszystkie kluczowe informacje logistyczne znajdują się w Panelu Wystawcy:**
+Od kilku poprzednich edycji Targów eHandlu, **wszystkie kluczowe informacje logistyczne znajdują się w Panelu Wystawcy.**
+
+Ta strona Panelu jest dostępna także dla niezalogowych użytkowników - możesz wysłać ją do innych osób, kopiująć URL przeglądarki.
 
 @component('mail::button', ['url' => $accountUrlLogistics])
 Informacje logistyczne
@@ -11,9 +13,7 @@ Informacje logistyczne
 
 **Prosimy o scroll strony do "Opcjonalny dzień montażowy" i "Targi - 6 kwietnia"** i o lekturę :)
 
-
 Poniżej tylko wybrane informacje:
-
 
 ## Miejsce Targów
 
