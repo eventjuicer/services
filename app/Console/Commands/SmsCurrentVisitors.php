@@ -88,18 +88,19 @@ class SmsCurrentVisitors extends Command
 
         //exlude fuckers with RSVP - NO
         
-        $status  = $this->anticipate('all, going, vip?', ['all', 'going', 'vip']);
+        $status  = $this->anticipate('going, vip, not_vip?', ['going', 'vip', 'not_vip']);
+
+
+        //remove all not going....
+
+        $participants = $participants->filter(function($participant){
+            if( $participant->ticketdownload && (int) $participant->ticketdownload->going === 0 ){
+                return false;
+            }
+            return true;
+        });
 
         switch($status){
-
-            case "going":
-                $participants = $participants->filter(function($participant){
-                    if( $participant->ticketdownload && (int) $participant->ticketdownload->going === 1 ){
-                        return true;
-                    }
-                    return false;
-                });
-            break;
 
             case "vip":
                 $participants = $participants->filter(function($participant){
@@ -109,12 +110,16 @@ class SmsCurrentVisitors extends Command
                     return false;
                 });
             break;
-        }
 
-        // $filtered = $participants->filter(function($item){
-        //     //no RSVP OR ... has a ticket!
-        //     return is_null($item->ticketdownload) || $item->ticketdownload->going == 1;
-        // });
+            case "not_vip":
+                $participants = $participants->filter(function($participant){
+                    if( $participant->important ){
+                        return false;
+                    }
+                    return true;
+                });
+            break;
+        }
 
         $this->info("Total visitors " .  $status . ": " . $participants->count() );
 
