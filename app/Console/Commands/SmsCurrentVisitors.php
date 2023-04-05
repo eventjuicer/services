@@ -141,7 +141,7 @@ class SmsCurrentVisitors extends Command
 
             $phone = preg_replace("/[^0-9]+/", "", $phone);
 
-            $phone = ltrim($phone, "0");
+            // $phone = ltrim($phone, "0");
 
             if(empty($phone) || strlen($phone) < 9){
                 continue;
