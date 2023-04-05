@@ -143,13 +143,13 @@ class SmsCurrentVisitors extends Command
 
             // $phone = ltrim($phone, "0");
 
-            if(empty($phone) || strlen($phone) < 9){
-                continue;
-            }
+            // if(empty($phone) || strlen($phone) < 9){
+            //     continue;
+            // }
 
-            if(strlen($phone) < 13){
-                $phone = $prefix . $phone;
-            }
+            // if(strlen($phone) < 12){
+            //     $phone = $prefix . $phone;
+            // }
 
             $profile = new Personalizer($participant);
 
