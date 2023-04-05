@@ -78,9 +78,7 @@ Typowa (=marketowa) taśma dwustronna jest nie do usunięcia po wydarzeniu co wy
 
 Regards, 
 
-Karolina Michalak
-
-Karolina Wojtas
+{{$footer}}
 
 @endcomponent
 
