@@ -66,7 +66,11 @@ class VisitorMeetups extends Command {
         if($direction !="ALL"){
             $meetups->pushCriteria(new FlagEquals("direction", $direction));
         }
-        $vips = $meetups->with(["participant.fields", "presenter.fields"])->all();
+        $vips = $meetups->with([
+            "participant.fields", 
+            "participant.ticketdownload", 
+            "presenter.fields"
+        ])->all();
 
         $this->info("Number of unique meetups: " . $vips->count() );
 
