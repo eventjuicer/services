@@ -12,16 +12,16 @@ use Eventjuicer\Repositories\MeetupRepository;
 use Eventjuicer\Repositories\Criteria\FlagEquals;
 use Eventjuicer\Repositories\Criteria\BelongsToEvent;
 
-class Vips extends Command {
+class VisitorMeetups extends Command {
 
-    protected $signature = 'visitors:vips
+    protected $signature = 'visitors:meetups
 
         {--domain=}
-        {--direction=""}
+
        
     ';
     
-    protected $description = 'Get the list of VIPs';
+    protected $description = 'Get the list of participant with meetups (VIPS?)';
  
     public function __construct()
     {
@@ -32,7 +32,6 @@ class Vips extends Command {
     {
        
         $domain = $this->option("domain");
-        $direction = strtoupper($this->option("direction"));
 
         $errors = [];
 
@@ -49,7 +48,8 @@ class Vips extends Command {
         }
 
         
-      
+        $direction  = $this->anticipate('ALL, P2C, C2P, LTD?', ['ALL', 'P2C', 'C2P', 'LTD']);
+
 
         /**
             LET'S FUCKING START!
@@ -63,17 +63,14 @@ class Vips extends Command {
 
         $meetups->pushCriteria(new BelongsToEvent($eventId));
         $meetups->pushCriteria(new FlagEquals("agreed", 1));
-        if(in_array($direction, ["LTD", "P2C", "C2P"])){
+        if($direction !="ALL"){
             $meetups->pushCriteria(new FlagEquals("direction", $direction));
         }
-
         $vips = $meetups->with(["participant.fields", "presenter.fields"])->all();
 
-        $this->info("Number of unique VIPs: " . $vips->count() );
+        $this->info("Number of unique meetups: " . $vips->count() );
 
         $done = 0;
-
-        $phones = array();
         $all = array();
 
         foreach($vips as $vip)
@@ -96,21 +93,14 @@ class Vips extends Command {
 
         }   
 
-
-        $baseFilename = "export".md5(time() . $eventId).".txt";
-
-        // file_put_contents(
-        //     app()->basePath("storage/app/public/" . "phones_".$baseFilename), 
-        //     implode( "\n", $phones )
-        // );
+        $baseFilename = $eventId."_".$direction."_". md5(time() . $eventId).".csv";
 
         file_put_contents(
-            app()->basePath("storage/app/public/" . "all_".$baseFilename), 
+            app()->basePath("storage/app/public/" . $baseFilename), 
             implode( "\n", $all )
         );
 
-        // $this->info("storage/" . "phones_" . $baseFilename);
-        $this->info("storage/" . "all_" . $baseFilename);
+        $this->info("storage/" . $baseFilename);
 
     }
 }
