@@ -55,6 +55,7 @@ class SmsCurrentVisitors extends Command
         $domain = $this->option("domain");
         $prefix = $this->option("prefix");
 
+
         $errors = [];
 
         if(empty( $domain )) {
@@ -87,37 +88,41 @@ class SmsCurrentVisitors extends Command
 
         //exlude fuckers with RSVP - NO
         
-        $status  = $this->anticipate('All, Going?', ['all', 'going']);
+        $status  = $this->anticipate('all, going, vip?', ['all', 'going', 'vip']);
 
-        // if($status == "going"){
-            $filtered = $participants->filter(function($participant){
-                if( is_null($participant->ticketdownload) || (int) $participant->ticketdownload->going === 0 ){
+        switch($status){
+
+            case "going":
+                $participants = $participants->filter(function($participant){
+                    if( $participant->ticketdownload && (int) $participant->ticketdownload->going === 1 ){
+                        return true;
+                    }
                     return false;
-                }
-                return true;
-            });
-        // }
+                });
+            break;
+
+            case "vip":
+                $participants = $participants->filter(function($participant){
+                    if( $participant->important ){
+                        return true;
+                    }
+                    return false;
+                });
+            break;
+        }
 
         // $filtered = $participants->filter(function($item){
         //     //no RSVP OR ... has a ticket!
         //     return is_null($item->ticketdownload) || $item->ticketdownload->going == 1;
         // });
 
-        $this->info("Total visitors without RSVP=NO: " . $filtered->count() );
+        $this->info("Total visitors " .  $status . ": " . $participants->count() );
 
         $counter = 1;
 
         $phones = array();
 
-        foreach($filtered as $participant)
-        {
-
-            // if(!filter_var($participant->email, FILTER_VALIDATE_EMAIL)){
-            //     $this->error($participant->email);
-            //     continue;
-            // }
-
-
+        foreach($participants as $participant){
 
             $query = ParticipantFields::where("participant_id", $participant->id)->where("field_id", 8)->get();
 
@@ -162,14 +167,14 @@ class SmsCurrentVisitors extends Command
             $counter++;
         }
 
-        $filename = "export".md5(time() . $eventId).".txt";
+        $baseFilename = $eventId."_".$status."_". md5(time() . $eventId).".csv";
 
         file_put_contents(
-            app()->basePath("storage/app/public/" . $filename), 
+            app()->basePath("storage/app/public/" . $baseFilename), 
             implode( "\n", $phones )
         );
 
-        $this->info("All done! " . "Check storage/" . $filename);
+        $this->info("All done! " . "Check storage/" . $baseFilename);
 
         $this->info("Done. Dispatched jobs: " . $counter);
 
