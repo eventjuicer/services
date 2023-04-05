@@ -2,11 +2,16 @@
 
 
 
+5 kwietnia
+==========
 
 
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Informacje logistyczne." --email=teh23-logistics
 
 
+php artisan exhibitors:meetups_please_rsvp --domain=targiehandlu.pl --lang=pl --defaultlang=pl --subject="RSVP! Zaproszenia na spotkanie czekają na Twoim profilu"
 
+php artisan exhibitors:meetups_please_rsvp --domain=targiehandlu.pl --lang=en --defaultlang=pl --subject="RSVP! Meeting invitations awaiting in your Exhibitor Profile"
 
 
 
@@ -15,16 +20,15 @@
 4 kwietnia
 ===========
 
+php artisan purchases:check --domain=targiehandlu.pl
 
-php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=en --subject="Scanning of visitors' badges to collect contact data." --email=teh23-scanner
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=en --subject="Scanning of visitors' badges to collect contact data." --email=teh23-scanner --context=event,sales
 
-php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Skanowanie ID Zwiedzających podczas Targów." --email=teh23-scanner
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Skanowanie ID Zwiedzających podczas Targów." --email=teh23-scanner --context=event,sales
+
+php artisan exhibitors:meetups_ltd --domain=targiehandlu.pl --threshold=20 --older_than=4
 
 php artisan visitors:ticket-reminder --domain=targiehandlu.pl
-
-
-
-
 
 
 3 kwietnia
@@ -101,7 +105,6 @@ php artisan visitors:current-event --domain=targiehandlu.pl --subject="Zgłoszen
 
 
 php artisan visitors:restore-from-voters --domain=targiehandlu.pl --email=teh23-agendaALL-for-voters --subject="Zaproszenie na 23. Targi eHandlu w Warszawie - 6.04.2023" 
-
 
 php artisan visitors:current-event --domain=targiehandlu.pl --subject="Jest cała agenda! Zapisy na warsztaty ...pamiętasz o dacie 6 kwietnia? | 23 Targi eHandlu w Warszawie" --email=teh23-agenda-workshops-for-current
 
