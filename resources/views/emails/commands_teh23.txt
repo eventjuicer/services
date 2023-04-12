@@ -2,29 +2,49 @@
 
 
 
+
+
+
+
+12 kwietnia
+===========
+
+
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Dziękujemy. Skany, Ankieta, jesienny TEH24" --email=teh23-thankyou
+
+
+
+
+
+
+SMSY
+
+
+Czesc [%imie%], przypominamy o Targach eHandlu! Wejscie od 10:00; Prezentacje od 10:40 (agenda - https://teh.com.pl/a). Masz wydrukowany bilet? Wchodzisz od razu do Hali 1. Nie masz? Podaj kod [%kontakt.quick_code%] w Rejestracji.
+
+Czesc, pamietasz o warsztacie na Targach eHandlu? zapraszamy do Hali 3. Strefa warsztatowa [%kontakt.venue%] start [%kontakt.time%]. Do zobaczenia!
+
+Czesc. Masz dostep do Strefy VIP, ktora znajduje sie w HALI 3. Przy pierwszym wejsciu do HALI 3 pokaz tego SMSa. You are a VIP, show this message when entering Hall 3 (VIP Zone). pozdrowienia. Targi eHandlu
+
+Dzien dobry! Przypominamy o Hali 3 i Strefie VIP. Juz teraz mozesz tam napic sie kawy i prowadzic rozmowy biznesowe. Od 12:30 startuje catering. Hello! Hall 3 / VIP Zone is open. Visit to have coffee and business talks and catering (from 12:30pm).
+
+
+
+
+
+
 5 kwietnia
 ==========
 
+php artisan visitors:ticket-reminder --domain=targiehandlu.pl
+
 php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=en --subject="Logistics info." --email=teh23-logistics --context=sales,event
 
-
 php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Informacje logistyczne." --email=teh23-logistics --context=sales,event
-
-
-
-
-
-
-
-
-
 
 php artisan exhibitors:meetups_please_rsvp --domain=targiehandlu.pl --lang=pl --defaultlang=pl --subject="RSVP! Zaproszenia na spotkanie czekają na Twoim profilu"
 
 php artisan exhibitors:meetups_please_rsvp --domain=targiehandlu.pl --lang=en --defaultlang=pl --subject="RSVP! Meeting invitations awaiting in your Exhibitor Profile"
-
-
-
 
 
 4 kwietnia
