@@ -140,7 +140,7 @@ class GeneralExhibitorEmail extends Mailable
             }
             
             $this->accountUrlPromotePublic = 'https://account.targiehandlu.pl/#/promote?company_id=' . $companydata->getCompany()->id;
-            $this->photosUrl = "https://photos.targiehandlu.pl/".$companydata->getCompany()->id."/teh23";
+            $this->photosUrl = "https://cloudinary.eventjuicer.com/".$companydata->getCompany()->id."/teh23";
 
             
         }
