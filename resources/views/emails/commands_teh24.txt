@@ -1,6 +1,19 @@
 
 
 
+24 kwietnia
+===========
+
+
+
+php artisan exhibitors:award --domain=targiehandlu.pl --award=earlybird --previous --lang=pl --defaultlang=pl --email="teh24-salesplan-top30" --subject="Sprzedaż stoisk. Targi eHandlu 27 października [top30]"
+
+
+
+php artisan exhibitors:award --domain=targiehandlu.pl --award=earlybird --previous --reverse --lang=pl --defaultlang=pl --email="teh24-salesplan-others" --subject="Sprzedaż stoisk. Targi eHandlu 27 października"
+
+
+
 
 
 20 kwietnia
@@ -9,6 +22,9 @@
 
 
 
-php artisan exhibitors:award --domain=targiehandlu.pl --award=earlybird --previous --reverse --lang=pl --defaultlang=pl --email="teh24-salesplan-others" --subject="Sprzedaż stoisk. Targi eHandlu 27 października"
 
-php artisan exhibitors:award --domain=targiehandlu.pl --award=earlybird --previous --lang=en --defaultlang=pl --email="teh24-salesplan-top30" --subject="Sprzedaż stoisk. Targi eHandlu 27 października [top30]"
+php artisan exhibitors:award --domain=targiehandlu.pl --award=earlybird --previous --lang=pl --defaultlang=pl --email="teh24-salesplan-top30" --subject="Sprzedaż stoisk. Targi eHandlu 27 października [top30]"
+
+
+
+php artisan exhibitors:award --domain=targiehandlu.pl --award=earlybird --previous --reverse --lang=pl --defaultlang=pl --email="teh24-salesplan-others" --subject="Sprzedaż stoisk. Targi eHandlu 27 października"
