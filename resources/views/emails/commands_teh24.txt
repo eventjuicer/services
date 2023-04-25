@@ -1,30 +1,37 @@
 
 
 
+
+
+
+
+
+
+php artisan exhibitors:award --domain=targiehandlu.pl --award=earlybird --previous --lang=pl --defaultlang=pl --email="teh24-top30-start" --subject="Wystartowaliśmy! Sekretny link do rezerwacji przestrzeni wystawienniczej..."
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 24 kwietnia
 ===========
 
+php artisan exhibitors:award --domain=targiehandlu.pl --award=earlybird --previous --lang=pl --defaultlang=pl --email="teh24-salesplan2-top30" --subject="Zdjęcia; Sprzedaż stoisk już we wtorek [top30]"
 
-
-php artisan exhibitors:award --domain=targiehandlu.pl --award=earlybird --previous --lang=pl --defaultlang=pl --email="teh24-salesplan2-top30" --subject="Zdjęcia, Sprzedaż stoisk. Targi eHandlu 27 października [top30]"
-
-
-
-php artisan exhibitors:award --domain=targiehandlu.pl --award=earlybird --previous --reverse --lang=pl --defaultlang=pl --email="teh24-salesplan2-others" --subject="Zdjęcia, Sprzedaż stoisk. Targi eHandlu 27 października"
-
-
-
-
+php artisan exhibitors:award --domain=targiehandlu.pl --award=earlybird --previous --reverse --lang=pl --defaultlang=pl --email="teh24-salesplan2-others" --subject="Zdjęcia; Sprzedaż stoisk już w środę."
 
 20 kwietnia
 ===========
 
-
-
-
-
 php artisan exhibitors:award --domain=targiehandlu.pl --award=earlybird --previous --lang=pl --defaultlang=pl --email="teh24-salesplan-top30" --subject="Sprzedaż stoisk. Targi eHandlu 27 października [top30]"
-
-
 
 php artisan exhibitors:award --domain=targiehandlu.pl --award=earlybird --previous --reverse --lang=pl --defaultlang=pl --email="teh24-salesplan-others" --subject="Sprzedaż stoisk. Targi eHandlu 27 października"
