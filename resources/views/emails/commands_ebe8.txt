@@ -6,21 +6,29 @@ php artisan queue:restart
 
 
 
+
+5 września
+===========
+
+
+php artisan exhibitors:current-event --defaultlang=en --domain=ecommerceberlin.com --lang=en --subject="E-commerce Berlin Expo 2024: Become a Speaker!" --email=ebe8-cfp
+
+
+php artisan exhibitors:current-event --defaultlang=en --domain=ecommerceberlin.com --lang=de --subject=" E-Commerce Berlin Expo 2024: Werde ein Speaker!" --email=ebe8-cfp
+
+
+
+
+
+
+
 15 marca
 ========
-
-
-
 
 //OTHERS
 php artisan exhibitors:award --domain=ecommerceberlin.com --award=earlybird --previous --reverse --lang=en --defaultlang=en --email=ebe8-salesplan-starts-others --subject="Book your space! Exclusive sales round just for today!"
 
-php artisan exhibitors:award --domain=ecommerceberlin.com --award=earlybird --previous --reverse --lang=de --defaultlang=en --email=ebe8-salesplan-starts-others --subject="Buche deinen Platz! - Exklusiver Verkauf nur heute!"
-
-
-
-
-
+php artisan exhibitors:award --domain=ecommerceberlin.com --award=earlybird --previous --reverse --lang=de --defaultlang=en --email=ebe8-salesplan-starts-others --subject="11:00 Uhr CET. Buche deinen Platz! - Exklusiver Verkauf nur heute!"
 
 
 14 marca
