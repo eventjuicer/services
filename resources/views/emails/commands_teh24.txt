@@ -2,12 +2,19 @@
 
 
 
+14 września
+===========
+
+php artisan visitors:restore-from-old-events --domain=targiehandlu.pl --email=teh24-videos_cfp --subject="VIDEO z z 23. Targów eHandlu; Chcesz wystąpić na scenie?" --events=87,89,95,97,99,102 --throttle=50000
+
+
+
 26 kwietnia
 ===========
 
 php artisan exhibitors:award --domain=targiehandlu.pl --award=earlybird --previous --reverse --lang=pl --defaultlang=pl --email="teh24-sales-started" --subject="Wystartowaliśmy! Otwarta rezerwacja przestrzeni wystawienniczej na jesienne Targi eHandlu."
 
-php artisan exhibitors:award --domain=targiehandlu.pl --award=earlybird --previous --reverse --lang=en --defaultlang=pl --email="teh24-sales-started" --subject=Book an exhibition space for Ecommerce Warsaw Expo 2023 Autumn edition"
+php artisan exhibitors:award --domain=targiehandlu.pl --award=earlybird --previous --reverse --lang=en --defaultlang=pl --email="teh24-sales-started" --subject="Book an exhibition space for Ecommerce Warsaw Expo 2023 Autumn edition"
 
 25 kwietnia
 ===========
