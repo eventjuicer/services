@@ -7,14 +7,30 @@ php artisan queue:restart
 
 
 
+19 września
+===========
+
+
+php artisan exhibitors:current-event --defaultlang=en --domain=ecommerceberlin.com --lang=en --subject="Submit your proposal and become a speaker at the E-commerce Berlin Expo 2024!" --email=ebe8-cfp-reminder --context=pr
+
+
+php artisan exhibitors:current-event --defaultlang=en --domain=ecommerceberlin.com --lang=de --subject="Erinnerung: Reiche deinen Vorschlag ein und werde Speaker auf der E-Commerce Berlin Expo 2024!" --email=ebe8-cfp-reminder --context=pr
+
+
+
+
+
+
+
+
 5 września
 ===========
 
 
-php artisan exhibitors:current-event --defaultlang=en --domain=ecommerceberlin.com --lang=en --subject="E-commerce Berlin Expo 2024: Become a Speaker!" --email=ebe8-cfp
+php artisan exhibitors:current-event --defaultlang=en --domain=ecommerceberlin.com --lang=en --subject="E-commerce Berlin Expo 2024: Become a Speaker!" --email=ebe8-cfp --context=pr
 
 
-php artisan exhibitors:current-event --defaultlang=en --domain=ecommerceberlin.com --lang=de --subject=" E-Commerce Berlin Expo 2024: Werde ein Speaker!" --email=ebe8-cfp
+php artisan exhibitors:current-event --defaultlang=en --domain=ecommerceberlin.com --lang=de --subject=" E-Commerce Berlin Expo 2024: Werde ein Speaker!" --email=ebe8-cfp --context=pr
 
 
 
