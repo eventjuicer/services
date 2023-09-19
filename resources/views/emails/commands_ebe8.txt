@@ -11,10 +11,10 @@ php artisan queue:restart
 ===========
 
 
-php artisan exhibitors:current-event --defaultlang=en --domain=ecommerceberlin.com --lang=en --subject="Submit your proposal and become a speaker at the E-commerce Berlin Expo 2024!" --email=ebe8-cfp-reminder --context=pr
+php artisan exhibitors:current-event --defaultlang=en --domain=ecommerceberlin.com --lang=en --subject="Submit your proposal and become a speaker at the E-commerce Berlin Expo 2024!" --email=ebe8-cfp-reminder --context=pr --exclude_company_ids="2132,1081,1932,2347,2353,2386,2182"
 
 
-php artisan exhibitors:current-event --defaultlang=en --domain=ecommerceberlin.com --lang=de --subject="Erinnerung: Reiche deinen Vorschlag ein und werde Speaker auf der E-Commerce Berlin Expo 2024!" --email=ebe8-cfp-reminder --context=pr
+php artisan exhibitors:current-event --defaultlang=en --domain=ecommerceberlin.com --lang=de --subject="Erinnerung: Reiche deinen Vorschlag ein und werde Speaker auf der E-Commerce Berlin Expo 2024!" --email=ebe8-cfp-reminder --context=pr --exclude_company_ids="2132,1081,1932,2347,2353,2386,2182"
 
 
 
