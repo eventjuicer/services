@@ -2,6 +2,33 @@
 
 
 
+
+
+
+27 września
+============
+
+
+
+
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Deadline: 6 października. Meble, zapotrzebowanie na prąd, wykładzina, TV, zabudowa..." --email=teh24-arrangement
+
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=en --subject="Deadline: 6th of October;  Carpet flooring, LED display, complete space arrangement, etc..." --email=teh24-arrangement
+
+
+php artisan companies:emptyprofile --domain=targiehandlu.pl --defaultLang=pl
+
+
+
+
+
+
+
+
+
+
+
+
 14 września
 ===========
 
