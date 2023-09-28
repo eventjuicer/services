@@ -6,6 +6,29 @@ php artisan queue:restart
 
 
 
+28 września
+===========
+
+php artisan exhibitors:current-event --defaultlang=en --domain=ecommerceberlin.com --lang=en --subject="Last call: Time to submit your presentation and speak at the E-commerce Berlin Expo 2024!" --email=ebe8-cfp-final --context=pr --exclude_company_ids="2392,2355,2381,1649,2384,2130,2341,2395,1614,1552,2352,2132,1932,1932,1081,2347,2353,2386,2182"
+
+
+php artisan exhibitors:current-event --defaultlang=en --domain=ecommerceberlin.com --lang=de --subject="Letzter Aufruf: Zeit, deine Präsentation einzureichen und auf der E-Commerce Berlin Expo 2024 zu sprechen!" --email=ebe8-cfp-final --context=pr --exclude_company_ids="2392,2355,2381,1649,2384,2130,2341,2395,1614,1552,2352,2132,1932,1932,1081,2347,2353,2386,2182"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 19 września
 ===========
