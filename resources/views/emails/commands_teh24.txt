@@ -2,6 +2,26 @@
 
 
 
+4 pazdziernika
+==============
+
+
+php artisan exhibitors:current-event --domain=targiehandlu.pl  --lang=pl --defaultlang=pl --subject="Przedstawiciele Wystawcy na stoisku" --email=teh24-reps --context=event,sales
+
+php artisan exhibitors:current-event --domain=targiehandlu.pl --lang=en --defaultlang=pl --subject="Exhibitor's representatives @ booth." --email=teh24-reps --context=event,sales
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -11,9 +31,9 @@
 
 
 
-php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Deadline: 6 października. Meble, zapotrzebowanie na prąd, wykładzina, TV, zabudowa..." --email=teh24-arrangement
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Deadline: 6 października. Meble, wykładzina, TV, zapotrzebowanie na prąd, zabudowa..." --email=teh24-arrangement --context=event
 
-php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=en --subject="Deadline: 6th of October;  Carpet flooring, LED display, complete space arrangement, etc..." --email=teh24-arrangement
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=en --subject="Deadline: 6th of October;  Carpet flooring, LED display, complete space arrangement, etc..." --email=teh24-arrangement --context=event
 
 
 php artisan companies:emptyprofile --domain=targiehandlu.pl --defaultLang=pl
