@@ -2,34 +2,24 @@
 
 
 
-4 pazdziernika
+
+
+
+
+5 pazdziernika
 ==============
 
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Start zapisów na warsztaty - tylko 18 slotów" --email=teh24-workshops-form
+
+4 pazdziernika
+==============
 
 php artisan exhibitors:current-event --domain=targiehandlu.pl  --lang=pl --defaultlang=pl --subject="Przedstawiciele Wystawcy na stoisku" --email=teh24-reps --context=event,sales
 
 php artisan exhibitors:current-event --domain=targiehandlu.pl --lang=en --defaultlang=pl --subject="Exhibitor's representatives @ booth." --email=teh24-reps --context=event,sales
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 27 września
 ============
-
-
-
 
 php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Deadline: 6 października. Meble, wykładzina, TV, zapotrzebowanie na prąd, zabudowa..." --email=teh24-arrangement --context=event
 
@@ -38,23 +28,10 @@ php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl -
 
 php artisan companies:emptyprofile --domain=targiehandlu.pl --defaultLang=pl
 
-
-
-
-
-
-
-
-
-
-
-
 14 września
 ===========
 
 php artisan visitors:restore-from-old-events --domain=targiehandlu.pl --email=teh24-videos_cfp --subject="VIDEO z z 23. Targów eHandlu; Chcesz wystąpić na scenie?" --events=87,89,95,97,99,102 --throttle=50000
-
-
 
 26 kwietnia
 ===========
