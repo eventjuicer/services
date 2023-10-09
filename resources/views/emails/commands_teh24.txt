@@ -1,6 +1,12 @@
 
 
 
+9 pazdziernika
+==============
+
+php artisan companies:emptyprofile --domain=targiehandlu.pl --defaultLang=pl
+
+
 
 
 
@@ -9,7 +15,7 @@
 5 pazdziernika
 ==============
 
-php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Start zapisów na warsztaty - tylko 18 slotów" --email=teh24-workshops-form
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Start zapisów na warsztaty - tylko 18 slotów" --email=teh24-workshops-form --context=event,sales
 
 4 pazdziernika
 ==============

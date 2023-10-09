@@ -10,7 +10,7 @@
 
 # Cześć, tu {{  array_get($companydata, "name") }}!
 
-## 6 kwietnia będziemy na 23. Targach eHandlu w Warszawie. 
+## 27 października będziemy na 24. Targach eHandlu w Warszawie. 
 Jeśli masz czas i chęci, chętnie porozmawiamy na miejscu przy naszym stoisku.
 
 

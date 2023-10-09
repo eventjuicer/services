@@ -10,7 +10,7 @@
 
 # Hi,
 
-## We would like to let you know that {{  array_get($companydata, "name") }} is exhibiting at the E-Commerce Warsaw Expo 2023 on **April 6th** at EXPO XXI (Prądzyńskiego 12/14 str.). 
+## We would like to let you know that {{  array_get($companydata, "name") }} is exhibiting at the E-Commerce Warsaw Expo 2023 on **October 27th** at EXPO XXI (Prądzyńskiego 12/14 str.). 
 
 We’re excited for a day fully dedicated to e-commerce best practices &amp; trends. 
 
