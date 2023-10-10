@@ -1,5 +1,12 @@
 
 
+10 października
+===============
+
+
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Deadline 16:00 na zgłoszenie chęci prowadzenia Warsztatu." --email=teh24-workshops-lastcall --context=event,sales --exclude_company_ids="1281,2101,2407,1653,2103,2406,1250,1192"
+
+
 
 9 pazdziernika
 ==============
