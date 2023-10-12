@@ -3,7 +3,19 @@
 12 października
 ===============
 
-php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Maksymalna konwersja z Targów. Publiczny serwis z materiałami promocyjnymi." --email=teh24-promoninja-intro --context=pr_manager
+
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Deadline JUTRO: Meble, wykładzina, TV, zapotrzebowanie na prąd, zabudowa..." --email=teh24-arrangement-final --context=event
+
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=en --subject="Deadline TOMORROW EOD: Carpet flooring, LED display, complete space arrangement, etc..." --email=teh24-arrangement-final --context=event
+
+
+
+
+
+
+
+
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Maksymalna konwersja z Targów. Publiczny serwis z materiałami promocyjnymi." --email=teh24-promoninja-intro --context=pr_manager,event_manager
 
 
 
