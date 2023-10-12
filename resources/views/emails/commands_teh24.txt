@@ -1,5 +1,12 @@
 
 
+12 października
+===============
+
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Maksymalna konwersja z Targów. Publiczny serwis z materiałami promocyjnymi." --email=teh24-promoninja-intro --context=pr_manager
+
+
+
 10 października
 ===============
 
