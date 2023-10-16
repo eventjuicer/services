@@ -1,5 +1,19 @@
 
 
+
+
+
+16 października
+===============
+
+
+php artisan company:relations --domain=targiehandlu.pl --threshold=1 --lang=pl --defaultlang=pl --subject="Deadline. Przedstawiciele Wystawcy na stoisku" --email=teh24-reps-list-final
+
+php artisan company:relations --domain=targiehandlu.pl --threshold=1 --lang=en --defaultlang=pl --subject="Deadline. Exhibitor's representatives @ booth." --email=teh24-reps-list-final
+
+
+
+
 12 października
 ===============
 
