@@ -5,6 +5,11 @@
 ===============
 
 
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Jak znaleźć Twoją firmę na hali targowej? jak umówić się z Tobą na spotkanie?" --email=teh24-promoninja --context=event_manager,pr_manager
+
+
+
+
 php artisan visitors:restore-from-old-events --domain=targiehandlu.pl --email=teh24-workshops-for-old --subject="...tylko 432 miejsca. Start zgłoszeń na NOWE Warsztaty!  | Targi eHandlu w Warszawie"  --throttle=55000
 
 
