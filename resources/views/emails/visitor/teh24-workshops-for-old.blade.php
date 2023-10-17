@@ -6,8 +6,11 @@ Cześć {{ $p->translate("[[fname]]") }}!
 
 Mamy tylko 432 miejsca. 
 
-**NOWA FORMUŁA: W tej edycji możesz zgłosić się aż na 6 warszatatów - jeden w każdym slocie godzinowym.**
+@component('mail::panel')
 
+**NOWA FORMUŁA** W tej edycji możesz zgłosić się aż na 6 warszatatów - jeden w każdym slocie godzinowym.
+
+@endcomponent
 
 @component('mail::button', ['url' => 'https://targiehandlu.pl/workshops'])
 Sprawdź listę Warsztatów i zgłoś się
@@ -16,21 +19,21 @@ Sprawdź listę Warsztatów i zgłoś się
 
 ## Wybrane tematy
 
-Jak efektywnie zarządzać dostawami i zwrotami.
+Jak **efektywnie zarządzać dostawami i zwrotami.**
 
-Analiza RFM. Jak ją wykorzystać do personalizacji reklam Meta Ads i osiągnąć ROAS +3000%?
+Analiza RFM. Jak ją wykorzystać do **personalizacji reklam Meta Ads i osiągnąć ROAS +3000%?**
 
-Allegro Ads - praktyczny przewodnik
+**Allegro Ads** - praktyczny przewodnik
 
-...wykorzystanie klubów członkowskich w budowaniu retencji.
+...**wykorzystanie klubów członkowskich** w budowaniu retencji.
 
-jak zbierać i prezentować opinie, by twoje reklamy produktowe nie zostały zablokowane.
+**jak zbierać i prezentować opinie**, by twoje reklamy produktowe nie zostały zablokowane.
 
-O czym należy pamiętać wdrażając duży sklep na PrestaShop?
+O czym należy pamiętać wdrażając **duży sklep na PrestaShop**?
 
-Analiza konkurencji w Google Ads i Social Ads 
+**Analiza konkurencji w Google Ads i Social Ads**
 
-PrestaShop Checkout
+**PrestaShop Checkout**
 
 [Lista wszystkich warsztatów, zgłoszenia](https://targiehandlu.pl/workshops)
 
