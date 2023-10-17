@@ -1,6 +1,15 @@
 
 
 
+17 października
+===============
+
+
+php artisan visitors:restore-from-old-events --domain=targiehandlu.pl --email=teh24-workshops-for-old --subject="...tylko 432 miejsc. Wystartowały zgłoszenia na NOWE Warsztaty!  | Targi eHandlu w Warszawie"  --throttle=55000
+
+
+
+
 
 
 16 października
