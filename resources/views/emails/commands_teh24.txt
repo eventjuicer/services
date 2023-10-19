@@ -1,6 +1,17 @@
 
 
 
+
+19 października
+===============
+
+
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Zaproś swoich kluczowych Partnerów i Klientów do Strefy VIP" --email=teh24-vips --context=pr,event,sales
+
+
+
+
+
 17 października
 ===============
 
