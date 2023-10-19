@@ -6,73 +6,44 @@
 ===============
 
 
+php artisan visitors:current-event --domain=targiehandlu.pl --subject="Jest cała agenda! Zapisy na warsztaty ...pamiętasz o dacie 27 października? | 24 Targi eHandlu w Warszawie" --email=teh24-update1
+
+
 php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Zaproś swoich kluczowych Partnerów i Klientów do Strefy VIP" --email=teh24-vips --context=pr,event,sales
-
-
-
 
 
 17 października
 ===============
 
-
 php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Jak znaleźć Twoją firmę na hali targowej? jak umówić się z Tobą na spotkanie?" --email=teh24-promoninja --context=event_manager,pr_manager
-
-
-
 
 php artisan visitors:restore-from-old-events --domain=targiehandlu.pl --email=teh24-workshops-for-old --subject="...tylko 432 miejsca. Start zgłoszeń na NOWE Warsztaty!  | Targi eHandlu w Warszawie"  --throttle=55000
 
-
-
 16 października
 ===============
-
 
 php artisan company:relations --domain=targiehandlu.pl --threshold=1 --lang=pl --defaultlang=pl --subject="Deadline. Przedstawiciele Wystawcy na stoisku" --email=teh24-reps-list-final
 
 php artisan company:relations --domain=targiehandlu.pl --threshold=1 --lang=en --defaultlang=pl --subject="Deadline. Exhibitor's representatives @ booth." --email=teh24-reps-list-final
 
-
-
-
 12 października
 ===============
-
 
 php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Deadline JUTRO: Meble, wykładzina, TV, zapotrzebowanie na prąd, zabudowa..." --email=teh24-arrangement-final --context=event
 
 php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=en --subject="Deadline TOMORROW EOD: Carpet flooring, LED display, complete space arrangement, etc..." --email=teh24-arrangement-final --context=event
 
-
-
-
-
-
-
-
 php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Maksymalna konwersja z Targów. Publiczny serwis z materiałami promocyjnymi." --email=teh24-promoninja-intro --context=pr_manager,event_manager
-
-
 
 10 października
 ===============
 
-
 php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Deadline 16:00 na zgłoszenie chęci prowadzenia Warsztatu." --email=teh24-workshops-lastcall --context=event,sales --exclude_company_ids="1281,2101,2407,1653,2103,2406,1250,1192"
-
-
 
 9 pazdziernika
 ==============
 
 php artisan companies:emptyprofile --domain=targiehandlu.pl --defaultLang=pl
-
-
-
-
-
-
 
 5 pazdziernika
 ==============
