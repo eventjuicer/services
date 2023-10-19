@@ -4,11 +4,11 @@ Cześć {{ $p->translate("[[fname]]") }}!
 
 # Tylko do końca dnia możesz zgłosić chęć udziału w bezpłatnych Warsztatach Targów eHandlu.
 
-Mamy tylko 432 miejsca, 18 warsztatów.
+Mamy tylko 432 miejsca.
 
 @component('mail::panel')
 
-**NOWA FORMUŁA** W tej edycji możesz zgłosić się aż na 6 warszatatów - jeden w każdym slocie godzinowym.
+**NOWA FORMUŁA** W tej edycji możesz zgłosić się od razu aż na 6 warszatatów - jeden w każdym slocie godzinowym.
 
 @endcomponent
 
