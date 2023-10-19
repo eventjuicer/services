@@ -6,7 +6,7 @@
 ===============
 
 
-php artisan visitors:current-event --domain=targiehandlu.pl --subject="Jest cała agenda! Zapisy na warsztaty ...pamiętasz o dacie 27 października? | 24 Targi eHandlu w Warszawie" --email=teh24-update1
+php artisan visitors:current-event --domain=targiehandlu.pl --subject="DEADLINE - zapisy na warsztaty. Jest cała agenda! 24 Targi eHandlu w Warszawie" --email=teh24-update1
 
 
 php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Zaproś swoich kluczowych Partnerów i Klientów do Strefy VIP" --email=teh24-vips --context=pr,event,sales
