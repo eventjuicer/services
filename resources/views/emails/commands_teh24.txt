@@ -2,11 +2,38 @@
 
 
 
+
+
+
+
+
+24 października
+===============
+
+php artisan visitors:ticket-reminder --domain=targiehandlu.pl
+
+
+
+
+23 października
+===============
+
+php artisan exhibitors:meetups_ltd --domain=targiehandlu.pl --threshold=20 --older_than=4
+
+php artisan purchases:check --domain=targiehandlu.pl
+
+php artisan exhibitors:meetups_please_rsvp --domain=targiehandlu.pl --lang=pl --defaultlang=pl --subject="RSVP! Zaproszenia na spotkanie czekają na Twoim profilu"
+
+php artisan exhibitors:meetups_please_rsvp --domain=targiehandlu.pl --lang=en --defaultlang=pl --subject="RSVP! Meeting invitations awaiting in your Exhibitor Profile"
+
+
+
+
 19 października
 ===============
 
 
-php artisan visitors:restore-from-old-events --domain=targiehandlu.pl --email=teh24-workshops-for-old-lastminute --subject="DEADLINE: zgłoszenia na warsztaty. | Targi eHandlu w Warszawie"  --throttle=55000 --events=85,87,89,95,97,99
+php artisan visitors:restore-from-old-events --domain=targiehandlu.pl --email=teh24-workshops-for-old-lastminute --subject="DEADLINE: zgłoszenia na Warsztaty Targów eHandlu w Warszawie"  --throttle=55000 --events=85,87,89,95,97,99
 
 
 php artisan visitors:current-event --domain=targiehandlu.pl --subject="DEADLINE - zapisy na warsztaty. Jest cała agenda! 24 Targi eHandlu w Warszawie" --email=teh24-update1
