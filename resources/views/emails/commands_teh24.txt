@@ -3,6 +3,15 @@
 
 
 
+php artisan visitors:restore-from-old-events --domain=targiehandlu.pl --email=teh24-agenda-highlights --subject="DEADLINE: zgłoszenia na Warsztaty Targów eHandlu w Warszawie"  --throttle=55000 --events=85,87,89,95,97,99
+
+
+
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=en --subject="Scanning of visitors' badges to collect contact data." --email=teh23-scanner --context=event,sales
+
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Skanowanie ID Zwiedzających podczas Targów." --email=teh23-scanner --context=event,sales
+
+
 
 
 
@@ -10,9 +19,24 @@
 24 października
 ===============
 
+
+
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="DEADLINE:  Wyślij wejściówkę VIP kluczowym Partnerom i Klientom" --email=teh24-vips2 --context=pr,event,sales
+
+
+
+
+
+
+php artisan exhibitors:meetups_please_rsvp --domain=targiehandlu.pl --lang=pl --defaultlang=pl --subject="RSVP! Zaproszenia na spotkanie czekają na Twoim profilu"
+
+php artisan exhibitors:meetups_please_rsvp --domain=targiehandlu.pl --lang=en --defaultlang=pl --subject="RSVP! Meeting invitations awaiting in your Exhibitor Profile"
+
+
+
+
+
 php artisan visitors:ticket-reminder --domain=targiehandlu.pl
-
-
 
 
 23 października
