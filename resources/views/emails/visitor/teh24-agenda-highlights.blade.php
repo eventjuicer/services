@@ -12,9 +12,9 @@ Wstęp na EXPO i Prezentacje otwarty - wymagana jedynie rejestracja.
 
 @endcomponent
 
-...czy warto? ...warto! :)
+Czy warto? Warto! :)
 
-## Agenda ujawniona! 
+## Agenda ujawniona! (wybrane tematy)
 
 Start selling with eBay / **Rozpocznij sprzedaż na eBay**
 
@@ -47,6 +47,8 @@ E-commerce Przyszłości: Jak **Personalizacja Zmienia Zasady Gry**
 Rozpocznij sprzedaż międzynarodową z **Kaufland Global Marketplace**
 
 AI, opinie, Omnibus, Google i cross-border w e-commerce– jak to wszystko pogodzić i nie zwariować?
+
+## ...i wiele innych.
 
 @component('mail::button', ['url' => 'https://targiehandlu.pl/visit'])
 Odbierz bilet
