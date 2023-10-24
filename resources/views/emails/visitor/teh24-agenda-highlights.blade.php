@@ -6,15 +6,15 @@ Cześć {{ $p->translate("[[fname]]") }}!
 
 Targi eHandlu już w najbliższy piątek na EXPO XXI w Warszawie.
 
-Szykuje się inspirująca edycja.
+Szykuje się inspirująca edycja.**Blisko 160 Wystawców**, 4 sceny prezentacyjne z najbardziej gorącymi tematami w E-commerce, m.in. **AI**, **Google Analytics 4**
 
-Wstęp na EXPO i 4 sceny prezentacyjne otwarty - wymagana jedynie rejestracja.
+Wstęp na EXPO i Prezentacje otwarty - wymagana jedynie rejestracja.
 
 @endcomponent
 
 ...czy warto? ...warto! :)
 
-## Wybrane tematy 
+## Agenda ujawniona! 
 
 Start selling with eBay / **Rozpocznij sprzedaż na eBay**
 
@@ -36,10 +36,21 @@ Co musisz wiedzieć o **atrybucji w Google Analytics 4?**
 
 Na co uważać przy tworzeniu **opisów produktów z AI?**
 
-
 [Lista wszystkich prezentacji, bilet za 0 złotych](https://targiehandlu.pl/visit)
 
+[...] Do's and don'ts w relacji klient ↔ agencja
 
+Od zera do eksportera [...]
+
+E-commerce Przyszłości: Jak **Personalizacja Zmienia Zasady Gry**
+
+Rozpocznij sprzedaż międzynarodową z **Kaufland Global Marketplace**
+
+AI, opinie, Omnibus, Google i cross-border w e-commerce– jak to wszystko pogodzić i nie zwariować?
+
+@component('mail::button', ['url' => 'https://targiehandlu.pl/visit'])
+Odbierz bilet
+@endcomponent
 
 Pozdrawiamy,
 
