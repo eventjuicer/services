@@ -2,6 +2,7 @@
 
 # Hello!
 
+
 Here you have assembly/event logistic information regarding E-commerce Warsaw Expo:
 
 ## Place:
@@ -22,9 +23,9 @@ Orientation map
 
 When entering the venue site for the first time, the parking ticket must be collected from the parking meter. 
 
-For a free exit, you will need a parking card, which you will get from us during our first meeting (assembly day or in the morning - before the event). 
+For a free exit, you will need a parking voucher, which you will get from us during our first meeting (assembly day or in the morning - before the event). 
 
-You need to use the parking card for subsequent entries and exits.
+You need to use the parking voucher (**from welcome pack**) for subsequent entries and exits.
 
 ## (Optional) Setup day -26th of October
 
@@ -38,7 +39,7 @@ Your Account Manager will happily await :)
 
 Assembly on a event day is only possible between **8:00 and 9:30**. (At 10:00am we will open gates and welcome visitors.)
 
-If you have not picked up the welcome pack on the assembly day, please go to the Exhibitors' information desk located in the VIP area (Hall #1 - on the left from the main entrance to the hall complex)
+If you have not picked up the welcome pack on the assembly day, please go to the Exhibitors' information desk located in the right corner of the Hall #1 
 
 In case of any problem (e.g., with electricity) you should go to the information point (Hall #1) or text your Account Manager, whose number you will find in the welcome pack.
 
