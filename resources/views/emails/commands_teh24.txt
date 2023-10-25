@@ -3,9 +3,12 @@
 
 
 
-php artisan visitors:restore-from-old-events --domain=targiehandlu.pl --email=teh24-agenda-highlights --subject="Super agenda! Odbierz bilet na piątkowe Targi eHandlu w Warszawie"  --throttle=55000 --events=85,87,89,95,97,99
 
 
+25 października
+===============
+
+php artisan visitors:ticket-reminder --domain=targiehandlu.pl
 
 
 php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=en --subject="Scanning of visitors' badges to collect contact data." --email=teh23-scanner --context=event,sales
@@ -20,14 +23,9 @@ php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl -
 24 października
 ===============
 
-
+php artisan visitors:restore-from-old-events --domain=targiehandlu.pl --email=teh24-agenda-highlights --subject="Super agenda! Odbierz bilet na piątkowe Targi eHandlu w Warszawie"  --throttle=55000 --events=85,87,89,95,97,99
 
 php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="DEADLINE:  Wyślij wejściówkę VIP kluczowym Partnerom i Klientom" --email=teh24-vips2 --context=pr,event,sales
-
-
-
-
-
 
 php artisan exhibitors:meetups_please_rsvp --domain=targiehandlu.pl --lang=pl --defaultlang=pl --subject="RSVP! Zaproszenia na spotkanie czekają na Twoim profilu"
 

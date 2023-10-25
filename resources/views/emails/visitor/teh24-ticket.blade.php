@@ -2,15 +2,13 @@
 
 Cześć {{$p->translate("[[fname]]") }} 
 
-Twój bilet na piątkowe 24 Targi eHandlu w Warszawie jest gotowy do pobrania i druku.
+Targi eHandlu odbędą się **27 października (piątek) w Warszawie (EXPO XXI)**
 
 # [IDĘ / Pobieram bilet]({!! $going !!})
 
 ## [Nie Idę]({!! $notGoing !!})
 
 @component('mail::panel')
-
-Targi eHandlu odbędą się **27 października (piątek) w Warszawie (EXPO XXI)**
 
 **160 produktów i usług e-commerce** w ramach przestrzeni wystawienniczej
 
