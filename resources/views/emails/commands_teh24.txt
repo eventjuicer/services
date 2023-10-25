@@ -8,6 +8,7 @@
 25 października
 ===============
 
+php artisan visitors:restore-from-voters --domain=targiehandlu.pl --email=teh24-agenda-highlights-voters --subject="Bilet na piątkowe Targi eHandlu w Warszawie - 27.10.2023" 
 
 php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=en --subject="Logistics info." --email=teh24-logistics --context=sales,event
 
