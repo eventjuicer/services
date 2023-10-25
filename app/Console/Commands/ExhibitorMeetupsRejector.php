@@ -123,7 +123,7 @@ class ExhibitorMeetupsRejector extends Command
                     $untouchedMeetup->responded_at =  Carbon::now("UTC");
                     $untouchedMeetup->comment = "[autorejected] ".$untouchedMeetup->comment;
                     $untouchedMeetup->save();
-                    // dispatch(new HandleLTDReject($untouchedMeetup));
+                    dispatch(new HandleLTDReject($untouchedMeetup));
                 }
 
             }
