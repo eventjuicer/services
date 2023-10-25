@@ -14,6 +14,10 @@ Czy warto? Warto! :)
 
 @endcomponent
 
+@component('mail::button', ['url' => 'https://targiehandlu.pl/visit'])
+Odbierz bilet
+@endcomponent
+
 
 ## Wybrane tematy prezentacji
 
@@ -25,9 +29,8 @@ Dlaczego duże i zaawansowane sklepy wybierają **PrestaShop?**
 
 Poznaj skuteczne sposoby na **podniesienie konwersji,** poprzez komunikację email, SMS oraz push
 
-@component('mail::button', ['url' => 'https://targiehandlu.pl/visit'])
-Odbierz bilet
-@endcomponent
+[Lista wszystkich prezentacji, bilet za 0 złotych](https://targiehandlu.pl/visit)
+
 
 Co musisz wiedzieć o **atrybucji w Google Analytics 4?**
 
@@ -37,7 +40,9 @@ Co musisz wiedzieć o **atrybucji w Google Analytics 4?**
 
 Na co uważać przy tworzeniu **opisów produktów z AI?**
 
-[Lista wszystkich prezentacji, bilet za 0 złotych](https://targiehandlu.pl/visit)
+@component('mail::button', ['url' => 'https://targiehandlu.pl/visit'])
+Odbierz bilet
+@endcomponent
 
 [...] Do's and don'ts w relacji klient ↔ agencja
 
@@ -51,9 +56,8 @@ AI, opinie, Omnibus, Google i cross-border w e-commerce– jak to wszystko pogod
 
 ## ...i wiele innych.
 
-@component('mail::button', ['url' => 'https://targiehandlu.pl/visit'])
-Odbierz bilet
-@endcomponent
+[Lista wszystkich prezentacji, bilet za 0 złotych](https://targiehandlu.pl/visit)
+
 
 Pozdrawiamy,
 
