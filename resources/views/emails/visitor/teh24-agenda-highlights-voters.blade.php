@@ -6,15 +6,16 @@ Cześć
 
 Targi eHandlu już w najbliższy piątek na EXPO XXI w Warszawie.
 
-Szykuje się inspirująca edycja.**Blisko 160 Wystawców**, 4 sceny prezentacyjne z najbardziej gorącymi tematami w E-commerce, m.in. **AI**, **Google Analytics 4**
+Szykuje się inspirująca edycja.**Blisko 160 Wystawców**, **4 sceny** prezentacyjne z najbardziej gorącymi tematami w E-commerce, m.in. **AI**, **Google Analytics 4**
 
 Wstęp na EXPO i Prezentacje otwarty - wymagana jedynie rejestracja.
 
-@endcomponent
-
 Czy warto? Warto! :)
 
-## Agenda ujawniona! (wybrane tematy)
+@endcomponent
+
+
+## Wybrane tematy prezentacji
 
 Start selling with eBay / **Rozpocznij sprzedaż na eBay**
 
