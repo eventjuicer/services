@@ -107,10 +107,29 @@ class SendGeneralReminder extends Command
         $sendable->validateEmails(true);
 
         $whatWeDo  = $this->anticipate('Send, stats, test?', ['test', 'send', 'stats']);
-        $status  = $this->anticipate('All, Going, Not applied to workshops, Vips?', 
-        ['all', 'going', "not_yet_applied_to_workshops", "vips"]);
+        $status  = $this->anticipate(
+            'all, going, not_yet_applied_to_workshops, vips, with_agreed_workshops?',
+            [
+                'all', 
+                'going', 
+                "not_yet_applied_to_workshops", 
+                "vips", 
+                "with_agreed_workshops"
+            ]
+        );
 
         switch($status){
+
+            case "with_agreed_workshops":
+                
+                $participants = $participants->filter(function($participant){
+                    if($participant->meetups_agreed && $participant->meetups_agreed->count()){
+                        return true;
+                    } 
+                    return false;
+                });
+
+            break;
 
             case "going":
 
