@@ -2,14 +2,32 @@
 
 
 
+
+6 listopada 
+
+
+
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Wiosenna edycja, ankieta, zdjęcia z Targów eHandlu" --email=teh24-thankyou --context=event,pr --exclude_company_ids="2398"
+
+
+
+
+
+
 SMSY
 =============
 
-Czesc [%imie%], przypominamy o Targach eHandlu! Wejscie od 10:00; Prezentacje od 10:40 (agenda - https://teh.com.pl/a). Masz wydrukowany bilet? Wchodzisz od razu do Hali 1. Nie masz? Podaj kod [%kontakt.quick_code%] w Rejestracji.
+###CURRENT + VIP
+
+Przypominamy o Targach eHandlu! Start 10:00; Agenda - https://teh.com.pl/a. Masz wydrukowany bilet? Kieruj sie do Hali 1. Nie masz? Podaj kod !ndgdkz w INFO.
 
 Czesc, pamietasz o warsztacie na Targach eHandlu? zapraszamy do Hali 3. Strefa warsztatowa [%kontakt.venue%] start [%kontakt.time%]. Do zobaczenia!
 
-Czesc. Masz dostep do Strefy VIP, ktora znajduje sie w HALI 3. Przy pierwszym wejsciu do HALI 3 pokaz tego SMSa. You are a VIP, show this message when entering Hall 3 (VIP Zone). pozdrowienia. Targi eHandlu
+###VIP
+
+Masz dostep do Strefy VIP Targow eHandlu. Przy wejsciu do HALI 3 pokaz tego SMSa. You are a VIP, show this message when entering Hall 3 (VIP Zone).
+
+### REPS
 
 Dzien dobry! Przypominamy o Hali 3 i Strefie VIP. Juz teraz mozesz tam napic sie kawy i prowadzic rozmowy biznesowe. Od 12:30 startuje catering. Hello! Hall 3 / VIP Zone is open. Visit to have coffee and business talks and catering (from 12:30pm).
 
@@ -21,10 +39,9 @@ Dzien dobry! Przypominamy o Hali 3 i Strefie VIP. Juz teraz mozesz tam napic sie
 26 października
 ===============
 
-php artisan visitors:current-event --domain=targiehandlu.pl --subject="Twoje plan dnia na piątkowych Targach eHandlu" --email=teh24-todo
+php artisan visitors:current-event --domain=targiehandlu.pl --subject="Twój plan dnia na piątkowych Targach eHandlu" --email=teh24-todo
 
-
-
+//ENTRANCE file export 
 php artisan visitors:meetups --domain=targiehandlu.pl
 
 php artisan visitors:ticket-reminder --domain=targiehandlu.pl
