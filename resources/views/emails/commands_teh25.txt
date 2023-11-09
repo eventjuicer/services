@@ -1,0 +1,67 @@
+
+
+
+
+
+
+
+9 listopada
+===========
+
+php artisan exhibitors:award --domain=targiehandlu.pl --award=earlybird --previous --lang=pl --defaultlang=pl --email="teh25-salesplan-top30" --subject="Sprzedaż stoisk. Targi eHandlu 11 kwietnia [top30]"
+
+php artisan exhibitors:award --domain=targiehandlu.pl --award=earlybird --previous --reverse --lang=pl --defaultlang=pl --email="teh25-salesplan-others" --subject="Sprzedaż stoisk. Targi eHandlu 11 kwietnia"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+26 kwietnia
+===========
+
+php artisan exhibitors:award --domain=targiehandlu.pl --award=earlybird --previous --reverse --lang=pl --defaultlang=pl --email="teh24-sales-started" --subject="Wystartowaliśmy! Otwarta rezerwacja przestrzeni wystawienniczej na jesienne Targi eHandlu."
+
+php artisan exhibitors:award --domain=targiehandlu.pl --award=earlybird --previous --reverse --lang=en --defaultlang=pl --email="teh24-sales-started" --subject="Book an exhibition space for Ecommerce Warsaw Expo 2023 Autumn edition"
+
+25 kwietnia
+===========
+
+php artisan exhibitors:award --domain=targiehandlu.pl --award=earlybird --previous --reverse --lang=pl --defaultlang=pl --email="teh24-sales-reminder" --subject="Środa,  11:00. Sprzedaż stoisk na jesienne Targi eHandlu."
+
+php artisan exhibitors:award --domain=targiehandlu.pl --award=earlybird --previous --reverse --lang=en --defaultlang=pl --email="teh24-sales-reminder" --subject="Wednesday, 11:00 CET. Open sales for next E-commerce Warsaw Expo..."
+
+php artisan exhibitors:award --domain=targiehandlu.pl --award=earlybird --previous --lang=pl --defaultlang=pl --email="teh24-top30-start" --subject="Wystartowaliśmy! Sekretny link do rezerwacji przestrzeni wystawienniczej..."
+
+24 kwietnia
+===========
+
+php artisan exhibitors:award --domain=targiehandlu.pl --award=earlybird --previous --lang=pl --defaultlang=pl --email="teh24-salesplan2-top30" --subject="Zdjęcia; Sprzedaż stoisk już we wtorek [top30]"
+
+php artisan exhibitors:award --domain=targiehandlu.pl --award=earlybird --previous --reverse --lang=pl --defaultlang=pl --email="teh24-salesplan2-others" --subject="Zdjęcia; Sprzedaż stoisk już w środę."
+
+
+
+
+

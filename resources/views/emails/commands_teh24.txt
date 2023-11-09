@@ -1,5 +1,25 @@
 
 
+old event 102
+
+new event 103
+
+
+
+
+414 light
+415 std
+416 hot
+417 sh
+418 ultra
+419 grand
+420 kurator
+421 lastminute
+422 netwr
+423 test
+424 mini netw
+425 scena b
+426 scena d
 
 
 
@@ -7,7 +27,7 @@
 
 
 
-php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Wiosenna edycja, ankieta, zdjęcia z Targów eHandlu" --email=teh24-thankyou --context=event,pr --exclude_company_ids="2398"
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Kolejne Targi, ankieta, zdjęcia z Targów eHandlu" --email=teh24-thankyou --context=event,pr --exclude_company_ids="2398"
 
 
 
