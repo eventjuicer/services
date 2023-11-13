@@ -9,6 +9,9 @@ Oto plan dotyczący startu sprzedaży powierzchni wystawienniczej na 25. Targi e
 
 **Ekskluzywna sprzedaż dla firm z TOP30** Konkursu dla Wystawców czyli dla Twojej firmy
 
+[Układ hali, ceny](https://targiehandlu.pl/top30_13x2apxw7)
+
+
 **Środa - 15 listopada 11:00** - Sprzedaż otwarta dla pozostałych zainteresowanych
 
 
