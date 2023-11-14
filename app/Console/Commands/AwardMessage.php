@@ -187,6 +187,13 @@ class AwardMessage extends Command {
                 continue;
             }
 
+            if(!empty( $exclude_company_ids ) && in_array($ex->company_id, $exclude_company_ids) ){
+            
+                $this->error("Company excluded by --exclude_company_ids: " . $ex->email );
+                continue;                
+            }
+            
+
             $stats   = array_get($ranking, $ex->company_id, []);
             $prizes  = array_get($stats, "prizes", []);
 
@@ -205,11 +212,7 @@ class AwardMessage extends Command {
                 $this->info("Assigned for: " . $ex->getName() );
             }
 
-            if(!empty( $exclude_company_ids ) && in_array($ex->company_id, $exclude_company_ids) ){
-            
-                $this->error("Company excluded by --exclude_company_ids: " . $ex->email );
-                continue;                
-            }
+        
 
 
             $done++;
