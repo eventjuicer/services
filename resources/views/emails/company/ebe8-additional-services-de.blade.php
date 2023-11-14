@@ -2,7 +2,7 @@
 
 # Hallo {{ array_get($profile, "fname") }},
 
-**Die E-Commerce Berlin Expo 2024 rückt immer näher!** Deshalb möchten wir dich darauf hinweisen, dass du auf der Ausstellerplattform immer noch zusätzliche Dienste wahrnehmen kannst, wie z.B.:**
+**Die E-Commerce Berlin Expo 2024 rückt immer näher!** Deshalb möchten wir dich darauf hinweisen, dass du auf der Ausstellerplattform immer noch **zusätzliche Dienste wahrnehmen kannst, wie z.B.:**
 
 - Vollständiger Standbau
 - Teppichbelag
