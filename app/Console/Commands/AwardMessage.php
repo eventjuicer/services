@@ -49,7 +49,8 @@ class AwardMessage extends Command {
         {--lang=}
         {--previous}
         {--reverse}
-        {--defaultlang=}';
+        {--defaultlang=}
+        {--exclude_company_ids=""}';
     
     protected $description = 'Send email message to awarded Exhibitors';
  
@@ -72,6 +73,9 @@ class AwardMessage extends Command {
 
         $previous =  $this->option("previous");
         $reverse =  $this->option("reverse");
+
+        $exclude_company_ids =  array_filter(explode(",", $this->option("exclude_company_ids")), function($value){ return intval($value) > 0; }); 
+
 
         $errors = array();
 
@@ -119,6 +123,14 @@ class AwardMessage extends Command {
             }
             return;
         }
+
+        if(!empty($exclude_company_ids)) {
+            
+            $this->info( count($exclude_company_ids) . " companies excluded" );
+        
+        }
+
+
 
 
         /**
@@ -192,6 +204,13 @@ class AwardMessage extends Command {
             }else{
                 $this->info("Assigned for: " . $ex->getName() );
             }
+
+            if(!empty( $exclude_company_ids ) && in_array($ex->company_id, $exclude_company_ids) ){
+            
+                $this->error("Company excluded by --exclude_company_ids: " . $ex->email );
+                continue;                
+            }
+
 
             $done++;
 
