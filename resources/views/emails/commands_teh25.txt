@@ -1,8 +1,5 @@
 
 
-php artisan exhibitors:award --domain=targiehandlu.pl --award=earlybird --previous --reverse --lang=pl --defaultlang=pl --email="teh25-sales-reminder" --subject="Środa, 11:00. Sprzedaż stoisk na wiosenne Targi eHandlu."
-
-php artisan exhibitors:award --domain=targiehandlu.pl --award=earlybird --previous --reverse --lang=en --defaultlang=pl --email="teh25-sales-reminder" --subject="Wednesday, 11:00 CET. Open sales for next E-commerce Warsaw Expo..."
 
 
 
@@ -11,25 +8,22 @@ php artisan exhibitors:award --domain=targiehandlu.pl --award=earlybird --previo
 
 
 
+15 listopada
+============
 
+php artisan exhibitors:award --domain=targiehandlu.pl --award=earlybird --previous --reverse --lang=pl --defaultlang=pl --email="teh25-sales-started" --subject="Wystartowaliśmy! Otwarta rezerwacja przestrzeni wystawienniczej na wiosenne Targi eHandlu." --exclude_company_ids="2296,2406,2292,2320,1200,2103,1180,1152,1310,1465,2404,1233,1134,1164,2412,1281,1493,1270,2119,1175,2101,2424,1137,2410,1196,2118,1233,2380,1141,2434,1855,1028,2403,1653,1171,2325,1167,2297,1239,1869,1565,1893,1287,1132"
 
+php artisan exhibitors:award --domain=targiehandlu.pl --award=earlybird --previous --reverse --lang=en --defaultlang=pl --email="teh25-sales-started" --subject="Book an exhibition space for Ecommerce Warsaw Expo 2024 Spring edition" --exclude_company_ids="2296,2406,2292,2320,1200,2103,1180,1152,1310,1465,2404,1233,1134,1164,2412,1281,1493,1270,2119,1175,2101,2424,1137,2410,1196,2118,1233,2380,1141,2434,1855,1028,2403,1653,1171,2325,1167,2297,1239,1869,1565,1893,1287,1132"
 
 
 14 listopada
 ============
 
-
-
 php artisan exhibitors:award --domain=targiehandlu.pl --award=earlybird --previous --lang=pl --defaultlang=pl --email="teh25-top30-start" --subject="Wystartowaliśmy! Sekretny link do rezerwacji przestrzeni wystawienniczej..." --exclude_company_ids="1893,1565,1136,1132,1142,1129,2416,1154,2,2407,2335,1898,1145,1708"
 
+php artisan exhibitors:award --domain=targiehandlu.pl --award=earlybird --previous --reverse --lang=pl --defaultlang=pl --email="teh25-sales-reminder" --subject="Środa, 11:00. Sprzedaż stoisk na wiosenne Targi eHandlu."
 
-
-
-
-
-
-
-
+php artisan exhibitors:award --domain=targiehandlu.pl --award=earlybird --previous --reverse --lang=en --defaultlang=pl --email="teh25-sales-reminder" --subject="Wednesday, 11:00 CET. Open sales for next E-commerce Warsaw Expo..."
 
 13 listopada
 ===========
@@ -38,52 +32,9 @@ php artisan exhibitors:award --domain=targiehandlu.pl --award=earlybird --previo
 
 php artisan exhibitors:award --domain=targiehandlu.pl --award=earlybird --previous --reverse --lang=pl --defaultlang=pl --email="teh25-salesplan2-others" --subject="Sprzedaż stoisk już w środę."
 
-
-
-
 9 listopada
 ===========
 
 php artisan exhibitors:award --domain=targiehandlu.pl --award=earlybird --previous --lang=pl --defaultlang=pl --email="teh25-salesplan-top30" --subject="Sprzedaż stoisk. Targi eHandlu 11 kwietnia [top30]"
 
 php artisan exhibitors:award --domain=targiehandlu.pl --award=earlybird --previous --reverse --lang=pl --defaultlang=pl --email="teh25-salesplan-others" --subject="Sprzedaż stoisk. Targi eHandlu 11 kwietnia"
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-26 kwietnia
-===========
-
-php artisan exhibitors:award --domain=targiehandlu.pl --award=earlybird --previous --reverse --lang=pl --defaultlang=pl --email="teh24-sales-started" --subject="Wystartowaliśmy! Otwarta rezerwacja przestrzeni wystawienniczej na jesienne Targi eHandlu."
-
-php artisan exhibitors:award --domain=targiehandlu.pl --award=earlybird --previous --reverse --lang=en --defaultlang=pl --email="teh24-sales-started" --subject="Book an exhibition space for Ecommerce Warsaw Expo 2023 Autumn edition"
-
-
-
-
-
-
-
