@@ -4,15 +4,22 @@
 
 
 
+27 listopada
+=============
+https://github.com/ecommerceberlin/exhibitors/issues/164
+
+php artisan exhibitors:current-event --lang=en --defaultlang=en --domain=ecommerceberlin.com --subject="E-Commerce Germany Awards: Get your Networking Party tickets now at Black Week promotional price" --email=ebe8-ega-tickets --context=pr 
+
+php artisan exhibitors:current-event --lang=de --defaultlang=en --domain=ecommerceberlin.com --subject=" E-Commerce Germany Awards: Hol dir jetzt Tickets für die Networking-Party zum Aktionspreis am Black-Week-Sonderpreis!" --email=ebe8-ega-tickets --context=pr 
+
 
 
 
 
 
 21 listopada
-===========
-https://github.com/ecommerceberlin/exhibitors/issues/163#issuecomment-1820631946
-
+=============
+https://github.com/ecommerceberlin/exhibitors/issues/163
 
 php artisan exhibitors:current-event --lang=en --defaultlang=en --domain=ecommerceberlin.com --subject="E-commerce Germany Awards are open for submissions!" --email=ebe8-ega-intro --context=pr 
 
