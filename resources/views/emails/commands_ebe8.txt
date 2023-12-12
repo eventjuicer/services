@@ -1,6 +1,15 @@
 
 
 
+12 grudnia
+https://github.com/ecommerceberlin/exhibitors/issues/167
+
+
+php artisan exhibitors:current-event --lang=en --defaultlang=en --domain=ecommerceberlin.com --subject="Time is Running Out! Submit Your Entry to the E-Commerce Germany Awards!" --email=ebe8-ega-reminder --context=pr 
+
+php artisan exhibitors:current-event --lang=de --defaultlang=en --domain=ecommerceberlin.com --subject=" Letzte Chance! Melde dich für die E-Commerce Germany Awards an!" --email=ebe8-ega-reminder --context=pr 
+
+
 
 
 5 grudnia
