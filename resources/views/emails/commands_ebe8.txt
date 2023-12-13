@@ -1,6 +1,15 @@
 
 
 
+
+
+
+
+php artisan visitors:current-event --domain=ecommerceberlin.com --subject="Your code" --email=ebe7-quick-ticket-retrieval
+
+
+
+
 12 grudnia
 https://github.com/ecommerceberlin/exhibitors/issues/167
 

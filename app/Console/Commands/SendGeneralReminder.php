@@ -14,9 +14,21 @@ use Eventjuicer\Services\Revivers\ParticipantSendable;
 use App\Jobs\SendGeneralReminder as Job;
 
 
-
 class SendGeneralReminder extends Command
 {
+
+    use \Eventjuicer\Services\Traits\Fields;
+
+
+    protected $statuses = [
+        'all', 
+        'going', 
+        "no_workshops", 
+        "vips", 
+        "agreed_workshops",
+        "empty_fields"
+    ];
+
     /**
      * The name and signature of the console command.
      *
@@ -27,8 +39,10 @@ class SendGeneralReminder extends Command
         {--domain=}
         {--email=} 
         {--subject=}
+        {--fields=}
 
     ';
+
 
     /**
      * The console command description.
@@ -64,22 +78,37 @@ class SendGeneralReminder extends Command
         $domain = $this->option("domain");
         $email =  $this->option("email");
         $subject =  $this->option("subject");
+        $fields =  $this->option("fields");
+
+        $status  = $this->anticipate(
+            implode(", ", $this->statuses), 
+            $this->statuses
+        );
+
+        $whatWeDo  = $this->anticipate('Send, stats, test?', ['test', 'send', 'stats']);
 
         if(empty($domain)) {
             $errors[] = "--domain= must be set!";
         }
-
-        if(empty($subject)) {
-            $errors[] = "--subject= must be set!";
-        }
-    
         
-        if(empty($email)) {
-            $errors[] = "--email= must be set!";
-        }
+        if($whatWeDo!="stats") {
 
-        if(! view()->exists("emails.visitor." . $email)) {
-            return $this->error("--email= error. View cannot be found!");
+            if(empty($subject)){
+                $errors[] = "--subject= must be set!";
+            }
+
+            if(empty($email)){
+                $errors[] = "--email= must be set!";
+            }
+
+            if(! view()->exists("emails.visitor." . $email)) {
+                return $this->error("--email= error. View cannot be found!");
+            }     
+        }
+      
+      
+        if($status == "empty_fields" && empty($fields)) {
+            $errors[] = "--fields= must be set!";
         }
 
         if(!empty($errors)){
@@ -97,8 +126,16 @@ class SendGeneralReminder extends Command
 
         $this->info("Event id: " . $eventId);
 
+
+    
         // $participants = $ticketRepo->getParticipantsWithTicketRole("visitor", "event", $eventId);
-        $participants = $ticketRepo->get($eventId, "visitor", ["workshops", "ticketdownload"]);
+        $participants = $ticketRepo->get(
+            $eventId, 
+            "visitor", 
+            ["ticketdownload"] + 
+            (strstr($status, "workshops")? ["workshops"]: []) + 
+            ($fields? ["fieldpivot"]: [])
+        );
 
         $this->info("Total visitors: " . $participants->count());
 
@@ -106,21 +143,27 @@ class SendGeneralReminder extends Command
         $sendable->checkMutes(false);
         $sendable->validateEmails(true);
 
-        $whatWeDo  = $this->anticipate('Send, stats, test?', ['test', 'send', 'stats']);
-        $status  = $this->anticipate(
-            'all, going, not_yet_applied_to_workshops, vips, with_agreed_workshops?',
-            [
-                'all', 
-                'going', 
-                "not_yet_applied_to_workshops", 
-                "vips", 
-                "with_agreed_workshops"
-            ]
-        );
-
         switch($status){
 
-            case "with_agreed_workshops":
+            case "empty_fields":
+
+                $fieldsArr = array_map('trim', explode(",", $fields));
+
+                $fieldIds = array_map(function($fieldName){
+                    return $this->getFieldId($fieldName);
+                }, $fieldsArr);
+
+                $participants = $participants->filter(function($participant) use ($fieldIds){
+                   
+                    return $participant->fieldpivot->whereIn("field_id", $fieldIds)->contains(function($item){
+                        return mb_strlen(trim($item->field_value))<3;
+                    });
+
+                });
+
+            break;
+
+            case "agreed_workshops":
                 
                 $participants = $participants->filter(function($participant){
                     if($participant->meetups_agreed && $participant->meetups_agreed->count()){
@@ -141,7 +184,7 @@ class SendGeneralReminder extends Command
                 });
             break;
 
-            case "not_yet_applied_to_workshops":
+            case "no_workshops":
 
                 $participants = $participants->filter(function($participant){
                     if( is_null($participant->workshops) ){
@@ -153,7 +196,7 @@ class SendGeneralReminder extends Command
             break;
 
             case "vips":
-                $filtered = $participants->filter(function($participant){
+                $participants = $participants->filter(function($participant){
                     if( $participant->important ){
                         return true;
                     }
@@ -164,6 +207,15 @@ class SendGeneralReminder extends Command
     
 
         }
+ 
+        if($whatWeDo === "stats"){
+
+            $this->info("ids: " . implode(", ", $participants->pluck("id")->toArray()));
+
+            return;
+        }
+
+
         /**
          * 
          *  we should always skip not going, right?
@@ -172,14 +224,13 @@ class SendGeneralReminder extends Command
         $this->info("Visitors not going:" . $sendable->howManyNotGoing() );
         $this->info("Visitors that can be notified: " . $filtered->count() );
 
-        if($whatWeDo === "stats"){
-            return;
-        }
 
         $counter = 1;
 
+       
         foreach($filtered as $participant)
         {
+
 
             // if(!filter_var($participant->email, FILTER_VALIDATE_EMAIL)){
             //     $this->error("Wrong email address: " . $participant->email);
