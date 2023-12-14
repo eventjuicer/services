@@ -5,7 +5,7 @@
 
 
 
-php artisan visitors:current-event --domain=ecommerceberlin.com --subject="Your code" --email=ebe7-quick-ticket-retrieval
+php artisan visitors:current-event --domain=ecommerceberlin.com --subject="Complete Your E-commerce Berlin Expo Registration Form" --email=ebe8-emptyprofiles
 
 
 
