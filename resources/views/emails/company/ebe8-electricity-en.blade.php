@@ -8,7 +8,7 @@ Are you planning to bring laptops or coffee machines to your booth? Check how mu
 
 You can still order an additional electricity connection - 1000W or 3000W depending on your needs, simply click on Stand arrangement and choose electricity connection.
 
-Please note that the **deadline of placing your order is **FEBRUARY 5th**.
+Please note that the **deadline** of placing your order is **FEBRUARY 5th**.
 
 @component('mail::button', ['url' => 'https://account.ecommerceberlin.com/#/arrangement']) Stand arrangement
 @endcomponent

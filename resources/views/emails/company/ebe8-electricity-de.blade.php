@@ -1,22 +1,22 @@
 @component('mail::message')
 
-# Hello {{ array_get($profile, "fname") }},
+# Hallo {{ array_get($profile, "fname") }},
 
-To ensure that you are almost ready to participate in the Expo, we have a gentle reminder about electricity connection to the exhibitor booth.
+Um sicherzustellen, dass ihr für die Expo bestmöglich vorbereitet seid, möchten wir Euch daran erinnern, dass ihr noch immer extra Strom bestellen könnt.
 
-Are you planning to bring laptops or coffee machines to your booth? Check how much electricity connection you have! The standard electric power connected to a stand is 500W (for 9 sqm stands) or 1000W (for 18 sqm stands).
+Plant ihr, Laptops oder Kaffeemaschinen an euren Stand zu bringen? Bitte prüft vorher, wie viel Stromanschluss ihr habt! Die Standard-Stromversorgung für einen Stand beträgt 500 W (für 9 m² große Stände) oder 1000 W (für 18 m² große Stände).
 
-You can still order an additional electricity connection - 1000W or 3000W depending on your needs, simply click on Stand arrangement and choose electricity connection.
+Je nach Bedarf könnt ihr weiterhin extra Strom bestellen - 1000W oder 3000W. Hierfür bitte die  untenstehende Taste 'Standdienste' anklicken, die gewünschte Stromoption wählen und bestellen. 
 
-Please note that the **deadline of placing your order is **FEBRUARY 5th**.
+Bitte beachtet, dass **Bestellungen bis spätestens 5. FEBRUAR** möglich sind.
 
-@component('mail::button', ['url' => 'https://account.ecommerceberlin.com/#/arrangement']) Stand arrangement
+@component('mail::button', ['url' => 'https://account.ecommerceberlin.com/#/arrangement']) Standdienste
 @endcomponent
 
-If you have any questions regarding preparation for the Expo, please get back to me and I’ll be happy to assist you.
+Falls noch Fragen zur Vorbereitung auf die Expo bestehen, stehe ich gerne zur Verfügung.
 
-Regards,
-
+Beste Grüße,
+ 
 {{$footer}}
 
 @endcomponent
