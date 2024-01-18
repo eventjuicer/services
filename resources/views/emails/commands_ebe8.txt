@@ -5,12 +5,28 @@
 
 
 
+
+
+18 stycznia
+===========
+
+php artisan exhibitors:current-event --lang=en --defaultlang=en --domain=ecommerceberlin.com --subject="E-commerce Berlin Expo - organisational information" --email=ebe8-logistics1 --context=event
+
+php artisan exhibitors:current-event --lang=de --defaultlang=en --domain=ecommerceberlin.com --subject="E-commerce Berlin Expo - organisatorische Infos" --email=ebe8-logistics1 --context=event 
+
+
+
+
+
+
+
+
 15 stycznia
 ===========
 
 
 
-php artisan exhibitors:current-event --lang=en --defaultlang=en --domain=ecommerceberlin.com --subject="Time to add company representatives! | EBE 2024" --email=ebe8-representatives1 --context=event 
+php artisan exhibitors:current-event --lang=en --defaultlang=en --domain=ecommerceberlin.com --subject="Time to add company representatives! | EBE 2024" --email=ebe8-representatives1 --context=event
 
 php artisan exhibitors:current-event --lang=de --defaultlang=en --domain=ecommerceberlin.com --subject="Zeit, die Firmenvertreter zu registrieren! | EBE2024" --email=ebe8-representatives1 --context=event 
 
