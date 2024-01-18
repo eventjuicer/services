@@ -5,6 +5,8 @@
 Nur noch ein Monat bis zu der E-Commerce Berlin Expo, daher haben wir einige organisatorische Informationen für euch zusammengestellt:
 
 1. Unten findet ihr den Link zum Ausstellerhandbuch, in dem alle wichtigen Informationen enthalten sind:
+
+    
 [LINK](https://res.cloudinary.com/ecommerceberlin/image/upload/v1705230024/Logistics/Exhibitor%27s%20Manual%202024/EBE_24_-_Exhibitor_Manual_DE.pdf)
 
 2. Wenn ihr mit dem Auto zur STATION (Luckenwalder Str. 4–6, 10963 Berlin) anreist, bitte beachtet:
