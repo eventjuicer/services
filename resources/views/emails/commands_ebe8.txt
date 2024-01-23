@@ -2,6 +2,17 @@
 
 
 
+23 stycznia
+===========
+
+php artisan exhibitors:current-event --lang=en --defaultlang=en --domain=ecommerceberlin.com --subject=EBE Networking Party: Secure extra tickets and register your representatives!" --email=ebe8-partyreps --context=event
+
+php artisan exhibitors:current-event --lang=de --defaultlang=en --domain=ecommerceberlin.com --subject="EBE-Networking-Party: Sichere dir zusätzliche Tickets und melde deine Delegierten an!" --email=ebe8-partyreps --context=event 
+
+
+
+
+
 
 
 
