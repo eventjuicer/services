@@ -2,10 +2,43 @@
 
 
 
+
+
+
+
+
+php artisan exhibitors:current-event --lang=en --defaultlang=en --domain=ecommerceberlin.com --subject="Arrange meetings before the EXPO and bring your key partners by using VIP invitations" --email=/ebe8-vip_c2p --context=event,pr,sales
+
+php artisan exhibitors:current-event --lang=de --defaultlang=en --domain=ecommerceberlin.com --subject="Vereinbare Treffen vor der EXPO und bringe deine wichtigsten Partner mit Hilfe von VIP-Einladungen mit." --email=ebe8-vip_c2p --context=event,pr,sales
+
+
+
+
+
+
+26 stycznia
+===========
+
+
+
+php artisan exhibitors:current-event --lang=en --defaultlang=en --domain=ecommerceberlin.com --subject="Promote your exhibitor's profile and get additional benefits" --email=ebe8-promoninja1 --context=event,pr
+
+php artisan exhibitors:current-event --lang=de --defaultlang=en --domain=ecommerceberlin.com --subject="Promote dein Ausstellerprofil und erhalte zusätzliche Vorteile" --email=ebe8-promoninja1 --context=event,pr
+
+
+
+
+
+
+
+
+
+
+
 23 stycznia
 ===========
 
-php artisan exhibitors:current-event --lang=en --defaultlang=en --domain=ecommerceberlin.com --subject=EBE Networking Party: Secure extra tickets and register your representatives!" --email=ebe8-partyreps --context=event
+php artisan exhibitors:current-event --lang=en --defaultlang=en --domain=ecommerceberlin.com --subject="EBE Networking Party: Secure extra tickets and register your representatives!" --email=ebe8-partyreps --context=event
 
 php artisan exhibitors:current-event --lang=de --defaultlang=en --domain=ecommerceberlin.com --subject="EBE-Networking-Party: Sichere dir zusätzliche Tickets und melde deine Delegierten an!" --email=ebe8-partyreps --context=event 
 
