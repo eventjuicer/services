@@ -2,10 +2,18 @@
 
 
 
+https://ehandel.com.pl/co-po-i-zyli-dlugo-i-szczesliwie-dos-and-donts-w-relacji-klient-agencja,2323
+https://ehandel.com.pl/dlaczego-duze-i-zaawansowane-sklepy-wybieraja-prestashop-poznaj-historie-ich-sukcesu,2322
+https://ehandel.com.pl/pricing-w-sluzbie-cross-sellu-maksymalizacja-profitu-w-twoim-sklepie,2319
+https://ehandel.com.pl/na-co-uwazac-przy-tworzeniu-opisow-produktow-z-ai,2315
 
 
 
 
+1 lutego
+============
+
+php artisan visitors:restore-from-old-events --domain=targiehandlu.pl --email=teh25-videos_cfp --subject="VIDEO z Targów eHandlu; Czy chcesz wystąpić w kwietniu?" --events=87,89,95,97,99,102,103 --throttle=50000
 
 
 15 listopada
