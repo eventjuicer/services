@@ -5,9 +5,51 @@
 
 
 
+6 lutego
+========
 
 
-php artisan exhibitors:current-event --lang=en --defaultlang=en --domain=ecommerceberlin.com --subject="Arrange meetings before the EXPO and bring your key partners by using VIP invitations" --email=/ebe8-vip_c2p --context=event,pr,sales
+php artisan visitors:current-event --domain=ecommerceberlin.com --subject="Masterclasses applications are now OPEN" --email=ebe8-masterclasses-open
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+php artisan visitors:restore-from-old-events --domain=ecommerceberlin.com --email=ebe8-masterclasses-open --subject="Only 296 seats available. Apply now for a Masterclass @ E-commerce Berlin Expo 2023" --throttle=500000
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+php artisan exhibitors:current-event --lang=en --defaultlang=en --domain=ecommerceberlin.com --subject="Arrange meetings before the EXPO and bring your key partners by using VIP invitations" --email=ebe8-vip_c2p --context=event,pr,sales
 
 php artisan exhibitors:current-event --lang=de --defaultlang=en --domain=ecommerceberlin.com --subject="Vereinbare Treffen vor der EXPO und bringe deine wichtigsten Partner mit Hilfe von VIP-Einladungen mit." --email=ebe8-vip_c2p --context=event,pr,sales
 
