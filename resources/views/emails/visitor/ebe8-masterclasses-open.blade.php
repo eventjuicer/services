@@ -33,6 +33,5 @@ Best regards,
 
 EBE Team
 
-**[Newsletter configuration]({{ $unsubscribe }})**
 
 @endcomponent
