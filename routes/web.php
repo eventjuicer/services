@@ -26,7 +26,7 @@ Route::get('/masterclasses', function () {
 
     preg_match("/storage\/100_LTD_[a-z0-9]+\.csv/", Artisan::output(), $matches);
 
-    return !empty($matches)? '<a href="'.$matches[0].'">link</a>': ""
+    return !empty($matches)? '<a href="'.$matches[0].'">link</a>': "";
 });
 
 
