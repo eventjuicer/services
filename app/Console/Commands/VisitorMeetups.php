@@ -108,5 +108,7 @@ class VisitorMeetups extends Command {
 
         $this->info("storage/" . $baseFilename);
 
+        return "storage/" . $baseFilename;
+
     }
 }
