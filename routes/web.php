@@ -18,11 +18,13 @@ Route::get('/', function()
 
 
 Route::get('/masterclasses', function () {
-    return Artisan::call('visitors:meetups', [
+    Artisan::call('visitors:meetups', [
 
         '--domain' 	=> 'ecommerceberlin.com',
         '--direction' 	=> 'LTD'
     ]);
+
+    return Artisan::output();
 });
 
 
