@@ -18,15 +18,15 @@ Route::get('/', function()
 
 
 Route::get('/masterclasses', function () {
-    return Artisan::call('visitor:vips', [
+    return Artisan::call('visitors:meetups', [
         
         //'--domain' => 'ecommerceberlin.com'
         '--domain' 	=> 'ecommerceberlin.com',
         '--direction' 	=> 'LTD'
     ]);
-
-    //
 });
+
+
 
 
 Route::get('/teh', function () {
