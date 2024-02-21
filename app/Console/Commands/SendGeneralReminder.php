@@ -187,7 +187,7 @@ class SendGeneralReminder extends Command
             case "no_workshops":
 
                 $participants = $participants->filter(function($participant){
-                    if( is_null($participant->workshops) ){
+                    if( $participant->workshops->isEmpty() ){
                         return true;
                     }
                     return false;

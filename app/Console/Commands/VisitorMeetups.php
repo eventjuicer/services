@@ -17,7 +17,7 @@ class VisitorMeetups extends Command {
     protected $signature = 'visitors:meetups
 
         {--domain=}
-
+        {--direction=}
        
     ';
     
@@ -32,6 +32,7 @@ class VisitorMeetups extends Command {
     {
        
         $domain = $this->option("domain");
+        $direction = $this->option("direction");
 
         $errors = [];
 
@@ -47,8 +48,9 @@ class VisitorMeetups extends Command {
             return;
         }
 
-        
-        $direction  = $this->anticipate('ALL, P2C, C2P, LTD?', ['ALL', 'P2C', 'C2P', 'LTD']);
+        if(empty($direction)){
+            $direction  = $this->anticipate('ALL, P2C, C2P, LTD?', ['ALL', 'P2C', 'C2P', 'LTD']);
+        }
 
 
         /**
@@ -105,6 +107,8 @@ class VisitorMeetups extends Command {
         );
 
         $this->info("storage/" . $baseFilename);
+
+        return "storage/" . $baseFilename;
 
     }
 }
