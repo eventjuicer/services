@@ -10,10 +10,6 @@ Hi {{ $p->translate("[[fname]]") }},
 
 IMPORTANT: Print the ticket in advance to skip any queues on the day of the event!
 
-**If you are unable to print** or accidentally have lost your printed ticket, please **show the code** presented below **at the registration point.**
-
-# {{$hash}}
-
 # EBE 2024 | Plan your day ahead
 
 Time: Thursday / February 22nd, from 9:00 AM to 6:00 PM
