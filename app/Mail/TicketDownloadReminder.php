@@ -51,7 +51,7 @@ class TicketDownloadReminder extends Mailable
 
             $this->subject("Re: Thursday. Important/Wichtig - RSVP.");
 
-            $this->email = "ebe7-ticket-reminder";
+            $this->email = "ebe8-ticket-reminder";
 
         }
         else
