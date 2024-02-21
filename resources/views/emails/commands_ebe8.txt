@@ -1,9 +1,18 @@
 
 
+22 lutego
+=========
+
+
+php artisan visitors:current-event --domain=ecommerceberlin.com --subject="Your code" --email=ebe7-quick-ticket-retrieval
+
+
+
+
+
 21 lutego
 =========
 
-php artisan visitors:current-event --domain=ecommerceberlin.com --subject="Your code" --email=ebe7-quick-ticket-retrieval
 
 php artisan visitors:ticket-reminder --domain=ecommerceberlin.com
 
