@@ -1,18 +1,30 @@
 
 
+21 lutego
+=========
+
+php artisan visitors:current-event --domain=ecommerceberlin.com --subject="Your code" --email=ebe7-quick-ticket-retrieval
+
+php artisan visitors:ticket-reminder --domain=ecommerceberlin.com
 
 
 
 
+
+19 lutego
+=========
+
+php artisan exhibitors:current-event --lang=en --defaultlang=en --domain=ecommerceberlin.com --subject="Discover the Easiest Way to Collect Contact Details at the Expo" --email=ebe8-scans --context=event,sales
+
+php artisan exhibitors:current-event --lang=de --defaultlang=en --domain=ecommerceberlin.com --subject="Entdecke den einfachsten Weg, um Kontaktdaten auf der Expo zu sammeln" --email=ebe8-scans --context=event,sales
  
+php artisan exhibitors:meetups_please_rsvp --domain=ecommerceberlin.com --lang=en --defaultlang=en --subject="RSVP! Meeting invitations awaiting in your Exhibitor Profile"
 
+php artisan exhibitors:meetups_please_rsvp --domain=ecommerceberlin.com --lang=de --defaultlang=en --subject="RSVP! Termineinladungen warten auf deiner Ausstellerplattform."
 
 php artisan exhibitors:current-event --lang=en --defaultlang=en --domain=ecommerceberlin.com --subject="Urgent: Final days to use VIP tickets and schedule your meetings!" --email=ebe8-promoninja-warning --context=event,pr,sales
 
 php artisan exhibitors:current-event --lang=de --defaultlang=en --domain=ecommerceberlin.com --subject="Dringend: Noch ein paar Tage, um VIP-Tickets zu nutzen und Termine zu vereinbaren!" --email=ebe8-promoninja-warning --context=event,pr,sales
-
-
-
 
 
 12 lutego
