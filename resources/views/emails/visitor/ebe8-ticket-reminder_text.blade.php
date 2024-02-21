@@ -1,38 +1,29 @@
-(unten auf deutsch)
-
 Hi {{ $p->translate("[[fname]]") }},
 
-Are you planning to visit E-commerce Berlin Expo this Thursday and experience 5 stages with more than 70 speakers & over 248 exhibitors?
+# # # # # # # # # # #
+
+Are you planning to visit E-commerce Berlin Expo tomorrow and experience 5 stages with more than 75 speakers & over 280 exhibitors?
 
 YES! I am going {!! $going !!}
 
-NO! Release my ticket {!! $notGoing !!}
+NO! I can’t make it {!! $notGoing !!}
 
-We are currently limited by the number of people we can welcome at our event. 
-Upon exceeding 8,000 downloaded tickets, we will no longer allow downloads or registrations for the event. 
+# # # # # # # # # # #
 
-Full agenda of presentations - {!! $url !!}
+EBE 2024 | Plan your day ahead
 
-Thank you!
+Time: Thursday / February 22nd, from 9:00 AM to 6:00 PM
 
-E-commerce Berlin Expo Team
+Location: STATION Berlin, Luckenwalder Str 4-6, 10963 Berlin
 
+Itinerary:
 
-* * *
+- Review our agenda https://ecommerceberlin.com/schedule
+- Discover exhibitors lineup https://ecommerceberlin.com/exhibitors
+- Study the venue map https://drive.google.com/file/d/17T_GNG8zxpm7NTYcOtaTALlCbP1jYMEW/view?usp=sharing
 
-Hallo  {{ $p->translate("[[fname]]") }},
+We wish you a fantastic time at our event.
 
-Du hast bis jetzt Dein Ticket nicht runtergeladen. 
+See you in Berlin!
 
-Planst du bei der E-commerce Berlin Expo am Donnerstag dabei zu sein und dir mehr als 70 Speaker und 248 Aussteller anzusehen?
-
-
-JA! {!! $going !!}
-
-Nein! {!! $notGoing !!}
-
-
-Danke,
-
-Das E-commerce Berlin Expo Team
-
+Lucas, EBE Team
