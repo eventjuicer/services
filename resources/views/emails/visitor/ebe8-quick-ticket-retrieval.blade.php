@@ -8,7 +8,11 @@ EBE opens today at **9:00 on STATION Berlin**, giving you access to over **280 l
 
 **If you are unable to print** or have accidentally lost your printed ticket, please **show the code** presented below **at the registration point.**
 
+@component("panel")
+
 # {{$hash}}
+
+@endcomponent
 
 See you soon!
 
