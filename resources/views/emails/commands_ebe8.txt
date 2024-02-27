@@ -4,87 +4,55 @@
 
 
 
- 
 
+22 lutego
+=========
+
+php artisan visitors:current-event --domain=ecommerceberlin.com --subject="Your EBE code" --email=ebe8-quick-ticket-retrieval
+
+21 lutego
+=========
+
+php artisan visitors:ticket-reminder --domain=ecommerceberlin.com
+
+19 lutego
+=========
+
+php artisan exhibitors:current-event --lang=en --defaultlang=en --domain=ecommerceberlin.com --subject="Discover the Easiest Way to Collect Contact Details at the Expo" --email=ebe8-scans --context=event,sales
+
+php artisan exhibitors:current-event --lang=de --defaultlang=en --domain=ecommerceberlin.com --subject="Entdecke den einfachsten Weg, um Kontaktdaten auf der Expo zu sammeln" --email=ebe8-scans --context=event,sales
+ 
+php artisan exhibitors:meetups_please_rsvp --domain=ecommerceberlin.com --lang=en --defaultlang=en --subject="RSVP! Meeting invitations awaiting in your Exhibitor Profile"
+
+php artisan exhibitors:meetups_please_rsvp --domain=ecommerceberlin.com --lang=de --defaultlang=en --subject="RSVP! Termineinladungen warten auf deiner Ausstellerplattform."
 
 php artisan exhibitors:current-event --lang=en --defaultlang=en --domain=ecommerceberlin.com --subject="Urgent: Final days to use VIP tickets and schedule your meetings!" --email=ebe8-promoninja-warning --context=event,pr,sales
 
 php artisan exhibitors:current-event --lang=de --defaultlang=en --domain=ecommerceberlin.com --subject="Dringend: Noch ein paar Tage, um VIP-Tickets zu nutzen und Termine zu vereinbaren!" --email=ebe8-promoninja-warning --context=event,pr,sales
 
 
-
-
-
 12 lutego
 ==========
 
-
 php artisan visitors:current-event --domain=ecommerceberlin.com --subject="Last Chance to Apply: Secure Your Seat in the E-commerce Berlin Expo Masterclasses!" --email=ebe8-restore-masterclasses
-
-
-
-
-
-
-
 
 6 lutego
 ========
 
 php artisan visitors:current-event --domain=ecommerceberlin.com --subject="Apply now. Masterclasses applications are OPEN. Only 640 seats." --email=ebe8-masterclasses-open
 
-
-
-
 php artisan visitors:restore-from-old-events --domain=ecommerceberlin.com --email=ebe8-masterclasses-open --subject="Only 640 seats available. Apply now for a Masterclass @ E-commerce Berlin Expo 2023" --throttle=500000
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 php artisan exhibitors:current-event --lang=en --defaultlang=en --domain=ecommerceberlin.com --subject="Arrange meetings before the EXPO and bring your key partners by using VIP invitations" --email=ebe8-vip_c2p --context=event,pr,sales
 
 php artisan exhibitors:current-event --lang=de --defaultlang=en --domain=ecommerceberlin.com --subject="Vereinbare Treffen vor der EXPO und bringe deine wichtigsten Partner mit Hilfe von VIP-Einladungen mit." --email=ebe8-vip_c2p --context=event,pr,sales
 
-
-
-
-
-
 26 stycznia
 ===========
-
-
 
 php artisan exhibitors:current-event --lang=en --defaultlang=en --domain=ecommerceberlin.com --subject="Promote your exhibitor's profile and get additional benefits" --email=ebe8-promoninja1 --context=event,pr
 
 php artisan exhibitors:current-event --lang=de --defaultlang=en --domain=ecommerceberlin.com --subject="Promote dein Ausstellerprofil und erhalte zusätzliche Vorteile" --email=ebe8-promoninja1 --context=event,pr
-
-
-
-
-
-
-
-
-
-
 
 23 stycznia
 ===========
@@ -93,15 +61,6 @@ php artisan exhibitors:current-event --lang=en --defaultlang=en --domain=ecommer
 
 php artisan exhibitors:current-event --lang=de --defaultlang=en --domain=ecommerceberlin.com --subject="EBE-Networking-Party: Sichere dir zusätzliche Tickets und melde deine Delegierten an!" --email=ebe8-partyreps --context=event 
 
-
-
-
-
-
-
-
-
-
 18 stycznia
 ===========
 
@@ -109,80 +68,32 @@ php artisan exhibitors:current-event --lang=en --defaultlang=en --domain=ecommer
 
 php artisan exhibitors:current-event --lang=de --defaultlang=en --domain=ecommerceberlin.com --subject="E-commerce Berlin Expo - organisatorische Infos" --email=ebe8-logistics1 --context=event 
 
-
-
-
-
-
-
-
 15 stycznia
 ===========
-
-
 
 php artisan exhibitors:current-event --lang=en --defaultlang=en --domain=ecommerceberlin.com --subject="Time to add company representatives! | EBE 2024" --email=ebe8-representatives1 --context=event
 
 php artisan exhibitors:current-event --lang=de --defaultlang=en --domain=ecommerceberlin.com --subject="Zeit, die Firmenvertreter zu registrieren! | EBE2024" --email=ebe8-representatives1 --context=event 
 
-
-
-
-
-
-
-
-
-
-
-
 php artisan exhibitors:current-event --lang=en --defaultlang=en --domain=ecommerceberlin.com --subject="E-BE 2024 Last call: Make sure you have enough electricity!" --email=ebe8-electricity --context=event 
 
 php artisan exhibitors:current-event --lang=de --defaultlang=en --domain=ecommerceberlin.com --subject="E-BE 2024 Letzter Aufruf: Stelle sicher, dass du genug Strom am Stand hast!" --email=ebe8-electricity --context=event 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 php artisan visitors:current-event --domain=ecommerceberlin.com --subject="Complete Your E-commerce Berlin Expo Registration Form" --email=ebe8-emptyprofile --fields=participant_type,company_role
-
-
 
 12 grudnia
 https://github.com/ecommerceberlin/exhibitors/issues/167
-
 
 php artisan exhibitors:current-event --lang=en --defaultlang=en --domain=ecommerceberlin.com --subject="Time is Running Out! Submit Your Entry to the E-Commerce Germany Awards!" --email=ebe8-ega-reminder --context=pr 
 
 php artisan exhibitors:current-event --lang=de --defaultlang=en --domain=ecommerceberlin.com --subject=" Letzte Chance! Melde dich für die E-Commerce Germany Awards an!" --email=ebe8-ega-reminder --context=pr 
 
-
-
-
 5 grudnia
 https://github.com/ecommerceberlin/exhibitors/issues/166
-
-
 
 php artisan exhibitors:current-event --lang=en --defaultlang=en --domain=ecommerceberlin.com --subject="Final call to check and order additional services on the exhibitor platform!" --email=ebe8-additional-services2 --context=event 
 
 php artisan exhibitors:current-event --lang=de --defaultlang=en --domain=ecommerceberlin.com --subject="Letzte Chance, weitere Dienstleistungen auf der Ausstellerplattform zu bestellen!" --email=ebe8-additional-services2 --context=event 
-
-
-
-
 
 
 27 listopada
