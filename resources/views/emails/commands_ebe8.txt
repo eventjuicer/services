@@ -1,5 +1,13 @@
 
 
+27 lutego
+=========
+
+
+
+php artisan exhibitors:current-event --lang=en --defaultlang=en --domain=ecommerceberlin.com --subject="Exhibitor feedback survey: E-commerce Berlin Expo" --email=ebe8-thankyou --context=all
+
+php artisan exhibitors:current-event --lang=de --defaultlang=en --domain=ecommerceberlin.com --subject="Aussteller Feedback Umfrage: E-Commerce Berlin Expo" --email==ebe8-thankyou --context=all
 
 
 
