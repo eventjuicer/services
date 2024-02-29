@@ -2,7 +2,7 @@
  
 Cześć {{ array_get($profile, "fname") }},
 
-## Tylko do 6 października masz możliwość zamówienia wybranych, dodatkowych, usług związanych z przestrzenią wystawienniczą. 
+## Tylko do 18 marca masz możliwość zamówienia wybranych, dodatkowych, usług związanych z przestrzenią wystawienniczą. 
 
 @component('mail::panel')
 
@@ -18,9 +18,9 @@ Zobacz/zamów usługi dodatkowe
 
 Oferowane usługi to:
 
-* Kompleksowa **zabudowa przestrzeni** stoiska w wersji FULLPRINT
+* Kompleksowa **zabudowa przestrzeni** stoiska w wersji FULLPRINT (zamów do 18 marca)
 
-* Kompleksowa **zabudowa przestrzeni** stoiska w wersji OSB+logotyp
+* Kompleksowa **zabudowa przestrzeni** stoiska w wersji OSB+logotyp (zamów do 18 marca)
 
 * **Lada** z nadrukiem
 

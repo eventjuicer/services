@@ -2,7 +2,7 @@
  
 Hello {{ array_get($profile, "fname") }},
 
-## You can order some exhibition-space related services only till 6th of October.
+## You can order some exhibition-space related services only till 18th of March.
 
 @component('mail::panel')
 
@@ -18,11 +18,11 @@ Browse/order additional services
 
 ## Exhibition-space related services
 
-* Full **booth arrangement** FULLPRINT version
+* Full **booth arrangement** FULLPRINT version (order untill 18th of March)
 
-* Full **booth arrangement** OSB+logotype version
+* Full **booth arrangement** OSB+logotype version (order untill 18th of March)
 
-* **Counter** with overprint
+* **Counter** with overprint (order untill 18th of March)
 
 * **Carpet**
 

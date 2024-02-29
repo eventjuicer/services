@@ -14,9 +14,13 @@ https://ehandel.com.pl/na-co-uwazac-przy-tworzeniu-opisow-produktow-z-ai,2315
 29 lutego
 ============
 
-php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Deadline: 6 października. Meble, wykładzina, TV, zapotrzebowanie na prąd, zabudowa..." --email=teh24-arrangement --context=event
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Deadline: 18 marca. . Meble, wykładzina, TV, zapotrzebowanie na prąd, zabudowa..." --email=teh25-arrangement --context=event
 
-php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=en --subject="Deadline: 6th of October;  Carpet flooring, LED display, complete space arrangement, etc..." --email=teh24-arrangement --context=event
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=en --subject="Deadline: 18th of March;  Carpet flooring, LED display, complete space arrangement, etc..." --email=teh25-arrangement --context=event
+
+
+
+
 
 
 
