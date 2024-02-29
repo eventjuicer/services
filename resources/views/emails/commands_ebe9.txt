@@ -1,0 +1,7 @@
+29 lutego
+==========
+
+php artisan exhibitors:current-event --lang=en --defaultlang=en --domain=ecommerceberlin.com --subject=" Exclusive Sales plan for E-commerce Berlin Expo 2025 exhibition spaces - book your spot for 2 days!" --email=ebe9-salesplan --context=all
+
+php artisan exhibitors:current-event --lang=de --defaultlang=en --domain=ecommerceberlin.com --subject="Exklusives Verkaufsangebot für Ausstellungsflächen bei der E-Commerce Berlin Expo 2025 - sichere dir deinen Platz für 2 Tage!" --email=ebe9-salesplan --context=all
+ 
