@@ -10,7 +10,7 @@ To view all available exhibition spaces, please click on the link below, which w
 Check the map here
 @endcomponent
 
-Please note that some spots may have already been booked by companies who visited us at the sales point during the show.
+Some spaces are already booked and confirmed by companies who met us at the sales booth during the event. 
 
 Best regards,
 

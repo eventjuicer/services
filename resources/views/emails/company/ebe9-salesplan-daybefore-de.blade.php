@@ -10,7 +10,7 @@ Um alle verfügbaren Ausstellungsflächen anzuzeigen, klicke bitte auf den unten
 Hier die Karte ansehen
 @endcomponent
 
-Bitte beachte, dass einige Plätze möglicherweise bereits von Unternehmen gebucht wurden, die uns am Verkaufsstand während der Messe besucht haben.
+Einige Plätze möglicherweise bereits von Unternehmen gebucht wurden, die uns am Verkaufsstand während der Messe getroffen haben.
 
 Mit freundlichen Grüßen,
 
