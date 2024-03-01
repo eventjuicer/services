@@ -1,15 +1,22 @@
 
 
+1 marca
+========
+
+php artisan exhibitors:current-event --lang=en --defaultlang=en --domain=ecommerceberlin.com --subject="Get your PHOTOS from the Expo | Fill in the post-event survey" --email=ebe8-photos --context=all
+
+php artisan exhibitors:current-event --lang=de --defaultlang=en --domain=ecommerceberlin.com --subject="Fülle den Fragebogen aus und lade dir deine Bilder von der Expo runter!" --email=ebe8-photos --context=all
+
+
+
+
+
 27 lutego
 =========
-
-
 
 php artisan exhibitors:current-event --lang=en --defaultlang=en --domain=ecommerceberlin.com --subject="Exhibitor feedback survey: E-commerce Berlin Expo" --email=ebe8-thankyou --context=all
 
 php artisan exhibitors:current-event --lang=de --defaultlang=en --domain=ecommerceberlin.com --subject="Aussteller Feedback Umfrage: E-Commerce Berlin Expo" --email=ebe8-thankyou --context=all
-
-
 
 
 
