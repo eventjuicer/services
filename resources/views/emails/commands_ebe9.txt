@@ -1,12 +1,16 @@
 
 
 
+php artisan exhibitors:award --domain=ecommerceberlin.com --award=earlybird --previous --lang=en --defaultlang=en --email=ebe9-salesplan-reminder --subject="Exclusive Sales Round for E-commerce Berlin Expo 2024 Exhibitors - Booking tomorrow @ 11:00 AM!"
+
 php artisan exhibitors:award --domain=ecommerceberlin.com --award=earlybird --previous --reverse --lang=en --defaultlang=en --email=ebe9-salesplan-reminder --subject="Exclusive Sales Round for E-commerce Berlin Expo 2024 Exhibitors - Booking tomorrow @ 11:00 AM!"
 
 
+
+
+php artisan exhibitors:award --domain=ecommerceberlin.com --award=earlybird --previous --lang=de --defaultlang=en --email=ebe9-salesplan-reminder --subject="Exklusive Verkaufsrunde für E-commerce Berlin Expo 2024 Aussteller - Buchung öffnet morgen um 11:00 Uhr!"
+
 php artisan exhibitors:award --domain=ecommerceberlin.com --award=earlybird --previous --reverse --lang=de --defaultlang=en --email=ebe9-salesplan-reminder --subject="Exklusive Verkaufsrunde für E-commerce Berlin Expo 2024 Aussteller - Buchung öffnet morgen um 11:00 Uhr!"
-
-
 
 
 
