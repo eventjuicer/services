@@ -7,9 +7,10 @@ php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl -
 php artisan companies:emptyprofile --domain=targiehandlu.pl --defaultLang=pl
 
 
+7 marca
+=======
 
-
-
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Deadline jutro. Zgłoszenie chęci prowadzenia warsztatu." --email=teh25-workshops-deadline --context=all
 
 
 
