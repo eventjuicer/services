@@ -10,7 +10,7 @@
 
 # Cześć, tu {{  array_get($companydata, "name") }}!
 
-## 27 października będziemy na 24. Targach eHandlu w Warszawie. 
+## 11 kwietnia będziemy na 25. Targach eHandlu w Warszawie. 
 Jeśli masz czas i chęci, chętnie porozmawiamy na miejscu przy naszym stoisku.
 
 
@@ -19,7 +19,7 @@ Odbierz bezpłatną wejściówkę
 @endcomponent
 
 
-Najbliższe Targi eHandlu to również 4 sceny prezentacyjne, 3 ścieżki warsztatowe i prawie **140 Wystawców** oferujących produkty i usługi pomagające lepiej sprzedawać w Internecie.
+Najbliższe Targi eHandlu to również 4 sceny prezentacyjne, 3 ścieżki warsztatowe i prawie **135 Wystawców** oferujących produkty i usługi pomagające lepiej sprzedawać w Internecie.
 
 Wejście zarówno na EXPO jak i sceny prezentacyjne jest bezpłatne.
 
