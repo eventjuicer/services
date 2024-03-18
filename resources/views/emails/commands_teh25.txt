@@ -1,4 +1,45 @@
 
+
+
+
+18 marca
+============
+
+
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Maksymalna konwersja z Targów. Wizytówka, umawianie spotkań" --email=teh24-promoninja-intro --context=pr_manager,event_manager
+
+
+
+
+
+14 marca
+============
+
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Przypomnienie. Do 18 marca: Meble, wykładzina, TV, zapotrzebowanie na prąd, zabudowa..." --email=teh25-arrangement --context=event
+
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=en --subject="Reminder: Deadline 18th of March: Carpet flooring, LED display, complete space arrangement, etc..." --email=teh25-arrangement --context=event
+
+
+
+
+
+
+
+
+
+
+
+11 marca
+
+php artisan exhibitors:current-event --domain=targiehandlu.pl  --lang=pl --defaultlang=pl --subject="Przedstawiciele Wystawcy na stoisku" --email=teh24-reps --context=event,sales
+
+php artisan exhibitors:current-event --domain=targiehandlu.pl --lang=en --defaultlang=pl --subject="Exhibitor's representatives @ booth." --email=teh24-reps --context=event,sales
+
+
+
+
+
+
 php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Deadline 16:00 na zgłoszenie chęci prowadzenia Warsztatu." --email=teh24-workshops-lastcall --context=event,sales --exclude_company_ids="1281,2101,2407,1653,2103,2406,1250,1192"
 
 9 pazdziernika
@@ -10,7 +51,7 @@ php artisan companies:emptyprofile --domain=targiehandlu.pl --defaultLang=pl
 7 marca
 =======
 
-php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Deadline jutro. Zgłoszenie chęci prowadzenia warsztatu." --email=teh25-workshops-deadline --context=all
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Deadline. Zgłoszenie chęci prowadzenia warsztatu." --email=teh25-workshops-deadline --context=all
 
 
 
