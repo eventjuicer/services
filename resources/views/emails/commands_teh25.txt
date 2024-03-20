@@ -1,5 +1,11 @@
 
 
+20 marca
+============
+
+
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Zdobywaj świadczenia. Profil Wystawcy i jego promocja." --email=teh25-promoninja-intro --context=pr_manager,event_manager
+
 
 
 18 marca
