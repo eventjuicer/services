@@ -3,10 +3,11 @@
 Cześć {{ $p->translate("[[fname]]") }}!
 
 
-Targi eHandlu już 11 kwietnia na EXPO XXI w Warszawie.
 
 
 @component('mail::panel')
+
+Targi eHandlu już **11 kwietnia** na EXPO XXI **w Warszawie.**
 
 Nadchodząca edycja to **135 Wystawców,4 Sceny** z prelekcjami oraz **20 warsztatów**.
 
@@ -16,8 +17,11 @@ Nadchodząca edycja to **135 Wystawców,4 Sceny** z prelekcjami oraz **20 warszt
 Sprawdź agendę i zarejestruj się
 @endcomponent
 
-# Agenda wiosennych Targów eHandlu będzie bogata w wystąpienia związane z wykorzystaniem "Sztucznej inteligencji" - oto wybrane!
+Agenda prezentacji Targów eHandlu jak zwykle odzwierciedla zapotrzebowanie na wiedzę dotycząjącą kluczowych zjawisk. Tym razem będzie to:
 
+# "Sztuczna inteligencja" w e-commerce
+
+Oto wybrane prezentacje.
 
 Waldemar Majchrzak CTO oraz Maciej Kaszkowiak Software Engineer z **X-ONE** opowiedzą o **Modelu Retrieval Augmented Generation (RAG)** i jak wpływa on na doświadczenia zakupowe w świecie e-commerce. *Nacisk zostanie położony na to, w jaki sposób sztuczna inteligencja może wykorzystywać wewnętrzne know-how firmy do udzielania trafnych i spersonalizowanych rekomendacji produktowych, co przekłada się na zwiększenie satysfakcji klientów i wzrost sprzedaży. *
 
