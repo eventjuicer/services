@@ -1,10 +1,30 @@
 
 
+
+
+
+
+
+php artisan visitors:restore-from-old-events --domain=targiehandlu.pl --email=teh25-restore1-agenda --subject="asdasd"  --throttle=55000
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 20 marca
 ============
 
 
-php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Zdobywaj świadczenia. Profil Wystawcy i jego promocja." --email=teh25-promoninja-intro --context=pr_manager,event_manager
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Wyróżnienie w katalogu Wystawców; Jak zostać Partnerem Strefy VIP?" --email=teh25-promoninja-intro --context=pr_manager,event_manager
 
 
 
