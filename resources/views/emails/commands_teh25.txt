@@ -1,11 +1,16 @@
 
 
 
+php artisan company:relations --domain=targiehandlu.pl --threshold=2 --lang=pl --defaultlang=pl --subject="Deadline. Przedstawiciele Wystawcy na stoisku" --email=teh25-reps-list-final
+
+php artisan company:relations --domain=targiehandlu.pl --threshold=2 --lang=en --defaultlang=pl --subject="Deadline. Exhibitor's representatives @ booth." --email=teh25-reps-list-final
 
 
 
 
-php artisan visitors:restore-from-old-events --domain=targiehandlu.pl --email=teh25-restore1-agenda --subject="asdasd" --events=95,97,99,102 --throttle=50000
+
+
+php artisan visitors:restore-from-old-events --domain=targiehandlu.pl --email=teh25-restore1-agenda --subject="Zarejestruj się. AI w E-commerce na Targach eHandlu w Warszawie" --events=89,95,97,99,102 --throttle=50000
 
 
 
