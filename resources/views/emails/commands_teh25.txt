@@ -1,6 +1,14 @@
 
 
 
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Wyślij wejściówkę VIP kluczowym Partnerom i Klientom" --email=teh25-vips --context=pr,event,sales
+
+
+
+
+
+
+
 php artisan company:relations --domain=targiehandlu.pl --threshold=2 --lang=pl --defaultlang=pl --subject="Deadline. Przedstawiciele Wystawcy na stoisku" --email=teh25-reps-list-final
 
 php artisan company:relations --domain=targiehandlu.pl --threshold=2 --lang=en --defaultlang=pl --subject="Deadline. Exhibitor's representatives @ booth." --email=teh25-reps-list-final
