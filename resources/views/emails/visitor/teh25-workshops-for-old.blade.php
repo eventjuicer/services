@@ -2,7 +2,7 @@
 
 Cześć {{ $p->translate("[[fname]]") }}!
 
-## Już jutro o 12:00 startują zgłoszenia na 20 Warsztatów, które odbędą się 11 kwietnia (podczas wiosennych Targów eHandlu)
+## Już jutro - o 12:00 - startują zgłoszenia na 20 Warsztatów, które odbędą się 11 kwietnia, podczas wiosennych Targów eHandlu.
 
 Mamy tylko 480 miejsc. 
 
@@ -13,7 +13,7 @@ Mamy tylko 480 miejsc.
 @endcomponent
 
 @component('mail::button', ['url' => 'https://targiehandlu.pl/workshops'])
-Sprawdź listę Warsztatów i zgłoś się
+Sprawdź listę Warsztatów
 @endcomponent
 
 
@@ -32,7 +32,7 @@ Jak zbudować **politykę zwrotów** dopasowaną do swojego sklepu?
 **OTTO.de & BOL.com** - jak pokonać barierę wejścia i wyprzedzić konkurencję. Aspekty prawne i logistyczne
 
 
-[Lista wszystkich warsztatów, zgłoszenia](https://targiehandlu.pl/workshops)
+[Lista wszystkich warsztatów](https://targiehandlu.pl/workshops)
 
 
 ## Zasady
@@ -46,6 +46,10 @@ Otrzymasz wiadomość zwrotną przy akceptacji.
 Każdy Uczestnik Warsztatów **otrzymuje status VIP** (dostęp do Strefy VIP dla Wystawców i Prelegentów)
 
 Czas warsztatu to maksymalnie **45 minut** (30min + 15min na Q&A)
+
+@component('mail::button', ['url' => 'https://targiehandlu.pl/workshops'])
+Sprawdź listę Warsztatów
+@endcomponent
 
 
 @component('mail::panel')

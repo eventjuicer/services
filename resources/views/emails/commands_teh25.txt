@@ -6,7 +6,7 @@
 
 
 
-php artisan visitors:restore-from-old-events --domain=targiehandlu.pl --email=teh25-workshops-for-old --subject="...tylko 432 miejsca. Start zgłoszeń na NOWE Warsztaty!  | Targi eHandlu w Warszawie"  --throttle=55000
+php artisan visitors:restore-from-old-events --domain=targiehandlu.pl --email=teh25-workshops-for-old --subject="Przygotuj się na jutrzejsze zapisy | Warsztaty"  --throttle=55000  --events=89,95,97,99,102 --throttle=50000
 
 
 
