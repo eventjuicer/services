@@ -1,12 +1,21 @@
 
 
+3 kwietnia
+===========
+
+
+
+php artisan visitors:restore-from-old-events --domain=targiehandlu.pl --email=teh25-workshops-for-old2 --subject="Wystartowały zapisy na 20 Warsztatów Targów eHandlu"  --throttle=55000  --events=89,95,97,99,102 --throttle=50000
+
+
+
 
 2 kwietnia
 ===========
 
 
 
-php artisan visitors:restore-from-old-events --domain=targiehandlu.pl --email=teh25-workshops-for-old --subject="Przygotuj się na jutrzejsze zapisy | Warsztaty"  --throttle=55000  --events=89,95,97,99,102 --throttle=50000
+php artisan visitors:restore-from-old-events --domain=targiehandlu.pl --email=teh25-workshops-for-old --subject="Warsztaty. Przygotuj się na jutrzejsze zapisy!"  --throttle=55000  --events=89,95,97,99,102 --throttle=50000
 
 
 
