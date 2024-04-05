@@ -4,7 +4,7 @@
 
 
 
-php artisan visitors:restore-from-voters --domain=targiehandlu.pl --email=teh24-agenda-highlights-voters --subject="Bilet na piątkowe Targi eHandlu w Warszawie - 27.10.2023" 
+php artisan visitors:restore-from-voters --domain=targiehandlu.pl --email=teh25-agenda-highlights-voters --subject="Czy chcesz bilet na czwartkowe Targi eHandlu w Warszawie?" 
 
 
 
