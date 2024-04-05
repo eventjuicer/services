@@ -38,6 +38,10 @@ class VoterInvite implements ShouldQueue {
 
         // double check !
 
+        if(! env("MAIL_TEST", true) && $this->voter->unsubscribed){
+            return;
+        }
+
         if(! $sendable->filter( collect([])->push( $this->voter ), $this->eventId)->count() )
         {
             return;
@@ -50,7 +54,7 @@ class VoterInvite implements ShouldQueue {
         );
        
         if(! env("MAIL_TEST", true) ){
-             $deliveries->updateAfterSend($this->voter->email, $this->eventId);
+             $deliveries->updateAfterSend($this->voter->email, $this->eventId, "v");
         }
      
     }

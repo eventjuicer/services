@@ -10,6 +10,7 @@ use Eventjuicer\Repositories\ParticipantMuteRepository;
 use Eventjuicer\Repositories\Criteria\ColumnMatches;
 use Illuminate\Database\Eloquent\Model;
 use Eventjuicer\Models\ParticipantMute;
+use Eventjuicer\Models\SocialLinkedin;
 
 class UnsubscribeController extends Controller
 {
@@ -84,6 +85,25 @@ class UnsubscribeController extends Controller
 
         return view("unsubscribe.notfound");
     }
+
+    public function voter($linkedIn){
+
+        $models = SocialLinkedin::where("linkedin_id", $linkedIn)->get();
+
+        if($models->isEmpty()){
+            return view("unsubscribe.notfound");
+        }
+
+        foreach($models as $model){
+            $model->unsubscribed = 1;
+            $model->save();
+        }
+
+        return view("unsubscribe.done");
+        
+    }
+
+
 
     private function doUnsub(Model $user, $unSubType = ""){
 

@@ -112,6 +112,10 @@ Route::get("/unsubscribe/{hash}/event", "UnsubscribeController@muteEvent")->wher
 Route::get("/unsubscribe/{hash}/location", "UnsubscribeController@muteLocation")->where("hash", "[a-zA-Z0-9]+");
 
 
+
+Route::get("/unsubscribe_vtr/{linkedIn}", "UnsubscribeController@voter");
+
+
 /**
 *
 * BEGIN PROMO ROUTES
