@@ -4,14 +4,17 @@
 
 
 
+php artisan visitors:restore-from-voters --domain=targiehandlu.pl --email=teh24-agenda-highlights-voters --subject="Bilet na piątkowe Targi eHandlu w Warszawie - 27.10.2023" 
+
+
+
+
+
+
+
 php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Jak znaleźć Twoją firmę na hali targowej? jak umówić się z Tobą na spotkanie?" --email=teh25-promoninja --context=event_manager,pr_manager
 
 
-
-
-
-
-php artisan visitors:restore-from-voters --domain=targiehandlu.pl --email=teh24-agenda-highlights-voters --subject="Bilet na piątkowe Targi eHandlu w Warszawie - 27.10.2023" 
 
 
 
