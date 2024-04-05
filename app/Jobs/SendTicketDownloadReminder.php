@@ -57,7 +57,7 @@ class SendTicketDownloadReminder //implements ShouldQueue
 
         if(! env("MAIL_TEST", true))
         {
-            $deliveries->updateAfterSend($this->participant->email, $this->eventId);
+            $deliveries->updateAfterSend($this->participant->email, $this->eventId, "pt");
         }
 
 
