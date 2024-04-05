@@ -6,7 +6,9 @@ Cześć
 
 Targi eHandlu już w czwartek na EXPO XXI w Warszawie.
 
-Wstęp na EXPO i 4 sceny prezentacyjne otwarty - wymagana jedynie rejestracja.
+Wstęp na EXPO i wszystkie sceny prezentacyjne jest otwarty - wymagana jedynie rejestracja.
+
+**34 prezentacje na 4 scenach i 150 Wystawców**
 
 @endcomponent
 
@@ -14,9 +16,8 @@ Wstęp na EXPO i 4 sceny prezentacyjne otwarty - wymagana jedynie rejestracja.
 Wygeneruj bilet
 @endcomponent
 
-# Agenda wiosennej edycji Targów eHandlu została zdominowana przez AI :)
+# Agenda wiosennej edycji Targów eHandlu została zdominowana przez tzw. "Sztuczną Inteligencję" :)
 
-Wybrane tematy prezentacji
 
 **GA4 "low-hanging fruits"** dla poprawy współczynnika konwersji
 
