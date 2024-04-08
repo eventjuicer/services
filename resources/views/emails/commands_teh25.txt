@@ -3,6 +3,12 @@
 
 
 
+
+
+
+
+
+
 26 października
 ===============
 
@@ -15,6 +21,11 @@ php artisan visitors:meetups --domain=targiehandlu.pl
 
 8 kwietnia
 ===========
+
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="" --email=teh25-logistics --context=event_manager
+
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="" --email=teh25-logistics --context=event_manager
+
 
 
 
