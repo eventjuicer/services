@@ -3,8 +3,32 @@
 
 
 
+26 października
+===============
+
+php artisan visitors:current-event --domain=targiehandlu.pl --subject="Twój plan na czwartkowe Targi eHandlu" --email=teh25-todo
+
+//ENTRANCE file export 
+php artisan visitors:meetups --domain=targiehandlu.pl
 
 
+
+8 kwietnia
+===========
+
+
+
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="DEADLINE: Zaproszenia VIP dla Kontrahentów" --email=teh24-vips2 --context=pr,event,sales
+
+php artisan exhibitors:meetups_please_rsvp --domain=targiehandlu.pl --lang=pl --defaultlang=pl --subject="RSVP! Zaproszenia na spotkanie czekają na Twoim profilu"
+
+php artisan exhibitors:meetups_please_rsvp --domain=targiehandlu.pl --lang=en --defaultlang=pl --subject="RSVP! Meeting invitations awaiting in your Exhibitor Profile"
+
+php artisan exhibitors:meetups_ltd --domain=targiehandlu.pl --threshold=20 --older_than=1
+
+php artisan exhibitors:meetups_ltd --domain=targiehandlu.pl --threshold=20 --older_than=4
+
+php artisan visitors:ticket-reminder --domain=targiehandlu.pl
 
 
 
