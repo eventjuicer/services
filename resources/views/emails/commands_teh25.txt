@@ -5,7 +5,7 @@
 
 
 
-php artisan visitors:restore-from-old-events --domain=targiehandlu.pl --email=teh25-restore3 --subject="Przyszłość ehandlu. Czwartek w Warszawie."  --throttle=55000  --throttle=50000
+
 
 
 
@@ -21,10 +21,30 @@ php artisan visitors:restore-from-old-events --domain=targiehandlu.pl --email=te
 php artisan visitors:meetups --domain=targiehandlu.pl
 
 
+9 kwietnia
+===========
+
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=en --subject="Scanning of visitors' badges to collect contact data." --email=teh23-scanner --context=event,sales
+
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Skanowanie ID Zwiedzających podczas Targów." --email=teh23-scanner --context=event,sales
+
+
+
+
+
+
+php artisan visitors:restore-from-voters --domain=targiehandlu.pl --email=teh25-restore3 --subject="Przyszłość ehandlu. Widzimy się w czwartek w Warszawie?" 
+
+php artisan exhibitors:meetups_please_rsvp --domain=targiehandlu.pl --lang=pl --defaultlang=pl --subject="RSVP! Zaproszenia na spotkanie czekają na Twoim profilu"
+
+php artisan exhibitors:meetups_please_rsvp --domain=targiehandlu.pl --lang=en --defaultlang=pl --subject="RSVP! Meeting invitations awaiting in your Exhibitor Profile"
+
 
 
 8 kwietnia
 ===========
+
+php artisan visitors:restore-from-old-events --domain=targiehandlu.pl --email=teh25-restore3 --subject="Przyszłość ehandlu. Widzimy się w czwartek w Warszawie?"  --throttle=55000  --throttle=60000
 
 php artisan visitors:current-event --domain=targiehandlu.pl --subject="Twój plan na czwartkowe Targi eHandlu" --email=teh25-todo
 
