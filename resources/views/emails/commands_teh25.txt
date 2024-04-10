@@ -1,24 +1,15 @@
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-26 października
-===============
-
-
-
 //ENTRANCE file export 
 php artisan visitors:meetups --domain=targiehandlu.pl
+
+
+
+
+10 kwietnia
+============
+
+php artisan visitors:current-event --domain=targiehandlu.pl --subject="Bilet i Informacje dla Uczestników VIP" --email=teh25-you_are_vip
+
 
 
 9 kwietnia
@@ -28,17 +19,11 @@ php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl -
 
 php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Skanowanie ID Zwiedzających podczas Targów." --email=teh23-scanner --context=event,sales
 
-
-
-
-
-
 php artisan visitors:restore-from-voters --domain=targiehandlu.pl --email=teh25-restore3 --subject="Przyszłość ehandlu. Widzimy się w czwartek w Warszawie?" 
 
 php artisan exhibitors:meetups_please_rsvp --domain=targiehandlu.pl --lang=pl --defaultlang=pl --subject="RSVP! Zaproszenia na spotkanie czekają na Twoim profilu"
 
 php artisan exhibitors:meetups_please_rsvp --domain=targiehandlu.pl --lang=en --defaultlang=pl --subject="RSVP! Meeting invitations awaiting in your Exhibitor Profile"
-
 
 
 8 kwietnia
