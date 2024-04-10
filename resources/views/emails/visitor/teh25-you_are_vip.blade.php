@@ -8,7 +8,7 @@ W Strefie VIP będziesz mógł/mogła poznać Wystawców, Prelegentów oraz inny
 
 Strefa VIP to również nielimitowany dostęp do bufetu kawowego.
 
-Jeśli nie pobrał-eś/-aś jeszcze swojego biletu VIP, pobierz go proszę pod linkiem poniżej (Prosimy o pobranie nawet jeśli nie masz możliwości wydrukowania.)
+**Jeśli nie pobrał-eś/-aś jeszcze swojego biletu VIP, pobierz go** pod linkiem poniżej (Prosimy o pobranie nawet jeśli nie masz możliwości wydrukowania.)
 
 @component('mail::button', ['url' => $ticketUrl])
 Potwierdź udział jako VIP / pobierz bilet VIP
