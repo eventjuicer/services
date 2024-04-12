@@ -4,12 +4,24 @@ php artisan visitors:meetups --domain=targiehandlu.pl
 
 
 
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Podziękowania, ankieta" --email=teh25-thankyou --context=event,pr --exclude_company_ids="2398"
+
+
 
 10 kwietnia
 ============
 
+php artisan visitors:meetups --domain=targiehandlu.pl
+
+SMS (going) -php artisan visitors:sms-current-event --domain=targiehandlu.pl --prefix=+48
+
+php artisan visitors:ticket-reminder --domain=targiehandlu.pl
+
 php artisan visitors:current-event --domain=targiehandlu.pl --subject="Bilet i Informacje dla Uczestników VIP" --email=teh25-you_are_vip
 
+php artisan exhibitors:meetups_please_rsvp --domain=targiehandlu.pl --lang=pl --defaultlang=pl --subject="RSVP! Zaproszenia na spotkanie czekają na Twoim profilu"
+
+php artisan exhibitors:meetups_please_rsvp --domain=targiehandlu.pl --lang=en --defaultlang=pl --subject="RSVP! Meeting invitations awaiting in your Exhibitor Profile"
 
 
 9 kwietnia
