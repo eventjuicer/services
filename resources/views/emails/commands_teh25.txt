@@ -1,10 +1,14 @@
 
+
+
+
+
 //ENTRANCE file export 
 php artisan visitors:meetups --domain=targiehandlu.pl
 
 
 
-php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Podziękowania, ankieta" --email=teh25-thankyou --context=event,pr --exclude_company_ids="2398"
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Podziękowania, ankieta, kolejna edycja" --email=teh25-thankyou --context=event
 
 
 
