@@ -1,27 +1,41 @@
 
 
 
+18 kwietnia
+===========
+
+php artisan exhibitors:award --domain=targiehandlu.pl --award=earlybird --previous --lang=pl --defaultlang=pl --email="teh26-salesplan-top30" --subject="Kiedy sprzedaż stoisk na Targi eHandlu 25 października [top30]"
+
+php artisan exhibitors:award --domain=targiehandlu.pl --award=earlybird --previous --reverse --lang=pl --defaultlang=pl --email="teh26-salesplan-others" --subject="Kiedy sprzedaż stoisk na Targi eHandlu 25 października"
+
+16 kwietnia
+===========
+
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Lista skanów, plan sprzedaży stoisk na kolejne Targi." --email=ewa-salesplan-scans --context=all
+
+
+
+
+
+
+
+
+
 new event id 105
-
-
+=================================================
 102 | 103 | 105
-======================================
- | 428 | 469 Light
- | 429 | 468 Standard
- | 430 | 467 Hot
- | 431 | 466 Super Hot
- | 432 | 465 Ultra
- | 433 | 464 Grand
- | 434 | 463 Kurator Sceny Prezentacyjnej
- | 435 | 462 Last Minute
- | 436 | 461 Partner Strefy Networkingu
- | 437 | 460 test
- | 438 | 459 mini networking
- | 439 | 458 Kurator Sceny Prezentacyjnej B
- | 440 | 457 Kurator Sceny Prezentacyjnej D
- | 441 | 456 Premium
-
-
-
-php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Skany, plan sprzedaży stoisk na kolejne Targi." --email=ewa-salesplan-scans --context=all
-
+=================================================
+414 | 428 | 469 | Light
+415 | 429 | 468 | Standard
+416 | 430 | 467 | Hot
+417 | 431 | 466 | Super Hot
+418 | 432 | 465 | Ultra
+419 | 433 | 464 | Grand
+420 | 434 | 463 | Kurator Sceny Prezentacyjnej
+421 | 435 | 462 | Last Minute
+422 | 436 | 461 | Partner Strefy Networkingu
+423 | 437 | 460 | test
+424 | 438 | 459 | mini networking
+425 | 439 | 458 | Kurator Sceny Prezentacyjnej B
+426 | 440 | 457 | Kurator Sceny Prezentacyjnej D
+--- | 441 | 456 | Premium
