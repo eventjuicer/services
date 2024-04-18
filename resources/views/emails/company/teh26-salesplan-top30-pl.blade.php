@@ -13,12 +13,12 @@ Oto plan dotyczący startu sprzedaży powierzchni wystawienniczej na 26. Targi e
 
 [Układ hali, ceny](https://targiehandlu.pl/top30_p3dd5ac1k)
 
+(W środę (24 kwietnia) sprzedaż zostanie publicznie otwarta dla pozostałych zainteresowanych.)
+
 @endcomponent
 
 
-## Środa - 24 kwietnia 11:00
 
-Sprzedaż otwarta dla pozostałych zainteresowanych
 
 
 

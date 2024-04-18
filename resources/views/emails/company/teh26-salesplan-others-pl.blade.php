@@ -11,6 +11,9 @@ Oto plan dotyczący startu sprzedaży powierzchni wystawienniczej na 26. Targi e
 
 Start sprzedaży dla Twojej firmy (Wystawców spoza grona Top30 rankingu Konkursu dla Wystawców poprzedniej edycji Targów); Start otwartej sprzedaży.
 
+[Układ hali, ceny](https://targiehandlu.pl/exhibit)
+
+
 @endcomponent
 
 
