@@ -4,9 +4,9 @@
 18 kwietnia
 ===========
 
-php artisan exhibitors:award --domain=targiehandlu.pl --award=earlybird --previous --lang=pl --defaultlang=pl --email="teh26-salesplan-top30" --subject="Kiedy sprzedaż stoisk na Targi eHandlu 25 października [top30]"
+php artisan exhibitors:award --domain=targiehandlu.pl --award=earlybird --previous --lang=pl --defaultlang=pl --email="teh26-salesplan-top30" --subject="WTOREK - sprzedaż stoisk na Targi eHandlu 25 października"
 
-php artisan exhibitors:award --domain=targiehandlu.pl --award=earlybird --previous --reverse --lang=pl --defaultlang=pl --email="teh26-salesplan-others" --subject="Kiedy sprzedaż stoisk na Targi eHandlu 25 października"
+php artisan exhibitors:award --domain=targiehandlu.pl --award=earlybird --previous --reverse --lang=pl --defaultlang=pl --email="teh26-salesplan-others" --subject="ŚRODA -sprzedaż stoisk na Targi eHandlu 25 października"
 
 16 kwietnia
 ===========
