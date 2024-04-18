@@ -4,13 +4,6 @@
 
 Oto plan dotyczący startu sprzedaży powierzchni wystawienniczej na 26. Targi eHandlu (25 października 2024 w Warszawie - EXPO XXI)
 
-# Od dzisiaj do wtorku - Sprzedaż hurtowa powierzchni 
-
-Sprzedaż dla Wystawców minionych/wiosennych Targów eHandlu zainteresowanych większą przestrzenią - **3 i więcej stoisk**
-
-[Układ hali, ceny](https://targiehandlu.pl/top30_p3dd5ac1k)
-
-**Prośba o info zwrotne jeśli taką przestrzenią zainteresowana jest Twoja firma**
 
 @component('mail::panel')
 
@@ -18,11 +11,26 @@ Sprzedaż dla Wystawców minionych/wiosennych Targów eHandlu zainteresowanych w
 
 **Ekskluzywna sprzedaż dla firm z TOP30** Konkursu dla Wystawców czyli dla Twojej firmy
 
+[Układ hali, ceny](https://targiehandlu.pl/top30_p3dd5ac1k)
+
 @endcomponent
+
 
 ## Środa - 24 kwietnia 11:00
 
 Sprzedaż otwarta dla pozostałych zainteresowanych
+
+
+
+## Od dzisiaj do wtorku - Sprzedaż hurtowa powierzchni 
+
+Sprzedaż dla Wystawców minionych/wiosennych Targów eHandlu zainteresowanych większą przestrzenią - **3 i więcej stoisk**
+
+[Układ hali, ceny](https://targiehandlu.pl/top30_p3dd5ac1k)
+
+**Prośba o info zwrotne jeśli Twoja firma jest zainteresowana min. 3 stoiskami. **
+
+
 
 Pozdrowienia, 
 
