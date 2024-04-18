@@ -8,6 +8,10 @@ php artisan exhibitors:award --domain=targiehandlu.pl --award=earlybird --previo
 
 php artisan exhibitors:award --domain=targiehandlu.pl --award=earlybird --previous --reverse --lang=pl --defaultlang=pl --email="teh26-salesplan-others" --subject="ŚRODA -sprzedaż stoisk na Targi eHandlu 25 października"
 
+php artisan exhibitors:award --domain=targiehandlu.pl --award=earlybird --previous --reverse --lang=en --defaultlang=pl --email="teh26-salesplan-others" --subject="WEDNESDAY | Early bird sales of exhibition spaces"
+
+
+
 16 kwietnia
 ===========
 
