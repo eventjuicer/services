@@ -1,6 +1,27 @@
 
 
 
+22 kwietnia
+===========
+
+
+
+
+
+
+
+
+
+php artisan exhibitors:award --domain=targiehandlu.pl --award=earlybird --previous --lang=pl --defaultlang=pl --email="teh26-salesplan2-top30" --subject="Pobierz zdjęcia z minionych Targów eHandlu (top30)"
+
+php artisan exhibitors:award --domain=targiehandlu.pl --award=earlybird --previous --reverse --lang=pl --defaultlang=pl --email="teh26-salesplan2-others" --subject="Pobierz zdjęcia z minionych Targów eHandlu"
+
+php artisan exhibitors:award --domain=targiehandlu.pl --award=earlybird --previous --reverse --lang=en --defaultlang=pl --email="teh26-salesplan2-others" --subject="Download photos from recent Ecommerce Warsaw Expo."
+
+
+
+
+
 18 kwietnia
 ===========
 
