@@ -1,6 +1,14 @@
 
 
 
+
+
+
+php artisan exhibitors:award --domain=targiehandlu.pl --award=earlybird --previous --lang=pl --defaultlang=pl --email="teh26-top30-start" --subject="Wystartowaliśmy! Sekretny link do rezerwacji przestrzeni wystawienniczej..." --exclude_company_ids="1136,1132,2562,1893,2534,1565,1465,2578"
+
+
+
+
 22 kwietnia
 ===========
 
