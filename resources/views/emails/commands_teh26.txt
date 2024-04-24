@@ -1,9 +1,18 @@
 
+24 kwietnia
+============
+
+
+
+php artisan exhibitors:award --domain=targiehandlu.pl --award=earlybird --previous --reverse --lang=pl --defaultlang=pl --email="teh26-sales-started" --subject="Wystartowaliśmy! Otwarta rezerwacja przestrzeni wystawienniczej na jesienne Targi eHandlu." --exclude_company_ids="1136, 1132, 2562, 1893, 2534, 1565, 1465, 2578, 2032,1309, 1708, 1145, 2298, 2101, 1171, 1136, 2432, 1636, 1893, 1154, 2533, 2293, 2406, 2400, 1233, 1270, 1565, 1129, 2320, 2032, 1743, 1239, 1150, 1142, 1465, 2578, 2297, 2562, 1281, 2529, 1141, 1170, 1180, 1287, 1164, 1855, 1217, 1148, 1152, 2291, 2380, 2534, 1138, 1132, 1200, 2, 2118, 1028, 1137, 2292, 2530, 2103, 2238, 2005, 1704, 2042, 1232"
+
+php artisan exhibitors:award --domain=targiehandlu.pl --award=earlybird --previous --reverse --lang=en --defaultlang=pl --email="teh26-sales-started" --subject="Book an exhibition space for Ecommerce Warsaw Expo 2024 Autumn edition" --exclude_company_ids="1136, 1132, 2562, 1893, 2534, 1565, 1465, 2578, 2032,1309, 1708, 1145, 2298, 2101, 1171, 1136, 2432, 1636, 1893, 1154, 2533, 2293, 2406, 2400, 1233, 1270, 1565, 1129, 2320, 2032, 1743, 1239, 1150, 1142, 1465, 2578, 2297, 2562, 1281, 2529, 1141, 1170, 1180, 1287, 1164, 1855, 1217, 1148, 1152, 2291, 2380, 2534, 1138, 1132, 1200, 2, 2118, 1028, 1137, 2292, 2530, 2103, 2238, 2005, 1704, 2042, 1232"
 
 
 
 
-
+23 kwietnia
+===========
 php artisan exhibitors:award --domain=targiehandlu.pl --award=earlybird --previous --lang=pl --defaultlang=pl --email="teh26-top30-start" --subject="Wystartowaliśmy! Sekretny link do rezerwacji przestrzeni wystawienniczej..." --exclude_company_ids="1136,1132,2562,1893,2534,1565,1465,2578"
 
 
@@ -11,14 +20,6 @@ php artisan exhibitors:award --domain=targiehandlu.pl --award=earlybird --previo
 
 22 kwietnia
 ===========
-
-
-
-
-
-
-
-
 
 php artisan exhibitors:award --domain=targiehandlu.pl --award=earlybird --previous --lang=pl --defaultlang=pl --email="teh26-salesplan2-top30" --subject="Pobierz zdjęcia z minionych Targów eHandlu (top30)"
 

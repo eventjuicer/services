@@ -74,7 +74,9 @@ class AwardMessage extends Command {
         $previous =  $this->option("previous");
         $reverse =  $this->option("reverse");
 
-        $exclude_company_ids =  array_filter(explode(",", $this->option("exclude_company_ids")), function($value){ return intval($value) > 0; }); 
+        $exclude_company_ids =  array_map(function($value){ return intval($value); }, explode(",", $this->option("exclude_company_ids"))); 
+        
+   
 
 
         $errors = array();
