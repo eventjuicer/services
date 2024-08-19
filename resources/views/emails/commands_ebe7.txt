@@ -6,24 +6,12 @@ php artisan queue:restart
 
 
 
-
-
-
-
-
 2 marca
 =======
-
-
 
 php artisan exhibitors:current-event --defaultlang=en --domain=ecommerceberlin.com --lang=en --subject="Get your PHOTOS from the Expo | Fill in the post-event survey" --email=ebe7-photos
 
 php artisan exhibitors:current-event --defaultlang=en --domain=ecommerceberlin.com --lang=de --subject="Fülle den Fragebogen aus und lade dir deine Bilder von der Expo runter!" --email=ebe7-photos
-
-
-
-
-
 
 28 lutego
 =========
@@ -32,28 +20,12 @@ php artisan exhibitors:current-event --defaultlang=en --domain=ecommerceberlin.c
 
 php artisan exhibitors:current-event --defaultlang=en --domain=ecommerceberlin.com --lang=de --subject="Seid ihr bereit für ein 2-tägiges Event? Gibt uns Bescheid!" --email=ebe7-thankyou --exclude_company_ids="1684,1926,1586,2194,1880,2150,2078,2264,1496,2154,2195,1790,1068,1373,2058"
 
-
-
-
-
-
-
 27 lutego
 =========
 
 php artisan exhibitors:current-event --defaultlang=en --domain=ecommerceberlin.com --lang=en --subject="Post-event survey: Help us improve the E-commerce Berlin Expo" --email=ebe7-thankyou
 
 php artisan exhibitors:current-event --defaultlang=en --domain=ecommerceberlin.com --lang=de --subject="E-Commerce Berlin Expo 2023 - Wir würden gerne dein Feedback hören!" --email=ebe7-thankyou
-
-
-
-
-
-
-
-
-
-
 
 22 lutego
 =========
@@ -67,20 +39,12 @@ php artisan exhibitors:current-event --defaultlang=en --domain=ecommerceberlin.c
 php artisan visitors:ticket-reminder --domain=ecommerceberlin.com
 //ebe7-ticket-reminder
 
-
 20 lutego
 =========
-
 
 php artisan exhibitors:current-event --defaultlang=en --domain=ecommerceberlin.com --lang=en --subject="Get Ready for EBE 2023: Your Exhibitor’s Guide to the E-commerce Berlin Expo" --email=ebe7-logistics-final
 
 php artisan exhibitors:current-event --defaultlang=en --domain=ecommerceberlin.com --lang=de --subject="Mach dich bereit für die EBE 2023: Dein Ausstellerleitfaden für die E-Commerce Berlin Expo" --email=ebe7-logistics-final
-
-
-
-
-
-
 
 16 lutego
 =========

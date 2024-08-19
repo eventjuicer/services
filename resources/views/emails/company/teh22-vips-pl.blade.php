@@ -1,5 +1,3 @@
-
-
 @component('mail::message')
  
 # Cześć {{ array_get($profile, "fname")  }},

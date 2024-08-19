@@ -2,8 +2,7 @@
 
 # Cześć {{ $fname }},
 
-Dziękujemy za Twój głos podczas wyboru Prelegentów Targów eHandlu.
-
+Dziękujemy za Twój głos podczas wyboru Prelegentów Targów eHandlu. 
 
 @component('mail::panel')
 

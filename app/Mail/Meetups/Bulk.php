@@ -16,10 +16,10 @@ class Bulk extends Mailable {
     use Queueable, SerializesModels;
 
     protected $sender_email     = "zwiedzanie+rsvp@ecommercewarsaw.com";
-    protected $sender_name      = "Karolina";
+    protected $sender_name      = "Karolina - Targi eHandlu";
     protected $domain           = "targiehandlu.pl";
     
-    public    $subject          = "Targi eHandlu - oto Wystawcy, którzy chcą się z Tobą spotkać";
+    public    $subject          = "Wystawcy, którzy chcą się z Tobą spotkać";
     public $view             = "bulk_pl";
     
     protected $participant;

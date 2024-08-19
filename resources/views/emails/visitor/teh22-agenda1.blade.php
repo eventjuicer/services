@@ -13,12 +13,12 @@ Targi eHandlu to **4 sceny z prezentacjami Ekspertów** oraz **140 Wystawców** 
 @endcomponent
 
 
-**Scena A**
+## Scena A
 
-| Prelegent/-ka | Tytuł prezentacji |
-| --- | --- |
-| Agnieszka Wąsowska **locatheart** | **Wielojęzyczne SEO w ekspansji zagranicznej**|
-| Beata Mordarska **Veneo Performance** | **„Śniło mi się, że je jadłam i znalazłam w żabce” – o tym jak Lody Koral Ekipa stały się viralem. DMF w praktyce.**|
+Agnieszka Wąsowska **locatheart**
+**Wielojęzyczne SEO w ekspansji zagranicznej**|
+
+Beata Mordarska **Veneo Performance** | **„Śniło mi się, że je jadłam i znalazłam w żabce” – o tym jak Lody Koral Ekipa stały się viralem. DMF w praktyce.**|
 | Tomasz Zarychta **Media4U** | **Błędy w sklepach internetowych - nasze wnioski z przebadania ponad 100 sklepów**|
 | Mateusz Osiecki **PrestaShop** | **Od pomysłu do sukcesu: Rzeczy, które chcielibyście wiedzieć o PrestaShop ale baliście się zapytać.**|
 | Krystian Podemski **PrestaShop** | **Od pomysłu do sukcesu: Rzeczy, które chcielibyście wiedzieć o PrestaShop ale baliście się zapytać.**|

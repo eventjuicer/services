@@ -7,7 +7,7 @@ Cześć {{ array_get($profile, "fname") }},
 Po pozytywnym przyjęciu naszej propozycji **uruchamiamy zapisy dla firm, które chcą prowadzić Warsztat dla zaakceptowanych Uczestników** (w Strefie VIP)
 
 
-@component('mail::button', ['url' => "https://targiehandlu.pl/workshops"])
+@component('mail::button', ['url' => "https://targiehandlu.pl/workshops/register"])
 Zgłoszenie warsztatu
 @endcomponent
 

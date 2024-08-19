@@ -161,7 +161,7 @@ class SmsCurrentVisitors extends Command
                 )
             );
 
-            $phones[] = '"'.$phone .'","!'.$profile->code.'","https://'. $domain . '/tickets/'.$profile->code.'","'. $fname . '"';
+            $phones[] = '"'.$participant->email.'","'.$phone .'","!'.$profile->code.'","https://'. $domain . '/tickets/'.$profile->code.'","'. $fname . '"';
 
             if($counter % 100 === 0){
 

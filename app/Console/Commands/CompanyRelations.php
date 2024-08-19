@@ -54,7 +54,7 @@ class CompanyRelations extends Command
 
         $role = null;
         
-        $relation = $this->anticipate('meetups, reps?', ['meetups', 'reps']);
+        $relation = $this->anticipate('meetups, reps, vips?', ['meetups', 'reps', 'vips']);
         if($relation === "reps"){
             $role  = $this->anticipate('representative, party?', ['representative', 'party']);
         }
@@ -184,7 +184,8 @@ class CompanyRelations extends Command
                                 "domain" => $domain,
                                 "translations" => $translations,
                                 "representatives" =>  $relation === "reps" ? $items : null,
-                                "meetups" => $relation === "meetups" ? $items : null
+                                "meetups" => $relation === "meetups" ? $items : null,
+                                "vips" => $relation === "vips" ? $items : null,
                             )
     
     
