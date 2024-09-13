@@ -62,6 +62,16 @@ Udostępniamy porcję nagrań video z wiosennej edycji Targów eHandlu.
 
 
 
+@component('mail::panel')
+
+## Chcesz wystąpić na jednej ze scen jesiennych Targów eHandlu? Termin zgłoszeń kończy się dzisiaj - do końca dnia!
+
+@component('mail::button', ['url' => "https://targiehandlu.pl/speaking"])
+Chcę zostać Prelegentem na Targach eHandlu
+@endcomponent
+
+@endcomponent
+
 
 
 
