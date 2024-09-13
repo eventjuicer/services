@@ -1,9 +1,19 @@
+13 września
+===========
+
+
+php artisan visitors:restore-from-old-events --domain=targiehandlu.pl --email=teh26-videos_cfp --subject="Dostęp do nagrań; Czy chcesz wystąpić w październiku?" --events=95,97,99,102,103,105 --throttle=50000
+
+
+
+
+
 6 września
 ==========
 
 
 
-php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Usługi Premium" --email=teh26-premium --context=event,pr
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Limitowane usługi premium" --email=teh26-premium --context=event,pr
 
 5 września
 ==========
