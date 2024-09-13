@@ -105,7 +105,7 @@ Chcę zostać Prelegentem na Targach eHandlu
     </tr>
 
     <tr>
-        <td><img src="https://ehandel.com.pl/authors/1132" alt="" /></td>
+        <td><img src="https://res.cloudinary.com/eventjuicer/image/upload/w_450,h_450,c_limit,f_auto/v1523520187/c_1132_logotype.png" alt="" /></td>
         <td> Joanna Mierzwa, Sebastian Puchała - Cocolita & Sempai
             <strong><a href="https://ehandel.com.pl/mieszaj-i-lacz-poznaj-przepis-na-kampanie-ktora-podbila-social-media-case-study-cocolita-and-sempai,2338">
             Mieszaj i łącz! Poznaj przepis na kampanię, która podbiła social media. [Case study Cocolita & Sempai]</a></strong>
