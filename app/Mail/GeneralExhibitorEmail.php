@@ -119,7 +119,7 @@ class GeneralExhibitorEmail extends Mailable
             config(["app.name" => $eventName]);
 
             $this->accountUrlPromotePublic = 'https://account.ecommerceberlin.com/#/promote?company_id=' . $companydata->getCompany()->id;
-            $this->photosUrl = "https://photos.ecommerceberlin.com/".$companydata->getCompany()->id."/ebe7";
+            $this->photosUrl = "https://photos.ecommerceberlin.com/".$companydata->getCompany()->id."/ebe8";
     
 
         }else{
@@ -140,7 +140,7 @@ class GeneralExhibitorEmail extends Mailable
             }
             
             $this->accountUrlPromotePublic = 'https://account.targiehandlu.pl/#/promote?company_id=' . $companydata->getCompany()->id;
-            $this->photosUrl = "https://cloudinary.eventjuicer.com/api?id=".$companydata->getCompany()->id."&folder=teh24_photos";
+            $this->photosUrl = "https://cloudinary.eventjuicer.com/api?id=".$companydata->getCompany()->id."&folder=teh25_photos";
 
             
         }

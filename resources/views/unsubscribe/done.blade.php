@@ -78,7 +78,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                  Thank you!
+                  Thank you! Dziękujemy! Wypisaliśmy Cię.
                 </div>
 
                 <div class="links">

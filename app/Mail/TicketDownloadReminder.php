@@ -65,9 +65,9 @@ class TicketDownloadReminder extends Mailable
 
             $this->from("zwiedzanie@ecommercewarsaw.com", "Karolina - Targi eHandlu");
 
-            $this->subject("Mam Twój bilet na Targi eHandlu w Warszawie.");
+            $this->subject("Mam Twój bilet na czwartkowe Targi eHandlu w Warszawie.");
 
-            $this->email = "teh24-ticket";
+            $this->email = "teh25-ticket";
 
         }
        

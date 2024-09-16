@@ -1,0 +1,100 @@
+13 września
+===========
+
+
+php artisan visitors:restore-from-old-events --domain=targiehandlu.pl --email=teh26-videos_cfp --subject="Dostęp do nagrań; Czy chcesz wystąpić w październiku?" --events=95,97,99,102,103,105 --throttle=50000
+
+
+
+
+
+6 września
+==========
+
+
+
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Limitowane usługi premium" --email=teh26-premium --context=event,pr
+
+5 września
+==========
+
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Deadline: 9 października. Meble, wykładzina, TV, zapotrzebowanie na prąd, zabudowa..." --email=teh26-arrangement --context=event
+
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=en --subject="Deadline: 9th of October;  Carpet flooring, LED display, complete space arrangement, etc..." --email=teh26-arrangement --context=event
+
+
+
+24 kwietnia
+============
+
+
+
+php artisan exhibitors:award --domain=targiehandlu.pl --award=earlybird --previous --reverse --lang=pl --defaultlang=pl --email="teh26-sales-started" --subject="Wystartowaliśmy! Otwarta rezerwacja przestrzeni wystawienniczej na jesienne Targi eHandlu." --exclude_company_ids="1136, 1132, 2562, 1893, 2534, 1565, 1465, 2578, 2032,1309, 1708, 1145, 2298, 2101, 1171, 1136, 2432, 1636, 1893, 1154, 2533, 2293, 2406, 2400, 1233, 1270, 1565, 1129, 2320, 2032, 1743, 1239, 1150, 1142, 1465, 2578, 2297, 2562, 1281, 2529, 1141, 1170, 1180, 1287, 1164, 1855, 1217, 1148, 1152, 2291, 2380, 2534, 1138, 1132, 1200, 2, 2118, 1028, 1137, 2292, 2530, 2103, 2238, 2005, 1704, 2042, 1232"
+
+php artisan exhibitors:award --domain=targiehandlu.pl --award=earlybird --previous --reverse --lang=en --defaultlang=pl --email="teh26-sales-started" --subject="Book an exhibition space for Ecommerce Warsaw Expo 2024 Autumn edition" --exclude_company_ids="1136, 1132, 2562, 1893, 2534, 1565, 1465, 2578, 2032,1309, 1708, 1145, 2298, 2101, 1171, 1136, 2432, 1636, 1893, 1154, 2533, 2293, 2406, 2400, 1233, 1270, 1565, 1129, 2320, 2032, 1743, 1239, 1150, 1142, 1465, 2578, 2297, 2562, 1281, 2529, 1141, 1170, 1180, 1287, 1164, 1855, 1217, 1148, 1152, 2291, 2380, 2534, 1138, 1132, 1200, 2, 2118, 1028, 1137, 2292, 2530, 2103, 2238, 2005, 1704, 2042, 1232"
+
+
+
+
+23 kwietnia
+===========
+php artisan exhibitors:award --domain=targiehandlu.pl --award=earlybird --previous --lang=pl --defaultlang=pl --email="teh26-top30-start" --subject="Wystartowaliśmy! Sekretny link do rezerwacji przestrzeni wystawienniczej..." --exclude_company_ids="1136,1132,2562,1893,2534,1565,1465,2578"
+
+
+
+
+22 kwietnia
+===========
+
+php artisan exhibitors:award --domain=targiehandlu.pl --award=earlybird --previous --lang=pl --defaultlang=pl --email="teh26-salesplan2-top30" --subject="Pobierz zdjęcia z minionych Targów eHandlu (top30)"
+
+php artisan exhibitors:award --domain=targiehandlu.pl --award=earlybird --previous --reverse --lang=pl --defaultlang=pl --email="teh26-salesplan2-others" --subject="Pobierz zdjęcia z minionych Targów eHandlu"
+
+php artisan exhibitors:award --domain=targiehandlu.pl --award=earlybird --previous --reverse --lang=en --defaultlang=pl --email="teh26-salesplan2-others" --subject="Download photos from recent Ecommerce Warsaw Expo."
+
+
+
+
+
+18 kwietnia
+===========
+
+php artisan exhibitors:award --domain=targiehandlu.pl --award=earlybird --previous --lang=pl --defaultlang=pl --email="teh26-salesplan-top30" --subject="WTOREK - sprzedaż stoisk na Targi eHandlu 25 października"
+
+php artisan exhibitors:award --domain=targiehandlu.pl --award=earlybird --previous --reverse --lang=pl --defaultlang=pl --email="teh26-salesplan-others" --subject="ŚRODA -sprzedaż stoisk na Targi eHandlu 25 października"
+
+php artisan exhibitors:award --domain=targiehandlu.pl --award=earlybird --previous --reverse --lang=en --defaultlang=pl --email="teh26-salesplan-others" --subject="WEDNESDAY | Early bird sales of exhibition spaces"
+
+
+
+16 kwietnia
+===========
+
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Lista skanów, plan sprzedaży stoisk na kolejne Targi." --email=ewa-salesplan-scans --context=all
+
+
+
+
+
+
+
+
+
+new event id 105
+=================================================
+102 | 103 | 105
+=================================================
+414 | 428 | 469 | Light
+415 | 429 | 468 | Standard
+416 | 430 | 467 | Hot
+417 | 431 | 466 | Super Hot
+418 | 432 | 465 | Ultra
+419 | 433 | 464 | Grand
+420 | 434 | 463 | Kurator Sceny Prezentacyjnej
+421 | 435 | 462 | Last Minute
+422 | 436 | 461 | Partner Strefy Networkingu
+423 | 437 | 460 | test
+424 | 438 | 459 | mini networking
+425 | 439 | 458 | Kurator Sceny Prezentacyjnej B
+426 | 440 | 457 | Kurator Sceny Prezentacyjnej D
+--- | 441 | 456 | Premium

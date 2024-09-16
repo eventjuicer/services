@@ -21,7 +21,7 @@ class Approved extends Mailable
     protected $meetup;
     protected $not_provided = "nie podano";
     protected $domain = "targiehandlu.pl";
-    protected $sender_email = "targiehandlu+rsvp@targiehandlu.pl";
+    protected $sender_email = "targiehandlu+rsvp@ecommercewarsaw.com";
     protected $sender_name = "Adam Zygadlewicz - Targi eHandlu";
     public $subject = "Sukces! Potwierdzone spotkanie";
     public $view = "approved_pl";

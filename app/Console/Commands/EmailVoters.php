@@ -134,6 +134,12 @@ class EmailVoters extends Command
         foreach($filtered as $voter){
 
 
+            if($voter->unsubscribed){
+                continue;
+            }
+
+
+
             $email = (new EmailAddress($voter->email));
 
             if( ! $email->isValid() )

@@ -17,17 +17,17 @@ Route::get('/', function()
 });
 
 
-Route::get('/masterclasses', function () {
-    Artisan::call('visitors:meetups', [
+// Route::get('/masterclasses', function () {
+//     Artisan::call('visitors:meetups', [
 
-        '--domain' 	=> 'ecommerceberlin.com',
-        '--direction' 	=> 'LTD'
-    ]);
+//         '--domain' 	=> 'ecommerceberlin.com',
+//         '--direction' 	=> 'LTD'
+//     ]);
 
-    preg_match("/storage\/100_LTD_[a-z0-9]+\.csv/", Artisan::output(), $matches);
+//     preg_match("/storage\/100_LTD_[a-z0-9]+\.csv/", Artisan::output(), $matches);
 
-    return !empty($matches)? '<a href="'.$matches[0].'">link</a>': "";
-});
+//     return !empty($matches)? '<a href="'.$matches[0].'">link</a>': "";
+// });
 
 
 
@@ -110,6 +110,10 @@ Route::get("/unsubscribe/{hash}", "UnsubscribeController@index")->where("hash", 
 Route::get("/unsubscribe/{hash}/group", "UnsubscribeController@muteGroup")->where("hash", "[a-zA-Z0-9]+");
 Route::get("/unsubscribe/{hash}/event", "UnsubscribeController@muteEvent")->where("hash", "[a-zA-Z0-9]+");
 Route::get("/unsubscribe/{hash}/location", "UnsubscribeController@muteLocation")->where("hash", "[a-zA-Z0-9]+");
+
+
+
+Route::get("/unsubscribe_vtr/{linkedIn}", "UnsubscribeController@voter");
 
 
 /**

@@ -8,7 +8,7 @@ We’ve recently published personalized promo materials, a “request a meeting�
 
 By promoting your public profile and gaining points, you will be able to **schedule up to 200 meetings** with registered visitors of your choosing, as well as receive an **unlimited number of incoming meeting requests from visitors**. In both cases, you will receive complete contact information.
 
-Our Account Managers are available to chat with you on your promotional activities and discuss how to get the most out of the resources we’ve provided.
+**Our Account Managers are available to chat with you** on your promotional activities and discuss how to get the most out of the resources we’ve provided.
 
 Interested? Use the calendly link in the footer to schedule a call. 
 

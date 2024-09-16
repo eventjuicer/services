@@ -25,6 +25,9 @@ Do zobaczenia!
 
 Karolina Michalak, Targi eHandlu
 
+PS: link nie działa? Spróbuj {!!$url!!}
+
+
 @endcomponent
 
 

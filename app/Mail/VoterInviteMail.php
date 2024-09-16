@@ -67,7 +67,7 @@ class VoterInviteMail extends Mailable
         $this->registerURl = $baseUrl . "/visit" . $params;
         $this->offersUrl = $baseUrl . "/offers" . $params;
 
-        $this->unsubscribe = "https://services.eventjuicer.com/unsubscribe/vtr". $this->voter->id; 
+        $this->unsubscribe = "https://services.eventjuicer.com/unsubscribe_vtr/". $this->voter->linkedin_id; 
 
         $this->to( strtolower(trim($this->voter->email)) );
 

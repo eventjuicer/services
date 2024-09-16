@@ -41,6 +41,8 @@ SMSY
 
 Przypominamy o Targach eHandlu! Start 10:00; Agenda - https://teh.com.pl/a. Masz wydrukowany bilet? Kieruj sie do Hali 1. Nie masz? Podaj kod !ndgdkz w INFO.
 
+###WORKSHOPS
+
 Czesc, pamietasz o warsztacie na Targach eHandlu? zapraszamy do Hali 3. Strefa warsztatowa [%kontakt.venue%] start [%kontakt.time%]. Do zobaczenia!
 
 ###VIP
@@ -56,7 +58,7 @@ Dzien dobry! Przypominamy o Hali 3 i Strefie VIP. Juz teraz mozesz tam napic sie
 
 
 
-26 października
+26 października (EVENT DAY)
 ===============
 
 php artisan visitors:current-event --domain=targiehandlu.pl --subject="Twój plan dnia na piątkowych Targach eHandlu" --email=teh24-todo
@@ -81,7 +83,6 @@ php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl -
 php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Informacje logistyczne." --email=teh24-logistics --context=sales,event
 
 php artisan exhibitors:meetups_ltd --domain=targiehandlu.pl --threshold=20 --older_than=4
-
 
 php artisan exhibitors:meetups_please_rsvp --domain=targiehandlu.pl --lang=pl --defaultlang=pl --subject="RSVP! Zaproszenia na spotkanie czekają na Twoim profilu"
 

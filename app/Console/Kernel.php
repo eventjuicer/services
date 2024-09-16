@@ -27,9 +27,9 @@ class Kernel extends ConsoleKernel
 
         $schedule->command('meetups:bulk all')->weekdays()->dailyAt('10:00');
 
-        // $schedule->command('meetups:bulk all')->weekdays()->dailyAt('14:30');
+        $schedule->command('meetups:bulk all')->weekdays()->dailyAt('15:00');
 
-        $schedule->command('meetups:bulk all')->weekdays()->dailyAt('19:00');
+        // $schedule->command('meetups:bulk all')->weekdays()->dailyAt('19:00');
 
 
         // $schedule->command('meetups:bulk all')->tuesdays()->dailyAt('12:00');

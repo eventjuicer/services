@@ -1,0 +1,45 @@
+
+
+
+
+php artisan exhibitors:current-event --lang=en --defaultlang=en --domain=ecommerceberlin.com --subject="Maximise your visibility at E-commerce Berlin Expo 2025 with Exclusive Sponsorships" --email=ebe9-premium --context=all
+
+php artisan exhibitors:current-event --lang=de --defaultlang=en --domain=ecommerceberlin.com --subject="Maximiere deine Sichtbarkeit auf der E-commerce Berlin Expo 2025 mit exklusiven Sponsoring-Optionen" --email=ebe9-premium --context=all
+
+
+
+
+
+
+
+
+
+
+
+php artisan exhibitors:award --domain=ecommerceberlin.com --award=earlybird --previous --lang=en --defaultlang=en --email=ebe9-salesplan-reminder --subject="Exclusive Sales Round for E-commerce Berlin Expo 2024 Exhibitors - Booking tomorrow @ 11:00 AM!"
+
+php artisan exhibitors:award --domain=ecommerceberlin.com --award=earlybird --previous --reverse --lang=en --defaultlang=en --email=ebe9-salesplan-reminder --subject="Exclusive Sales Round for E-commerce Berlin Expo 2024 Exhibitors - Booking tomorrow @ 11:00 AM!"
+
+
+
+
+php artisan exhibitors:award --domain=ecommerceberlin.com --award=earlybird --previous --lang=de --defaultlang=en --email=ebe9-salesplan-reminder --subject="Exklusive Verkaufsrunde für E-commerce Berlin Expo 2024 Aussteller - Buchung öffnet morgen um 11:00 Uhr!"
+
+php artisan exhibitors:award --domain=ecommerceberlin.com --award=earlybird --previous --reverse --lang=de --defaultlang=en --email=ebe9-salesplan-reminder --subject="Exklusive Verkaufsrunde für E-commerce Berlin Expo 2024 Aussteller - Buchung öffnet morgen um 11:00 Uhr!"
+
+
+
+
+
+ 
+
+
+
+
+29 lutego
+==========
+
+php artisan exhibitors:current-event --lang=en --defaultlang=en --domain=ecommerceberlin.com --subject=" Exclusive Sales plan for E-commerce Berlin Expo 2025 exhibition spaces - book your spot for 2 days!" --email=ebe9-salesplan --context=all
+
+php artisan exhibitors:current-event --lang=de --defaultlang=en --domain=ecommerceberlin.com --subject="Exklusives Verkaufsangebot für Ausstellungsflächen bei der E-Commerce Berlin Expo 2025 - sichere dir deinen Platz für 2 Tage!" --email=ebe9-salesplan --context=all
+ 

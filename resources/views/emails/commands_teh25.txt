@@ -2,13 +2,183 @@
 
 
 
+
+//ENTRANCE file export 
+php artisan visitors:meetups --domain=targiehandlu.pl
+
+
+
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Podziękowania, ankieta, kolejna edycja" --email=teh25-thankyou --context=event
+
+
+
+10 kwietnia
+============
+
+php artisan visitors:meetups --domain=targiehandlu.pl
+
+SMS (going) -php artisan visitors:sms-current-event --domain=targiehandlu.pl --prefix=+48
+
+php artisan visitors:ticket-reminder --domain=targiehandlu.pl
+
+php artisan visitors:current-event --domain=targiehandlu.pl --subject="Bilet i Informacje dla Uczestników VIP" --email=teh25-you_are_vip
+
+php artisan exhibitors:meetups_please_rsvp --domain=targiehandlu.pl --lang=pl --defaultlang=pl --subject="RSVP! Zaproszenia na spotkanie czekają na Twoim profilu"
+
+php artisan exhibitors:meetups_please_rsvp --domain=targiehandlu.pl --lang=en --defaultlang=pl --subject="RSVP! Meeting invitations awaiting in your Exhibitor Profile"
+
+
+9 kwietnia
+===========
+
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=en --subject="Scanning of visitors' badges to collect contact data." --email=teh23-scanner --context=event,sales
+
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Skanowanie ID Zwiedzających podczas Targów." --email=teh23-scanner --context=event,sales
+
+php artisan visitors:restore-from-voters --domain=targiehandlu.pl --email=teh25-restore3 --subject="Przyszłość ehandlu. Widzimy się w czwartek w Warszawie?" 
+
+php artisan exhibitors:meetups_please_rsvp --domain=targiehandlu.pl --lang=pl --defaultlang=pl --subject="RSVP! Zaproszenia na spotkanie czekają na Twoim profilu"
+
+php artisan exhibitors:meetups_please_rsvp --domain=targiehandlu.pl --lang=en --defaultlang=pl --subject="RSVP! Meeting invitations awaiting in your Exhibitor Profile"
+
+
+8 kwietnia
+===========
+
+php artisan visitors:restore-from-old-events --domain=targiehandlu.pl --email=teh25-restore3 --subject="Przyszłość ehandlu. Widzimy się w czwartek w Warszawie?"  --throttle=55000  --throttle=60000
+
+php artisan visitors:current-event --domain=targiehandlu.pl --subject="Twój plan na czwartkowe Targi eHandlu" --email=teh25-todo
+
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Informacje logistyczne - montaż, parking, welcome packi" --email=teh25-logistics --context=event_manager
+
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=en --subject="Logistics info. Assembly, parking, welcome packs" --email=teh25-logistics --context=event_manager
+
+
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="DEADLINE: Zaproszenia VIP dla Kontrahentów" --email=teh24-vips2 --context=pr,event,sales
+
+php artisan exhibitors:meetups_please_rsvp --domain=targiehandlu.pl --lang=pl --defaultlang=pl --subject="RSVP! Zaproszenia na spotkanie czekają na Twoim profilu"
+
+php artisan exhibitors:meetups_please_rsvp --domain=targiehandlu.pl --lang=en --defaultlang=pl --subject="RSVP! Meeting invitations awaiting in your Exhibitor Profile"
+
+php artisan exhibitors:meetups_ltd --domain=targiehandlu.pl --threshold=20 --older_than=1
+
+php artisan exhibitors:meetups_ltd --domain=targiehandlu.pl --threshold=20 --older_than=4
+
+php artisan visitors:ticket-reminder --domain=targiehandlu.pl
+
+
+
+
+5 kwietnia
+===========
+
+php artisan visitors:ticket-reminder --domain=targiehandlu.pl
+
+php artisan visitors:restore-from-voters --domain=targiehandlu.pl --email=teh25-agenda-highlights-voters --subject="Czy chcesz bilet na czwartkowe Targi eHandlu w Warszawie?" 
+
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Jak znaleźć Twoją firmę na hali targowej? jak umówić się z Tobą na spotkanie?" --email=teh25-promoninja --context=event_manager,pr_manager
+
+4 kwietnia
+===========
+
+php artisan exhibitors:meetups_please_rsvp --domain=targiehandlu.pl --lang=pl --defaultlang=pl --subject="RSVP! Zaproszenia na spotkanie czekają na Twoim profilu"
+
+php artisan exhibitors:meetups_please_rsvp --domain=targiehandlu.pl --lang=en --defaultlang=pl --subject="RSVP! Meeting invitations awaiting in your Exhibitor Profile"
+
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="DEADLINE:  Wyślij wejściówkę VIP kluczowym Partnerom i Klientom" --email=teh24-vips2 --context=pr,event,sales
+
+php artisan visitors:current-event --domain=targiehandlu.pl --subject="DEADLINE - zapisy na warsztaty. 25 Targi eHandlu w Warszawie" --email=teh25-workshops-for-current
+
+3 kwietnia
+===========
+
+php artisan visitors:restore-from-old-events --domain=targiehandlu.pl --email=teh25-workshops-for-old2 --subject="Wystartowały zapisy na 20 Warsztatów Targów eHandlu"  --throttle=55000  --events=89,95,97,99,102 --throttle=50000
+
+2 kwietnia
+===========
+
+php artisan visitors:restore-from-old-events --domain=targiehandlu.pl --email=teh25-workshops-for-old --subject="Warsztaty. Przygotuj się na jutrzejsze zapisy!"  --throttle=55000  --events=89,95,97,99,102 --throttle=50000
+
+php artisan purchases:check --domain=targiehandlu.pl
+
+php artisan exhibitors:meetups_please_rsvp --domain=targiehandlu.pl --lang=pl --defaultlang=pl --subject="RSVP! Zaproszenia na spotkanie czekają na Twoim profilu"
+
+php artisan exhibitors:meetups_please_rsvp --domain=targiehandlu.pl --lang=en --defaultlang=pl --subject="RSVP! Meeting invitations awaiting in your Exhibitor Profile"
+
+28 marca
+========
+
+php artisan company:relations --domain=targiehandlu.pl --threshold=1 --lang=pl --defaultlang=pl --subject="Deadline. Przedstawiciele Wystawcy na stoisku" --email=teh25-reps-list-final
+
+php artisan company:relations --domain=targiehandlu.pl --threshold=1 --lang=en --defaultlang=pl --subject="Deadline. Exhibitor's representatives @ booth." --email=teh25-reps-list-final
+
+27 marca
+========
+
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Wyślij wejściówkę VIP kluczowym Partnerom i Klientom" --email=teh25-vips --context=pr,event,sales
+
+26 marca
+========
+
+php artisan company:relations --domain=targiehandlu.pl --threshold=2 --lang=pl --defaultlang=pl --subject="Deadline. Przedstawiciele Wystawcy na stoisku" --email=teh25-reps-list-final
+
+php artisan company:relations --domain=targiehandlu.pl --threshold=2 --lang=en --defaultlang=pl --subject="Deadline. Exhibitor's representatives @ booth." --email=teh25-reps-list-final
+
+php artisan visitors:restore-from-old-events --domain=targiehandlu.pl --email=teh25-restore1-agenda --subject="Zarejestruj się. AI w E-commerce na Targach eHandlu w Warszawie" --events=89,95,97,99,102 --throttle=50000
+
+20 marca
+============
+
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Wyróżnienie w katalogu Wystawców; Jak zostać Partnerem Strefy VIP?" --email=teh25-promoninja-intro --context=pr_manager,event_manager
+
+18 marca
+============
+
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Maksymalna konwersja z Targów. Wizytówka, umawianie spotkań" --email=teh24-promoninja-intro --context=pr_manager,event_manager
+
+14 marca
+============
+
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Przypomnienie. Do 18 marca: Meble, wykładzina, TV, zapotrzebowanie na prąd, zabudowa..." --email=teh25-arrangement --context=event
+
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=en --subject="Reminder: Deadline 18th of March: Carpet flooring, LED display, complete space arrangement, etc..." --email=teh25-arrangement --context=event
+
+11 marca
+============
+
+php artisan exhibitors:current-event --domain=targiehandlu.pl  --lang=pl --defaultlang=pl --subject="Przedstawiciele Wystawcy na stoisku" --email=teh24-reps --context=event,sales
+
+php artisan exhibitors:current-event --domain=targiehandlu.pl --lang=en --defaultlang=pl --subject="Exhibitor's representatives @ booth." --email=teh24-reps --context=event,sales
+
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Deadline 16:00 na zgłoszenie chęci prowadzenia Warsztatu." --email=teh24-workshops-lastcall --context=event,sales --exclude_company_ids="1281,2101,2407,1653,2103,2406,1250,1192"
+
+9 pazdziernika
+==============
+
+php artisan companies:emptyprofile --domain=targiehandlu.pl --defaultLang=pl
+
+7 marca
+=======
+
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Deadline. Zgłoszenie chęci prowadzenia warsztatu." --email=teh25-workshops-deadline --context=all
+
+5 marca
+==============
+
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Prowadzenie warsztatu - start zapisów.Tylko 18 slotów" --email=teh25-workshops-form --context=all
+
+]
 https://ehandel.com.pl/co-po-i-zyli-dlugo-i-szczesliwie-dos-and-donts-w-relacji-klient-agencja,2323
 https://ehandel.com.pl/dlaczego-duze-i-zaawansowane-sklepy-wybieraja-prestashop-poznaj-historie-ich-sukcesu,2322
 https://ehandel.com.pl/pricing-w-sluzbie-cross-sellu-maksymalizacja-profitu-w-twoim-sklepie,2319
 https://ehandel.com.pl/na-co-uwazac-przy-tworzeniu-opisow-produktow-z-ai,2315
 
+29 lutego
+============
 
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Deadline: 18 marca. . Meble, wykładzina, TV, zapotrzebowanie na prąd, zabudowa..." --email=teh25-arrangement --context=event
 
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=en --subject="Deadline: 18th of March;  Carpet flooring, LED display, complete space arrangement, etc..." --email=teh25-arrangement --context=event
 
 1 lutego
 ============

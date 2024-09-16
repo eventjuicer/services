@@ -151,9 +151,16 @@ class EmailDisbelievers extends Command
         $this->info("Skipping " . count($excludes) . " matches with active event...");
 
         $sendable->checkUniqueness(true);
-        $sendable->setMuteTime(24 * 60); //24h
+        $sendable->setMuteTime(18 * 60); //24h
 
-        $filtered =  $sendable->filter($all, $eventId, $excludes);
+
+        if($events != "all" && in_array($eventId, explode(",", $events) )){
+            $filtered =  $sendable->filter($all, $eventId);
+
+        }else{
+            $filtered =  $sendable->filter($all, $eventId, $excludes);
+        }
+
 
         $this->info( "Found " . $sendable->howManyMuted() . " muted emails..." );
 
