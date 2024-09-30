@@ -1,3 +1,33 @@
+30 września
+============
+
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Prowadzenie warsztatu - start zapisów. Tylko 18 slotów" --email=teh26-workshops-form --context=all
+
+
+
+
+
+
+26 września
+===========
+
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Przypomnienie: tylko do 9 października. Meble, wykładzina, TV, prąd..." --email=teh26-arrangement --context=event
+
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=en --subject="Reminder: deadline 9th of October;  Carpet flooring, LED display, complete space arrangement, etc..." --email=teh26-arrangement --context=event
+
+
+
+25 września
+===========
+
+php artisan exhibitors:current-event --domain=targiehandlu.pl  --lang=pl --defaultlang=pl --subject="Przedstawiciele Wystawcy na stoisku" --email=teh24-reps --context=event,sales
+
+php artisan exhibitors:current-event --domain=targiehandlu.pl --lang=en --defaultlang=pl --subject="Exhibitor's representatives @ booth." --email=teh24-reps --context=event,sales
+
+
+
+
+
 13 września
 ===========
 
