@@ -10,9 +10,9 @@
 
 # Hi,
 
-## We would like to let you know that {{  array_get($companydata, "name") }} is exhibiting at the E-Commerce Warsaw Expo 2024 on **April 11th** at EXPO XXI (Prądzyńskiego 12/14 str.). 
+## We would like to let you know that {{  array_get($companydata, "name") }} is exhibiting at the E-Commerce Warsaw Expo 2024 on **October 25th** at EXPO XXI (Prądzyńskiego 12/14 str.). 
 
-We’re excited for a day fully dedicated to e-commerce best practices &amp; trends. 
+We’re excited for a day fully dedicated to e-commerce best practices & trends. 
 
 Come have a chat with us at our stand.
 
@@ -20,7 +20,7 @@ Come have a chat with us at our stand.
 	Register for a free ticket here
 @endcomponent
 
-Let us also mention that there will be 4 stages full of speakers and almost 135 other service providers at their booths. 
+Let us also mention that there will be 4 stages full of speakers and over 150 other service providers at their booths. 
 
 The event is a must-attend! 
 
