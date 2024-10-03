@@ -1,6 +1,22 @@
 
 
 
+23 września
+
+
+php artisan exhibitors:current-event --lang=en --defaultlang=en --domain=ecommerceberlin.com --subject="Speaking opportunity for exhibitors [E-commerce Berlin Expo 2025]" --email=ebe9-cfp --context=pr --exclude_company_ids="1081,2601,2597,2600,1888,1682,2586,2622,2603,2353,2510,1367,2619,1400"
+
+php artisan exhibitors:current-event --lang=de --defaultlang=en --domain=ecommerceberlin.com --subject="Sprechgelegenheit für Aussteller [E-commerce Berlin Expo 2025]" --email=ebe9-cfp --context=pr --exclude_company_ids="1081,2601,2597,2600,1888,1682,2586,2622,2603,2353,2510,1367,2619,1400"
+
+
+
+
+
+
+
+
+
+
 
 php artisan exhibitors:current-event --lang=en --defaultlang=en --domain=ecommerceberlin.com --subject="Maximise your visibility at E-commerce Berlin Expo 2025 with Exclusive Sponsorships" --email=ebe9-premium --context=all
 
