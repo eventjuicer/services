@@ -2,6 +2,8 @@
  
 # Cześć {{ array_get($profile, "fname") }},
 
+Wystartował konkurs dla Wystawców jesiennej edycji Targów eHandlu.
+
 Do puli 6 nagród dla firm promujących swój profil Wystawcy oraz udział w Targach eHandlu dodaliśmy **3 nowe super-nagrody.**
 
 ## Pakiet Partnera Strefy VIP
@@ -9,7 +11,6 @@ Do puli 6 nagród dla firm promujących swój profil Wystawcy oraz udział w Tar
 ## Wyróżnienie firmy na mapie Wystawców w papierowym katalogu
 
 ## Graficzna reklama firmy w papierowym katalogu
-
 
 Pakiet Partnera Strefy VIP to możliwość zorganizowania dodatkowej ekspozycji (4m2) w Strefie VIP oraz realizowane przez nas świadczenia reklamowe (brandowane opaski dla VIPów, reklama na donicach). Wartość pakietu to ok 10 000 zł.
 

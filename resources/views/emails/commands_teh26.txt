@@ -6,7 +6,7 @@
 ==============
 
 
-php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Materiały promo, Katalog targowy, Partner Strefy VIP... " --email=teh25-promoninja-intro --context=pr_manager,event_manager
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Materiały promo, Katalog targowy, Partner Strefy VIP... " --email=teh26-promoninja-intro --context=pr_manager,event_manager
 
 
 
