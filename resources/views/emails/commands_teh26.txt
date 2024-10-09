@@ -1,17 +1,22 @@
 
 
+9 października
+==============
+
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Deadline? dzisiaj:) Zabudowa stoiska, wykładzina, TV, prąd ..." --email=teh26-arrangement-lastcall --context=event
+
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=en --subject="Booth arrangement, carpet, LED display? Deadline is today!" --email=teh26-arrangement-lastcall --context=event
+
+
+
+
+
 
 
 7 października
 ==============
 
-
 php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Materiały promo, Katalog targowy, Partner Strefy VIP... " --email=teh26-promoninja-intro --context=pr_manager,event_manager
-
-
-
-
-
 
 
 30 września
