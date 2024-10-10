@@ -6,7 +6,7 @@
 
 The DEADLINE for adding Exhibitor's representatives who will represent the company at the Stand is approaching.
 
-**This is the last moment to add/change. On Thursday evening we send badges for printing.**
+**This is the last moment to add/change. On Friday we send badges for printing.**
 
 # The list of already defined representatives is as follows:
 
