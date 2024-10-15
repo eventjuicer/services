@@ -4,11 +4,23 @@ Cześć {{ $p->translate("[[fname]]") }}!
 
 ## Wystartowały właśnie zapisy na Warsztaty organizowane podczas nadchodzącej edycji Targów eHandlu. Możesz zgłosić chęć udziału w aż 7 z 21 warsztatów.
 
- 
-
 @component('mail::button', ['url' => 'https://targiehandlu.pl/workshops'])
 Zapisy
 @endcomponent
+
+
+@component('mail::panel')
+
+Przypominamy, że jesienne Targi eHandlu odbędą się w piątek, **25 października, w EXPO XXI w Warszawie.**
+
+Targi eHandlu to **4 sceny** z prezentacjami Ekspertów oraz **147 Wystawców** - oferentów usług i produktów wspierających handel w Internecie.
+
+...**oraz 21 warsztatów**
+
+@endcomponent
+
+ 
+
 
 
  
@@ -29,6 +41,7 @@ Jak wyprzedzić 99% sprzedawców na Allegro?
 
 **SMS i RCS:** Jak wspólnie kształtują nową erę komunikacji mobilnej
 
+
 [Lista wszystkich warsztatów i zapisy](https://targiehandlu.pl/workshops)
 
 
@@ -48,16 +61,6 @@ Czas warsztatu to maksymalnie **45 minut** (30min + 15min na Q&A)
 Sprawdź listę Warsztatów i zapisz się
 @endcomponent
 
-
-@component('mail::panel')
-
-Przypominamy, że 26 Targi eHandlu odbędą się **25 października w EXPO XXI w Warszawie.**
-
-Targi eHandlu to **4 sceny** z prezentacjami Ekspertów oraz **147 Wystawców** - oferentów usług i produktów wspierających handel w Internecie.
-
-...**oraz 21 warsztatów**
-
-@endcomponent
 
 
 **Niezależnie od warsztatów [dostępne są aż 4 sceny prezentacyjne](https://targiehandlu.pl/visit)** (udział bezpłatny, otwarty, wymagana rejestracja jako Zwiedzający)
