@@ -1,6 +1,57 @@
 
+
+15 października
+===============
+
+
+php artisan visitors:current-event --domain=targiehandlu.pl --subject="21 Warsztatów e-commerce. Czas start." --email=teh26-workshops-for-current
+
+
+php artisan visitors:restore-from-old-events --domain=targiehandlu.pl --email=teh25-workshops-for-old2 --subject="Wystartowały zapisy na 20 Warsztatów Targów eHandlu"  --throttle=55000  --events=89,95,97,99,102,103 --throttle=50000
+
+
+
+
+
+
+
+
+
+
+
+
+
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Wyślij wejściówkę VIP kluczowym Partnerom i Klientom" --email=teh25-vips --context=pr,event,sales
+
+
+
+
+
+
+
+
+
+
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Informacje logistyczne - montaż, parking, welcome packi" --email=teh26-logistics --context=event_manager
+
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=en --subject="Logistics info. Assembly, parking, welcome packs" --email=teh26-logistics --context=event_manager
+
+
+
+
+
+
+
+
+
 10 października
 ===============
+
+
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Wyślij wejściówkę VIP kluczowym Partnerom i Klientom" --email=teh25-vips --context=pr,event,sales
+
+
+
 
 php artisan company:relations --domain=targiehandlu.pl --threshold=1 --lang=pl --defaultlang=pl --subject="Deadline. Przedstawiciele Wystawcy na stoisku" --email=teh25-reps-list-final
 
