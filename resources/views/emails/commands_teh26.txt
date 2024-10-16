@@ -1,4 +1,13 @@
 
+16 pazdziernika
+===============
+
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Przepis na maksymalizację konwersji uczestnictwa w Targach eHandlu" --email=teh26-promoninja2 --context=event_manager,pr_manager
+
+
+
+
+
 
 15 października
 ===============
@@ -7,7 +16,7 @@
 php artisan visitors:current-event --domain=targiehandlu.pl --subject="21 Warsztatów E-commerce. Czas start." --email=teh26-workshops-for-current
 
 
-php artisan visitors:restore-from-old-events --domain=targiehandlu.pl --email=teh26-workshops-for-old --subject="21 Warsztatów E-commerce. Czas start."  --throttle=55000  --events=89,95,97,99,102,103 --throttle=50000
+php artisan visitors:restore-from-old-events --domain=targiehandlu.pl --email=teh26-workshops-for-old --subject="Start zapisów na 21 Warsztatów E-commerce."  --throttle=55000  --events=89,95,97,99,102,103 --throttle=50000
 
 
 
