@@ -34,9 +34,9 @@ Wszystkie materiały kierują do Twojego publicznego profilu Wystawcy - {{$profi
 
 **dostęp do puli early-bird** na kolejną edycję Targów, 
 
-*reklama w drukowanym przewodniku targowym**
+reklama w **drukowanym przewodniku targowym**
 
-**tytuł partnera Strefy VIP**
+**tytuł partnera Strefy VIP** i cała masa świadczeń z nim związanych
 
 i inne (uzyskanie konkretnych świadczeń możesz sprawdzić w Rankingu w ramach Panelu Wystawcy)
 
