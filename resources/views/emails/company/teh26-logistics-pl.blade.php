@@ -35,7 +35,7 @@ Godziny montażowe to 16:00 - 20:00 (o ile nie ustalono z nami inaczej).
 
 Po wejściu na Halę #1 (wejście po lewej stronie patrząc od głównego wejścia/lobby) udaj się do punktu odbioru pakietów powitalnych (narożnik/początek Hali #1), gdzie nasi Opiekunowie będą na Ciebie czekać i zaprowadzą Cię do Twojego stoiska.
 
-## Dzień Targowy - 11 kwietnia
+## Dzień Targowy - 25 października
 
 Montaż w dzień targowy możliwy jest wyłącznie w godzinach **8:00 - 9:30.** (O 10:00 hala zostanie otwarta do publicznego zwiedzania.)
 
@@ -48,7 +48,7 @@ W przypadku jakichkolwiek problemów związanym z Twoim stoiskiem (np. z dostęp
 
 ## Welcome pack
 
-Welcome pack zostanie przekazany podczas naszego pierwszego spotkania (10 kwietnia lub w dzień targowy - 11 kwietnia).
+Welcome pack zostanie przekazany podczas naszego pierwszego spotkania (24 października lub w dzień targowy - 25 października).
 Zawiera on:
 
 * identyfikatory przedstawicieli (uprawniające także do wejścia do strefy VIP!)

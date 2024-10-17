@@ -27,7 +27,7 @@ For a free exit, you will need a parking voucher, which you will get from us dur
 
 You need to use the parking voucher (**from welcome pack**) for subsequent entries and exits.
 
-## (Optional) Setup day -10 of April
+## (Optional) Setup day - 24th of October (Thursday)
 
 Assembly hours 4pm-8pm
 
@@ -35,7 +35,7 @@ After entering the main entrance you need to go to the **information point for t
 
 Your Account Manager will happily await :) 
 
-## Event Day - 11th of April
+## Event Day - 25th of October (Friday)
 
 Assembly on a event day is only possible between **8:00 and 9:30**. (At 10:00am we will open gates and welcome visitors.)
 
