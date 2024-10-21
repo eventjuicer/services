@@ -1,4 +1,30 @@
 
+
+
+21 pazdziernika
+===============
+
+
+
+
+php artisan visitors:restore-from-old-events --domain=targiehandlu.pl --email=teh26-restore2 --subject="Przyszłość ehandlu. Widzimy się w czwartek w Warszawie?"  --throttle=55000  --throttle=60000
+
+
+php artisan purchases:check --domain=targiehandlu.pl
+
+
+
+php artisan visitors:ticket-reminder --domain=targiehandlu.pl
+
+php artisan exhibitors:meetups_ltd --domain=targiehandlu.pl --threshold=20 --older_than=4
+
+php artisan exhibitors:meetups_please_rsvp --domain=targiehandlu.pl --lang=pl --defaultlang=pl --subject="RSVP! Zaproszenia na spotkanie czekają na Twoim profilu"
+
+php artisan exhibitors:meetups_please_rsvp --domain=targiehandlu.pl --lang=en --defaultlang=pl --subject="RSVP! Meeting invitations awaiting in your Exhibitor Profile"
+
+
+
+
 17 pazdziernika
 ===============
 
