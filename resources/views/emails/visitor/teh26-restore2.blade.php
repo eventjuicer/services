@@ -32,7 +32,7 @@ Wygeneruj swój bilet
 @endcomponent
 
 
-Trzecim gościem Marka Kicha będzie Remigiusz Chrzanowski - Chief Partner Sales Officer Health Labs Care.
+## Trzecim gościem Marka Kicha będzie Remigiusz Chrzanowski - Chief Partner Sales Officer Health Labs Care.
 
 @component('mail::panel')
 "Apteka Gemini, Super Pharm, DOZ, a dzisiaj Health Labs Care. Można powiedzieć, że Remigiusz Chrzanowski zdobył koronę polskiej farmacji. Postanowiłem go o tę drogę zapytać na scenie. Podczas wywiadu porozmawiamy o różnicach w zarządzaniu dużym i trochę mniejszym e-Commerce, o sprzedaży D2C i perfekcyjnej obsłudze klienta."
@@ -40,7 +40,7 @@ Trzecim gościem Marka Kicha będzie Remigiusz Chrzanowski - Chief Partner Sales
 @endcomponent
 
 
-[Lista prezentacji na 4 scenach](https://targiehandlu.pl/visit)
+[Agenda wystąpień i wywiadów](https://targiehandlu.pl/visit)
 
 
 @component('mail::panel')
