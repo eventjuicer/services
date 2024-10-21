@@ -6,7 +6,7 @@ Targi eHandlu odbędą się **25 października (piątek) w Warszawie (EXPO XXI)*
 
 Genialna agenda prezentacji! 
 
-M.in. wywiady z CEO Tezeusz.pl, CEO IMKER, Head of E-commerce Coffeedesk, wystąpienia przedstawicieli Trefl S.A., InPost Pay, Wygodne Zwroty, Kaufland Global Marketplace
+M.in. wywiady z CEO **Tezeusz.pl**, CEO **IMKER**, Head of E-commerce **Coffeedesk**, wystąpienia przedstawicieli **Trefl S.A.**, **InPost Pay**, **Wygodne Zwroty**, **Kaufland Global Marketplace**
 
 # [IDĘ / Pobieram bilet]({!! $going !!})
 
