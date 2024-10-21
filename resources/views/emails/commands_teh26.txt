@@ -7,7 +7,7 @@
 
 
 
-php artisan visitors:restore-from-old-events --domain=targiehandlu.pl --email=teh26-restore2 --subject="Przyszłość ehandlu. Widzimy się w czwartek w Warszawie?"  --throttle=55000  --throttle=60000
+php artisan visitors:restore-from-old-events --domain=targiehandlu.pl --email=teh26-restore2 --subject="Sekrety CEO Tezeusz.pl, IMKER, Health Labs Care...Piątek na EXPOXXI w Warszawie"  --throttle=60000
 
 
 php artisan purchases:check --domain=targiehandlu.pl

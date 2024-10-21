@@ -6,6 +6,9 @@ Cześć {{ $p->translate("[[fname]]") }}!
 
 **Marek Kich** - prowadzący podcast **"Sztuka E-Commerce"** zaprasza na wywiady z Goścmi Specjalnymi 
 
+[Agenda wystąpień i wywiadów](https://targiehandlu.pl/visit)
+
+
 ## Kojarzysz antykwariat Tezeusz.pl? 
 
 @component('mail::panel')
@@ -18,6 +21,10 @@ Andrzej Miszk opowie, jak rozwijać i zarządzać biznesem, który dla wielu jes
 
 @endcomponent
 
+@component('mail::button', ['url' => 'https://targiehandlu.pl/visit'])
+Wygeneruj swój bilet
+@endcomponent
+
 
 ## Interesuje Ciebie self-publishing? Wiesz która firma odpowiadała za logistykę takich bestsellerów jak "Finansowy Ninja" czy "Finansowa Forteca"?
 
@@ -27,9 +34,7 @@ Marek Kich wypyta Krzysztofa Bartnika - CEO IMKER - czy sprzedaż e-booków i ku
 
 @endcomponent
 
-@component('mail::button', ['url' => 'https://targiehandlu.pl/visit'])
-Wygeneruj swój bilet
-@endcomponent
+
 
 
 ## Trzecim gościem Marka Kicha będzie Remigiusz Chrzanowski - Chief Partner Sales Officer Health Labs Care.
@@ -40,7 +45,11 @@ Wygeneruj swój bilet
 @endcomponent
 
 
-[Agenda wystąpień i wywiadów](https://targiehandlu.pl/visit)
+@component('mail::button', ['url' => 'https://targiehandlu.pl/visit'])
+Wygeneruj swój bilet
+@endcomponent
+
+
 
 
 @component('mail::panel')
