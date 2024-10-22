@@ -19,7 +19,7 @@ Jeśli uczestniczysz w Warsztatach lub masz umówione spotkania z Wystawcami - l
 
 @component('mail::panel')
 
-Przypominamy, że jesienne Targi eHandlu odbędą się w CZWARTEK **25 października w EXPO XXI w Warszawie.**
+Przypominamy, że jesienne Targi eHandlu odbędą się w piątek, **25 października, w EXPO XXI w Warszawie.**
 
 Targi eHandlu to **4 sceny** z prezentacjami Ekspertów oraz **150 Wystawców** - oferentów usług i produktów wspierających handel w Internecie.
 
