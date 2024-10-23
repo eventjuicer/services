@@ -1,7 +1,7 @@
 
 
 
-php artisan visitors:restore-from-old-events --domain=targiehandlu.pl --email=teh26-restore3 --subject="Ostatnie bilety na piątkowe Targi eHandlu. Poznaj wybrane prezentacje."  --events=103,102,99 --throttle=20000
+php artisan visitors:restore-from-old-events --domain=targiehandlu.pl --email=teh26-restore3 --subject="Ostatnie bilety na piątkowe Targi eHandlu. Poznaj wybrane prezentacje."  --events=103,102,99,97,95 --throttle=20000
 
 
 php artisan visitors:restore-from-voters --domain=targiehandlu.pl --email=teh26-restore-from-voters --subject="Bilet na Targi eHandlu w Warszawie. Wywiady z CEO Tezeusz.pl, IMKER." 
