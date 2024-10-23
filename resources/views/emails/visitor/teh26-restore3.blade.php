@@ -14,7 +14,7 @@ Oto kilka wybranych prezentacji, które - mamy taką nadzieję - zachęcą Ciebi
 <table style="font-family:Avenir,Helvetica,sans-serif;box-sizing:border-box;color:#74787e;font-size:16px;line-height:1.5em;margin-top:0;text-align:left;border-spacing:30px;">
 
 <tr>
-        <td width="250" style="width: 250px;"><img src="https://res.cloudinary.com/eventjuicer/image/upload/w_250,c_fit,f_auto/v1727852445/p_234317_logotype.png" alt="" /></td>
+        <td width="125" style="width: 125px;"><img src="https://res.cloudinary.com/eventjuicer/image/upload/w_125,c_fit,f_auto/v1727852445/p_234317_logotype.png" alt="" /></td>
         <td>  
             <strong>  Quick Wins: Sprawdzone strategie personalizacji e-maili, które zwiększają sprzedaż w e-commerce.</strong>
        
@@ -26,9 +26,9 @@ Personalizacja jest zbyt ważna, by z niej rezygnować. Aż 80% kupujących mów
     
 
     <tr>
-        <td width="250" style="width: 250px;">
-            <img src="https://res.cloudinary.com/eventjuicer/image/upload/w_250,c_fit,f_auto/v1726652384/p_234921_logotype.jpg" alt="" /><br/><br />
-        <img src="https://res.cloudinary.com/eventjuicer/image/upload/w_250,c_fit,f_auto/v1727792175/p_236759_logotype.jpg" alt="" />
+        <td width="125" style="width: 125px;">
+            <img src="https://res.cloudinary.com/eventjuicer/image/upload/w_125,c_fit,f_auto/v1726652384/p_234921_logotype.jpg" alt="" /><br/><br />
+        <img src="https://res.cloudinary.com/eventjuicer/image/upload/w_125,c_fit,f_auto/v1727792175/p_236759_logotype.jpg" alt="" />
         </td>
         <td>  
             <strong> Case study na żywo - klient opowiada jak zwiększył sprzedaż dzięki opiniom. </strong>
@@ -39,7 +39,7 @@ Personalizacja jest zbyt ważna, by z niej rezygnować. Aż 80% kupujących mów
 
     
     <tr>
-        <td width="250" style="width: 250px;"><img src="https://res.cloudinary.com/eventjuicer/image/upload/w_250,c_fit,f_auto/v1726216971/p_234862_logotype.png" alt="" /></td>
+        <td width="125" style="width: 125px;"><img src="https://res.cloudinary.com/eventjuicer/image/upload/w_125,c_fit,f_auto/v1726216971/p_234862_logotype.png" alt="" /></td>
         <td>  
             <strong>5 powodów, dla których Twoje SEO nie działa w 2024
             </strong>
@@ -50,7 +50,7 @@ Personalizacja jest zbyt ważna, by z niej rezygnować. Aż 80% kupujących mów
 
 
     <tr>
-        <td width="250" style="width: 250px;"><img src="https://res.cloudinary.com/eventjuicer/image/upload/w_250,c_fit,f_auto/v1725007836/p_233877_logotype.jpg" alt="" /></td>
+        <td width="125" style="width: 125px;"><img src="https://res.cloudinary.com/eventjuicer/image/upload/w_125,c_fit,f_auto/v1712507836/p_233877_logotype.jpg" alt="" /></td>
         <td>  
             <strong>  Jak skutecznie zarządzać zwrotami w e-commerce: Strategia minimalizacji kosztów i budowania lojalności klientów </strong>
 
@@ -63,7 +63,7 @@ Personalizacja jest zbyt ważna, by z niej rezygnować. Aż 80% kupujących mów
 
 
     <tr>
-        <td width="250" style="width: 250px;"><img src="https://res.cloudinary.com/eventjuicer/image/upload/w_250,c_fit,f_auto/v1726226085/p_234791_logotype.jpg" alt="" /></td>
+        <td width="125" style="width: 125px;"><img src="https://res.cloudinary.com/eventjuicer/image/upload/w_125,c_fit,f_auto/v1726226085/p_234791_logotype.jpg" alt="" /></td>
         <td>  
             <strong>10 najczęstszych błędów w kampaniach e-commerce. Wyeliminuj je i skaluj performance!
   </strong>
