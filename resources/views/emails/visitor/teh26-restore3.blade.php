@@ -14,8 +14,9 @@ Oto kilka wybranych prezentacji, które - mamy taką nadzieję - zachęcą Ciebi
 <table style="font-family:Avenir,Helvetica,sans-serif;box-sizing:border-box;color:#74787e;font-size:16px;line-height:1.5em;margin-top:0;text-align:left;border-spacing:30px;">
 
 <tr>
-        <td width="125" style="width: 125px;"><img src="https://res.cloudinary.com/eventjuicer/image/upload/w_125,c_fit,f_auto/v1727852445/p_234317_logotype.png" alt="" /></td>
-        <td>  
+         <td>  
+
+        <img src="https://res.cloudinary.com/eventjuicer/image/upload/w_125,c_fit,f_auto/v1727852445/p_234317_logotype.png" alt="" />
             <strong>  Quick Wins: Sprawdzone strategie personalizacji e-maili, które zwiększają sprzedaż w e-commerce.</strong>
        
           
@@ -26,11 +27,11 @@ Personalizacja jest zbyt ważna, by z niej rezygnować. Aż 80% kupujących mów
     
 
     <tr>
-        <td width="125" style="width: 125px;">
-            <img src="https://res.cloudinary.com/eventjuicer/image/upload/w_125,c_fit,f_auto/v1726652384/p_234921_logotype.jpg" alt="" /><br/><br />
-        <img src="https://res.cloudinary.com/eventjuicer/image/upload/w_125,c_fit,f_auto/v1727792175/p_236759_logotype.jpg" alt="" />
-        </td>
+        
         <td>  
+
+        <img src="https://res.cloudinary.com/eventjuicer/image/upload/w_125,c_fit,f_auto/v1726652384/p_234921_logotype.jpg" alt="" /><br/><br />
+        <img src="https://res.cloudinary.com/eventjuicer/image/upload/w_125,c_fit,f_auto/v1727792175/p_236759_logotype.jpg" alt="" />
             <strong> Case study na żywo - klient opowiada jak zwiększył sprzedaż dzięki opiniom. </strong>
        
         "Podczas prelekcji: - Wyjaśnimy dlaczego warto zbierać zarówno o opinie na temat sklepu, jak i te dotyczące produktów, - Pokażemy jak ciekawy sposób ich prezentacji pozwala zwiększyć zaangażowanie kupujących. - Wyjaśnimy jak pogłębione opinie wzbogacone o sondaże, atrybuty produktowe i cechy użytkownika wpływają na trafność decyzji zakupowych i ograniczenie liczby zwrotów."
@@ -39,8 +40,11 @@ Personalizacja jest zbyt ważna, by z niej rezygnować. Aż 80% kupujących mów
 
     
     <tr>
-        <td width="125" style="width: 125px;"><img src="https://res.cloudinary.com/eventjuicer/image/upload/w_125,c_fit,f_auto/v1726216971/p_234862_logotype.png" alt="" /></td>
+        
         <td>  
+
+        <img src="https://res.cloudinary.com/eventjuicer/image/upload/w_125,c_fit,f_auto/v1726216971/p_234862_logotype.png" alt="" />
+
             <strong>5 powodów, dla których Twoje SEO nie działa w 2024
             </strong>
        
@@ -50,8 +54,11 @@ Personalizacja jest zbyt ważna, by z niej rezygnować. Aż 80% kupujących mów
 
 
     <tr>
-        <td width="125" style="width: 125px;"><img src="https://res.cloudinary.com/eventjuicer/image/upload/w_125,c_fit,f_auto/v1712507836/p_233877_logotype.jpg" alt="" /></td>
+   
         <td>  
+
+        <img src="https://res.cloudinary.com/eventjuicer/image/upload/w_125,c_fit,f_auto/v1712507836/p_233877_logotype.jpg" alt="" />
+        
             <strong>  Jak skutecznie zarządzać zwrotami w e-commerce: Strategia minimalizacji kosztów i budowania lojalności klientów </strong>
 
             Prezentacja omawia sposoby na minimalizację kosztów i usprawnienie procesów operacyjnych, ale także podkreśli znaczenie zwrotów jako narzędzia do wzmacniania relacji z klientami i budowania zaufania do marki.
