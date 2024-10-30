@@ -1,36 +1,61 @@
 
+30 pazdziernika
+===============
 
+
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Podziękowania, ankieta, kolejna edycja" --email=teh25-thankyou --context=event
+
+
+
+
+
+
+php artisan visitors:meetups --domain=targiehandlu.pl
+
+>>> ALL <<<
+
+Treść: Masz dostep do Strefy VIP Targow eHandlu. Przy wejsciu do HALI 3 pokaz tego SMSa. You are a VIP, show this message when entering Hall 3 (VIP Zone).
+
+>>> LTD <<<
+
+Czesc, pamietasz o warsztacie na Targach eHandlu? zapraszamy do Hali 3. Strefa warsztatowa [%kontakt.venue%] start [%kontakt.time%]. Lista Twoich warsztatow https://targiehandlu.pl/todo/[%kontakt.email%]
+
+>>>REPS <<<
+
+Dzien dobry! Przypominamy o Hali 3 i Strefie VIP. Juz teraz mozesz tam napic sie kawy i prowadzic rozmowy biznesowe. Od 12:30 startuje catering. Hello! Hall 3 / VIP Zone is open. Visit to have coffee and business talks and catering (from 12:30pm).
+
+>>> GOING <<<
+
+Przypominamy o Targach eHandlu! Start 10:00; Agenda - https://teh.com.pl/a Wystawcy https://teh.com.pl/m Masz wydrukowany bilet? Z lobby kieruj sie na lewo - do Hali 1. Nie masz? Podaj kod [%kontakt.quick_code%] w INFO.
+
+
+
+
+
+24 pazdziernika
+===============
+
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=en --subject="Scanning of visitors' badges to collect contact data." --email=teh23-scanner --context=event,sales
+
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Skanowanie ID Zwiedzających podczas Targów." --email=teh23-scanner --context=event,sales
+
+php artisan visitors:ticket-reminder --domain=targiehandlu.pl
+
+23 pazdziernika
+================
 
 php artisan visitors:restore-from-old-events --domain=targiehandlu.pl --email=teh26-restore3 --subject="Ostatnie bilety na piątkowe Targi eHandlu. Poznaj wybrane prezentacje."  --events=103,102,99,97,95 --throttle=20000
 
-
 php artisan visitors:restore-from-voters --domain=targiehandlu.pl --email=teh26-restore-from-voters --subject="Bilet na Targi eHandlu w Warszawie. Wywiady z CEO Tezeusz.pl, IMKER." 
-
-
-
-
-
-
 
 php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Informacje logistyczne - montaż, parking, welcome packi" --email=teh26-logistics --context=event_manager
 
 php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=en --subject="Logistics info. Assembly, parking, welcome packs" --email=teh26-logistics --context=event_manager
 
-
-
-
-
-
-
-
-
-
 22 pazdziernika
 ================
 
-
 php artisan visitors:sms-to-old-events --domain=targiehandlu.pl --prefix=+48
-
 
 ### Juz w piatek Targi eHandlu w Warszawie. NOWE w formule: wywiady z CEO Tezeusz.pl, IMKER, Health Labs Care, sprawdz agende 4 scen i pobierz bezplatny bilet na 
 
@@ -40,25 +65,18 @@ php artisan visitors:ticket-reminder --domain=targiehandlu.pl
 
 php artisan exhibitors:meetups_please_rsvp --domain=targiehandlu.pl --lang=pl --defaultlang=pl --subject="RSVP! Zaproszenia na spotkanie czekają na Twoim profilu"
 
-php artisan exhibitors:meetups_please_rsvp --domain=targiehandlu.pl --lang=en --defaultlang=pl --subject="RSVP! Meet
+php artisan exhibitors:meetups_please_rsvp --domain=targiehandlu.pl --lang=en --defaultlang=pl --subject="RSVP! Meeting invitations awaiting in your Exhibitor Profile"
 
 php artisan purchases:check --domain=targiehandlu.pl
 
 php artisan exhibitors:meetups_ltd --domain=targiehandlu.pl --threshold=20 --older_than=4
 
-
 21 pazdziernika
 ===============
 
-
-
-
 php artisan visitors:restore-from-old-events --domain=targiehandlu.pl --email=teh26-restore2 --subject="Sekrety CEO Tezeusz.pl, IMKER, Health Labs Care...Piątek na EXPOXXI w Warszawie"  --throttle=60000
 
-
 php artisan purchases:check --domain=targiehandlu.pl
-
-
 
 php artisan visitors:ticket-reminder --domain=targiehandlu.pl
 
@@ -67,9 +85,6 @@ php artisan exhibitors:meetups_ltd --domain=targiehandlu.pl --threshold=20 --old
 php artisan exhibitors:meetups_please_rsvp --domain=targiehandlu.pl --lang=pl --defaultlang=pl --subject="RSVP! Zaproszenia na spotkanie czekają na Twoim profilu"
 
 php artisan exhibitors:meetups_please_rsvp --domain=targiehandlu.pl --lang=en --defaultlang=pl --subject="RSVP! Meeting invitations awaiting in your Exhibitor Profile"
-
-
-
 
 17 pazdziernika
 ===============
