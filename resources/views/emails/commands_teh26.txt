@@ -1,9 +1,20 @@
 
+4 listopada
+
+
+php artisan exhibitors:award --domain=targiehandlu.pl --award=earlybird --previous --lang=pl --defaultlang=pl --email="teh25-salesplan-top30" --subject="Sprzedaż stoisk. Targi eHandlu 11 kwietnia [top30]"
+
+php artisan exhibitors:award --domain=targiehandlu.pl --award=earlybird --previous --reverse --lang=pl --defaultlang=pl --email="teh25-salesplan-others" --subject="Sprzedaż stoisk. Targi eHandlu 11 kwietnia"
+
+
+
+
+
 30 pazdziernika
 ===============
 
 
-php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Podziękowania, ankieta, kolejna edycja" --email=teh25-thankyou --context=event
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Podziękowania, ankieta, kolejna edycja" --email=teh26-thankyou --context=event
 
 
 
