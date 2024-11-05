@@ -1,0 +1,46 @@
+
+
+
+5 listopada
+===========
+
+php artisan exhibitors:award --domain=targiehandlu.pl --award=earlybird --previous --lang=pl --defaultlang=pl --email="teh27-salesplan2-top30" --subject="Pobierz Zdjęcia; ŚRODA - sprzedaż stoisk"
+
+php artisan exhibitors:award --domain=targiehandlu.pl --award=earlybird --previous --reverse --lang=pl --defaultlang=pl --email="teh27-salesplan2-others" --subject="Pobierz Zdjęcia; CZWARTEK - sprzedaż stoisk"
+
+php artisan exhibitors:award --domain=targiehandlu.pl --award=earlybird --previous --reverse --lang=en --defaultlang=pl --email="teh27-salesplan2-others" --subject="Download your photos; THURSDAY - sales starts"
+
+
+
+
+4 listopada
+===========
+
+php artisan exhibitors:award --domain=targiehandlu.pl --award=earlybird --previous --lang=pl --defaultlang=pl --email="teh27-salesplan-top30" --subject="ŚRODA - sprzedaż stoisk na Targi eHandlu 3 kwietnia"
+
+php artisan exhibitors:award --domain=targiehandlu.pl --award=earlybird --previous --reverse --lang=pl --defaultlang=pl --email="teh27-salesplan-others" --subject="CZWARTEK - sprzedaż stoisk na Targi eHandlu 3 kwietnia"
+
+php artisan exhibitors:award --domain=targiehandlu.pl --award=earlybird --previous --reverse --lang=en --defaultlang=pl --email="teh27-salesplan-others" --subject="THURSDAY | Early bird sales of exhibition spaces"
+
+
+
+
+
+
+
+
+
+
+Przygotowaliśmy zdjęcia z Targów, które dotyczą Twojej firmy.
+
+@component('mail::button', ['url' => $photosUrl ])
+Pobierz zdjęcia (.zip)
+@endcomponent
+
+
+Your company's photo collection is waiting to be downloaded
+
+
+@component('mail::button', ['url' => $photosUrl ])
+Download as .zip
+@endcomponent
