@@ -1,6 +1,20 @@
 
 
 
+
+5 listopada
+===========
+
+php artisan exhibitors:current-event --lang=en --defaultlang=en --domain=ecommerceberlin.com --subject="Maximize Your Brand's Impact at the E-Commerce Berlin Expo 2025!" --email=ebe9-premium-reminder --context=all
+
+php artisan exhibitors:current-event --lang=de --defaultlang=en --domain=ecommerceberlin.com --subject="Maximiere deine Markenwirkung auf der E-Commerce Berlin Expo 2025!" --email=ebe9-premium-reminder --context=all
+
+
+
+
+
+
+
 23 września
 
 
