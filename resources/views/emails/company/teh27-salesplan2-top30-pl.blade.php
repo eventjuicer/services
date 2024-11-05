@@ -14,7 +14,7 @@ Pobierz zdjęcia (.zip)
 
 (2)
 
-Przypominamy plan startu sprzedaży powierzchni wystawienniczej na 27. Targi eHandlu (3 kwietnia 2025 w Warszawie - EXPO XXI)
+Przypominamy plan startu sprzedaży powierzchni wystawienniczej na 27. **Targi eHandlu (3 kwietnia 2025 w Warszawie - EXPO XXI)**
 
 @component('mail::panel')
 
