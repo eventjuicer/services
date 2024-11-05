@@ -10,7 +10,7 @@ Download as .zip
 @endcomponent
 
 
-Next Ecommerce Warsaw Expo will be held in spring - on 3rd of April - at EXPO XXI Warsaw.
+**Next Ecommerce Warsaw Expo** will be held in spring - on **3rd of April** - at EXPO XXI Warsaw.
 
 @component('mail::panel')
 
