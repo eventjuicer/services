@@ -4,7 +4,7 @@
 
 **Wystartowała możliwość rezerwacji przestrzeni wystawienniczej** dla Twojej firmy i innych firm, które znalazły się w TOP30 rankingu Konkursu dla Wystawców.
 
-**Rezerwacja jest możliwa tylko i wyłącznie przez stronę** [targiehandlu.pl/top30_p3dd5ac1k](https://targiehandlu.pl/top30_hhtdl5ac1k)
+**Rezerwacja jest możliwa tylko i wyłącznie przez stronę** [targiehandlu.pl/top30_hhtdl5ac1k](https://targiehandlu.pl/top30_hhtdl5ac1k)
 
 ...i potrwa do końca dnia.
 
