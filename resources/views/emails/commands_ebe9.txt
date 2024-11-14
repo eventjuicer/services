@@ -1,5 +1,20 @@
 
 
+14 listopada
+============
+
+
+php artisan exhibitors:current-event --lang=en --defaultlang=en --domain=ecommerceberlin.com --subject="Haven't started planning the set-up of your space yet? Order a stand construction from us now!" --email=ebe9-additional-services --context=all
+
+php artisan exhibitors:current-event --lang=de --defaultlang=en --domain=ecommerceberlin.com --subject="Noch nicht mit der Standgestaltung begonnen? Bestelle einen Standbau bei uns jetzt!" --email=ebe9-additional-services --context=all
+
+
+
+
+
+
+
+
 
 
 5 listopada
