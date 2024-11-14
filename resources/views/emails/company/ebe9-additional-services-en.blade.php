@@ -2,7 +2,7 @@
 
 # Hello {{ array_get($profile, "fname") }},
 
-**The E-commerce Berlin Expo 2025 is getting closer and closer! **We would like to inform you that in your exhibitor's account admin panel **you can now order additional services, such as:**
+**The E-commerce Berlin Expo 2025 is getting closer and closer!** We would like to inform you that in your exhibitor's account admin panel **you can now order additional services, such as:**
 
 - complete booth arrangement with full print back wall, counter, carpet and leaflet holder,
 - carpet equipment,
