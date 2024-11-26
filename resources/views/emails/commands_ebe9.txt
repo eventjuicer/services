@@ -1,8 +1,17 @@
 
 
-14 listopada
+26 listopada
 ============
 
+php artisan exhibitors:current-event --lang=en --defaultlang=en --domain=ecommerceberlin.com --subject="E-commerce Germany Awards are open for submissions!" --email=ebe9-ega-intro --context=all
+
+php artisan exhibitors:current-event --lang=de --defaultlang=en --domain=ecommerceberlin.com --subject="E-Commerce Germany Awards ist offen für Bewerbungen!" --email=ebe9-ega-intro --context=all
+
+
+
+
+14 listopada
+============
 
 php artisan exhibitors:current-event --lang=en --defaultlang=en --domain=ecommerceberlin.com --subject="Haven't started planning the set-up of your space yet? Order a stand construction from us now!" --email=ebe9-additional-services --context=all
 
