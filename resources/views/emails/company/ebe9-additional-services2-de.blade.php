@@ -17,7 +17,7 @@ Wichtig: Wenn du an einem kostenlosen Möbelset (2 Stühle und 1 Tisch) interess
 
 Um die Preise und Details zu überprüfen und die Bestellung abzuschließen, klicke einfach auf den Button unten:
 
-@component('mail::button', ['url' => $accountUrl])
+@component('mail::button', ['url' => $accountUrlArrangement])
 Zu meinem Account gelangen
 @endcomponent
 
