@@ -1,4 +1,14 @@
 
+9 grudnia
+============
+
+
+php artisan exhibitors:current-event --lang=en --defaultlang=en --domain=ecommerceberlin.com --subject="Final call to check and order additional services on the exhibitor platform!" --email=ebe9-additional-services2 --context=all
+
+php artisan exhibitors:current-event --lang=de --defaultlang=en --domain=ecommerceberlin.com --subject="Letzte Chance, zustätzliche Dienstleistungen auf der Ausstellerplattform zu bestellen!" --email=ebe9-additional-services2 --context=all
+
+
+
 
 26 listopada
 ============
