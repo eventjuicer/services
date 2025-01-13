@@ -1,14 +1,25 @@
 
+
+
+13 stycznia
+
+
+php artisan exhibitors:current-event --lang=en --defaultlang=en --domain=ecommerceberlin.com --subject="E-BE 2025 Last call: Make sure you have enough electricity!" --email=ebe9-electricity --context=all
+
+php artisan exhibitors:current-event --lang=de --defaultlang=en --domain=ecommerceberlin.com --subject="E-BE 2025 Letzter Aufruf: Stelle sicher, dass du genug Strom am Stand hast!" --email=ebe9-electricity --context=all
+
+
+
+
+
+
+
 9 grudnia
 ============
-
 
 php artisan exhibitors:current-event --lang=en --defaultlang=en --domain=ecommerceberlin.com --subject="Final call to check and order additional services on the exhibitor platform!" --email=ebe9-additional-services2 --context=all
 
 php artisan exhibitors:current-event --lang=de --defaultlang=en --domain=ecommerceberlin.com --subject="Letzte Chance, zustätzliche Dienstleistungen auf der Ausstellerplattform zu bestellen!" --email=ebe9-additional-services2 --context=all
-
-
-
 
 26 listopada
 ============
@@ -17,24 +28,12 @@ php artisan exhibitors:current-event --lang=en --defaultlang=en --domain=ecommer
 
 php artisan exhibitors:current-event --lang=de --defaultlang=en --domain=ecommerceberlin.com --subject="E-Commerce Germany Awards ist offen für Bewerbungen!" --email=ebe9-ega-intro --context=all
 
-
-
-
 14 listopada
 ============
 
 php artisan exhibitors:current-event --lang=en --defaultlang=en --domain=ecommerceberlin.com --subject="Haven't started planning the set-up of your space yet? Order a stand construction from us now!" --email=ebe9-additional-services --context=all
 
 php artisan exhibitors:current-event --lang=de --defaultlang=en --domain=ecommerceberlin.com --subject="Noch nicht mit der Standgestaltung begonnen? Bestelle einen Standbau bei uns jetzt!" --email=ebe9-additional-services --context=all
-
-
-
-
-
-
-
-
-
 
 5 listopada
 ===========
@@ -43,62 +42,24 @@ php artisan exhibitors:current-event --lang=en --defaultlang=en --domain=ecommer
 
 php artisan exhibitors:current-event --lang=de --defaultlang=en --domain=ecommerceberlin.com --subject="Maximiere deine Markenwirkung auf der E-Commerce Berlin Expo 2025!" --email=ebe9-premium-reminder --context=all
 
-
-
-
-
-
-
 23 września
-
+===========
 
 php artisan exhibitors:current-event --lang=en --defaultlang=en --domain=ecommerceberlin.com --subject="Speaking opportunity for exhibitors [E-commerce Berlin Expo 2025]" --email=ebe9-cfp --context=pr --exclude_company_ids="1081,2601,2597,2600,1888,1682,2586,2622,2603,2353,2510,1367,2619,1400"
 
 php artisan exhibitors:current-event --lang=de --defaultlang=en --domain=ecommerceberlin.com --subject="Sprechgelegenheit für Aussteller [E-commerce Berlin Expo 2025]" --email=ebe9-cfp --context=pr --exclude_company_ids="1081,2601,2597,2600,1888,1682,2586,2622,2603,2353,2510,1367,2619,1400"
 
-
-
-
-
-
-
-
-
-
-
 php artisan exhibitors:current-event --lang=en --defaultlang=en --domain=ecommerceberlin.com --subject="Maximise your visibility at E-commerce Berlin Expo 2025 with Exclusive Sponsorships" --email=ebe9-premium --context=all
 
-php artisan exhibitors:current-event --lang=de --defaultlang=en --domain=ecommerceberlin.com --subject="Maximiere deine Sichtbarkeit auf der E-commerce Berlin Expo 2025 mit exklusiven Sponsoring-Optionen" --email=ebe9-premium --context=all
-
-
-
-
-
-
-
-
-
-
+php artisan exhibitors:current-event --lang=de --defaultlang=en --domain=ecommerceberlin.com --subject="Maximiere deine Sichtbarkeit auf der E-commerce Berlin Expo 2025 mit exklusiven Sponsoring-Optionen" --email=ebe9-premium --context=all===========
 
 php artisan exhibitors:award --domain=ecommerceberlin.com --award=earlybird --previous --lang=en --defaultlang=en --email=ebe9-salesplan-reminder --subject="Exclusive Sales Round for E-commerce Berlin Expo 2024 Exhibitors - Booking tomorrow @ 11:00 AM!"
 
 php artisan exhibitors:award --domain=ecommerceberlin.com --award=earlybird --previous --reverse --lang=en --defaultlang=en --email=ebe9-salesplan-reminder --subject="Exclusive Sales Round for E-commerce Berlin Expo 2024 Exhibitors - Booking tomorrow @ 11:00 AM!"
 
-
-
-
 php artisan exhibitors:award --domain=ecommerceberlin.com --award=earlybird --previous --lang=de --defaultlang=en --email=ebe9-salesplan-reminder --subject="Exklusive Verkaufsrunde für E-commerce Berlin Expo 2024 Aussteller - Buchung öffnet morgen um 11:00 Uhr!"
 
 php artisan exhibitors:award --domain=ecommerceberlin.com --award=earlybird --previous --reverse --lang=de --defaultlang=en --email=ebe9-salesplan-reminder --subject="Exklusive Verkaufsrunde für E-commerce Berlin Expo 2024 Aussteller - Buchung öffnet morgen um 11:00 Uhr!"
-
-
-
-
-
- 
-
-
-
 
 29 lutego
 ==========
