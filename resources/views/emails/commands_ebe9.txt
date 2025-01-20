@@ -1,18 +1,18 @@
 
+20 stycznia
+============
+
+php artisan exhibitors:current-event --lang=en --defaultlang=en --domain=ecommerceberlin.com --subject="E-commerce Berlin Expo - organisational information" --email=ebe9-logistics1 --context=all
+
+php artisan exhibitors:current-event --lang=de --defaultlang=en --domain=ecommerceberlin.com --subject="E-commerce Berlin Expo - organisatorische Infos" --email=ebe9-logistics1 --context=all
 
 
 13 stycznia
-
+============
 
 php artisan exhibitors:current-event --lang=en --defaultlang=en --domain=ecommerceberlin.com --subject="E-BE 2025 Last call: Make sure you have enough electricity!" --email=ebe9-electricity --context=all
 
 php artisan exhibitors:current-event --lang=de --defaultlang=en --domain=ecommerceberlin.com --subject="E-BE 2025 Letzter Aufruf: Stelle sicher, dass du genug Strom am Stand hast!" --email=ebe9-electricity --context=all
-
-
-
-
-
-
 
 9 grudnia
 ============
