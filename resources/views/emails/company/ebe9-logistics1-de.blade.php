@@ -6,7 +6,7 @@ Nur noch ein Monat bis zu der E-Commerce Berlin Expo, daher haben wir einige org
 
 1. Unten findet ihr den Link zum Ausstellerhandbuch, in dem alle wichtigen Informationen enthalten sind:
 
-@component('mail::button', ['url' => "https://res.cloudinary.com/ecommerceberlin/image/upload/v1705230024/Logistics/Exhibitor%27s%20Manual%202024/EBE_24_-_Exhibitor_Manual_DE.pdf"])
+@component('mail::button', ['url' => "https://drive.google.com/drive/folders/1WZZzVMxJ-u_YeHNnTsYqtZ8B93XlXezF"])
 LINK
 @endcomponent  
 

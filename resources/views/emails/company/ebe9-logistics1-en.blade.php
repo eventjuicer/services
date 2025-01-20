@@ -6,7 +6,7 @@ Just one month left until the E-commerce Berlin EXPO, so we have collected some 
 
 1. Below you can find the link to the Exhibitor's Manual file collecting all important information:	
 
-@component('mail::button', ['url' => "https://res.cloudinary.com/ecommerceberlin/image/upload/v1705230024/Logistics/Exhibitor%27s%20Manual%202024/EBE_24_-_Exhibitor_Manual_EN.pdf"])
+@component('mail::button', ['url' => "https://drive.google.com/drive/folders/1WZZzVMxJ-u_YeHNnTsYqtZ8B93XlXezF"])
 LINK
 @endcomponent
 
