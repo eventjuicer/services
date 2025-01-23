@@ -1,4 +1,13 @@
 
+
+23 stycznia
+============
+
+php artisan exhibitors:current-event --lang=en --defaultlang=en --domain=ecommerceberlin.com --subject="Time to add company representatives! | EBE 2025" --email=ebe9-representatives --context=all
+
+php artisan exhibitors:current-event --lang=de --defaultlang=en --domain=ecommerceberlin.com --subject="Zeit, die Firmenvertreter zu registrieren! | EBE2025" --email=ebe9-representatives --context=all
+
+
 20 stycznia
 ============
 
