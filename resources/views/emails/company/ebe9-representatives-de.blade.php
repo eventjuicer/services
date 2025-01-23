@@ -6,6 +6,8 @@ Ich hoffe, es geht dir gut!
 
 Es ist jetzt an der Zeit, eure Firmenvertreter für die E-commerce Berlin Expo zu registrieren. Bitte fügt dafür die Informationen über eure Teammitglieder auf der Ausstellerplattform im Abschnitt „Firmenvertreter“ hinzu.
 
+**WICHTIG**: Alle registrierten Firmenvertreter können die Networking-Funktion nutzen. Wenn ihr jedoch nicht teilnehmen möchtet, könnt ihr die Option „Mich ausblenden“ auswählen. Dadurch werden eure persönlichen Daten von der Teilnehmerliste entfernt, und weder ihr noch andere können über das Matchmaking-Tool miteinander in Kontakt treten.
+
 @component('mail::button', ['url' => $accountUrlReps])
 Zu meinem Account gelangen
 @endcomponent

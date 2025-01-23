@@ -6,6 +6,8 @@ I hope you are doing well!
 
 It is now time to register your company representatives for the E-commerce Berlin Expo. For this purpose, please add information about your team members on the exhibitor platform in the section “Company representatives”. 
 
+**IMPORTANT**: All registered company representatives can use the networking feature. However, if you prefer not to participate, you can select "Keep Me Hidden". This will remove your personal information from the attendee list, and neither you nor others will be able to connect with each other through the matchmaking tool.
+
 @component('mail::button', ['url' => $accountUrlReps])
 Sign Into My Account
 @endcomponent
