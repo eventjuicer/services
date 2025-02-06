@@ -9,7 +9,7 @@
 
 # Hi,
 
-We would like to let you know that **{{  array_get($companydata, "name") }} is exhibiting at the E-Commerce Berlin Expo 2024** which will take place on **22rd of February at STATION Berlin**, Luckenwalder Str. 4-6.
+We would like to let you know that **{{  array_get($companydata, "name") }} is exhibiting at the E-Commerce Berlin Expo 2025** which will take place on **19 & 20th FEBRUARY at STATION Berlin**, Luckenwalder Str. 4-6.
 
 **Get your free ticket** now and stop by our stand to chat with us:
 
@@ -21,7 +21,7 @@ We would like to let you know that **{{  array_get($companydata, "name") }} is e
 
 All the major decision-makers from digital commerce, marketing, and innovation come together at E-commerce Berlin Expo for a one-of-a-kind networking experience.
 
-**Over 280 companies will exhibit** and **over 75 leading experts** from giants such as **TikTok, Zalando, flaconi, BMW, Lieferando, HelloFresh, Philips, and Casio,** will present innovative and forward-looking developments and trends to will help you find new opportunities to grow your e-commerce business.
+**Over 290 companies will exhibit** and **over 150 leading experts** from giants such as **TikTok, Zalando, Fielmann, H&M, OTTO, Philips, and IKEA,** will present innovative and forward-looking developments and trends to will help you find new opportunities to grow your e-commerce business.
 
 E-commerce Berlin Expo enables you to connect with other like-minded individuals striving for success, find partnerships that will last for years, as well as expand your knowledge and skillset to stay ahead of the competition.
 
