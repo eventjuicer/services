@@ -6,9 +6,9 @@ Wir freuen uns bekannt zu geben, dass unsere neue [Networking Platform](https://
 
 @component('mail::panel')
 Jeder Unternehmensvertreter, der als **sichtbar** auf der Aussteller-Plattform markiert ist, hat einen **individuellen Login-Link** zur Networking-Plattform und eine kurze Anleitung zur Verwendung erhalten. Der Link wurde an die E-Mail-Adresse gesendet, die bei der Hinzufügung des Vertreters zum Unternehmenskonto angegeben wurde.
-@endcomponent
 
-Neu hinzugefügte Vertreter erhalten ihren Link nicht sofort - die Login-E-Mails werden **zweimal täglich** versendet, um einen reibungslosen Zugang für euer Team zu gewährleisten.
+Die Login-Links für alle Vertreter sind ebenfalls im Bereich Firmenvertreter-Liste verfügbar.
+@endcomponent
 
 Ihr könnt eure Unternehmensvertreter und deren Sichtbarkeit direkt über die Aussteller-Plattform verwalten.
 
