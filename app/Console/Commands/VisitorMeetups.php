@@ -88,18 +88,8 @@ class VisitorMeetups extends Command {
             $participant_profile = (new Personalizer($participant));
             $presenter_profile = (new Personalizer($presenter));
 
-            $details = $participant_profile->translate('
-            "[[email]]", 
-            "[[fname]]", 
-            "[[lname]]", 
-            "[[cname2]]", 
-            "[[phone]]"
-            ');
-            $presentation = $presenter_profile->translate('
-            "[[presentation_day]]",
-            "[[presentation_venue]]", 
-            "[[presentation_time]]"
-            ');
+            $details = $participant_profile->translate('"[[email]]","[[fname]]","[[lname]]","[[cname2]]","[[phone]]"');
+            $presentation = $presenter_profile->translate('"[[presentation_day]]","[[presentation_venue]]","[[presentation_time]]"');
 
             $this->line($details. ", " . $presentation);
 
