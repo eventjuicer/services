@@ -18,7 +18,7 @@ Zobacz/zamów usługi dodatkowe
 
 Oferowane usługi to między innymi:
 
-* Kompleksowa **zabudowa przestrzeni** stoiska w wersji FULLPRINT (zamów do 9 października)
+* Kompleksowa **zabudowa przestrzeni** stoiska w wersji FULLPRINT (zamów do 14 marca)
 
 * **Lada** z nadrukiem  (zamów do 14 marca)
 
