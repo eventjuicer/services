@@ -1,4 +1,20 @@
 
+
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Konfiguracja przestrzeni targowej; Meble, wykładzina, TV, prąd..." --email=teh27-arrangement --context=event
+
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=en --subject="Configure your exhibition space;  Carpet flooring, LED display, complete space arrangement, etc..." --email=teh27-arrangement --context=event
+
+
+
+
+
+
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Limitowane usługi premium" --email=teh26-premium --context=event,pr
+
+
+
+
+
 7 listopada
 ===========
 
