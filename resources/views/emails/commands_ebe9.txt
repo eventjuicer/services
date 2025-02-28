@@ -5,6 +5,34 @@
 
 
 
+
+EN: 
+DE: 
+
+
+
+
+
+
+php artisan exhibitors:current-event --lang=en --defaultlang=en --domain=ecommerceberlin.com --subject="E-Commerce Berlin Expo 2026 exclusive Sales Plan: Secure Your 2-Day Exhibition Spot!" --email=ebe10-salesplan --context=all
+
+php artisan exhibitors:current-event --lang=de --defaultlang=en --domain=ecommerceberlin.com --subject="E-Commerce Berlin Expo 2026 Exklusiver Verkaufsplan: Sichere dir deinen 2-tägigen Ausstellungsplatz!" --email=ebe10-salesplan --context=all
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 php artisan exhibitors:current-event --lang=en --defaultlang=en --domain=ecommerceberlin.com --subject="EBE2025: Scan badges at the Expo - Here’s what you need to know!" --email=ebe9-scans --context=all
 
 php artisan exhibitors:current-event --lang=de --defaultlang=en --domain=ecommerceberlin.com --subject="EBE2025: Scanne Badges auf der Expo - Hier ist, was du wissen musst!" --email=ebe9-scans --context=all
