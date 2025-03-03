@@ -1,6 +1,6 @@
 @component('mail::message')
 
-# Ready, set, GO!
+# Hi {{ array_get($profile, "fname") }},
 
 @component('mail::panel')
 
