@@ -1,4 +1,9 @@
 
+ 
+
+php artisan exhibitors:current-event --lang=en --defaultlang=en --domain=ecommerceberlin.com --subject="Exclusive Sales Round for E-commerce Berlin Expo 2025 Exhibitors - Booking tomorrow @ 11:00 AM!" --email=ebe10-salesplan-reminder --context=all
+
+php artisan exhibitors:current-event --lang=de --defaultlang=en --domain=ecommerceberlin.com --subject="Exklusive Verkaufsrunde für E-commerce Berlin Expo 2005 Aussteller - Buchung öffnet morgen um 11:00 Uhr!" --email=ebe10-salesplan-reminder --context=all
 
 
 
@@ -6,11 +11,11 @@
 
 
 
-EN: 
-DE: 
 
 
 
+
+ 
 
 
 
