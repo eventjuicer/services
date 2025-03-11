@@ -1,0 +1,98 @@
+
+
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Konfiguracja przestrzeni targowej; Meble, wykładzina, TV, prąd..." --email=teh27-arrangement --context=event
+
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=en --subject="Configure your exhibition space;  Carpet flooring, LED display, complete space arrangement, etc..." --email=teh27-arrangement --context=event
+
+
+
+
+
+
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Limitowane usługi premium" --email=teh26-premium --context=event,pr
+
+
+
+
+
+7 listopada
+===========
+
+
+ 
+
+php artisan exhibitors:award --domain=targiehandlu.pl --award=earlybird --previous --reverse --lang=pl --defaultlang=pl --email="teh27-sales-started" --subject="Wystartowaliśmy! Otwarta rezerwacja przestrzeni wystawienniczej na wiosenne Targi eHandlu." --exclude_company_ids="1142,1129,2292,1154,2005,2013,1636,2303,1855,1132,1893,1962,1893,1136,1855,2562,1175,1145,1137,1028,2406,2628,1232,1171,1134,2118,1869,1270,2530,1217,1141,1704,2533,2434,2407,2380,2380,1708,1152,1281,2529,1465,2578,2582,1315"
+
+php artisan exhibitors:award --domain=targiehandlu.pl --award=earlybird --previous --reverse --lang=en --defaultlang=pl --email="teh27-sales-started" --subject="Book an exhibition space for Ecommerce Warsaw Expo 2025 Spring edition" --exclude_company_ids="1142,1129,2292,1154,2005,2013,1636,2303,1855,1132,1893,1962,1893,1136,1855,2562,1175,1145,1137,1028,2406,2628,1232,1171,1134,2118,1869,1270,2530,1217,1141,1704,2533,2434,2407,2380,2380,1708,1152,1281,2529,1465,2578,2582,1315"
+
+
+
+
+
+
+
+
+
+
+
+6 listopada
+===========
+php artisan exhibitors:award --domain=targiehandlu.pl --award=earlybird --previous --lang=pl --defaultlang=pl --email="teh27-top30-start" --subject="Wystartowaliśmy! Sekretny link do rezerwacji przestrzeni wystawienniczej..." --exclude_company_ids="1142,1129,2292,1154,2005,2013,1636,2303,1855,1132,1893"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+5 listopada
+===========
+
+php artisan exhibitors:award --domain=targiehandlu.pl --award=earlybird --previous --lang=pl --defaultlang=pl --email="teh27-salesplan2-top30" --subject="Pobierz Zdjęcia; ŚRODA - sprzedaż stoisk"
+
+php artisan exhibitors:award --domain=targiehandlu.pl --award=earlybird --previous --reverse --lang=pl --defaultlang=pl --email="teh27-salesplan2-others" --subject="Pobierz Zdjęcia; CZWARTEK - sprzedaż stoisk"
+
+php artisan exhibitors:award --domain=targiehandlu.pl --award=earlybird --previous --reverse --lang=en --defaultlang=pl --email="teh27-salesplan2-others" --subject="Download your photos; THURSDAY - sales starts"
+
+
+
+
+4 listopada
+===========
+
+php artisan exhibitors:award --domain=targiehandlu.pl --award=earlybird --previous --lang=pl --defaultlang=pl --email="teh27-salesplan-top30" --subject="ŚRODA - sprzedaż stoisk na Targi eHandlu 3 kwietnia"
+
+php artisan exhibitors:award --domain=targiehandlu.pl --award=earlybird --previous --reverse --lang=pl --defaultlang=pl --email="teh27-salesplan-others" --subject="CZWARTEK - sprzedaż stoisk na Targi eHandlu 3 kwietnia"
+
+php artisan exhibitors:award --domain=targiehandlu.pl --award=earlybird --previous --reverse --lang=en --defaultlang=pl --email="teh27-salesplan-others" --subject="THURSDAY | Early bird sales of exhibition spaces"
+
+
+
+
+
+
+
+
+
+
+Przygotowaliśmy zdjęcia z Targów, które dotyczą Twojej firmy.
+
+@component('mail::button', ['url' => $photosUrl ])
+Pobierz zdjęcia (.zip)
+@endcomponent
+
+
+Your company's photo collection is waiting to be downloaded
+
+
+@component('mail::button', ['url' => $photosUrl ])
+Download as .zip
+@endcomponent

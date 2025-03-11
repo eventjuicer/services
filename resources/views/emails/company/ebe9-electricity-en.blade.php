@@ -12,8 +12,7 @@ You can still order an additional electricity connection - 1000W or 3000W depend
 
 Please note that the **deadline of placing your order is JANUARY 17th**.
 
-@component('mail::button', ['url' => 'https://account.ecommerceberlin.com/#/arrangement']) Stand arrangement
-@endcomponent
+@component('mail::button', url' => $accountUrlArrangement]) Stand arrangement @endcomponent
 
 If you have any questions regarding preparation for the Expo, please get back to me and I’ll be happy to assist you.
 
