@@ -12,8 +12,7 @@ Je nach Bedarf könnt ihr weiterhin extra Strom bestellen - 1000W oder 3000W. Hi
 
 Bitte beachtet, dass **Bestellungen bis spätestens 17. JANUAR** möglich sind.
 
-@component('mail::button', ['url' => $accountUrlArrangement]) Standdienste
-@endcomponent
+@component('mail::button', ['url' => $accountUrlArrangement]) Standdienste @endcomponent
 
 Falls noch Fragen zur Vorbereitung auf die Expo bestehen, stehe ich gerne zur Verfügung.
 
