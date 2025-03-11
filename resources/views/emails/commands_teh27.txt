@@ -1,5 +1,27 @@
 
 
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="DEADLINE: Konfiguracja przestrzeni targowej; Meble, wykładzina, TV, prąd..." --email=teh27-arrangement-reminder --context=event
+
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=en --subject="DEADLINE: Configure your exhibition space;  Carpet flooring, LED display, complete space arrangement, etc..." --email=teh27-arrangement-reminder --context=event
+
+
+
+
+
+
+
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Prowadzenie warsztatu - start zapisów. Tylko 21 slotów." --email=teh27-workshops-form --context=event
+
+
+
+
+
+
+
+
+
+
+
 php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Konfiguracja przestrzeni targowej; Meble, wykładzina, TV, prąd..." --email=teh27-arrangement --context=event
 
 php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=en --subject="Configure your exhibition space;  Carpet flooring, LED display, complete space arrangement, etc..." --email=teh27-arrangement --context=event
