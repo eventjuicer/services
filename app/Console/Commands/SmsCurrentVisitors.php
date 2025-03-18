@@ -138,18 +138,18 @@ class SmsCurrentVisitors extends Command
             $phone = trim( $query->first()->field_value );
 
             $phone = str_replace("(0)", "", $phone);
+            $phone = ltrim($phone, "0");
 
-            $phone = preg_replace("/[^0-9]+/", "", $phone);
+            $phone = preg_replace("/[^\+0-9]+/", "", $phone);
 
-            // $phone = ltrim($phone, "0");
 
-            // if(empty($phone) || strlen($phone) < 9){
-            //     continue;
-            // }
+            if(empty($phone) || strlen($phone) < 9){
+                continue;
+            }
 
-            // if(strlen($phone) < 12){
-            //     $phone = $prefix . $phone;
-            // }
+            if(strlen($phone) < 11){
+                $phone = $prefix . $phone;
+            }
 
             $profile = new Personalizer($participant);
 

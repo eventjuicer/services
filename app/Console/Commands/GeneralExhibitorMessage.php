@@ -21,7 +21,8 @@ class GeneralExhibitorMessage extends Command {
         {--throttle=1} 
         {--exclude_reg_ids=""} 
         {--exclude_company_ids=""}
-        {--context=}';
+        {--context=}
+        {--previous}';
      
     
     protected $description = '--exclude_reg_ids="100,102,103';
@@ -44,6 +45,7 @@ class GeneralExhibitorMessage extends Command {
         $exclude_reg_ids =  array_filter(explode(",", $this->option("exclude_reg_ids")), function($value){ return intval($value) > 0; }); 
         $exclude_company_ids =  array_filter(explode(",", $this->option("exclude_company_ids")), function($value){ return intval($value) > 0; }); 
         $context    = $this->option("context");
+        $previous =  $this->option("previous");
 
         $errors = [];
 
@@ -91,7 +93,7 @@ class GeneralExhibitorMessage extends Command {
             LET'S FUCKING START!
         **/
 
-        $service->run($domain);
+        $service->run($domain, !empty($previous));
 
         $eventId =  $service->getEventId();
 

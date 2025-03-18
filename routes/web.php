@@ -17,17 +17,17 @@ Route::get('/', function()
 });
 
 
-// Route::get('/masterclasses', function () {
-//     Artisan::call('visitors:meetups', [
+Route::get('/masterclasses', function () {
+    Artisan::call('visitors:meetups', [
 
-//         '--domain' 	=> 'ecommerceberlin.com',
-//         '--direction' 	=> 'LTD'
-//     ]);
+        '--domain' 	=> 'ecommerceberlin.com',
+        '--direction' 	=> 'LTD'
+    ]);
 
-//     preg_match("/storage\/100_LTD_[a-z0-9]+\.csv/", Artisan::output(), $matches);
+    preg_match("/storage\/[0-9]+_LTD_[a-z0-9]+\.csv/", Artisan::output(), $matches);
 
-//     return !empty($matches)? '<a href="'.$matches[0].'">link</a>': "";
-// });
+    return !empty($matches)? '<a href="'.$matches[0].'">link</a>': "";
+});
 
 
 

@@ -1,12 +1,163 @@
+
+4 listopada
+
+
+php artisan exhibitors:award --domain=targiehandlu.pl --award=earlybird --previous --lang=pl --defaultlang=pl --email="teh25-salesplan-top30" --subject="Sprzedaż stoisk. Targi eHandlu 11 kwietnia [top30]"
+
+php artisan exhibitors:award --domain=targiehandlu.pl --award=earlybird --previous --reverse --lang=pl --defaultlang=pl --email="teh25-salesplan-others" --subject="Sprzedaż stoisk. Targi eHandlu 11 kwietnia"
+
+
+
+
+
+30 pazdziernika
+===============
+
+
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Podziękowania, ankieta, kolejna edycja" --email=teh26-thankyou --context=event
+
+
+
+
+
+
+php artisan visitors:meetups --domain=targiehandlu.pl
+
+>>> ALL <<<
+
+Treść: Masz dostep do Strefy VIP Targow eHandlu. Przy wejsciu do HALI 3 pokaz tego SMSa. You are a VIP, show this message when entering Hall 3 (VIP Zone).
+
+>>> LTD <<<
+
+Czesc, pamietasz o warsztacie na Targach eHandlu? zapraszamy do Hali 3. Strefa warsztatowa [%kontakt.venue%] start [%kontakt.time%]. Lista Twoich warsztatow https://targiehandlu.pl/todo/[%kontakt.email%]
+
+>>>REPS <<<
+
+Dzien dobry! Przypominamy o Hali 3 i Strefie VIP. Juz teraz mozesz tam napic sie kawy i prowadzic rozmowy biznesowe. Od 12:30 startuje catering. Hello! Hall 3 / VIP Zone is open. Visit to have coffee and business talks and catering (from 12:30pm).
+
+>>> GOING <<<
+
+Przypominamy o Targach eHandlu! Start 10:00; Agenda - https://teh.com.pl/a Wystawcy https://teh.com.pl/m Masz wydrukowany bilet? Z lobby kieruj sie na lewo - do Hali 1. Nie masz? Podaj kod [%kontakt.quick_code%] w INFO.
+
+
+
+
+
+24 pazdziernika
+===============
+
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=en --subject="Scanning of visitors' badges to collect contact data." --email=teh23-scanner --context=event,sales
+
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Skanowanie ID Zwiedzających podczas Targów." --email=teh23-scanner --context=event,sales
+
+php artisan visitors:ticket-reminder --domain=targiehandlu.pl
+
+23 pazdziernika
+================
+
+php artisan visitors:restore-from-old-events --domain=targiehandlu.pl --email=teh26-restore3 --subject="Ostatnie bilety na piątkowe Targi eHandlu. Poznaj wybrane prezentacje."  --events=103,102,99,97,95 --throttle=20000
+
+php artisan visitors:restore-from-voters --domain=targiehandlu.pl --email=teh26-restore-from-voters --subject="Bilet na Targi eHandlu w Warszawie. Wywiady z CEO Tezeusz.pl, IMKER." 
+
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Informacje logistyczne - montaż, parking, welcome packi" --email=teh26-logistics --context=event_manager
+
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=en --subject="Logistics info. Assembly, parking, welcome packs" --email=teh26-logistics --context=event_manager
+
+22 pazdziernika
+================
+
+php artisan visitors:sms-to-old-events --domain=targiehandlu.pl --prefix=+48
+
+### Juz w piatek Targi eHandlu w Warszawie. NOWE w formule: wywiady z CEO Tezeusz.pl, IMKER, Health Labs Care, sprawdz agende 4 scen i pobierz bezplatny bilet na 
+
+php artisan visitors:current-event --domain=targiehandlu.pl --subject="Bilet i Informacje dla Uczestników VIP" --email=teh26-you_are_vip
+
+php artisan visitors:ticket-reminder --domain=targiehandlu.pl
+
+php artisan exhibitors:meetups_please_rsvp --domain=targiehandlu.pl --lang=pl --defaultlang=pl --subject="RSVP! Zaproszenia na spotkanie czekają na Twoim profilu"
+
+php artisan exhibitors:meetups_please_rsvp --domain=targiehandlu.pl --lang=en --defaultlang=pl --subject="RSVP! Meeting invitations awaiting in your Exhibitor Profile"
+
+php artisan purchases:check --domain=targiehandlu.pl
+
+php artisan exhibitors:meetups_ltd --domain=targiehandlu.pl --threshold=20 --older_than=4
+
+21 pazdziernika
+===============
+
+php artisan visitors:restore-from-old-events --domain=targiehandlu.pl --email=teh26-restore2 --subject="Sekrety CEO Tezeusz.pl, IMKER, Health Labs Care...Piątek na EXPOXXI w Warszawie"  --throttle=60000
+
+php artisan purchases:check --domain=targiehandlu.pl
+
+php artisan visitors:ticket-reminder --domain=targiehandlu.pl
+
+php artisan exhibitors:meetups_ltd --domain=targiehandlu.pl --threshold=20 --older_than=4
+
+php artisan exhibitors:meetups_please_rsvp --domain=targiehandlu.pl --lang=pl --defaultlang=pl --subject="RSVP! Zaproszenia na spotkanie czekają na Twoim profilu"
+
+php artisan exhibitors:meetups_please_rsvp --domain=targiehandlu.pl --lang=en --defaultlang=pl --subject="RSVP! Meeting invitations awaiting in your Exhibitor Profile"
+
+17 pazdziernika
+===============
+
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Informacje logistyczne - montaż, parking, welcome packi" --email=teh26-logistics --context=event_manager
+
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=en --subject="Logistics info. Assembly, parking, welcome packs" --email=teh26-logistics --context=event_manager
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+16 pazdziernika
+===============
+
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Przepis na maksymalizację konwersji uczestnictwa w Targach eHandlu" --email=teh26-promoninja2 --context=event_manager,pr_manager
+
+15 października
+===============
+
+php artisan visitors:current-event --domain=targiehandlu.pl --subject="21 Warsztatów E-commerce. Czas start." --email=teh26-workshops-for-current
+
+php artisan visitors:restore-from-old-events --domain=targiehandlu.pl --email=teh26-workshops-for-old --subject="Start zapisów na 21 Warsztatów E-commerce."  --throttle=55000  --events=89,95,97,99,102,103 --throttle=50000
+
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Wyślij wejściówkę VIP kluczowym Partnerom i Klientom" --email=teh25-vips --context=pr,event,sales
+
+10 października
+===============
+
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Wyślij wejściówkę VIP kluczowym Partnerom i Klientom" --email=teh25-vips --context=pr,event,sales
+
+php artisan company:relations --domain=targiehandlu.pl --threshold=1 --lang=pl --defaultlang=pl --subject="Deadline. Przedstawiciele Wystawcy na stoisku" --email=teh25-reps-list-final
+
+php artisan company:relations --domain=targiehandlu.pl --threshold=1 --lang=en --defaultlang=pl --subject="Deadline. Exhibitor's representatives @ booth." --email=teh25-reps-list-final
+
+9 października
+==============
+
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Deadline? dzisiaj:) Zabudowa stoiska, wykładzina, TV, prąd ..." --email=teh26-arrangement-lastcall --context=event
+
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=en --subject="Booth arrangement, carpet, LED display? Deadline is today!" --email=teh26-arrangement-lastcall --context=event
+
+7 października
+==============
+
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Materiały promo, Katalog targowy, Partner Strefy VIP... " --email=teh26-promoninja-intro --context=pr_manager,event_manager
+
 30 września
 ============
 
 php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Prowadzenie warsztatu - start zapisów. Tylko 18 slotów" --email=teh26-workshops-form --context=all
-
-
-
-
-
 
 26 września
 ===========
@@ -15,8 +166,6 @@ php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl -
 
 php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=en --subject="Reminder: deadline 9th of October;  Carpet flooring, LED display, complete space arrangement, etc..." --email=teh26-arrangement --context=event
 
-
-
 25 września
 ===========
 
@@ -24,24 +173,13 @@ php artisan exhibitors:current-event --domain=targiehandlu.pl  --lang=pl --defau
 
 php artisan exhibitors:current-event --domain=targiehandlu.pl --lang=en --defaultlang=pl --subject="Exhibitor's representatives @ booth." --email=teh24-reps --context=event,sales
 
-
-
-
-
 13 września
 ===========
 
-
 php artisan visitors:restore-from-old-events --domain=targiehandlu.pl --email=teh26-videos_cfp --subject="Dostęp do nagrań; Czy chcesz wystąpić w październiku?" --events=95,97,99,102,103,105 --throttle=50000
-
-
-
-
 
 6 września
 ==========
-
-
 
 php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Limitowane usługi premium" --email=teh26-premium --context=event,pr
 
@@ -52,26 +190,16 @@ php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl -
 
 php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=en --subject="Deadline: 9th of October;  Carpet flooring, LED display, complete space arrangement, etc..." --email=teh26-arrangement --context=event
 
-
-
 24 kwietnia
 ============
-
-
 
 php artisan exhibitors:award --domain=targiehandlu.pl --award=earlybird --previous --reverse --lang=pl --defaultlang=pl --email="teh26-sales-started" --subject="Wystartowaliśmy! Otwarta rezerwacja przestrzeni wystawienniczej na jesienne Targi eHandlu." --exclude_company_ids="1136, 1132, 2562, 1893, 2534, 1565, 1465, 2578, 2032,1309, 1708, 1145, 2298, 2101, 1171, 1136, 2432, 1636, 1893, 1154, 2533, 2293, 2406, 2400, 1233, 1270, 1565, 1129, 2320, 2032, 1743, 1239, 1150, 1142, 1465, 2578, 2297, 2562, 1281, 2529, 1141, 1170, 1180, 1287, 1164, 1855, 1217, 1148, 1152, 2291, 2380, 2534, 1138, 1132, 1200, 2, 2118, 1028, 1137, 2292, 2530, 2103, 2238, 2005, 1704, 2042, 1232"
 
 php artisan exhibitors:award --domain=targiehandlu.pl --award=earlybird --previous --reverse --lang=en --defaultlang=pl --email="teh26-sales-started" --subject="Book an exhibition space for Ecommerce Warsaw Expo 2024 Autumn edition" --exclude_company_ids="1136, 1132, 2562, 1893, 2534, 1565, 1465, 2578, 2032,1309, 1708, 1145, 2298, 2101, 1171, 1136, 2432, 1636, 1893, 1154, 2533, 2293, 2406, 2400, 1233, 1270, 1565, 1129, 2320, 2032, 1743, 1239, 1150, 1142, 1465, 2578, 2297, 2562, 1281, 2529, 1141, 1170, 1180, 1287, 1164, 1855, 1217, 1148, 1152, 2291, 2380, 2534, 1138, 1132, 1200, 2, 2118, 1028, 1137, 2292, 2530, 2103, 2238, 2005, 1704, 2042, 1232"
 
-
-
-
 23 kwietnia
 ===========
 php artisan exhibitors:award --domain=targiehandlu.pl --award=earlybird --previous --lang=pl --defaultlang=pl --email="teh26-top30-start" --subject="Wystartowaliśmy! Sekretny link do rezerwacji przestrzeni wystawienniczej..." --exclude_company_ids="1136,1132,2562,1893,2534,1565,1465,2578"
-
-
-
 
 22 kwietnia
 ===========
@@ -82,10 +210,6 @@ php artisan exhibitors:award --domain=targiehandlu.pl --award=earlybird --previo
 
 php artisan exhibitors:award --domain=targiehandlu.pl --award=earlybird --previous --reverse --lang=en --defaultlang=pl --email="teh26-salesplan2-others" --subject="Download photos from recent Ecommerce Warsaw Expo."
 
-
-
-
-
 18 kwietnia
 ===========
 
@@ -95,20 +219,10 @@ php artisan exhibitors:award --domain=targiehandlu.pl --award=earlybird --previo
 
 php artisan exhibitors:award --domain=targiehandlu.pl --award=earlybird --previous --reverse --lang=en --defaultlang=pl --email="teh26-salesplan-others" --subject="WEDNESDAY | Early bird sales of exhibition spaces"
 
-
-
 16 kwietnia
 ===========
 
 php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Lista skanów, plan sprzedaży stoisk na kolejne Targi." --email=ewa-salesplan-scans --context=all
-
-
-
-
-
-
-
-
 
 new event id 105
 =================================================
