@@ -32,11 +32,11 @@ Publiczny profil Wystawcy nie tylko opisuje Twoją firmę ale także:
 
 * pokazuje **lokalizację Twojego stoiska** na hali targowej
 
-* pozwala Zwiedzającym **umówić się na spotkanie** (po akceptacji takiej propozycji masz dostęp do pełnych danych kontaktowych)
+* pozwala Zwiedzającym **umówić się na spotkanie** (opcja dostępna już wkrótce!)
 
 ## Jak to działa?
 
-Ruch na Twoim publicznym profilu Wystawcy to punkty, które wymieniamy na super korzyści, m.in. **dostęp do puli early-bird** na kolejną edycję Targów, dostęp do **większej puli zaproszeń** Zwiedzających na spotkanie czy **większa liczbę zaproszeń VIP.**
+Ruch na Twoim publicznym profilu Wystawcy to punkty, które wymieniamy na super korzyści wymienione powyżej.
 
 ## Materiały promocyjne
 
