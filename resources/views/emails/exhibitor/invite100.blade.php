@@ -10,7 +10,7 @@
 
 # Cześć, tu {{  array_get($companydata, "name") }}!
 
-## 25 października będziemy na 26. Targach eHandlu w Warszawie. 
+## 3 kwietnia będziemy na 27. Targach eHandlu w Warszawie. 
 Czekamy na Ciebie przy naszym stoisku, chętnie wymienimy się doświadczeniami oraz pomysłami.
 
 @component('mail::button', ['url' => $promolink])
@@ -18,7 +18,7 @@ Odbierz bezpłatną wejściówkę
 @endcomponent
 
 
-W trakcie Targów eHandlu będą dostępne 4 sceny prezentacyjne, 3 ścieżki warsztatowe oraz **ponad 150 Wystawców**, oferujących innowacyjne rozwiązania, które mogą pomóc w rozwoju Twojego biznesu.
+W trakcie Targów eHandlu będą dostępne 4 sceny prezentacyjne, 3 ścieżki warsztatowe oraz **ponad 130 Wystawców**, oferujących innowacyjne rozwiązania, które mogą pomóc w rozwoju Twojego biznesu.
 
 Wstęp na EXPO oraz na sceny prezentacyjne jest bezpłatny.
 
