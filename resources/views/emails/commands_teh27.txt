@@ -3,6 +3,45 @@
 
 
 
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Wyślij wejściówkę VIP kluczowym Partnerom i Klientom" --email=teh27-vips --context=pr,event,sales
+
+
+
+
+
+
+php artisan exhibitors:current-event --domain=targiehandlu.pl  --lang=pl --defaultlang=pl --subject="Aplikacja networkingowa / Zapraszanie zwiedzających do kontaktu" --email=teh27-networking-app --context=all
+
+php artisan exhibitors:current-event --domain=targiehandlu.pl --lang=en --defaultlang=pl --subject="Connect with visitors before the event day" --email=teh27-networking-app --context=all
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+php artisan company:relations --domain=targiehandlu.pl --threshold=1 --lang=pl --defaultlang=pl --subject="Przypomnienie. Przedstawiciele Wystawcy na stoisku" --email=teh25-reps-list-final
+
+php artisan company:relations --domain=targiehandlu.pl --threshold=1 --lang=en --defaultlang=pl --subject="Reminder. Exhibitor's representatives @ booth." --email=teh25-reps-list-final
+
+
+
+
+
+
+
+
+
+
 php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Konkurs wystartował. 7 świadczeń do zgarnięcia :)" --email=teh27-promoninja-intro --context=pr_manager,event_manager
 
 
