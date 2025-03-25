@@ -12,7 +12,7 @@ use Eventjuicer\Services\Exhibitors\Migrator;
 use Eventjuicer\Services\GetByRole;
 
 
-class migrateCompanyData extends Command
+class migrateCompanyDataXXXXXXXXX extends Command
 {
     /**
      * The name and signature of the console command.
