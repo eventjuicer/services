@@ -3,12 +3,25 @@
 
 
 
+
+php artisan visitors:current-event --domain=targiehandlu.pl --subject="21 Warsztatów E-commerce. Czas start." --email=teh27-workshops-for-current
+
+php artisan visitors:restore-from-old-events --domain=targiehandlu.pl --email=teh26-workshops-for-old --subject="Start zapisów na 21 Warsztatów E-commerce."  --throttle=55000  --events=89,95,97,99,102,103 --throttle=50000
+
+
+
+
+
+
+
+
+
+
+
+24 marca
+========
+
 php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Wyślij wejściówkę VIP kluczowym Partnerom i Klientom" --email=teh27-vips --context=pr,event,sales
-
-
-
-
-
 
 php artisan exhibitors:current-event --domain=targiehandlu.pl  --lang=pl --defaultlang=pl --subject="Aplikacja networkingowa / Zapraszanie zwiedzających do kontaktu" --email=teh27-networking-app --context=all
 
