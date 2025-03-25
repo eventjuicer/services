@@ -43,7 +43,7 @@ Milion złotych w kieszeni: Matematyka dobrego CX w B2B
 
 **Udział** w Warsztatch w tej edycji jest **bezpłatny.**
 
-Akceptacja zgłoszeń przez Prowadzących rozpocznie się 16 października.
+Akceptacja zgłoszeń przez Prowadzących rozpocznie się 26 marca.
 
 Otrzymasz wiadomość zwrotną przy akceptacji.
 
