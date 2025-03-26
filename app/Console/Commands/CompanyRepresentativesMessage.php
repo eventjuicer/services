@@ -99,7 +99,7 @@ class CompanyRepresentativesMessage extends Command
 
         $this->info("Number of reps: " . $reps->count() );
 
-        $sendable = $allreps->getSendable($role);
+        $sendable = $allreps->getSendable($role, false);
 
         $this->info("Reps that can be notified: " . $sendable->count() );
 
@@ -132,10 +132,7 @@ class CompanyRepresentativesMessage extends Command
                 continue;
             }
 
-      
-            $profile = new Personalizer($rep);
- 
-
+       
             $this->info("Processing " . $rep->company->slug);
 
             $this->info("Notifying " . $rep->email);
