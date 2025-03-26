@@ -2,23 +2,31 @@
  
 # Cześć {{ array_get($profile, "fname")  }},
 
-W aplikacji eventowej (ECWE.PL), do której mają dostęp m.in. przedstawiciele wystawcy uruchomiona została opcja wysyłki zaproszeń VIP.
+W aplikacji eventowej E-commerce Warsaw Expo, do której mają dostęp wszyscy zarejestrowani uczestnicy najbliższych Targów, dodaliśmy sekcję dedykowanym Przedstawicielom Wystawcy.
 
-## Zaproś swoich Partnerów, kluczowych Klientów do ekskluzywnej Strefy VIP na Targach. 
+Korzystając z sekcji Business możesz zwiększyć konwersję z udziału w targach podejmując działania już teraz.
 
-Strefa VIP to miejsce do komfortowych, kuluarowych rozmów Prelegentów, Wystawców, wybranych Zwiedzających oraz **gości, których zaprosisz przez Panel Wystawcy.**.
+## Jako Przedstawiciel Wystawcy możesz:
 
-@component('mail::panel')
+**Zapraszać uczestników VIP (klientów, prospectów)** którzy będą mieli dostęp do Strefy VIP 
 
-**Każdy Przedstawiciel Wystawcy (zarejestrowany w Panelu) ma automatyczny dostęp do Strefy VIP - nie wykorzystuj zaproszeń VIP do tego celu.**
+**Przeglądać uczestników Targów i nawiązywać z nimi kontakt jeszcze przed Targami**
 
-@endcomponent
+a także przeglądać listę zeskanowanych podczas Targów osób i pobierać listę kontaktów jako plik .CSV
 
-Zaproszenia VIP są dystrybuowane przez platformę - po wpisaniu adresu email odbiorcy następuje wysyłka (zaproszenie jest ważne 3 dni)
+## Sprawdź szczegóły, sprawdź pozostałe limity VIP i zaproszeń do kontaktu, sprawdź jak radzą sobie inni Wystawcy
 
 @component('mail::button', ['url' => $eventAppUrlBusiness])
-Zaproszenia VIP dla Partnerów i Klientów
+Szybkie logowanie do ecwe.pl/business
 @endcomponent
+
+Przygotowaliśmy także ranking zaangażowania Wystawców :) Najbardziej zaangażowani (na ten moment) to: 
+
+* Brandly360
+* olzalogistic.com
+* PostNord International
+* Romania Express
+* Waynet
 
 
 Regards, 

@@ -1,6 +1,17 @@
 
 
 
+php artisan exhibitors:reps-current-event --lang=pl --defaultlang=pl --domain=targiehandlu.pl --subject="Masz dostęp do sekcji BUSINESS w aplikacji eventowej E-commerce Warsaw Expo" --email=teh27-reps-ecwe
+
+
+
+
+
+
+
+
+
+
 
 
 
