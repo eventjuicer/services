@@ -9,6 +9,8 @@ use Eventjuicer\Models\ParticipantFields;
 use Eventjuicer\Services\Personalizer;
 use Eventjuicer\Services\Exhibitors\Console;
 use Eventjuicer\Services\Exhibitors\CompanyData;
+use Eventjuicer\Services\Exhibitors\AllExhibitorsReps;
+
 
 class CompanyRepresentativesMessage extends Command
 {
@@ -102,15 +104,15 @@ class CompanyRepresentativesMessage extends Command
         $this->info("Reps that can be notified: " . $sendable->count() );
 
         $done = 0;
-
-        $phones = array();
-
+ 
         $items = $whatWeDo === "send" ? $sendable : $reps;
 
         foreach($items as $rep)
         {
-            //do we have company assigned?
-            $phone = "";
+            if($rep->unsubscribed){
+                $this->error("UNSUBBED" . $rep->email . " - skipped.");
+                continue;
+            }
 
             if(!$rep->company_id)
             {
@@ -118,18 +120,11 @@ class CompanyRepresentativesMessage extends Command
                continue;
             }
 
-            $companydata = new CompanyData();
-
-            $companyProfile = $cd->toArray($rep->company);
-
-            $lang = !empty($companyProfile["lang"]) ? $companyProfile["lang"] : $defaultlang;
+            $companydata = new CompanyData($rep);
+            $companyProfile = $companydata->toArray($rep->company);
+            $lang = $companydata->getLang( $defaultlang);
 
             $event_manager = "";
-
-            if(empty($companyProfile["password"])){
-                $this->error("No password assigned for " . $rep->email . " - skipped.");
-               continue;
-            }
 
             if($lang !== $viewlang)
             {
@@ -137,24 +132,9 @@ class CompanyRepresentativesMessage extends Command
                 continue;
             }
 
-            $query = ParticipantFields::where("participant_id", $rep->id)->where("field_id", 8)->get();
-
-            if($query->count()){
-                $phone = $query->first()->field_value;
-                $phone = trim(preg_replace("/[^\+0-9]+/", "", $phone));
-            }
-
+      
             $profile = new Personalizer($rep);
-
-            $fname = ucwords(
-                str_replace(
-                    array(",",";"), 
-                    " ", 
-                    $profile->translate("[[fname]]")
-                )
-            );
-
-            $phones[] = '"'.$fname.'","'.$phone.'"';
+ 
 
             $this->info("Processing " . $rep->company->slug);
 
@@ -175,14 +155,9 @@ class CompanyRepresentativesMessage extends Command
 
         }
 
-        $filename = "export".md5(time() . $eventId).".txt";
+ 
 
-        file_put_contents(
-            app()->basePath("storage/app/public/" . $filename), 
-            implode( "\n", $phones )
-        );
-
-        $this->info("All done! " . "Check storage/" . $filename);   
+    
 
         $this->info("Delivered " . $done . " messages");
 

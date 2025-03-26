@@ -60,7 +60,10 @@ class GeneralExhibitorEmail extends Mailable
             $trackingLink,
             $pollUrl,
             $footer,
-            $company_id;
+            $company_id,
+            
+            $eventAppUrl,
+            $eventAppUrlBusiness;
  
 
     public $sharers, $newsletter, $assignedPrizes;
@@ -108,7 +111,7 @@ class GeneralExhibitorEmail extends Mailable
         
 
         //this should be moved to settings?...
-       if( $this->participant->group_id > 1 ){
+       if( $this->participant->organizer_id > 1 ){
 
             // $from = "marta@ecommerceberlin.com";
             $eventName = "E-commerce Berlin Expo";
@@ -120,28 +123,28 @@ class GeneralExhibitorEmail extends Mailable
 
             $this->accountUrlPromotePublic = 'https://account.ecommerceberlin.com/#/promote?company_id=' . $companydata->getCompany()->id;
             $this->photosUrl = "https://photos.ecommerceberlin.com/".$companydata->getCompany()->id."/ebe8";
-    
+            $this->eventAppUrl = "https://ecomm.berlin";
 
         }else{
 
 
-            $eventName = "Targi eHandlu";
+            $eventName = "E-commerce Warsaw Expo (Targi eHandlu)";
             $domain = "targiehandlu.pl";
             $cc = "targiehandlu+auto@targiehandlu.pl";
 
             if($this->viewlang === "en"){
                 app()->setLocale("en");
-                config(["app.name" => "E-commerce Warsaw Expo"]);
+                
             }
             else
             {
                 app()->setLocale("pl");
-                config(["app.name" => $eventName]);
+               
             }
             
             $this->accountUrlPromotePublic = 'https://account.targiehandlu.pl/#/promote?company_id=' . $companydata->getCompany()->id;
             $this->photosUrl = "https://cloudinary.eventjuicer.com/api?id=".$companydata->getCompany()->id."&folder=teh26_photos";
-
+            $this->eventAppUrl = "https://ecwe.pl";
             
         }
 
@@ -167,6 +170,7 @@ class GeneralExhibitorEmail extends Mailable
         $this->accountUrlPeople = $companydata->accountUrl("people");
         $this->accountUrlParty = $companydata->accountUrl("party");
 
+        $this->eventAppUrlBusiness = $this->eventAppUrl . "/recall/" . $this->participant->token . "?goto=/business";
 
         $this->trackingLink = $companydata->trackedProfileUrl();
         $this->company_id = $companydata->getCompany()->id;
