@@ -1,30 +1,27 @@
 
+28 marca
+=========
 
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Informacje logistyczne - montaż, parking, welcome packi" --email=teh27-logistics --context=event_manager
+
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=en --subject="Logistics info. Assembly, parking, welcome packs" --email=teh27-logistics --context=event_manager
+
+
+27 marca
+=========
+
+php artisan exhibitors:reps-current-event --lang=pl --defaultlang=pl --domain=targiehandlu.pl --subject="Zwiększony limit zaproszeń VIP i zaproszeń do kontaktu w aplikacji Targów eHandlu" --email=teh27-reps-ecwe2
+
+
+
+26 marca
+=========
 
 php artisan exhibitors:reps-current-event --lang=pl --defaultlang=pl --domain=targiehandlu.pl --subject="Masz dostęp do sekcji BUSINESS w aplikacji eventowej E-commerce Warsaw Expo" --email=teh27-reps-ecwe
-
-
-
-
-
-
-
-
-
-
-
-
 
 php artisan visitors:current-event --domain=targiehandlu.pl --subject="21 Warsztatów E-commerce. Czas start." --email=teh27-workshops-for-current
 
 php artisan visitors:restore-from-old-events --domain=targiehandlu.pl --email=teh27-workshops-for-old --subject="Zapisy na 21 Warsztatów E-commerce 3 kwietnia"  --throttle=55000  --events=89,95,97,99,102,103,105 --throttle=50000
-
-
-
-
-
-
-
 
 
 
@@ -37,15 +34,6 @@ php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl -
 php artisan exhibitors:current-event --domain=targiehandlu.pl  --lang=pl --defaultlang=pl --subject="Aplikacja networkingowa / Zapraszanie zwiedzających do kontaktu" --email=teh27-networking-app --context=all
 
 php artisan exhibitors:current-event --domain=targiehandlu.pl --lang=en --defaultlang=pl --subject="Connect with visitors before the event day" --email=teh27-networking-app --context=all
-
-
-
-
-
-
-
-
-
 
 
 
