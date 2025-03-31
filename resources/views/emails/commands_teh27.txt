@@ -1,4 +1,30 @@
 
+
+
+
+31 marca
+=========
+
+php artisan exhibitors:reps-current-event --lang=pl --defaultlang=pl --domain=targiehandlu.pl --subject="Maksymalizujemy targowe ROI." --email=teh27-reps-ecwe3
+
+
+
+
+
+
+php artisan visitors:restore-from-old-events --domain=targiehandlu.pl --email=teh27-agenda-for-old --subject="Ostatnie Targi eHandlu już w czwartek w Warszawie"  --throttle=55000  --events=89,95,97,99,102,103,105  
+
+
+
+
+
+
+
+
+
+
+
+
 28 marca
 =========
 
