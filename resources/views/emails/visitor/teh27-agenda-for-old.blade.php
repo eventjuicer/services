@@ -48,5 +48,9 @@ Pozdrawiamy,
 Zespół E-commerce Warsaw Expo / Targów eHandlu
 
 
+
+**[Konfiguracja newslettera]({{ $unsubscribe }})**
+
+
 @endcomponent
 
