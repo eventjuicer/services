@@ -13,9 +13,7 @@ Jedna ze zmian ma premierę właśnie teraz...<strong>i jest ograniczona dla pie
 
 najlepiej sprawdź to na stronie pakietu VIP Plus :)
 
-@component('mail::button', ['url' => '{{$eventAppUrl}}?goto=/vipplus'])
-Zapoznaj się z VIPem Plus
-@endcomponent
+[Zapoznaj się z VIPem Plus]({{$eventAppUrl}}?goto=/vipplus)
 
 @endcomponent
 
