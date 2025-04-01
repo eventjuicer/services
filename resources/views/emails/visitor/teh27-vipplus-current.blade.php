@@ -2,7 +2,7 @@
 
 Cześć {{ $p->translate("[[fname]]") }}!
 
-Przypominamy że już w czwartek, w Warszawie, ostatnie Targi eHandlu w znanej od wielu lat formule... na jesień planujemy kosmiczne wręcz zmiany!
+Przypominamy że **już w czwartek, w Warszawie, ostatnie Targi eHandlu** w znanej od wielu lat formule... na jesień planujemy kosmiczne wręcz zmiany!
 
 Jedna ze zmian ma premierę właśnie teraz...<strong>i jest ograniczona dla pierwszych 50 osób.</strong>
 
