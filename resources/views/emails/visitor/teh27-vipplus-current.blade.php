@@ -52,11 +52,9 @@ Już teraz możesz korzystać z nowego narzędzia do planowania swojego dnia na 
 
 <image src="https://res.cloudinary.com/eventjuicer/image/upload/f_auto,w_700,c_fit/v1742988591/app/shots_ecwe.png" alt="" width="700" style="max-width: 700px;"/>
 
-@component('mail::button', ['url' => '{{$eventAppUrl}}?goto=/vipplus'])
-Logowanie do plannera dnia 
-@endcomponent
 
 
+[Logowanie do plannera dnia targowego ]({{$eventAppUrl}}?goto=/vipplus)
 
 Pozdrawiamy,
 
