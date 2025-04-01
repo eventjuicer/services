@@ -4,6 +4,11 @@
 ==========
 
 
+
+php artisan visitors:restore-from-old-events --domain=targiehandlu.pl --email=teh27-vipplus-old --subject="Czwartek. Ostatnie Targi eHandlu w wersji MAX?"  --throttle=55000  --events=89,95,97,99,102,103,105  
+
+
+
 php artisan visitors:current-event --domain=targiehandlu.pl --subject="VIP Plus tylko dla 50 osób. Start!" --email=teh27-vipplus-current
 
 

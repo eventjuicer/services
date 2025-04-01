@@ -4,7 +4,7 @@ Cześć {{ $p->translate("[[fname]]") }}!
 
 Przypominamy że **już w czwartek, w Warszawie, ostatnie Targi eHandlu** w znanej od wielu lat formule... na jesień planujemy kosmiczne zmiany!
 
-Jedna ze zmian to udostępnienie [plannera dnia targowego i aplikacji networkingowej](https://ecwe.pl?goto=/vipplus)
+Jedna ze zmian to udostępnienie plannera dnia targowego i aplikacji networkingowej (więcej o tym na końcu wiadomości)
 
 a kolejna ma premierę teraz...<strong>i pilotażowo jest ograniczona tylko do 30 pakietów</strong>. 
 
@@ -16,7 +16,7 @@ a kolejna ma premierę teraz...<strong>i pilotażowo jest ograniczona tylko do 3
 
 # Zjedz obiad z Prelegentami, Wystawcami, innymi VIP oraz ...najlepiej sprawdź to na stronie pakietu VIP Plus :)
 
-[Zapoznaj się z pakietem VIPem Plus](https://ecwe.pl?goto=/vipplus)
+[Zapoznaj się z pakietem VIPem Plus](https://ecwe.pl/vipplus)
 
 @endcomponent
 
@@ -36,9 +36,9 @@ Porzucona intencja zakupowa – jak odzyskać klientów, zanim sami zapomną, ż
 
 Milion złotych w kieszeni: Matematyka dobrego CX w B2B
 
-[Lista wszystkich warsztatów](https://ecwe.pl?goto=/schedule?tab=workshops)
+[Lista wszystkich warsztatów](https://ecwe.pl/schedule?tab=workshops)
 
-[Lista wszystkich prezentacji - wejście nie wymaga VIP Plus](https://ecwe.pl?goto=/schedule)
+[Lista wszystkich prezentacji - wejście nie wymaga VIP Plus](https://ecwe.pl/schedule)
 
 
 @component('mail::panel')
@@ -63,7 +63,6 @@ Już teraz możesz korzystać z nowego narzędzia do planowania swojego dnia na 
 Pozdrawiamy,
 
 Zespół E-commerce Warsaw Expo / Targów eHandlu
-
 
 **[Konfiguracja newslettera]({{ $unsubscribe }})**
 
