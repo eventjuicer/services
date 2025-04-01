@@ -29,7 +29,17 @@ Route::get('/masterclasses', function () {
     return !empty($matches)? '<a href="'.$matches[0].'">link</a>': "";
 });
 
+Route::get('/workshops', function () {
+    Artisan::call('visitors:meetups', [
 
+        '--domain' 	=> 'targiehandlu.pl',
+        '--direction' 	=> 'LTD'
+    ]);
+
+    preg_match("/storage\/[0-9]+_LTD_[a-z0-9]+\.csv/", Artisan::output(), $matches);
+
+    return !empty($matches)? '<a href="'.$matches[0].'">link</a>': "";
+});
 
 
 Route::get('/teh', function () {
