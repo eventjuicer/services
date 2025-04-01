@@ -1,5 +1,13 @@
 
 
+1 kwietnia
+==========
+
+
+php artisan visitors:current-event --domain=targiehandlu.pl --subject="VIP Plus tylko dla 50 osób. Start!" --email=teh27-vipplus-current
+
+
+
 
 
 31 marca

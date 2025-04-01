@@ -6,7 +6,7 @@ Przypominamy że już w czwartek, w Warszawie, ostatnie Targi eHandlu w znanej o
 
 Jedna ze zmian ma premierę właśnie teraz...<strong>i jest ograniczona dla pierwszych 50 osób.</strong>
 
-## Uzyskaj nielimitowane wejście na wszystkie Warsztaty (> 20), Strefy VIP oraz.... 
+# Uzyskaj nielimitowane wejście na wszystkie Warsztaty (> 20), do Strefy VIP, zjedz obiad z Prelegentami, Wystawcami, innymi VIP oraz...
 
 najlepiej sprawdź to na stronie pakietu VIP Plus :)
 
@@ -39,7 +39,7 @@ Przypominamy, że wiosenne Targi eHandlu odbędą się w czwartek, **3 kwietnia,
 
 Targi eHandlu to **4 sceny** z prezentacjami Ekspertów oraz **120 Wystawców** - oferentów usług i produktów wspierających handel w Internecie.
 
-...w czwartek o 15:00 zapraszamy do wzniesienia wspólnego toastu za minione 14 lat i za powodzenie zmian, które planujemy wdrożyć na jesienną edycję E-commerce Warsaw Expo.
+...**w czwartek o 15:00** zapraszamy do wzniesienia wspólnego toastu za minione 14 lat i za powodzenie zmian, które planujemy wdrożyć na jesienną edycję E-commerce Warsaw Expo.
 
 @endcomponent
 
@@ -50,7 +50,7 @@ Już teraz możesz korzystać z nowego narzędzia do planowania swojego dnia na 
 <image src="https://res.cloudinary.com/eventjuicer/image/upload/f_auto,w_700,c_fit/v1742988591/app/shots_ecwe.png" alt="" width="700" style="max-width: 700px;"/>
 
 @component('mail::button', ['url' => '{{$eventAppUrl}}?goto=/vipplus'])
-Logowanie do aplikacji
+Logowanie do plannera dnia 
 @endcomponent
 
 
