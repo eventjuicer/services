@@ -10,13 +10,15 @@ a kolejna ma premierę teraz...<strong>i pilotażowo jest ograniczona tylko do 3
 
 @component('mail::panel')
 
-# Uzyskaj nielimitowane wejście na wszystkie 21 Warsztatów, 
+To pakiet VIP Plus. 
 
-# Korzystaj ze Strefy VIP 
+Uzyskaj **nielimitowane wejście na wszystkie 21 Warsztatów**, 
 
-# Zjedz obiad z Prelegentami, Wystawcami, innymi VIP oraz ...najlepiej sprawdź to na stronie pakietu VIP Plus :)
+Korzystaj ze Statusu VIP i **Strefy VIP**
 
-[Zapoznaj się z pakietem VIPem Plus](https://ecwe.pl/vipplus)
+Zjedz **obiad z Prelegentami, Wystawcami, innymi VIP** oraz ...najlepiej sprawdź to na stronie pakietu VIP Plus :)
+
+**[Zapoznaj się z pakietem VIPem Plus](https://ecwe.pl/vipplus)**
 
 @endcomponent
 
