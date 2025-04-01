@@ -6,12 +6,17 @@ Przypominamy że **już w czwartek, w Warszawie, ostatnie Targi eHandlu** w znan
 
 Jedna ze zmian ma premierę właśnie teraz...<strong>i jest ograniczona dla pierwszych 50 osób.</strong>
 
+
+@component('mail::panel')
+
 # Uzyskaj nielimitowane wejście na wszystkie Warsztaty (> 20), do Strefy VIP, zjedz obiad z Prelegentami, Wystawcami, innymi VIP oraz...
 
 najlepiej sprawdź to na stronie pakietu VIP Plus :)
 
 @component('mail::button', ['url' => '{{$eventAppUrl}}?goto=/vipplus'])
 Zapoznaj się z VIPem Plus
+@endcomponent
+
 @endcomponent
 
 
