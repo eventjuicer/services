@@ -29,7 +29,8 @@ class GeneralReminder extends Mailable
     $presentersURl,
     $scheduleURl,
     $registerURl,
-    $url, $subject, $unsubscribe;
+    $url, $subject, $unsubscribe,
+    $eventAppUrl;
 
     public function __construct(Participant $participant, array $config)
     {
@@ -53,11 +54,15 @@ class GeneralReminder extends Mailable
             app()->setLocale("en");
             config(["app.name" => "E-commerce Berlin Expo"]);
 
+            $this->eventAppUrl = "https://ecomm.berlin/recall/" . $this->participant->token;
+
         }else{
             $this->from("zwiedzanie@ecommercewarsaw.com", "Karolina - Targi eHandlu");
             $baseUrl = "https://targiehandlu.pl";
             app()->setLocale("en");
             config(["app.name" => "Targi eHandlu w Warszawie"]);
+            $this->eventAppUrl = "https://ecwe.pl/recall/" . $this->participant->token;
+
         }
 
         $this->p = new Personalizer( $this->participant, "");
