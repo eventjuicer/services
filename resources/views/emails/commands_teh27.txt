@@ -2,8 +2,9 @@
 2 kwietnia
 ==========
 
+php artisan visitors:restore-from-old-events --domain=targiehandlu.pl --email=teh27-vipplus-old --subject="Czwartek. Ostatnie Targi eHandlu w wersji MAX?"  --throttle=55000  --events=95,97,99,102,103,105  
 
-php artisan visitors:current-event --domain=targiehandlu.pl --subject="VIP Plus tylko dla 50 osób. Start!" --email=teh27-vipplus-current
+php artisan visitors:current-event --domain=targiehandlu.pl --subject="Bilet, warsztaty, aplikacja eventowa..." --email=teh27-ecwe-current
 
 
 php artisan exhibitors:reps-current-event --lang=pl --defaultlang=pl --domain=targiehandlu.pl --subject="Jak skanować identyfikatory i pozyskiwać dane..." --email=teh27-reps-scans
@@ -19,9 +20,6 @@ php artisan exhibitors:reps-current-event --lang=en --defaultlang=pl --domain=ta
 php artisan visitors:sms-to-old-events --domain=targiehandlu.pl --prefix=+48
 
 ### Juz w czwartek Targi eHandlu w Warszawie. Wywiady z CEO Tezeusz.pl, IMKER, Health Labs Care, sprawdz agende 4 scen i pobierz bezplatny bilet na 
-
-
-
 
 
 php artisan visitors:restore-from-old-events --domain=targiehandlu.pl --email=teh27-vipplus-old --subject="Czwartek. Ostatnie Targi eHandlu w wersji MAX?"  --throttle=55000  --events=83,87,89,95,97,99,102,103,105  
