@@ -63,7 +63,9 @@ class GeneralExhibitorEmail extends Mailable
             $company_id,
             
             $eventAppUrl,
-            $eventAppUrlBusiness;
+            $eventAppUrlBusiness,
+            
+            $email;
  
 
     public $sharers, $newsletter, $assignedPrizes;
@@ -186,7 +188,7 @@ class GeneralExhibitorEmail extends Mailable
         }
 
         $recipient =  trim( strtolower( $this->participant->email ));
-
+        $this->email = $recipient;
         if($this->context){
 
             $context_people = app(FetchCompanyPerson::class)->getForParticipantFiltered($this->participant, $this->context);
