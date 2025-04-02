@@ -2,10 +2,10 @@
 2 kwietnia
 ==========
 
-php artisan exhibitors:reps-current-event --lang=pl --defaultlang=pl --domain=targiehandlu.pl --subject="Jak skanować jutro identyfikatory i pozyskiwać dane..." --email=teh27-reps-scans
+php artisan exhibitors:reps-current-event --lang=pl --defaultlang=pl --domain=targiehandlu.pl --subject="Jak skanować identyfikatory i pozyskiwać dane..." --email=teh27-reps-scans
 
 
-
+php artisan exhibitors:reps-current-event --lang=en --defaultlang=pl --domain=targiehandlu.pl --subject="How to scan visitors badges and collect contact data..." --email=teh27-reps-scans
 
 
 
