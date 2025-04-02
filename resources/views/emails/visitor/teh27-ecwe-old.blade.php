@@ -4,13 +4,13 @@ Cześć {{ $p->translate("[[fname]]") }}!
 
 Przypominamy że **już w czwartek, w Warszawie, ostatnie Targi eHandlu** 
 
-[Odbierz wejściówkę na prezentacje i EXPO](https://ecwe.pl/join)
+**[Odbierz wejściówkę na 30 prezentacji](https://ecwe.pl/join)**
  
-W ramach **bezpłatnego udziału** masz dostęp do ponad 120 oferentów produktów i usług wspomagających prowadzenie handlu w internecie a także wejście na 4 sceny prezentacyjne. 
+W ramach **bezpłatnego udziału** masz dostęp do ponad **120 oferentów produktów i usług** wspomagających prowadzenie handlu w internecie a także **wejście na 4 sceny prezentacyjne.**
 
 Agenda prezentacji jak zwykle dostrzega aktualne AI-trendy ale nie zapomina o tematach, które się nie dezaktualizują.
 
-Szczególnie polecamy wywiad Marka Kicha (Host @ Sztuka E-Commerce) z Aliną Taranovską (Dyrektor e-commerce @ **Cosibella**) E-Commerce na 9 rynkach - jak robić to dobrze? 
+Gorąco **polecamy wywiad**, który przeprowadzi Marek Kich (Host Podcastu "Sztuka E-Commerce") z Aliną Taranovską (Dyrektor e-commerce @ **Cosibella**) E-Commerce na 9 rynkach - jak robić to dobrze? 
 
 Wybrane prezentacje.
 
@@ -26,6 +26,8 @@ Strategia Sukcesu: **55% wyższe przychody w czasie Black Week** rok do roku dzi
 [Odbierz wejściówkę na prezentacje i EXPO](https://ecwe.pl/join)
 
 
+Wybierasz się?
+
 Warto skorzystać z nowego narzędzia do planowania swojego dnia na targach, nawiązać kontakt przed dniem targowym ...a także automagicznie wymieniać dane kontaktowe skanując identyfikator innego zwiedzającego podczas Targów.
 
 <image src="https://res.cloudinary.com/eventjuicer/image/upload/f_auto,w_700,c_fit/v1742988591/app/shots_ecwe.png" alt="" width="700" style="max-width: 700px;"/>
@@ -35,9 +37,9 @@ Warto skorzystać z nowego narzędzia do planowania swojego dnia na targach, naw
 
 # Chcesz mieć dostęp do Warsztatów w strefie VIP? 
 
-Czas zgłoszeń już minął ale **nadal można wykupić nielimitowane wejście na Warsztaty**  (w ramach pakietu także catering)
+Czas zgłoszeń na warsztaty już minął ale **można wykupić nielimitowane wejście na Warsztaty w strefie VIP**  (w ramach pakietu także catering)
 
-[Wejścia na wszystko = Vip Plus ](https://ecwe.pl/join)
+[Wejścia na wszystko = Vip Plus ](https://ecwe.pl/vipplus)
 
 
 
