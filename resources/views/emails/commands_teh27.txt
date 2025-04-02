@@ -2,6 +2,10 @@
 2 kwietnia
 ==========
 
+
+php artisan visitors:current-event --domain=targiehandlu.pl --subject="VIP Plus tylko dla 50 osób. Start!" --email=teh27-vipplus-current
+
+
 php artisan exhibitors:reps-current-event --lang=pl --defaultlang=pl --domain=targiehandlu.pl --subject="Jak skanować identyfikatory i pozyskiwać dane..." --email=teh27-reps-scans
 
 
