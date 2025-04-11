@@ -19,7 +19,7 @@ Zmiany podyktowane są chęcią większej ekspozycji na wystawców zagranicznych
 
 [Układ hali, ceny](https://targiehandlu.pl/top30_ecwe24102025)
 
-(W środę - 16 kwietnnia -  sprzedaż zostanie publicznie otwarta dla pozostałych zainteresowanych.)
+(W środę - 16 kwietnia -  sprzedaż zostanie publicznie otwarta dla pozostałych zainteresowanych.)
 
 @endcomponent
 
