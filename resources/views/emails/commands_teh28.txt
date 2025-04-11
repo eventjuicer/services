@@ -1,7 +1,7 @@
 
 
 
-
+php artisan exhibitors:award --domain=targiehandlu.pl --award=earlybird --previous --reverse --lang=en --defaultlang=pl --email="teh28-salesplan-others" --subject="WEDNESDAY | Early bird sales of exhibition spaces"
 
 
 10 kwietnia
@@ -24,4 +24,4 @@ php artisan exhibitors:award --domain=targiehandlu.pl --award=earlybird --previo
 
 
 
-php artisan exhibitors:award --domain=targiehandlu.pl --award=earlybird --previous --reverse --lang=en --defaultlang=pl --email="teh28-salesplan-others" --subject="THURSDAY | Early bird sales of exhibition spaces"
+
