@@ -1,7 +1,7 @@
 
 
+php artisan exhibitors:award --domain=targiehandlu.pl --award=earlybird --previous --lang=en --defaultlang=pl --email="teh28-salesplan-top30" --subject="TUESDAY | Limited sales of exhibition spaces"
 
-php artisan exhibitors:award --domain=targiehandlu.pl --award=earlybird --previous --reverse --lang=en --defaultlang=pl --email="teh28-salesplan-others" --subject="WEDNESDAY | Early bird sales of exhibition spaces"
 
 
 10 kwietnia
@@ -12,11 +12,7 @@ php artisan exhibitors:award --domain=targiehandlu.pl --award=earlybird --previo
 php artisan exhibitors:award --domain=targiehandlu.pl --award=earlybird --previous --reverse --lang=pl --defaultlang=pl --email="teh28-salesplan-others" --subject="ŚRODA - sprzedaż stoisk na E-commerce Warsaw Expo (24.10.2025)"
 
 
-
-
-
-
-
+php artisan exhibitors:award --domain=targiehandlu.pl --award=earlybird --previous --reverse --lang=en --defaultlang=pl --email="teh28-salesplan-others" --subject="WEDNESDAY | Early bird sales of exhibition spaces"
 
 
 
