@@ -132,7 +132,7 @@ class GeneralExhibitorEmail extends Mailable
 
             $eventName = "E-commerce Warsaw Expo (Targi eHandlu)";
             $domain = "targiehandlu.pl";
-            $cc = "targiehandlu+auto@targiehandlu.pl";
+            $cc = "hello+auto@ecommercewarsaw.com";
 
             if($this->viewlang === "en"){
                 app()->setLocale("en");

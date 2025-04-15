@@ -1,4 +1,10 @@
 
+15 kwietnia
+===========
+
+php artisan exhibitors:award --domain=targiehandlu.pl --award=earlybird --previous --lang=pl --defaultlang=pl --email="teh28-top30-start" --exclude_company_ids=" --subject="Przypomnienie: WTOREK - sprzedaż stoisk na E-commerce Warsaw Expo (24.10.2025)"
+
+php artisan exhibitors:award --domain=targiehandlu.pl --award=earlybird --previous --lang=en --defaultlang=pl --email="teh28-salesplan-top30" --exclude_company_ids=" --subject="Reminder: TUESDAY | Limited sales of exhibition spaces"
 
 
 14 kwietnia
