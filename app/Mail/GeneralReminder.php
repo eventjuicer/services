@@ -57,10 +57,10 @@ class GeneralReminder extends Mailable
             $this->eventAppUrl = "https://ecomm.berlin/recall/" . $this->participant->token;
 
         }else{
-            $this->from("zwiedzanie@targiehandlu.pl", "Karolina - Targi eHandlu");
+            $this->from("zwiedzanie@targiehandlu.pl", "Karolina - E-commerce Warsaw Expo");
             $baseUrl = "https://targiehandlu.pl";
             app()->setLocale("en");
-            config(["app.name" => "Targi eHandlu w Warszawie"]);
+            config(["app.name" => "E-commerce Warsaw Expo"]);
             $this->eventAppUrl = "https://ecwe.pl/recall/" . $this->participant->token;
 
         }

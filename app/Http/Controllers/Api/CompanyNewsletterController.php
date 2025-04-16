@@ -58,7 +58,7 @@ class CompanyNewsletterController extends Controller
       {
         
         app()->setLocale("pl");
-        $this->appName = "Targi eHandlu / E-commerce Warsaw Expo";
+        $this->appName = " E-commerce Warsaw Expo";
          $this->baseHost = "https://targiehandlu.pl/";
 
       }

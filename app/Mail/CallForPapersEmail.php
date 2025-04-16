@@ -69,7 +69,7 @@ class CallForPapersEmail extends Mailable
         else
         {
             app()->setLocale("pl");
-            config(["app.name" => "Targi eHandlu w Warszawie"]);
+            config(["app.name" => "E-commerce Warsaw Expo"]);
            
             $domain = "targiehandlu.pl";
             $cc = "prezentacje+auto@targiehandlu.pl";
