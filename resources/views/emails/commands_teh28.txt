@@ -1,5 +1,21 @@
 
 
+17 kwietnia
+===========
+
+php artisan exhibitors:award --domain=targiehandlu.pl --award=earlybird --previous --lang=pl --defaultlang=pl --email="teh28-photos" --subject="Pobierz zdjęcia z minionych Targów eHandlu"
+
+php artisan exhibitors:award --domain=targiehandlu.pl --award=earlybird --previous --lang=en --defaultlang=pl --email="teh28-photos" --subject="Download your photos from recent E-commerce Warsaw Expo"
+
+php artisan exhibitors:award --domain=targiehandlu.pl --award=earlybird --previous --reverse --lang=pl --defaultlang=pl --email="teh28-photos" --subject="Pobierz zdjęcia z minionych Targów eHandlu"
+
+php artisan exhibitors:award --domain=targiehandlu.pl --award=earlybird --previous --reverse --lang=en --defaultlang=pl --email="teh28-photos" --subject="Download your photos from recent E-commerce Warsaw Expo"
+
+
+
+
+
+
 16 kwietnia
 ============
 
