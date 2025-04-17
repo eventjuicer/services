@@ -3,9 +3,9 @@
 16 kwietnia
 ============
 
-php artisan exhibitors:award --domain=targiehandlu.pl --award=earlybird --previous --reverse --lang=pl --defaultlang=pl --email="teh28-salesplan-others" --subject=""Wystartowaliśmy! Sprzedaż stoisk na E-commerce Warsaw Expo (24.10.2025)" --exclude_company_ids="1464,2242,1232,1281,1239,2771,2628,1145,1028,1137,1655,2026,1962,1152,2293,2434,1245,2582,2292,1708,1175,1878,2755,1134,1893,2562,2779,1855,1818"
+php artisan exhibitors:award --domain=targiehandlu.pl --award=earlybird --previous --reverse --lang=pl --defaultlang=pl --email="teh28-sales-others" --subject="Wystartowaliśmy! Sprzedaż stoisk na E-commerce Warsaw Expo (24.10.2025)" --exclude_company_ids="1464,2242,1232,1281,1239,2771,2628,1145,1028,1137,1655,2026,1962,1152,2293,2434,1245,2582,2292,1708,1175,1878,2755,1134,1893,2562,2779,1855,1818"
 
-php artisan exhibitors:award --domain=targiehandlu.pl --award=earlybird --previous --reverse --lang=en --defaultlang=pl --email="teh28-salesplan-others" --subject="Now open! Book an exhibition space for Ecommerce Warsaw Expo 24/10/2025" --exclude_company_ids="1464,2242,1232,1281,1239,2771,2628,1145,1028,1137,1655,2026,1962,1152,2293,2434,1245,2582,2292,1708,1175,1878,2755,1134,1893,2562,2779,1855,1818"
+php artisan exhibitors:award --domain=targiehandlu.pl --award=earlybird --previous --reverse --lang=en --defaultlang=pl --email="teh28-sales-others" --subject="Now open! Book an exhibition space for Ecommerce Warsaw Expo 24/10/2025" --exclude_company_ids="1464,2242,1232,1281,1239,2771,2628,1145,1028,1137,1655,2026,1962,1152,2293,2434,1245,2582,2292,1708,1175,1878,2755,1134,1893,2562,2779,1855,1818"
 
 
 
