@@ -22,9 +22,11 @@ Chcę zostać Prelegentem
 
 @endcomponent
 
+**Zobaczymy się 24 października?**
+
 @component('mail::panel')
 
-**Chcesz kupić bilet w ultra-niskiej cenie?**
+## Chcesz kupić bilet w ultra-niskiej cenie?
 
 @component('mail::button', ['url' => "https://ecommercewarsaw.com/visit"])
 Chcę kupić bilet dla zwiedzających w pierwszej puli.
