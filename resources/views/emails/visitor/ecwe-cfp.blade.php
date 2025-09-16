@@ -25,7 +25,7 @@ Chcę zostać Prelegentem
 **Chcesz kupić bilet w ultra-niskiej cenie?**
 
 @component('mail::button', ['url' => "https://ecommercewarsaw.com/visit"])
-Chcę kupić bilet dla zwiedzających w pierwszej puli
+Chcę kupić bilet dla zwiedzających w pierwszej puli.
 @endcomponent
 
 @endcomponent
