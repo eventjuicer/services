@@ -28,6 +28,7 @@ return [
     'sparkpost' => [
         'secret' => env('SPARKPOST_SECRET'),
         'options' => [
+            'endpoint' => env('SPARKPOST_HOST', 'https://api.sparkpost.com'),
             'options' => [
                 'open_tracking'  => false,
                 'click_tracking' => false,
