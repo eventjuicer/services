@@ -22,6 +22,8 @@ Chcę zostać Prelegentem
 
 @endcomponent
 
+@component('mail::panel')
+
 **Chcesz kupić bilet w ultra-niskiej cenie?**
 
 @component('mail::button', ['url' => "https://ecommercewarsaw.com/visit"])
@@ -29,8 +31,6 @@ Chcę kupić bilet dla zwiedzających w pierwszej puli.
 @endcomponent
 
 @endcomponent
-
-
 
 Z pozdrowieniami,
 
@@ -40,9 +40,6 @@ Karolina Wojtas
 **[Konfiguracja newslettera]({{ $unsubscribe }})**
 
 @endcomponent
-
-
-
 
 
 
