@@ -14,7 +14,7 @@ Zarejestrować się aby otrzymać powiadomienie o starcie sprzedaży biletów po
 
 @component('mail::panel')
 
-## Chcesz wystąpić na jednej ze 4 scen jesiennych targów E-commerce Warsaw Expo? Termin zgłoszeń kończy się dzisiaj - do końca dnia!
+## Jedna z 4 scen czeka na Ciebie! Termin zgłoszeń kończy się dzisiaj - do końca dnia!
 
 @component('mail::button', ['url' => "https://ecommercewarsaw.com/speaking"])
 Chcę zostać Prelegentem
@@ -29,7 +29,7 @@ Chcę zostać Prelegentem
 ## Chcesz kupić bilet w ultra-niskiej cenie?
 
 @component('mail::button', ['url' => "https://ecommercewarsaw.com/visit"])
-Chcę kupić bilet dla zwiedzających w pierwszej puli.
+Dodaj mnie do ekskluzywnej puli
 @endcomponent
 
 @endcomponent
