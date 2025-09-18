@@ -20,6 +20,14 @@ return [
         // US region (default): api.mailgun.net
         // EU region: api.eu.mailgun.net
         'endpoint' => env('MAILGUN_ENDPOINT', 'api.eu.mailgun.net'),
+        'region' => env('MAILGUN_REGION', 'eu'),
+        "options" => [
+            'endpoint' => env('MAILGUN_ENDPOINT', 'api.eu.mailgun.net'),
+            'region' => env('MAILGUN_REGION', 'eu'),
+            'open_tracking'  => false,
+            'click_tracking' => false,
+            'transactional'  => true,
+        ],
     ],
 
     'ses' => [
