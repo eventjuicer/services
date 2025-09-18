@@ -10,10 +10,6 @@ use Illuminate\Support\Facades\View;
 use Eventjuicer\ViewComposers\ParticipantPromoComposer;
 use Horizon;
 
-use Swift_Mailer;
-use Swift_Plugins_Loggers_ArrayLogger;
-use Swift_Plugins_LoggerPlugin;
-
 
 
 use Eventjuicer\Contracts\CountsSoldTickets;
@@ -31,14 +27,7 @@ class AppServiceProvider extends ServiceProvider
     {
 
 
-        if (config('app.debug')) {
-            $swift = app(Swift_Mailer::class);
-            $logger = new Swift_Plugins_Loggers_ArrayLogger();
-            $swift->registerPlugin(new Swift_Plugins_LoggerPlugin($logger));
-            app()->instance('swiftmail.logger', $logger);
-        }
-        
-
+       
         $this->app->bind(CountsSoldTickets::class, TicketsSold::class);
 
 
