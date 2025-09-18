@@ -15,8 +15,11 @@ return [
     */
 
     'mailgun' => [
-        'domain' => env('MAILGUN_DOMAIN'),
-        'secret' => env('MAILGUN_SECRET'),
+       'domain'   => env('MAILGUN_DOMAIN'),
+       'secret'   => env('MAILGUN_SECRET'),   // API key
+        // US region (default): api.mailgun.net
+        // EU region: api.eu.mailgun.net
+        'endpoint' => env('MAILGUN_ENDPOINT', 'api.eu.mailgun.net'),
     ],
 
     'ses' => [

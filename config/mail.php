@@ -16,7 +16,7 @@ $data = [
     |
     */
 
-    'driver' => env('MAIL_DRIVER', 'sparkpost'),
+    'driver' => env('MAIL_DRIVER', 'mailgun'),
 
     /*
     |--------------------------------------------------------------------------
