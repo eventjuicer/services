@@ -20,6 +20,8 @@ To co? Czas start!
 
 [Lista bannerów, link do profilu, link do rankingu!]({!!$accountUrlPromotePublic!!})
 
+
+
 @component('mail::panel')
 
 Na Twojej stronie z materiałami znajdziesz link do rankingu "Love Brands" czyli które firmy wybierają zwiedzający kupujący bilet sponsorowany. Wyniki zaskakują :)
@@ -27,6 +29,8 @@ Na Twojej stronie z materiałami znajdziesz link do rankingu "Love Brands" czyli
 @endcomponent
 
 PS: Niedługo wystartuje konkurs dla Wystawców - już teraz możesz wyrobić sobie lepsze miejsce w rankingu nie opóźniając promowania swojego udziału w Targach.
+
+PS: Jeśli Twoja strona z materiałami promocyjnymi jest niedostępna[zaktualizuj dane firmy]({!!$accountUrl!!})
 
 Pozdrawiam, 
 
