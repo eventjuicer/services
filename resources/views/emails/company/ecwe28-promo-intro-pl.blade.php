@@ -10,14 +10,21 @@ Po raz pierwszy w historii "Targów eHandlu", wstęp jest biletowany.
 
 Zakładamy, że skorzystają na tym wszyscy - i wystawcy i zwiedzający - mając lepsze warunki do networkingu i robienia biznesu.
 
+@component('mail::panel')
+
 Nie bylibyśmy sobą gdybyśmy nie wprowadzili niestandardowej formuły. **Bilety Zwiedzających są 4x tańsze gdy kupowane są przez profil Wystawcy**. Każdy Twój "Badge Buddy" będzie miał **identyfikator z Twoim logotypem**. Przekażemy Tobie listę wszystkich Twoich fanów (bez danych kontaktowych).
+
+@endcomponent
 
 To co? Czas start!
 
-[Lista bannerów, link do profilu, link do rankingu!]{!!$accountUrlPromotePublic!!}
+[Lista bannerów, link do profilu, link do rankingu!]({!!$accountUrlPromotePublic!!})
 
+@component('mail::panel')
 
 Na Twojej stronie z materiałami znajdziesz link do rankingu "Love Brands" czyli które firmy wybierają zwiedzający kupujący bilet sponsorowany. Wyniki zaskakują :)
+
+@endcomponent
 
 PS: Niedługo wystartuje konkurs dla Wystawców - już teraz możesz wyrobić sobie lepsze miejsce w rankingu nie opóźniając promowania swojego udziału w Targach.
 

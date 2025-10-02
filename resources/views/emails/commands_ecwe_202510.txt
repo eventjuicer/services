@@ -1,0 +1,1 @@
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Sprzedaż biletów, materiały promocyjne, Twój profile" --email=ecwe28-promo-intro --context=all
