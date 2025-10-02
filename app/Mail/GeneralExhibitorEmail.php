@@ -123,9 +123,11 @@ class GeneralExhibitorEmail extends Mailable
             app()->setLocale("en");
             config(["app.name" => $eventName]);
 
-            $this->accountUrlPromotePublic = 'https://account.ecommerceberlin.com/#/promote?company_id=' . $companydata->getCompany()->id;
+            $this->accountUrlPromotePublic = 'https://ecommerceberlin.com/promo/exhibitors/' . $companydata->getCompany()->id;
             $this->photosUrl = "https://photos.ecommerceberlin.com/".$companydata->getCompany()->id."/ebe8";
             $this->eventAppUrl = "https://ecomm.berlin";
+
+            $this->accountUrlPromote = $this->accountUrlPromotePublic;
 
         }else{
 
@@ -144,9 +146,10 @@ class GeneralExhibitorEmail extends Mailable
                
             }
             
-            $this->accountUrlPromotePublic = 'https://account.targiehandlu.pl/#/promote?company_id=' . $companydata->getCompany()->id;
+            $this->accountUrlPromotePublic = 'https://ecommercewarsaw.com/promo/exhibitors/' . $companydata->getCompany()->id;
             $this->photosUrl = "https://cloudinary.eventjuicer.com/api?id=".$companydata->getCompany()->id."&folder=teh27_photos";
-            $this->eventAppUrl = "https://ecwe.pl";
+            $this->eventAppUrl = "https://app.ecommercewarsaw.com";
+            $this->accountUrlPromote = $this->accountUrlPromotePublic;
             
         }
 
@@ -163,7 +166,7 @@ class GeneralExhibitorEmail extends Mailable
         $this->accountUrlReps = $companydata->accountUrl("representatives");
 
         $this->accountUrlRanking = $companydata->accountUrl("ranking");
-        $this->accountUrlPromote = $companydata->accountUrl("promote");
+       
         $this->accountUrlVisitors = $companydata->accountUrl("visitors");
         $this->accountUrlVips = $companydata->accountUrl("vips");
         $this->accountUrlBadgescanner = $companydata->accountUrl("badgescanner");
@@ -177,15 +180,7 @@ class GeneralExhibitorEmail extends Mailable
         $this->trackingLink = $companydata->trackedProfileUrl();
         $this->company_id = $companydata->getCompany()->id;
 
-        if(!empty($this->creatives)){
-            
-            $englishCreatives = collect($this->creatives)->where("lang", "en");
-            $this->sharers = $englishCreatives->where("name","logotype")->pluck("sharers")->collapse()->all();
-            $this->newsletter = array_get($englishCreatives->where("name", "invite")->first(), "newsletter");
-
-            $assignedPrizes = 1;
-
-        }
+    
 
         $recipient =  trim( strtolower( $this->participant->email ));
         $this->email = $recipient;
