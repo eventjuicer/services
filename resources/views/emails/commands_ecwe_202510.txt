@@ -1,1 +1,16 @@
-php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Sprzedaż biletów, materiały promocyjne, Twój profile" --email=ecwe28-promo-intro --context=all
+
+3 października
+
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Warszaty. Start zapisów." --email=ecwe28-workshops-intro --context=all
+
+
+2 października
+
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Sprzedaż biletów, materiały promocyjne, Twój profil" --email=ecwe28-promo-intro --context=all
+
+
+
+
+
+
+php artisan visitors:restore-from-old-events --domain=targiehandlu.pl --email=ecwe-cfp --subject="2 decyzje dotyczące październikowego E-commerce Warsaw Expo (dawnych Targów eHandlu)"  --throttle=55000  --events=83,87,89,95,97,99,102,103,105,107 
