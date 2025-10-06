@@ -1,4 +1,9 @@
 
+6 października
+
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Warszaty. Start zapisów." --email=ecwe28-workshops-intro --context=all
+
+
 3 października
 
 php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Warszaty. Start zapisów." --email=ecwe28-workshops-intro --context=all
