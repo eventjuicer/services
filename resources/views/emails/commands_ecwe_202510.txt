@@ -1,16 +1,23 @@
 
 6 października
+==============
 
-php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Warszaty. Start zapisów." --email=ecwe28-workshops-intro --context=all
+
+php artisan exhibitors:current-event --domain=targiehandlu.pl  --lang=pl --defaultlang=pl --subject="Wymagane działanie. Dodaj przedstawicieli Wystawcy na stoisku" --email=ecwe28-reps --context=event,sales
+
+
+
+
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="DEADLINE. Warszaty - zaraz kończymy zapisy." --email=ecwe28-workshops-lastminute --context=all
 
 
 3 października
-
+==============
 php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Warszaty. Start zapisów." --email=ecwe28-workshops-intro --context=all
 
 
 2 października
-
+==============
 php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Sprzedaż biletów, materiały promocyjne, Twój profil" --email=ecwe28-promo-intro --context=all
 
 
