@@ -1,4 +1,15 @@
 
+10 października
+
+
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Patron generalny wiosennej edycji... co sądzisz?" --email=ecwe28-promo-2 --context=all
+
+
+
+
+
+
+
 8 października
 ==============
 
