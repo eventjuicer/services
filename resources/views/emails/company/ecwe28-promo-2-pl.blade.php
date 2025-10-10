@@ -20,6 +20,7 @@ Zapraszamy do promowania swojego profilu Wystawcy.
 
 [Lista bannerów, link do profilu, link do rankingu!]({!!$accountUrlPromotePublic!!})
 
+Jeśli Twoja strona z materiałami promocyjnymi jest niedostępna[zaktualizuj dane firmy]({!!$accountUrl!!})
 
 Pozdrawiam, 
 
