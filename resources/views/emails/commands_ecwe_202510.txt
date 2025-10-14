@@ -1,8 +1,21 @@
 
+14 października
+===============
+
+
+php artisan company:relations --domain=targiehandlu.pl --threshold=1 --lang=pl --defaultlang=pl --subject=DEADLINE. Przedstawiciele Wystawcy na stoisku" --email=teh25-reps-list-final
+
+php artisan company:relations --domain=targiehandlu.pl --threshold=1 --lang=en --defaultlang=pl --subject="DEADLINE. Exhibitor's representatives @ booth." --email=teh25-reps-list-final
+
+
+
+
+
+
 10 października
 
 
-php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Patron generalny wiosennej edycji... co sądzisz?" --email=ecwe28-promo-2 --context=all
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject='Zmiana lidera "Badge Buddies" & Patron generalny wiosennej edycji.' --email=ecwe28-promo-2 --context=all
 
 
 

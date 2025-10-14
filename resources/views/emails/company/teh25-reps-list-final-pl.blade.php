@@ -6,7 +6,7 @@
 
 Zbliża się DEADLINE na dodanie przedstawicieli Wystawcy, którzy będą reprezentować firmę na Stoisku.
 
-**To jest ostatni moment na dodanie/zmiany. W piątek o 12:00 wysyłamy identyfikatory do druku.**
+**To jest ostatni moment na dodanie/zmiany. Jutro o 12:00 wysyłamy identyfikatory do druku.**
 
 # Lista zdefiniowanych osób
 
