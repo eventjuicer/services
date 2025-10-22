@@ -1,6 +1,12 @@
 
 
 
+22 października
+================
+
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject='Zaproszenia VIP dla Klientów i Partnerów' --email=ecwe28-vips --context=all
+
+
 
 
 
@@ -8,17 +14,6 @@
 ================
 
 php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject='Connect. Nawiąż kontakt z uczestnikami przed piątkiem.' --email=ecwe28-connect --context=all
-
-
-
-
-
-
-
-
-
-
-
 
 14 października
 ===============
