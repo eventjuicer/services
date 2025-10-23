@@ -1,14 +1,25 @@
 
 
 
+23 października
+==================
+
+
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="WAŻNE. Informacje logistyczne - montaż, parking, welcome packi" --email=ecwe28-logistics --context=event_manager
+
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=en --subject="Logistics info. Assembly, parking, welcome packs" --email=ecwe28-logistics --context=event_manager
+
+
+
+
+
+
+
+
 22 października
 ================
 
 php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject='Zaproszenia VIP dla Klientów i Partnerów' --email=ecwe28-vips --context=all
-
-
-
-
 
 21 października
 ================
@@ -17,7 +28,6 @@ php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl -
 
 14 października
 ===============
-
 
 php artisan company:relations --domain=targiehandlu.pl --threshold=1 --lang=pl --defaultlang=pl --subject="DEADLINE. Przedstawiciele Wystawcy na stoisku" --email=teh25-reps-list-final
 
