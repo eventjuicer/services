@@ -2,6 +2,7 @@
 
 # Hello!
 
+**Remember, that entry for visitors to E-commerce Warsaw Expo will be possible from 9:00.** (In previous editions - "Targi eHandlu" - the event started at 10:00.)
 
 Here you have assembly/event logistic information regarding E-commerce Warsaw Expo:
 
@@ -27,7 +28,7 @@ For a free exit, you will need a parking voucher, which you will get from us dur
 
 You need to use the parking voucher (**from welcome pack**) for subsequent entries and exits.
 
-## (Optional) Setup day - 2nd of April (Wednesday)
+## (Optional) Setup day - 23rd of October (Thursday)
 
 Assembly hours 4pm-8pm
 
@@ -35,9 +36,9 @@ After entering the main entrance you need to go to the **information point for t
 
 Your Account Manager will happily await :) 
 
-## Event Day - 3rd of April (Thursday)
+## Event Day - 24th of October (Friday)
 
-Assembly on a event day is only possible between **8:00 and 9:30**. (At 10:00am we will open gates and welcome visitors.)
+Assembly on a event day is only possible between **7:00 and 8:30**. (At 9:00am we will open gates and welcome visitors.)
 
 If you have not picked up the welcome pack on the assembly day, please go to the Exhibitors' information desk located in the right corner of the Hall #1 
 
