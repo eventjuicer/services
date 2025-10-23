@@ -4,7 +4,7 @@
 
 
 
-**Pamiętaj, że wejście zwiędzających na E-commerce Warsaw Expo będzie możliwe od godziny 9:00.** (W poprzednich edycjach - Targów eHandlu - targi startowały o 10:00.)
+**Pamiętaj, że piątkowe wejście zwiedzających na E-commerce Warsaw Expo będzie możliwe od godziny 9:00.** (W poprzednich edycjach - Targów eHandlu - targi startowały o 10:00.)
 
 
 
