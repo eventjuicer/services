@@ -147,7 +147,7 @@ class GeneralExhibitorEmail extends Mailable
             }
             
             $this->accountUrlPromotePublic = 'https://ecommercewarsaw.com/promo/exhibitors/' . $companydata->getCompany()->id;
-            $this->photosUrl = "https://photos.ecommercewarsaw.com/photos/".$companydata->getCompany()->id;
+            $this->photosUrl = "https://ecommercewarsaw.com/photos/".$companydata->getCompany()->id;
             $this->eventAppUrl = "https://app.ecommercewarsaw.com";
             $this->accountUrlPromote = $this->accountUrlPromotePublic;
             

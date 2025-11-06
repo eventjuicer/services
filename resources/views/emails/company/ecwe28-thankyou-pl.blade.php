@@ -6,7 +6,7 @@ Jeszcze raz dziękujemy za udział w E-commerce Warsaw Expo. **Kolejna edycja ta
 
 Od jutra startujemy z publicznym oferowaniem przestrzeni wystawienniczej. **Rezerwacja przestrzeni wystawienniczej dzisiaj to gwarancja dobrej ceny i dobrej lokalizacji.** Jeśli nie otrzymał-eś/aś linka do rezerwacji prosimy o kontakt.
 
-Czy mamy Twój feedback w naszej ankiecie? Jeśli nie - bardzo prosimy o poświęcenie 5 minut na [wypełnienie ankiety](https://forms.gle/8GipBYUiCBF5QB4L6) (tym razem ankieta jest krótka :-)
+**Czy mamy Twój feedback** w naszej ankiecie? Jeśli nie - bardzo prosimy o poświęcenie 5 minut na [wypełnienie ankiety](https://forms.gle/8GipBYUiCBF5QB4L6) (tym razem ankieta jest krótka :-)
 
 Mamy Twoje zdjęcia z poprzedniego wydarzenia:
 
