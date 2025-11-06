@@ -1,43 +1,5 @@
 
 
-tickets migration 
-
-old ID 99
-new ID 102 
-
-CREATE table temp_bob_tickets AS SELECT * FROM bob_tickets WHERE event_id=XXX;
-
-INSERT INTO temp_bob_tickets SELECT * FROM bob_tickets WHERE event_id = 99;
-
-ALTER TABLE `temp_bob_tickets` CHANGE `id` `id` INT(10) NULL DEFAULT '0';
-
-
-UPDATE temp_bob_tickets SET event_id=102;
-
-clone ticket groups, update event_ids
-
-384 414 Light
-385 415 standard
-386 416 hot
-387 417 super hot
-388 418 ultra
-389 419 grand
-390 420 kurator
-391 421 last minute
-392 422 partner strefy networkingu
-393 423 test
-394 424 mini networking
-395 425 kurator sceny B 
-396 426 kurator sceny D
-
-UPDATE temp_bob_tickets SET ticket_group_id = 426 WHERE ticket_group_id = 396;
-
-
-UPDATE temp_bob_tickets SET id=NULL;
-INSERT INTO bob_tickets SELECT * FROM temp_bob_tickets;
-
-
-
 
 
 

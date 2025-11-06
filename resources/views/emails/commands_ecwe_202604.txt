@@ -1,0 +1,20 @@
+
+6 listopada
+============
+
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=pl --subject="Mamy Twoje zdjęcia. Wiosenna edycja ECWE." --email=ecwe28-thankyou --context=all --previous
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+php artisan exhibitors:current-event --defaultlang=pl --domain=targiehandlu.pl --lang=en --subject="IMPORTANT. Logistics info. Assembly, parking, welcome packs" --email=ecwe28-logistics --context=event_manager
