@@ -8,11 +8,14 @@
 - separate carpet equipment,
 - TV display (available exclusively as an upgrade for full booth arrangement orders).
 
-**Planning to use the free basic furniture set?** Make sure to add it to your account for free [here](https://account.ecommerceberlin.com/#/arrangement/2832/show). It won’t be provided **unless selected in advance**.
 
 @component('mail::button', ['url' => $accountUrlArrangement])
 Sign Into My Account
 @endcomponent
+
+
+**Planning to use the free basic furniture set?** Make sure to add it to your account for free [here](https://account.ecommerceberlin.com/#/arrangement/3221/show). It won’t be provided **unless selected in advance**.
+
 
 **Important**: the deadline for ordering full booth constructions is **December 15th, 2025**. Please note that prices will increase **after November 30th**, and availability may become limited. Also, please note that your basic exhibition space does not include a back wall or carpet. You can either arrange these items on your own or order them through the platform.
 

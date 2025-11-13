@@ -8,11 +8,14 @@
 - Teppichbelag,
 - TV-Display (ausschließlich als Upgrade für Bestellungen des kompletten Standbau-Services verfügbar)
 
-Plant ihr, das kostenlose Basismöbel-Set zu nutzen? Dann füge es unbedingt kostenlos in deinem Account [hinzu](https://account.ecommerceberlin.com/#/arrangement/2832/show). **Es wird sonst nicht bereitgestellt**.
 
 @component('mail::button', ['url' => $accountUrlArrangement])
 Zu meinem Account gelangen
 @endcomponent
+
+
+Plant ihr, das kostenlose Basismöbel-Set zu nutzen? Dann füge es unbedingt kostenlos in deinem Account [hinzu](https://account.ecommerceberlin.com/#/arrangement/3221/show). **Es wird sonst nicht bereitgestellt**.
+
 
 Wichtig: Die Bestellfrist für den kompletten Standbau-Service ist der **15. Dezember 2025**. Bitte beachte, dass die Preise nach dem **30. November** steigen und die Verfügbarkeit begrenzt sein kann. Eure Ausstellungsfläche enthält standardmäßig keine Rückwand oder Teppich. Ihr könnt beides entweder selbst organisieren oder direkt über die Plattform bestellen.
 
